@@ -336,6 +336,32 @@ table.list tr:hover .row-actions{opacity:1}
 .spinner{display:inline-block;width:12px;height:12px;border:1.5px solid var(--border);border-top-color:var(--text);border-radius:50%;animation:spin 600ms linear infinite;vertical-align:middle;margin-right:6px}
 @keyframes spin{to{transform:rotate(360deg)}}
 .kbd-hint{font-size:11px;color:var(--text-3);margin-left:4px}
+
+/* Notes tab — Notion-style sidebar layout */
+.notes-layout{display:flex;gap:0;min-height:600px;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--bg)}
+.notes-sidebar{width:220px;flex-shrink:0;border-right:1px solid var(--border);background:var(--bg-alt);display:flex;flex-direction:column}
+.notes-sidebar-header{display:flex;align-items:center;justify-content:space-between;padding:12px 12px 8px;border-bottom:1px solid var(--border)}
+.notes-sidebar-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-2)}
+.notes-add-btn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:0;background:none;border-radius:var(--r-sm);cursor:pointer;color:var(--text-2);font-size:18px;line-height:1;padding:0;transition:all var(--t)}
+.notes-add-btn:hover{background:var(--bg-soft);color:var(--text)}
+.notes-page-list{flex:1;overflow-y:auto;padding:6px}
+.notes-page-item{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:var(--r-sm);cursor:pointer;font-size:13px;color:var(--text);transition:background var(--t);white-space:nowrap;overflow:hidden;position:relative}
+.notes-page-item:hover{background:var(--bg-soft)}
+.notes-page-item.active{background:var(--bg-soft);font-weight:500}
+.notes-page-item .page-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
+.notes-page-item .page-title{flex:1;overflow:hidden;text-overflow:ellipsis}
+.notes-page-item .page-del{opacity:0;border:0;background:none;padding:2px 4px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:14px;line-height:1;flex-shrink:0;transition:all var(--t)}
+.notes-page-item:hover .page-del{opacity:1}
+.notes-page-item .page-del:hover{color:var(--text);background:var(--bg)}
+.notes-empty-sidebar{padding:24px 12px;font-size:12px;color:var(--text-3);text-align:center;line-height:1.6}
+.notes-main{flex:1;display:flex;flex-direction:column;min-width:0;background:var(--bg)}
+.notes-editor{flex:1;padding:40px 48px 48px;display:flex;flex-direction:column;gap:0}
+.notes-title-input{border:0;outline:0;font:600 28px/1.25 var(--font);letter-spacing:-0.01em;color:var(--text);background:transparent;width:100%;padding:0 0 12px;resize:none;overflow:hidden}
+.notes-title-input::placeholder{color:var(--text-3)}
+.notes-body-input{border:0;outline:0;font:400 15px/1.7 var(--font);color:var(--text);background:transparent;width:100%;flex:1;resize:none;min-height:400px;padding:0}
+.notes-body-input::placeholder{color:var(--text-3)}
+.notes-no-page{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:40px;color:var(--text-3)}
+.notes-no-page .hint{font-size:13px}
 </style>
 </head><body>
 
@@ -393,6 +419,7 @@ table.list tr:hover .row-actions{opacity:1}
       <button class="tab" data-tab="org" onclick="switchTab('org')">Organization</button>
       <button class="tab" data-tab="budget" onclick="switchTab('budget')">Budget</button>
       <button class="tab" data-tab="attendees" onclick="switchTab('attendees')">Attendees</button>
+      <button class="tab" data-tab="notes" onclick="switchTab('notes')">Notes</button>
     </nav>
   </div>
 </div>
@@ -520,6 +547,27 @@ table.list tr:hover .row-actions{opacity:1}
     <button class="btn btn-tertiary btn-sm" onclick="toggleAddAttendee()">Cancel</button>
   </div>
   <div id="att-list-wrap"></div>
+</section>
+
+<!-- TAB: Notes -->
+<section class="tab-panel" id="panel-notes">
+  <div class="notes-layout">
+    <aside class="notes-sidebar">
+      <div class="notes-sidebar-header">
+        <span class="notes-sidebar-title">Pages</span>
+        <button class="notes-add-btn" onclick="notesAddPage()" title="New page">+</button>
+      </div>
+      <div class="notes-page-list" id="notes-page-list">
+        <div class="notes-empty-sidebar">No pages yet.<br>Click + to add one.</div>
+      </div>
+    </aside>
+    <div class="notes-main" id="notes-main">
+      <div class="notes-no-page">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        <span class="hint">Select a page or click + to create one</span>
+      </div>
+    </div>
+  </div>
 </section>
 
 </main>
@@ -1060,9 +1108,116 @@ function switchTab(name){
   stopAttendeePoll();
   if(name === 'budget') loadBudget();
   if(name === 'attendees'){ loadAttendees(); startAttendeePoll(); }
+  if(name === 'notes') notesInit();
   if(name === 'ei' && ALL_PEOPLE.length === 0){
     document.getElementById('result').innerHTML = emptyState('No prospects yet','Run a brief above to source attendees.','people');
   }
+}
+
+// ---------- Notes tab ----------
+const NOTES_KEY = 'eventful_notes_v1';
+let NOTES_PAGES = [];
+let NOTES_ACTIVE_ID = null;
+let NOTES_SAVE_TIMER = null;
+
+function notesLoad(){
+  try{ NOTES_PAGES = JSON.parse(localStorage.getItem(NOTES_KEY) || '[]'); }
+  catch(_){ NOTES_PAGES = []; }
+}
+function notesSave(){
+  localStorage.setItem(NOTES_KEY, JSON.stringify(NOTES_PAGES));
+}
+function notesInit(){
+  notesLoad();
+  notesRenderSidebar();
+  if(NOTES_ACTIVE_ID && NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID)){
+    notesOpenPage(NOTES_ACTIVE_ID);
+  } else if(NOTES_PAGES.length > 0){
+    notesOpenPage(NOTES_PAGES[0].id);
+  } else {
+    notesShowEmpty();
+  }
+}
+function notesRenderSidebar(){
+  const list = document.getElementById('notes-page-list');
+  if(!NOTES_PAGES.length){
+    list.innerHTML = '<div class="notes-empty-sidebar">No pages yet.<br>Click + to add one.</div>';
+    return;
+  }
+  list.innerHTML = NOTES_PAGES.map(p => {
+    const active = p.id === NOTES_ACTIVE_ID ? ' active' : '';
+    const title = p.title || 'Untitled';
+    return `<div class="notes-page-item${active}" data-id="${p.id}" onclick="notesOpenPage('${p.id}')">
+      <span class="page-icon">📄</span>
+      <span class="page-title">${escapeHtml(title)}</span>
+      <button class="page-del" onclick="event.stopPropagation();notesDeletePage('${p.id}')" title="Delete">×</button>
+    </div>`;
+  }).join('');
+}
+function notesAddPage(){
+  const id = 'note_' + Date.now();
+  NOTES_PAGES.push({id, title:'', body:'', created: new Date().toISOString()});
+  notesSave();
+  notesRenderSidebar();
+  notesOpenPage(id);
+  // Focus the title input
+  setTimeout(() => { const t = document.getElementById('notes-title'); if(t) t.focus(); }, 50);
+}
+function notesDeletePage(id){
+  NOTES_PAGES = NOTES_PAGES.filter(p => p.id !== id);
+  notesSave();
+  if(NOTES_ACTIVE_ID === id){
+    NOTES_ACTIVE_ID = null;
+    if(NOTES_PAGES.length) notesOpenPage(NOTES_PAGES[0].id);
+    else notesShowEmpty();
+  }
+  notesRenderSidebar();
+}
+function notesOpenPage(id){
+  NOTES_ACTIVE_ID = id;
+  const page = NOTES_PAGES.find(p => p.id === id);
+  if(!page) return;
+  notesRenderSidebar();
+  const main = document.getElementById('notes-main');
+  main.innerHTML = `<div class="notes-editor">
+    <textarea id="notes-title" class="notes-title-input" rows="1" placeholder="Untitled" oninput="notesAutoResize(this);notesDebounceSave()">${escapeHtml(page.title)}</textarea>
+    <textarea id="notes-body" class="notes-body-input" placeholder="Start writing…" oninput="notesDebounceSave()">${escapeHtml(page.body)}</textarea>
+  </div>`;
+  const titleEl = document.getElementById('notes-title');
+  notesAutoResize(titleEl);
+}
+function notesShowEmpty(){
+  const main = document.getElementById('notes-main');
+  main.innerHTML = `<div class="notes-no-page">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+    <span class="hint">Select a page or click + to create one</span>
+  </div>`;
+}
+function notesAutoResize(el){
+  el.style.height = 'auto';
+  el.style.height = el.scrollHeight + 'px';
+}
+function notesDebounceSave(){
+  if(NOTES_SAVE_TIMER) clearTimeout(NOTES_SAVE_TIMER);
+  NOTES_SAVE_TIMER = setTimeout(() => {
+    if(!NOTES_ACTIVE_ID) return;
+    const titleEl = document.getElementById('notes-title');
+    const bodyEl = document.getElementById('notes-body');
+    if(!titleEl || !bodyEl) return;
+    const page = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
+    if(!page) return;
+    page.title = titleEl.value;
+    page.body = bodyEl.value;
+    notesSave();
+    // Re-render sidebar title in place without losing focus
+    const items = document.querySelectorAll('.notes-page-item');
+    items.forEach(item => {
+      if(item.dataset.id === NOTES_ACTIVE_ID){
+        const titleSpan = item.querySelector('.page-title');
+        if(titleSpan) titleSpan.textContent = page.title || 'Untitled';
+      }
+    });
+  }, 300);
 }
 
 // ---------- Message modal ----------
