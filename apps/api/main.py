@@ -339,29 +339,36 @@ table.list tr:hover .row-actions{opacity:1}
 
 /* Notes tab — Notion-style sidebar layout */
 .notes-layout{display:flex;gap:0;min-height:600px;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--bg)}
-.notes-sidebar{width:220px;flex-shrink:0;border-right:1px solid var(--border);background:var(--bg-alt);display:flex;flex-direction:column}
+.notes-sidebar{width:230px;flex-shrink:0;border-right:1px solid var(--border);background:var(--bg-alt);display:flex;flex-direction:column}
 .notes-sidebar-header{display:flex;align-items:center;justify-content:space-between;padding:12px 12px 8px;border-bottom:1px solid var(--border)}
 .notes-sidebar-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-2)}
 .notes-add-btn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:0;background:none;border-radius:var(--r-sm);cursor:pointer;color:var(--text-2);font-size:18px;line-height:1;padding:0;transition:all var(--t)}
 .notes-add-btn:hover{background:var(--bg-soft);color:var(--text)}
-.notes-page-list{flex:1;overflow-y:auto;padding:6px}
-.notes-page-item{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:var(--r-sm);cursor:pointer;font-size:13px;color:var(--text);transition:background var(--t);white-space:nowrap;overflow:hidden;position:relative}
-.notes-page-item:hover{background:var(--bg-soft)}
-.notes-page-item.active{background:var(--bg-soft);font-weight:500}
-.notes-page-item .page-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
+.notes-page-list{flex:1;overflow-y:auto;padding:6px;outline:0}
+.notes-page-item{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:var(--r-sm);cursor:pointer;font-size:13px;color:var(--text);transition:background var(--t);white-space:nowrap;overflow:hidden;position:relative;outline:0}
+.notes-page-item:hover,.notes-page-item:focus-within{background:var(--bg-soft)}
+.notes-page-item.active{background:rgba(0,0,0,0.06);font-weight:500}
+.notes-page-item.focused{outline:2px solid var(--text);outline-offset:-2px}
+.notes-page-item .page-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center;user-select:none}
 .notes-page-item .page-title{flex:1;overflow:hidden;text-overflow:ellipsis}
-.notes-page-item .page-del{opacity:0;border:0;background:none;padding:2px 4px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:14px;line-height:1;flex-shrink:0;transition:all var(--t)}
-.notes-page-item:hover .page-del{opacity:1}
+.notes-page-item .page-actions{display:flex;align-items:center;gap:2px;opacity:0;transition:opacity var(--t);flex-shrink:0}
+.notes-page-item:hover .page-actions,.notes-page-item.active .page-actions{opacity:1}
+.notes-page-item .page-del{border:0;background:none;padding:2px 5px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:14px;line-height:1;transition:all var(--t)}
 .notes-page-item .page-del:hover{color:var(--text);background:var(--bg)}
+.notes-rename-input{border:0;outline:0;background:transparent;font:500 13px var(--font);color:var(--text);width:100%;padding:0;min-width:0}
 .notes-empty-sidebar{padding:24px 12px;font-size:12px;color:var(--text-3);text-align:center;line-height:1.6}
-.notes-main{flex:1;display:flex;flex-direction:column;min-width:0;background:var(--bg)}
-.notes-editor{flex:1;padding:40px 48px 48px;display:flex;flex-direction:column;gap:0}
-.notes-title-input{border:0;outline:0;font:600 28px/1.25 var(--font);letter-spacing:-0.01em;color:var(--text);background:transparent;width:100%;padding:0 0 12px;resize:none;overflow:hidden}
+.notes-main{flex:1;display:flex;flex-direction:column;min-width:0;background:var(--bg);animation:fadeIn var(--t)}
+.notes-editor{flex:1;padding:48px 56px 64px;display:flex;flex-direction:column}
+.notes-title-input{border:0;outline:0;font:600 30px/1.2 var(--font);letter-spacing:-0.02em;color:var(--text);background:transparent;width:100%;padding:0 0 16px;resize:none;overflow:hidden;min-height:44px}
 .notes-title-input::placeholder{color:var(--text-3)}
-.notes-body-input{border:0;outline:0;font:400 15px/1.7 var(--font);color:var(--text);background:transparent;width:100%;flex:1;resize:none;min-height:400px;padding:0}
+.notes-divider{height:1px;background:var(--border);margin:0 0 20px;flex-shrink:0}
+.notes-body-input{border:0;outline:0;font:400 15px/1.75 var(--font);color:var(--text);background:transparent;width:100%;flex:1;resize:none;min-height:360px;padding:0}
 .notes-body-input::placeholder{color:var(--text-3)}
 .notes-no-page{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:40px;color:var(--text-3)}
 .notes-no-page .hint{font-size:13px}
+.notes-footer{padding:8px 12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-3);display:flex;align-items:center;justify-content:space-between}
+.notes-kb{display:inline-flex;gap:10px}
+.notes-kb kbd{display:inline-block;padding:1px 5px;border:1px solid var(--border);border-radius:3px;font-size:10px;font-family:inherit;background:var(--bg-soft)}
 </style>
 </head><body>
 
@@ -557,14 +564,20 @@ table.list tr:hover .row-actions{opacity:1}
         <span class="notes-sidebar-title">Pages</span>
         <button class="notes-add-btn" onclick="notesAddPage()" title="New page">+</button>
       </div>
-      <div class="notes-page-list" id="notes-page-list">
-        <div class="notes-empty-sidebar">No pages yet.<br>Click + to add one.</div>
+      <div class="notes-page-list" id="notes-page-list" tabindex="0">
+        <div class="notes-empty-sidebar">No pages yet.<br>Click + to create one.</div>
+      </div>
+      <div class="notes-footer">
+        <span class="notes-kb">
+          <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
+          <span><kbd>↵</kbd> open</span>
+        </span>
       </div>
     </aside>
     <div class="notes-main" id="notes-main">
       <div class="notes-no-page">
         <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        <span class="hint">Select a page or click + to create one</span>
+        <span class="hint">Click + to create your first page</span>
       </div>
     </div>
   </div>
@@ -1118,7 +1131,9 @@ function switchTab(name){
 const NOTES_KEY = 'eventful_notes_v1';
 let NOTES_PAGES = [];
 let NOTES_ACTIVE_ID = null;
+let NOTES_FOCUSED_IDX = -1; // keyboard-focused sidebar index
 let NOTES_SAVE_TIMER = null;
+let NOTES_RENAMING_ID = null; // page currently being inline-renamed in sidebar
 
 function notesLoad(){
   try{ NOTES_PAGES = JSON.parse(localStorage.getItem(NOTES_KEY) || '[]'); }
@@ -1131,93 +1146,180 @@ function notesInit(){
   notesLoad();
   notesRenderSidebar();
   if(NOTES_ACTIVE_ID && NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID)){
-    notesOpenPage(NOTES_ACTIVE_ID);
+    notesOpenPage(NOTES_ACTIVE_ID, false);
   } else if(NOTES_PAGES.length > 0){
-    notesOpenPage(NOTES_PAGES[0].id);
+    notesOpenPage(NOTES_PAGES[0].id, false);
   } else {
     notesShowEmpty();
   }
+  // Attach keyboard nav to sidebar list
+  const list = document.getElementById('notes-page-list');
+  list.addEventListener('keydown', notesSidebarKeydown);
 }
-function notesRenderSidebar(){
+
+function notesRenderSidebar(renamingId){
   const list = document.getElementById('notes-page-list');
   if(!NOTES_PAGES.length){
-    list.innerHTML = '<div class="notes-empty-sidebar">No pages yet.<br>Click + to add one.</div>';
+    list.innerHTML = '<div class="notes-empty-sidebar">No pages yet.<br>Click + to create one.</div>';
+    NOTES_FOCUSED_IDX = -1;
     return;
   }
-  list.innerHTML = NOTES_PAGES.map(p => {
-    const active = p.id === NOTES_ACTIVE_ID ? ' active' : '';
+  list.innerHTML = NOTES_PAGES.map((p, i) => {
+    const isActive = p.id === NOTES_ACTIVE_ID;
+    const isFocused = i === NOTES_FOCUSED_IDX;
+    const cls = ['notes-page-item', isActive?'active':'', isFocused?'focused':''].filter(Boolean).join(' ');
+    const isRenaming = p.id === renamingId;
+    if(isRenaming){
+      return `<div class="${cls}" data-id="${p.id}" data-idx="${i}">
+        <span class="page-icon">📄</span>
+        <input class="notes-rename-input" id="notes-rename-${p.id}" value="${escapeHtml(p.title)}" placeholder="Untitled"
+          onblur="notesCommitRename('${p.id}',this.value)"
+          onkeydown="if(event.key==='Enter'||event.key==='Escape'){event.preventDefault();this.blur()}">
+      </div>`;
+    }
     const title = p.title || 'Untitled';
-    return `<div class="notes-page-item${active}" data-id="${p.id}" onclick="notesOpenPage('${p.id}')">
+    return `<div class="${cls}" data-id="${p.id}" data-idx="${i}" tabindex="0"
+        onclick="notesOpenPage('${p.id}')"
+        onkeydown="if(event.key==='Enter')notesOpenPage('${p.id}')"
+        onfocus="NOTES_FOCUSED_IDX=${i}">
       <span class="page-icon">📄</span>
       <span class="page-title">${escapeHtml(title)}</span>
-      <button class="page-del" onclick="event.stopPropagation();notesDeletePage('${p.id}')" title="Delete">×</button>
+      <span class="page-actions">
+        <button class="page-del" onclick="event.stopPropagation();notesDeletePage('${p.id}')" title="Delete page">×</button>
+      </span>
     </div>`;
   }).join('');
+
+  if(renamingId){
+    const inp = document.getElementById('notes-rename-' + renamingId);
+    if(inp){ inp.focus(); inp.select(); }
+  }
 }
+
 function notesAddPage(){
   const id = 'note_' + Date.now();
   NOTES_PAGES.push({id, title:'', body:'', created: new Date().toISOString()});
+  NOTES_ACTIVE_ID = id;
+  NOTES_RENAMING_ID = id;
   notesSave();
-  notesRenderSidebar();
-  notesOpenPage(id);
-  // Focus the title input
-  setTimeout(() => { const t = document.getElementById('notes-title'); if(t) t.focus(); }, 50);
+  notesRenderSidebar(id); // renders with inline rename input
+  notesOpenPage(id, false); // open editor (blank) in background
 }
+
+function notesCommitRename(id, rawTitle){
+  NOTES_RENAMING_ID = null;
+  const page = NOTES_PAGES.find(p => p.id === id);
+  if(!page) return;
+  page.title = rawTitle.trim();
+  notesSave();
+  notesRenderSidebar(); // back to normal render
+  // Sync to editor title if this page is open
+  const titleEl = document.getElementById('notes-title');
+  if(titleEl && NOTES_ACTIVE_ID === id) titleEl.value = page.title;
+  // Focus body if page is open
+  setTimeout(() => {
+    const bodyEl = document.getElementById('notes-body');
+    if(bodyEl) bodyEl.focus();
+  }, 40);
+}
+
 function notesDeletePage(id){
+  const idx = NOTES_PAGES.findIndex(p => p.id === id);
   NOTES_PAGES = NOTES_PAGES.filter(p => p.id !== id);
   notesSave();
   if(NOTES_ACTIVE_ID === id){
     NOTES_ACTIVE_ID = null;
-    if(NOTES_PAGES.length) notesOpenPage(NOTES_PAGES[0].id);
+    const next = NOTES_PAGES[Math.min(idx, NOTES_PAGES.length - 1)];
+    if(next) notesOpenPage(next.id);
     else notesShowEmpty();
   }
   notesRenderSidebar();
 }
-function notesOpenPage(id){
+
+function notesOpenPage(id, focusBody=true){
   NOTES_ACTIVE_ID = id;
   const page = NOTES_PAGES.find(p => p.id === id);
   if(!page) return;
-  notesRenderSidebar();
+  notesRenderSidebar(NOTES_RENAMING_ID || undefined);
   const main = document.getElementById('notes-main');
   main.innerHTML = `<div class="notes-editor">
-    <textarea id="notes-title" class="notes-title-input" rows="1" placeholder="Untitled" oninput="notesAutoResize(this);notesDebounceSave()">${escapeHtml(page.title)}</textarea>
-    <textarea id="notes-body" class="notes-body-input" placeholder="Start writing…" oninput="notesDebounceSave()">${escapeHtml(page.body)}</textarea>
+    <textarea id="notes-title" class="notes-title-input" rows="1" placeholder="Untitled"
+      oninput="notesAutoResize(this);notesSyncTitle()">${escapeHtml(page.title)}</textarea>
+    <div class="notes-divider"></div>
+    <textarea id="notes-body" class="notes-body-input" placeholder="Start writing…"
+      oninput="notesDebounceSave()">${escapeHtml(page.body)}</textarea>
   </div>`;
   const titleEl = document.getElementById('notes-title');
   notesAutoResize(titleEl);
+  // Enter in title → jump to body; Tab → jump to body
+  titleEl.addEventListener('keydown', e => {
+    if(e.key === 'Enter'){ e.preventDefault(); document.getElementById('notes-body').focus(); }
+    if(e.key === 'Tab'){ e.preventDefault(); document.getElementById('notes-body').focus(); }
+  });
+  if(focusBody){ setTimeout(() => { const b = document.getElementById('notes-body'); if(b) b.focus(); }, 40); }
 }
+
 function notesShowEmpty(){
   const main = document.getElementById('notes-main');
   main.innerHTML = `<div class="notes-no-page">
     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-    <span class="hint">Select a page or click + to create one</span>
+    <span class="hint">Click + to create your first page</span>
   </div>`;
 }
+
 function notesAutoResize(el){
   el.style.height = 'auto';
   el.style.height = el.scrollHeight + 'px';
 }
+
+// Sync title to sidebar immediately as the user types
+function notesSyncTitle(){
+  if(!NOTES_ACTIVE_ID) return;
+  const titleEl = document.getElementById('notes-title');
+  if(!titleEl) return;
+  const page = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
+  if(!page) return;
+  page.title = titleEl.value;
+  // Update sidebar label without re-rendering (avoids focus loss)
+  const item = document.querySelector(`.notes-page-item[data-id="${NOTES_ACTIVE_ID}"]`);
+  if(item){ const span = item.querySelector('.page-title'); if(span) span.textContent = page.title || 'Untitled'; }
+  notesDebounceSave();
+}
+
 function notesDebounceSave(){
   if(NOTES_SAVE_TIMER) clearTimeout(NOTES_SAVE_TIMER);
   NOTES_SAVE_TIMER = setTimeout(() => {
     if(!NOTES_ACTIVE_ID) return;
     const titleEl = document.getElementById('notes-title');
     const bodyEl = document.getElementById('notes-body');
-    if(!titleEl || !bodyEl) return;
+    if(!bodyEl) return;
     const page = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
     if(!page) return;
-    page.title = titleEl.value;
+    if(titleEl) page.title = titleEl.value;
     page.body = bodyEl.value;
     notesSave();
-    // Re-render sidebar title in place without losing focus
-    const items = document.querySelectorAll('.notes-page-item');
-    items.forEach(item => {
-      if(item.dataset.id === NOTES_ACTIVE_ID){
-        const titleSpan = item.querySelector('.page-title');
-        if(titleSpan) titleSpan.textContent = page.title || 'Untitled';
-      }
-    });
-  }, 300);
+  }, 400);
+}
+
+// Keyboard navigation in the sidebar list (↑ ↓ to move, Enter to open)
+function notesSidebarKeydown(e){
+  if(!NOTES_PAGES.length) return;
+  if(e.key === 'ArrowDown'){
+    e.preventDefault();
+    NOTES_FOCUSED_IDX = Math.min(NOTES_FOCUSED_IDX + 1, NOTES_PAGES.length - 1);
+    notesRenderSidebar();
+    const item = document.querySelector(`.notes-page-item[data-idx="${NOTES_FOCUSED_IDX}"]`);
+    if(item) item.focus();
+  } else if(e.key === 'ArrowUp'){
+    e.preventDefault();
+    NOTES_FOCUSED_IDX = Math.max(NOTES_FOCUSED_IDX - 1, 0);
+    notesRenderSidebar();
+    const item = document.querySelector(`.notes-page-item[data-idx="${NOTES_FOCUSED_IDX}"]`);
+    if(item) item.focus();
+  } else if(e.key === 'Enter' && NOTES_FOCUSED_IDX >= 0){
+    const page = NOTES_PAGES[NOTES_FOCUSED_IDX];
+    if(page) notesOpenPage(page.id);
+  }
 }
 
 // ---------- Message modal ----------
