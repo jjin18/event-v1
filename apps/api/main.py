@@ -1219,8 +1219,8 @@ function sbActivate(id, save=true){
 }
 
 function sbAddPage(){
-  const id = 'note_' + Date.now();
-  SB_PAGES.push({id, type:'note', icon: SB_NOTE_ICON, title:'', body:'', created: new Date().toISOString()});
+  const id = 'event_' + Date.now();
+  SB_PAGES.push({id, type:'event', icon:'📋', title:'', created: new Date().toISOString()});
   SB_RENAMING_ID = id;
   sbSave();
   sbRender(id);
