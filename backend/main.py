@@ -871,9 +871,20 @@ def trigger_backup(request: Request):
 if FRONTEND_DIST.exists():
     app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
 
-    @app.get("/{full_path:path}")
-    def serve_spa(full_path: str):
-        index = FRONTEND_DIST / "index.html"
-        if index.exists():
-            return Response(content=index.read_text(), media_type="text/html")
-        return Response(content="Frontend not built", status_code=503)
+@app.get("/{full_path:path}")
+def serve_spa(full_path: str):
+    index = FRONTEND_DIST / "index.html"
+    if index.exists():
+        return Response(content=index.read_text(), media_type="text/html")
+    # Frontend not built — show a diagnostic page so Railway shows something useful
+    return Response(content="""<!doctype html><html><head><title>Hackathon Judge</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{font-family:sans-serif;background:#0f172a;color:#e2e8f0;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+.box{text-align:center;max-width:400px;padding:2rem}h1{color:#60a5fa;font-size:1.5rem}
+p{color:#94a3b8;margin:.5rem 0}code{background:#1e293b;padding:.2rem .5rem;border-radius:.25rem;color:#f472b6;font-size:.85rem}</style>
+</head><body><div class="box">
+<h1>Hackathon Judge Platform</h1>
+<p>Backend is running — but the frontend was not built.</p>
+<p>Railway: go to <strong>Settings → Build → Dockerfile Path</strong> and set it to <code>Dockerfile.judge</code>, then redeploy.</p>
+<p>API health: <a href="/api/health" style="color:#60a5fa">/api/health</a></p>
+</div></body></html>""", media_type="text/html", status_code=503)
