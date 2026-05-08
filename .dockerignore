@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Node — rebuilt inside Docker
+frontend/node_modules
+frontend/dist
+
+# Python bytecode
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+
+# Local DB and data — volume provides this in production
+hackathon.db
+hackathon.db-shm
+hackathon.db-wal
+backups/
+uploads/
+
+# Env files
+.env
+.env.local
+
+# Misc
+.DS_Store

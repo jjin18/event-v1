@@ -62,8 +62,10 @@ app.add_middleware(
 )
 
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin123")
-UPLOADS_DIR = Path("uploads")
-UPLOADS_DIR.mkdir(exist_ok=True)
+# Uploads live inside DATA_DIR so they persist on the Railway Volume
+_DATA_DIR = Path(os.getenv("DATA_DIR", "."))
+UPLOADS_DIR = _DATA_DIR / "uploads"
+UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 @app.on_event("startup")

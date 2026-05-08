@@ -10,7 +10,6 @@ RUN npm run build
 # ── Stage 2: Python runtime ──────────────────────────────────────────────────
 FROM python:3.11-slim
 
-# Fonts for Pillow QR card generation
 RUN apt-get update && apt-get install -y --no-install-recommends \
     fonts-dejavu-core \
     && rm -rf /var/lib/apt/lists/*
@@ -23,11 +22,14 @@ RUN pip install --no-cache-dir -r backend/requirements.txt
 COPY backend/ backend/
 COPY --from=frontend-builder /app/frontend/dist frontend/dist
 
-# Persistent data directories (mount a volume here in production)
-RUN mkdir -p backups uploads data
+# /app/data is where the Railway Volume is mounted.
+# DB, backups, and uploads all live here so they survive redeploys.
+RUN mkdir -p /app/data/backups /app/uploads
 
 ENV PORT=8000
+ENV DATA_DIR=/app/data
+
 EXPOSE 8000
 
-# Seed on first boot if DB doesn't exist, then start the server
-CMD ["sh", "-c", "[ ! -f hackathon.db ] && python backend/seed.py; python -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1"]
+# Seed on very first boot (empty volume), then start server.
+CMD ["sh", "-c", "[ ! -f /app/data/hackathon.db ] && python backend/seed.py; python -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1"]
