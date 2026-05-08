@@ -1011,9 +1011,6 @@ eventNameEl.addEventListener('keydown', (e) => {
 eventNameEl.addEventListener('blur', async () => {
   eventNameEl.contentEditable = 'false';
   const newName = eventNameEl.textContent.trim();
-  // Save to active notes page
-  const activePage = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
-  if(activePage){ if(!activePage.ev) activePage.ev = {}; activePage.ev.name = newName; notesSave(); }
   if(newName === (EVENT_META.name || '').trim()){
     refreshHeader(); return;
   }
@@ -1057,9 +1054,6 @@ async function saveDatePopover(){
   if(event_date && startVal) event_date = event_date + 'T' + startVal;
   let event_end_time = null;
   if(dateVal && endVal) event_end_time = dateVal + 'T' + endVal;
-  // Save to active notes page
-  const activePage = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
-  if(activePage){ if(!activePage.ev) activePage.ev = {}; activePage.ev.date = dateVal || ''; notesSave(); }
   await fetch('/event/date',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({event_date,event_end_time})});
   closeDatePopover();
   loadEventMeta();
@@ -1104,11 +1098,6 @@ async function saveInfoPopover(){
   const raw = document.getElementById('info-popover-input').value;
   let val = (raw || '').trim();
   if(INFO_POP_FIELD === 'target_size') val = parseInt(val || '0', 10) || 0;
-  // Save to active notes page (city and format only — target_size is global)
-  if(INFO_POP_FIELD === 'city' || INFO_POP_FIELD === 'format'){
-    const activePage = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
-    if(activePage){ if(!activePage.ev) activePage.ev = {}; activePage.ev[INFO_POP_FIELD] = val; notesSave(); }
-  }
   await fetch('/event/info',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({[INFO_POP_FIELD]:val})});
   closeInfoPopover();
   loadEventMeta();
@@ -1232,10 +1221,20 @@ function sbActivate(id, save=true){
 function sbAddPage(){
   const id = 'event_' + Date.now();
   SB_PAGES.push({id, type:'event', icon:'📋', title:'', created: new Date().toISOString()});
-  SB_RENAMING_ID = id;
+  SB_RENAMING_ID = null;
   sbSave();
-  sbRender(id);
+  sbRender();
   sbActivate(id);
+  // Focus the event-name heading so the user can type the name directly
+  setTimeout(() => {
+    const nameEl = document.getElementById('event-name');
+    if(nameEl){
+      nameEl.contentEditable = 'true';
+      nameEl.textContent = '';
+      nameEl.dataset.empty = 'false';
+      nameEl.focus();
+    }
+  }, 40);
 }
 
 function sbCommitRename(id, rawTitle){
@@ -1245,10 +1244,20 @@ function sbCommitRename(id, rawTitle){
   page.title = rawTitle.trim();
   sbSave();
   sbRender();
-  // Sync to note editor title if open
-  const titleEl = document.getElementById('notes-title');
-  if(titleEl && SB_ACTIVE_ID === id) titleEl.value = page.title;
-  setTimeout(() => { const b = document.getElementById('notes-body'); if(b) b.focus(); }, 40);
+  if(page.type === 'event' && SB_ACTIVE_ID === id){
+    // Reflect the renamed title in the event header
+    const nameEl = document.getElementById('event-name');
+    if(nameEl && nameEl.contentEditable !== 'true'){
+      nameEl.textContent = page.title || 'Untitled event';
+      nameEl.dataset.empty = page.title ? 'false' : 'true';
+    }
+    document.getElementById('sticky-event').textContent = page.title || '';
+  } else {
+    // Sync to note editor title if open
+    const titleEl = document.getElementById('notes-title');
+    if(titleEl && SB_ACTIVE_ID === id) titleEl.value = page.title;
+    setTimeout(() => { const b = document.getElementById('notes-body'); if(b) b.focus(); }, 40);
+  }
 }
 
 function sbDeletePage(id){
@@ -1263,6 +1272,7 @@ function sbDeletePage(id){
     sbRender();
   }
 }
+
 
 // Sync the sidebar title for the active event page from the event header
 function sbSyncEventTitle(name){
@@ -1279,7 +1289,6 @@ function notesOpenPage(page){
   const wrap = document.getElementById('note-editor-wrap');
   const icon = page.icon || SB_NOTE_ICON;
   wrap.innerHTML = `<div class="notes-editor">
-
     <div class="notes-icon-row">
       <button class="notes-icon-btn" onclick="notesOpenEmojiPicker(event,'${page.id}')" title="Change icon">
         <span id="notes-page-icon">${icon}</span>

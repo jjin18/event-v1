@@ -130,21 +130,23 @@ export default function ScoringArea({ projects, scores, judgeId, activeProjectId
       notes,
     };
 
-    const fullEntry = {
+    // Save to IndexedDB immediately
+    await saveScore(judgeId, project.id, {
       ...scoreData,
       total_raw: totalRaw,
       total_weighted: totalWeighted,
       syncStatus: "pending",
-    };
+    });
 
-    // 1. Update React state immediately — user sees confirmation right away
-    onScoreSaved(judgeId, project.id, fullEntry);
-
-    // 2. Persist to localStorage + IndexedDB — saveScore never throws (dual-write)
-    await saveScore(judgeId, project.id, fullEntry);
-
-    // 3. Queue server sync — never blocks UI
+    // Queue server sync — never blocks
     queueScore(judgeId, scoreData).catch(() => {});
+
+    onScoreSaved(judgeId, project.id, {
+      ...scoreData,
+      total_raw: totalRaw,
+      total_weighted: totalWeighted,
+      syncStatus: "pending",
+    });
 
     setSaving(false);
 

@@ -6,4 +6,5 @@ __pycache__/
 hackathon.db*
 backups/
 uploads/
+frontend/dist/
 frontend/node_modules/
