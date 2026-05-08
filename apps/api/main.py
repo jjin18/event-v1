@@ -1056,8 +1056,10 @@ async function saveDatePopover(){
   if(dateVal && endVal) event_end_time = dateVal + 'T' + endVal;
   await fetch('/event/date',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({event_date,event_end_time})});
   closeDatePopover();
-  loadEventMeta();
+  await loadEventMeta();
   refreshAllStats();
+  const _datePg = SB_PAGES.find(p => p.type === 'event' && p.id === SB_ACTIVE_ID);
+  if(_datePg){ _datePg.ev = _datePg.ev || {}; _datePg.ev.date = document.getElementById('meta-date').textContent; sbSave(); }
 }
 
 // ---------- Info popover (city, format, target_size) ----------
@@ -1100,7 +1102,13 @@ async function saveInfoPopover(){
   if(INFO_POP_FIELD === 'target_size') val = parseInt(val || '0', 10) || 0;
   await fetch('/event/info',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({[INFO_POP_FIELD]:val})});
   closeInfoPopover();
-  loadEventMeta();
+  await loadEventMeta();
+  const _infoPg = SB_PAGES.find(p => p.type === 'event' && p.id === SB_ACTIVE_ID);
+  if(_infoPg && (INFO_POP_FIELD === 'city' || INFO_POP_FIELD === 'format')){
+    _infoPg.ev = _infoPg.ev || {};
+    _infoPg.ev[INFO_POP_FIELD] = val;
+    sbSave();
+  }
 }
 document.getElementById('info-popover-input').addEventListener('keydown', (e) => {
   if(e.key === 'Enter') saveInfoPopover();
@@ -1183,7 +1191,7 @@ function sbRender(renamingId){
       </div>`;
     }
     const title = p.title || (p.type === 'event' ? 'Untitled Event' : 'Untitled');
-    const delBtn = p.type === 'note' ? `<button class="si-del" onclick="event.stopPropagation();sbDeletePage('${p.id}')" title="Delete">×</button>` : '';
+    const delBtn = SB_PAGES.length > 1 ? `<button class="si-del" onclick="event.stopPropagation();sbDeletePage('${p.id}')" title="Delete">×</button>` : '';
     return `<div class="${cls}" data-id="${p.id}" onclick="sbActivate('${p.id}')">
       <span class="si-icon">${icon}</span>
       <span class="si-title">${escapeHtml(title)}</span>
@@ -1210,6 +1218,25 @@ function sbActivate(id, save=true){
     noteView.style.display = 'none';
     // Show all containers except note-view
     document.querySelectorAll('#app-main > .container, #app-main > .sticky-bar').forEach(el => el.style.display = '');
+    // Restore this page's stored event context (blank slate for new pages)
+    const ev = page.ev !== undefined ? (page.ev || {}) : null;
+    if(ev !== null){
+      const nameEl = document.getElementById('event-name');
+      if(nameEl && nameEl.contentEditable !== 'true'){
+        nameEl.textContent = ev.name || 'Untitled event';
+        nameEl.dataset.empty = ev.name ? 'false' : 'true';
+      }
+      document.getElementById('sticky-event').textContent = ev.name || '';
+      const dateEl = document.getElementById('meta-date');
+      dateEl.textContent = ev.date || 'Set event date';
+      dateEl.dataset.empty = ev.date ? 'false' : 'true';
+      const cityEl = document.getElementById('meta-city');
+      cityEl.textContent = ev.city || 'Add location';
+      cityEl.dataset.empty = ev.city ? 'false' : 'true';
+      const fmtEl = document.getElementById('meta-format');
+      fmtEl.textContent = ev.format || 'Add format';
+      fmtEl.dataset.empty = ev.format ? 'false' : 'true';
+    }
   } else {
     // Hide event UI, show note editor
     document.querySelectorAll('#app-main > .container, #app-main > .sticky-bar').forEach(el => el.style.display = 'none');
@@ -1220,7 +1247,7 @@ function sbActivate(id, save=true){
 
 function sbAddPage(){
   const id = 'event_' + Date.now();
-  SB_PAGES.push({id, type:'event', icon:'📋', title:'', created: new Date().toISOString()});
+  SB_PAGES.push({id, type:'event', icon:'📋', title:'', ev:{}, created: new Date().toISOString()});
   SB_RENAMING_ID = null;
   sbSave();
   sbRender();
@@ -1278,8 +1305,9 @@ function sbDeletePage(id){
 function sbSyncEventTitle(name){
   const page = SB_PAGES.find(p => p.type === 'event' && p.id === SB_ACTIVE_ID);
   if(!page) return;
-  if(page.title === name) return;
   page.title = name;
+  page.ev = page.ev || {};
+  page.ev.name = name;
   sbSave();
   sbRender();
 }
