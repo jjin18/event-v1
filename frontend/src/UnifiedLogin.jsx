@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { authByPIN, authByQR, adminLogin } from "./lib/api.js";
 import {
   loadProfile, saveProfile,
@@ -7,21 +7,18 @@ import {
   loadScores, loadProjects,
 } from "./lib/db.js";
 
-export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
-  const navigate = useNavigate();
+export default function UnifiedLogin() {
   const [params] = useSearchParams();
 
-  // Form is visible immediately — no spinner gate
   const [code, setCode]       = useState("");
   const [eventId, setEventId] = useState("1");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError]     = useState("");
-  const [statusMsg, setStatusMsg] = useState(""); // non-blocking status line
+  const [statusMsg, setStatusMsg] = useState("");
   const inputRef = useRef(null);
 
   const isPin = /^\d+$/.test(code) && code.length > 0;
 
-  // Silent session restore — runs in background, form is already visible
   useEffect(() => {
     silentRestore();
     inputRef.current?.focus();
@@ -34,12 +31,11 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
       setStatusMsg("Authenticating via QR code…");
       try {
         const data = await authByQR(token);
-        const ready = await toJudgeState(data, token);
-        onJudgeLogin(ready);
-        navigate("/judge", { replace: true });
+        await persistJudgeSession(data, token);
+        window.location.replace("/judge");
         return;
       } catch {
-        setStatusMsg(""); // bad QR — just show the form
+        setStatusMsg("");
       }
     }
 
@@ -51,24 +47,16 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
         if (age < 30 * 24 * 60 * 60 * 1000) {
           setStatusMsg("Restoring your session…");
           localStorage.setItem("judge_token", profile.token);
-          const [projects, scores] = await Promise.all([loadProjects(), loadScores()]);
-          onJudgeLogin({
-            judge: profile.judge,
-            event: profile.event,
-            projects: byTable(projects),
-            scores,
-          });
-          navigate("/judge", { replace: true });
+          window.location.replace("/judge");
           return;
         }
       }
-    } catch { /* IndexedDB blocked — ignore, form is showing */ }
+    } catch { /* IndexedDB unavailable — show form */ }
 
     // 3. Saved admin session
     const adminToken = localStorage.getItem("admin_token");
     if (adminToken) {
-      onAdminLogin({ token: adminToken });
-      navigate("/admin", { replace: true });
+      window.location.replace("/admin");
       return;
     }
 
@@ -88,14 +76,12 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
           return;
         }
         const data = await authByPIN(code, parseInt(eventId, 10));
-        const ready = await toJudgeState(data, data.token);
-        onJudgeLogin(ready);
-        navigate("/judge", { replace: true });
+        await persistJudgeSession(data, data.token);
+        window.location.replace("/judge");
       } else {
         const data = await adminLogin(code);
         localStorage.setItem("admin_token", data.token);
-        onAdminLogin(data);
-        navigate("/admin", { replace: true });
+        window.location.replace("/admin");
       }
     } catch {
       setError(isPin
@@ -106,8 +92,7 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
     }
   }
 
-  // Save data to IndexedDB then return dashboard-ready state with scores as a keyed map
-  async function toJudgeState(data, token) {
+  async function persistJudgeSession(data, token) {
     if (token) localStorage.setItem("judge_token", token);
     await saveProfile({ judge: data.judge, event: data.event, token, savedAt: Date.now() });
     if (data.projects?.length) await saveProjects(data.projects);
@@ -116,19 +101,6 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
         await saveScore(s.judge_id, s.project_id, { ...s, syncStatus: "synced" });
       }
     }
-    const scores = await loadScores(); // keyed map format the dashboard needs
-    return {
-      judge: data.judge,
-      event: data.event,
-      projects: byTable(data.projects || await loadProjects()),
-      scores,
-    };
-  }
-
-  function byTable(list) {
-    return [...list].sort((a, b) =>
-      (parseInt(a.table_number) || 0) - (parseInt(b.table_number) || 0)
-    );
   }
 
   return (
@@ -176,7 +148,7 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
             </div>
           )}
 
-          {/* Code field — always visible, always focused */}
+          {/* Code field */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               {isPin ? "PIN" : "Access code"}
