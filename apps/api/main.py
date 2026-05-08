@@ -1221,10 +1221,20 @@ function sbActivate(id, save=true){
 function sbAddPage(){
   const id = 'event_' + Date.now();
   SB_PAGES.push({id, type:'event', icon:'📋', title:'', created: new Date().toISOString()});
-  SB_RENAMING_ID = id;
+  SB_RENAMING_ID = null;
   sbSave();
-  sbRender(id);
+  sbRender();
   sbActivate(id);
+  // Focus the event-name heading so the user can type the name directly
+  setTimeout(() => {
+    const nameEl = document.getElementById('event-name');
+    if(nameEl){
+      nameEl.contentEditable = 'true';
+      nameEl.textContent = '';
+      nameEl.dataset.empty = 'false';
+      nameEl.focus();
+    }
+  }, 40);
 }
 
 function sbCommitRename(id, rawTitle){
@@ -1234,10 +1244,20 @@ function sbCommitRename(id, rawTitle){
   page.title = rawTitle.trim();
   sbSave();
   sbRender();
-  // Sync to note editor title if open
-  const titleEl = document.getElementById('notes-title');
-  if(titleEl && SB_ACTIVE_ID === id) titleEl.value = page.title;
-  setTimeout(() => { const b = document.getElementById('notes-body'); if(b) b.focus(); }, 40);
+  if(page.type === 'event' && SB_ACTIVE_ID === id){
+    // Reflect the renamed title in the event header
+    const nameEl = document.getElementById('event-name');
+    if(nameEl && nameEl.contentEditable !== 'true'){
+      nameEl.textContent = page.title || 'Untitled event';
+      nameEl.dataset.empty = page.title ? 'false' : 'true';
+    }
+    document.getElementById('sticky-event').textContent = page.title || '';
+  } else {
+    // Sync to note editor title if open
+    const titleEl = document.getElementById('notes-title');
+    if(titleEl && SB_ACTIVE_ID === id) titleEl.value = page.title;
+    setTimeout(() => { const b = document.getElementById('notes-body'); if(b) b.focus(); }, 40);
+  }
 }
 
 function sbDeletePage(id){
@@ -1252,6 +1272,7 @@ function sbDeletePage(id){
     sbRender();
   }
 }
+
 
 // Sync the sidebar title for the active event page from the event header
 function sbSyncEventTitle(name){
