@@ -1,0 +1,9 @@
+{
+  "name": "Hackathon Judge",
+  "short_name": "Judge",
+  "start_url": "/judge",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": []
+}

@@ -3,3 +3,8 @@
 __pycache__/
 *.pyc
 .cache/
+hackathon.db*
+backups/
+uploads/
+frontend/dist/
+frontend/node_modules/
