@@ -4,7 +4,6 @@ import { authByPIN, authByQR, adminLogin } from "./lib/api.js";
 import {
   loadProfile, saveProfile,
   saveProjects, saveScore,
-  loadScores, loadProjects,
 } from "./lib/db.js";
 
 export default function UnifiedLogin() {
@@ -39,23 +38,14 @@ export default function UnifiedLogin() {
       }
     }
 
-    // 2. Saved judge session
-    try {
-      const profile = await loadProfile();
-      if (profile?.token && profile?.judge) {
-        const age = Date.now() - (profile.savedAt || 0);
-        if (age < 30 * 24 * 60 * 60 * 1000) {
-          setStatusMsg("Restoring your session…");
-          localStorage.setItem("judge_token", profile.token);
-          window.location.replace("/judge");
-          return;
-        }
-      }
-    } catch { /* IndexedDB unavailable — show form */ }
+    // 2. Saved judge token — redirect and let JudgeApp verify it
+    if (localStorage.getItem("judge_token") && localStorage.getItem("judge_data")) {
+      window.location.replace("/judge");
+      return;
+    }
 
     // 3. Saved admin session
-    const adminToken = localStorage.getItem("admin_token");
-    if (adminToken) {
+    if (localStorage.getItem("admin_token")) {
       window.location.replace("/admin");
       return;
     }
@@ -83,7 +73,7 @@ export default function UnifiedLogin() {
         localStorage.setItem("admin_token", data.token);
         window.location.replace("/admin");
       }
-    } catch {
+    } catch (err) {
       setError(isPin
         ? "PIN not recognised — check your Event ID or ask the organizer."
         : "Incorrect password."
@@ -93,14 +83,24 @@ export default function UnifiedLogin() {
   }
 
   async function persistJudgeSession(data, token) {
+    // Always save token and minimal profile to localStorage first
     if (token) localStorage.setItem("judge_token", token);
-    await saveProfile({ judge: data.judge, event: data.event, token, savedAt: Date.now() });
-    if (data.projects?.length) await saveProjects(data.projects);
-    if (data.scores?.length) {
-      for (const s of data.scores) {
-        await saveScore(s.judge_id, s.project_id, { ...s, syncStatus: "synced" });
+    localStorage.setItem("judge_data", JSON.stringify({
+      judge: data.judge,
+      event: data.event,
+      savedAt: Date.now(),
+    }));
+
+    // Best-effort IndexedDB save — never throw, it's optional
+    try {
+      await saveProfile({ judge: data.judge, event: data.event, token, savedAt: Date.now() });
+      if (data.projects?.length) await saveProjects(data.projects);
+      if (data.scores?.length) {
+        for (const s of data.scores) {
+          await saveScore(s.judge_id, s.project_id, { ...s, syncStatus: "synced" });
+        }
       }
-    }
+    } catch { /* IndexedDB unavailable — localStorage fallback is sufficient */ }
   }
 
   return (
@@ -121,7 +121,6 @@ export default function UnifiedLogin() {
           </p>
         </div>
 
-        {/* Non-blocking status (session restore in progress) */}
         {statusMsg && (
           <div className="flex items-center gap-2 justify-center mb-4">
             <div className="w-4 h-4 border-2 border-blue-400 border-t-transparent rounded-full animate-spin" />
@@ -131,7 +130,6 @@ export default function UnifiedLogin() {
 
         <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-2xl p-8 space-y-4">
 
-          {/* Event ID — only when typing a PIN */}
           {isPin && (
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Event ID</label>
@@ -148,7 +146,6 @@ export default function UnifiedLogin() {
             </div>
           )}
 
-          {/* Code field */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               {isPin ? "PIN" : "Access code"}
