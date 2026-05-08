@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { authByPIN, authByQR, adminLogin } from "./lib/api.js";
 import {
@@ -10,50 +10,43 @@ import {
   loadProjects,
 } from "./lib/db.js";
 
-/**
- * Single entry-point login.
- *
- * Resolution order:
- *  1. QR token in URL  → judge auth → /judge
- *  2. Saved judge session in IndexedDB → /judge  (instant, no network)
- *  3. Saved admin token in localStorage → /admin  (instant)
- *  4. Show login form — 6-digit code tries judge PIN, anything else tries admin password
- *     A second "Event ID" field appears only when the input looks like a PIN.
- */
 export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
   const navigate = useNavigate();
   const [params] = useSearchParams();
 
   const [code, setCode] = useState("");
   const [eventId, setEventId] = useState("1");
-  const [loading, setLoading] = useState(true); // starts true — checking saved sessions
+  const [phase, setPhase] = useState("booting"); // "booting" | "form" | "submitting"
   const [loadingMsg, setLoadingMsg] = useState("Checking saved session…");
   const [error, setError] = useState("");
+  const inputRef = useRef(null);
 
-  const looksLikePin = /^\d{1,6}$/.test(code);
+  // "Looks like a PIN" once user has typed at least one digit
+  // We commit to PIN mode once we see a digit, admin mode otherwise
+  const looksLikePin = code.length === 0 ? null : /^\d+$/.test(code);
 
-  // ── On mount: restore saved sessions or handle QR token ──────────────────
+  // ── Session restore / QR auto-auth ───────────────────────────────────────
   useEffect(() => {
-    bootstrap();
+    bootstrap().catch(() => setPhase("form")); // safety net — always show form on error
   }, []);
 
   async function bootstrap() {
-    // 1. QR token in URL — highest priority
+    // 1. QR token in URL
     const token = params.get("token");
     if (token) {
       setLoadingMsg("Authenticating via QR code…");
       try {
         const data = await authByQR(token);
-        await persistJudge(data, token);
-        onJudgeLogin(data);
+        const ready = await buildJudgeState(data, token);
+        onJudgeLogin(ready);
         navigate("/judge", { replace: true });
         return;
       } catch {
-        // Bad / expired token — fall through to form
+        // Bad/expired QR — fall through to form
       }
     }
 
-    // 2. Saved judge session in IndexedDB
+    // 2. Saved judge session (IndexedDB — instant, no network)
     try {
       const profile = await loadProfile();
       if (profile?.token && profile?.judge) {
@@ -65,14 +58,14 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
           onJudgeLogin({
             judge: profile.judge,
             event: profile.event,
-            projects: sortProjects(projects),
-            scores,
+            projects: sortByTable(projects),
+            scores, // already a keyed map from loadScores()
           });
           navigate("/judge", { replace: true });
           return;
         }
       }
-    } catch { /* IndexedDB unavailable */ }
+    } catch { /* IndexedDB blocked (private mode etc) — show form */ }
 
     // 3. Saved admin token
     const adminToken = localStorage.getItem("admin_token");
@@ -82,52 +75,52 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
       return;
     }
 
-    // 4. Show login form
-    setLoading(false);
+    // 4. Nothing found — show form
+    setPhase("form");
+    setTimeout(() => inputRef.current?.focus(), 50);
   }
 
-  // ── Submit handler — tries PIN then admin password ────────────────────────
+  // ── Form submit ───────────────────────────────────────────────────────────
   async function handleSubmit(e) {
     e.preventDefault();
     setError("");
-    setLoading(true);
+    setPhase("submitting");
 
-    if (looksLikePin) {
-      // Try judge PIN
-      if (code.length !== 6) {
-        setError("Judge PINs are exactly 6 digits.");
-        setLoading(false);
-        return;
-      }
-      setLoadingMsg("Verifying PIN…");
-      try {
-        const data = await authByPIN(code, parseInt(eventId, 10));
-        await persistJudge(data, data.token);
-        onJudgeLogin(data);
-        navigate("/judge", { replace: true });
-        return;
-      } catch {
-        setError("PIN not recognised for that event. Check your event ID or use your QR card.");
-        setLoading(false);
-        return;
-      }
-    }
-
-    // Try admin password
-    setLoadingMsg("Signing in as organizer…");
     try {
-      const data = await adminLogin(code);
-      localStorage.setItem("admin_token", data.token);
-      onAdminLogin(data);
-      navigate("/admin", { replace: true });
-    } catch {
-      setError("Incorrect password.");
-      setLoading(false);
+      if (looksLikePin) {
+        if (code.length !== 6) {
+          setError("Enter your full 6-digit PIN.");
+          setPhase("form");
+          return;
+        }
+        setLoadingMsg("Verifying PIN…");
+        const data = await authByPIN(code, parseInt(eventId, 10));
+        const ready = await buildJudgeState(data, data.token);
+        onJudgeLogin(ready);
+        navigate("/judge", { replace: true });
+      } else {
+        setLoadingMsg("Signing in as organizer…");
+        const data = await adminLogin(code);
+        localStorage.setItem("admin_token", data.token);
+        onAdminLogin(data);
+        navigate("/admin", { replace: true });
+      }
+    } catch (err) {
+      const msg = err?.message || "";
+      if (looksLikePin) {
+        setError("PIN not recognised. Double-check your event ID, or ask the organizer.");
+      } else {
+        setError("Incorrect password.");
+      }
+      setPhase("form");
     }
   }
 
   // ── Helpers ───────────────────────────────────────────────────────────────
-  async function persistJudge(data, token) {
+
+  // Persist to IndexedDB and return a dashboard-ready state object.
+  // Critically: converts server scores array → keyed map before returning.
+  async function buildJudgeState(data, token) {
     if (token) localStorage.setItem("judge_token", token);
     await saveProfile({ judge: data.judge, event: data.event, token, savedAt: Date.now() });
     if (data.projects?.length) await saveProjects(data.projects);
@@ -136,14 +129,25 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
         await saveScore(s.judge_id, s.project_id, { ...s, syncStatus: "synced" });
       }
     }
+    // Always read back from IndexedDB — gives us the correct keyed-map format
+    const [projects, scores] = await Promise.all([
+      data.projects?.length ? Promise.resolve(data.projects) : loadProjects(),
+      loadScores(),
+    ]);
+    return {
+      judge: data.judge,
+      event: data.event,
+      projects: sortByTable(projects),
+      scores, // keyed map: "judge_1_project_3" → score object
+    };
   }
 
-  function sortProjects(p) {
-    return [...p].sort((a, b) => (parseInt(a.table_number) || 0) - (parseInt(b.table_number) || 0));
+  function sortByTable(list) {
+    return [...list].sort((a, b) => (parseInt(a.table_number) || 0) - (parseInt(b.table_number) || 0));
   }
 
-  // ── Loading state ─────────────────────────────────────────────────────────
-  if (loading) {
+  // ── Loading / booting screen ──────────────────────────────────────────────
+  if (phase === "booting" || phase === "submitting") {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 to-blue-950 flex items-center justify-center">
         <div className="text-center text-white">
@@ -158,7 +162,6 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-blue-950 flex items-center justify-center p-4">
       <div className="w-full max-w-sm">
-        {/* Logo / wordmark */}
         <div className="text-center mb-8">
           <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-blue-900/50">
             <svg className="w-9 h-9 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -168,22 +171,15 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
             </svg>
           </div>
           <h1 className="text-2xl font-bold text-white">Hackathon Judge</h1>
-          <p className="text-blue-300 text-sm mt-1">Enter your PIN or admin password to continue</p>
+          <p className="text-blue-300 text-sm mt-1">
+            {looksLikePin === null && "Enter your 6-digit PIN or admin password"}
+            {looksLikePin === true && "Enter your 6-digit judge PIN"}
+            {looksLikePin === false && "Enter your organizer password"}
+          </p>
         </div>
 
-        {/* Card */}
         <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-2xl p-8 space-y-4">
-          {/* Contextual hint */}
-          <div className={`text-xs rounded-lg px-3 py-2 transition-colors ${
-            code === "" ? "bg-gray-50 text-gray-400" :
-            looksLikePin ? "bg-blue-50 text-blue-600" : "bg-purple-50 text-purple-600"
-          }`}>
-            {code === "" && "Judge? Enter your 6-digit PIN.  Organizer? Enter your admin password."}
-            {code !== "" && looksLikePin && "Looks like a judge PIN — enter 6 digits to continue."}
-            {code !== "" && !looksLikePin && "Looks like an admin password — sign in as organizer."}
-          </div>
-
-          {/* Event ID — only shown for PIN flow */}
+          {/* Event ID — only for PIN flow */}
           {looksLikePin && (
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Event ID</label>
@@ -196,32 +192,42 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
                 className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-center text-lg font-mono tracking-widest focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
                 required
               />
-              <p className="text-xs text-gray-400 mt-1">Ask the organizer for the event ID if unsure.</p>
+              <p className="text-xs text-gray-400 mt-1">Ask the organizer if you don't know your event ID.</p>
             </div>
           )}
 
-          {/* Code / password field */}
+          {/* Single code / password input — type stays "text" to avoid focus reset on mobile */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              {looksLikePin ? "Judge PIN" : "Access code"}
+              {looksLikePin ? "PIN" : "Access code"}
             </label>
             <input
-              type={looksLikePin ? "text" : "password"}
-              inputMode={looksLikePin ? "numeric" : "text"}
-              maxLength={looksLikePin ? 6 : undefined}
+              ref={inputRef}
+              type="text"
+              inputMode={looksLikePin === false ? "text" : "numeric"}
+              autoComplete="off"
               value={code}
-              onChange={(e) => setCode(looksLikePin ? e.target.value.replace(/\D/g, "") : e.target.value)}
-              placeholder={looksLikePin ? "000000" : "Password"}
-              className={`w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all ${
+              onChange={(e) => {
+                const v = e.target.value;
+                // Once in PIN mode, digits only
+                if (looksLikePin) {
+                  setCode(v.replace(/\D/g, "").slice(0, 6));
+                } else {
+                  setCode(v);
+                }
+              }}
+              placeholder="PIN or password"
+              className={`w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none ${
                 looksLikePin ? "text-2xl text-center tracking-[0.5em] font-mono" : "text-base"
               }`}
-              autoFocus
               required
             />
           </div>
 
           {error && (
-            <p className="text-red-600 text-sm bg-red-50 border border-red-100 px-3 py-2 rounded-lg">{error}</p>
+            <p className="text-red-600 text-sm bg-red-50 border border-red-100 px-3 py-2 rounded-lg">
+              {error}
+            </p>
           )}
 
           <button
@@ -232,8 +238,8 @@ export default function UnifiedLogin({ onJudgeLogin, onAdminLogin }) {
           </button>
         </form>
 
-        <p className="text-center text-blue-400/60 text-xs mt-6">
-          Scores are saved offline and sync automatically
+        <p className="text-center text-blue-400/50 text-xs mt-6">
+          Scores saved offline · syncs automatically
         </p>
       </div>
     </div>
