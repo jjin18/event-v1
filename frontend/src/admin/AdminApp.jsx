@@ -6,8 +6,9 @@ import ProjectsTab from "./tabs/ProjectsTab.jsx";
 import JudgesTab from "./tabs/JudgesTab.jsx";
 import LeaderboardTab from "./tabs/LeaderboardTab.jsx";
 
-export default function AdminApp() {
-  const [authed, setAuthed] = useState(false);
+// initialToken is passed from App.jsx when auth has already been resolved
+export default function AdminApp({ initialToken }) {
+  const [authed, setAuthed] = useState(!!initialToken || !!localStorage.getItem("admin_token"));
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -16,7 +17,8 @@ export default function AdminApp() {
   const [activeTab, setActiveTab] = useState("setup");
 
   useEffect(() => {
-    const t = localStorage.getItem("admin_token");
+    if (initialToken) localStorage.setItem("admin_token", initialToken);
+    const t = initialToken || localStorage.getItem("admin_token");
     if (t) {
       setAuthed(true);
       loadEvents();

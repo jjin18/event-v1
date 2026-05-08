@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import TopBar from "../layout/TopBar.jsx";
 import LeftPanel from "./LeftPanel.jsx";
 import ScoringArea from "./ScoringArea.jsx";
-import { onSyncStatusChange, startSyncPoller } from "../lib/sync.js";
-import { scoreKey } from "../lib/db.js";
+import { onSyncStatusChange, startSyncPoller, flushQueue } from "../lib/sync.js";
+import { scoreKey, saveProjects, saveScore, loadScores } from "../lib/db.js";
+import { fetchJudgeProjects, fetchJudgeScores } from "../lib/api.js";
 
-export default function Dashboard({ judge, event, projects, scores: initialScores }) {
+export default function Dashboard({ judge, event, projects: initialProjects, scores: initialScores }) {
+  const [projects, setProjects] = useState(initialProjects || []);
   const [scores, setScores] = useState(initialScores || {});
   const [syncStatus, setSyncStatus] = useState("synced");
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -19,8 +21,39 @@ export default function Dashboard({ judge, event, projects, scores: initialScore
   useEffect(() => {
     startSyncPoller();
     const unsub = onSyncStatusChange(setSyncStatus);
+
+    // Background: flush any queued offline scores, then pull fresh server state
+    flushQueue().then(() => refreshFromServer());
+
     return unsub;
   }, []);
+
+  async function refreshFromServer() {
+    try {
+      const [projRes, scoresRes] = await Promise.all([
+        fetchJudgeProjects(),
+        fetchJudgeScores(),
+      ]);
+
+      if (projRes?.projects?.length) {
+        const sorted = projRes.projects.sort(
+          (a, b) => (parseInt(a.table_number) || 0) - (parseInt(b.table_number) || 0)
+        );
+        await saveProjects(sorted);
+        setProjects(sorted);
+      }
+
+      if (scoresRes?.scores?.length) {
+        for (const s of scoresRes.scores) {
+          await saveScore(s.judge_id, s.project_id, { ...s, syncStatus: "synced" });
+        }
+        const fresh = await loadScores();
+        setScores(fresh);
+      }
+    } catch {
+      // Offline or server error — local state is the source of truth
+    }
+  }
 
   function handleScoreSaved(judgeId, projectId, data) {
     const k = scoreKey(judgeId, projectId);
