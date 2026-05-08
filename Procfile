@@ -1,1 +1,1 @@
-web: sh start.sh
+web: sh -c 'python -m uvicorn apps.api.main:app --host 0.0.0.0 --port ${PORT:-8000}'
