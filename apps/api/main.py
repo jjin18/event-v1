@@ -337,40 +337,138 @@ table.list tr:hover .row-actions{opacity:1}
 @keyframes spin{to{transform:rotate(360deg)}}
 .kbd-hint{font-size:11px;color:var(--text-3);margin-left:4px}
 
-/* Notes tab — Notion-style sidebar layout */
-.notes-layout{display:flex;gap:0;min-height:600px;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--bg)}
-.notes-sidebar{width:230px;flex-shrink:0;border-right:1px solid var(--border);background:var(--bg-alt);display:flex;flex-direction:column}
-.notes-sidebar-header{display:flex;align-items:center;justify-content:space-between;padding:12px 12px 8px;border-bottom:1px solid var(--border)}
-.notes-sidebar-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-2)}
-.notes-add-btn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:0;background:none;border-radius:var(--r-sm);cursor:pointer;color:var(--text-2);font-size:18px;line-height:1;padding:0;transition:all var(--t)}
-.notes-add-btn:hover{background:var(--bg-soft);color:var(--text)}
-.notes-page-list{flex:1;overflow-y:auto;padding:6px;outline:0}
-.notes-page-item{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:var(--r-sm);cursor:pointer;font-size:13px;color:var(--text);transition:background var(--t);white-space:nowrap;overflow:hidden;position:relative;outline:0}
-.notes-page-item:hover,.notes-page-item:focus-within{background:var(--bg-soft)}
-.notes-page-item.active{background:rgba(0,0,0,0.06);font-weight:500}
-.notes-page-item.focused{outline:2px solid var(--text);outline-offset:-2px}
-.notes-page-item .page-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center;user-select:none}
-.notes-page-item .page-title{flex:1;overflow:hidden;text-overflow:ellipsis}
-.notes-page-item .page-actions{display:flex;align-items:center;gap:2px;opacity:0;transition:opacity var(--t);flex-shrink:0}
-.notes-page-item:hover .page-actions,.notes-page-item.active .page-actions{opacity:1}
-.notes-page-item .page-del{border:0;background:none;padding:2px 5px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:14px;line-height:1;transition:all var(--t)}
-.notes-page-item .page-del:hover{color:var(--text);background:var(--bg)}
-.notes-rename-input{border:0;outline:0;background:transparent;font:500 13px var(--font);color:var(--text);width:100%;padding:0;min-width:0}
-.notes-empty-sidebar{padding:24px 12px;font-size:12px;color:var(--text-3);text-align:center;line-height:1.6}
-.notes-main{flex:1;display:flex;flex-direction:column;min-width:0;background:var(--bg);animation:fadeIn var(--t)}
-.notes-editor{flex:1;padding:48px 56px 64px;display:flex;flex-direction:column}
-.notes-title-input{border:0;outline:0;font:600 30px/1.2 var(--font);letter-spacing:-0.02em;color:var(--text);background:transparent;width:100%;padding:0 0 16px;resize:none;overflow:hidden;min-height:44px}
+/* ── Persistent app sidebar (Notion-style) ── */
+body{display:flex;align-items:flex-start}
+#app-sidebar{width:240px;flex-shrink:0;background:#F7F7F5;border-right:1px solid var(--border);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto;z-index:20}
+#app-main{flex:1;min-width:0;overflow-x:hidden}
+.sb-top{padding:12px 8px 4px;display:flex;align-items:center;gap:6px}
+.sb-workspace{font-size:13px;font-weight:600;color:var(--text);padding:4px 8px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb-section{padding:8px 12px 2px;font-size:11px;font-weight:500;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em;user-select:none}
+.sb-list{flex:1;overflow-y:auto;padding:2px 4px}
+.sb-item{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:var(--r-sm);cursor:pointer;font-size:13.5px;color:var(--text);transition:background 80ms;white-space:nowrap;overflow:hidden;user-select:none;outline:0;position:relative}
+.sb-item:hover{background:rgba(55,53,47,0.07)}
+.sb-item.active{background:rgba(55,53,47,0.09);font-weight:500}
+.sb-item .si-icon{font-size:15px;flex-shrink:0;width:20px;text-align:center;line-height:1}
+.sb-item .si-title{flex:1;overflow:hidden;text-overflow:ellipsis}
+.sb-item .si-del{opacity:0;border:0;background:none;padding:1px 5px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:14px;line-height:1;flex-shrink:0;transition:all 80ms}
+.sb-item:hover .si-del{opacity:1}
+.sb-item .si-del:hover{color:var(--text);background:rgba(55,53,47,0.1)}
+.sb-rename-input{border:0;outline:0;background:transparent;font:500 13.5px var(--font);color:var(--text);width:100%;padding:0;min-width:0}
+.sb-new-btn{display:flex;align-items:center;gap:8px;padding:8px 16px 12px;border:0;background:none;cursor:pointer;color:var(--text-3);font:13px var(--font);width:100%;text-align:left;transition:color 80ms;flex-shrink:0}
+.sb-new-btn:hover{color:var(--text)}
+.sb-new-btn .sb-plus{font-size:16px;line-height:1;width:20px;text-align:center}
+/* ── Event workspace (8 widgets) ── */
+.ew-section-header{padding:32px 0 16px;border-bottom:2px solid var(--border);margin-bottom:8px}
+.ew-section-title{font:700 20px/1.2 var(--font);color:var(--text);margin:0}
+.ew-widget{border:1px solid var(--border);border-radius:var(--r);margin-top:20px;background:var(--bg);overflow:hidden}
+.ew-widget.ew-dragging{opacity:0.35}
+.ew-widget.ew-drag-over{box-shadow:0 0 0 2px #4A90D9;background:rgba(74,144,217,0.03)}
+.ew-whead{display:flex;align-items:center;gap:8px;padding:10px 14px;background:var(--bg-alt);border-bottom:1px solid var(--border);user-select:none}
+.ew-collapsed .ew-whead{border-bottom:0}
+.ew-collapsed .ew-wbody{display:none}
+.ew-drag{cursor:grab;color:var(--text-3);font-size:15px;line-height:1;flex-shrink:0;padding:0 2px}
+.ew-drag:active{cursor:grabbing}
+.ew-collapse-btn{border:0;background:none;padding:2px 5px;cursor:pointer;color:var(--text-2);font-size:12px;line-height:1;border-radius:4px;transition:all 80ms;flex-shrink:0}
+.ew-collapse-btn:hover{background:var(--bg-soft)}
+.ew-whead-icon{font-size:15px;flex-shrink:0}
+.ew-whead-title{font:600 14px var(--font);color:var(--text);flex:1}
+.ew-wmeta{font-size:12px;color:var(--text-3);margin-right:4px;white-space:nowrap}
+.ew-whead-del{border:0;background:none;padding:3px 7px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:13px;line-height:1;transition:all 80ms;flex-shrink:0}
+.ew-whead-del:hover{color:var(--text);background:var(--bg-soft)}
+.ew-wbody{padding:16px 18px}
+.ew-inp{font:inherit;padding:6px 10px;border:1px solid var(--border);border-radius:var(--r-sm);background:var(--bg);color:var(--text);font-size:13px;transition:border-color var(--t);box-sizing:border-box}
+.ew-inp:focus{outline:0;border-color:var(--text)}
+.ew-inp-num{width:90px}
+.ew-inp-time{width:95px}
+.ew-inp-flex{flex:1;min-width:0;width:100%}
+.ew-sel{font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r-sm);background:var(--bg);color:var(--text);font-size:13px;cursor:pointer}
+.ew-textarea{width:100%;border:0;outline:0;font:400 14px/1.65 var(--font);color:var(--text);background:transparent;resize:none;min-height:120px;padding:0;box-sizing:border-box}
+.ew-textarea::placeholder{color:var(--text-3)}
+.ew-table{width:100%;border-collapse:collapse;font-size:13px}
+.ew-table th{font:600 11px var(--font);text-transform:uppercase;letter-spacing:0.05em;color:var(--text-3);padding:0 8px 8px 0;text-align:left;white-space:nowrap}
+.ew-table td{padding:4px 8px 4px 0;vertical-align:middle;border-bottom:1px solid var(--border)}
+.ew-table tr:last-child td{border-bottom:0}
+.ew-row-del{border:0;background:none;padding:2px 5px;border-radius:4px;cursor:pointer;color:var(--text-3);font-size:14px;line-height:1;flex-shrink:0;transition:all 80ms}
+.ew-row-del:hover{color:var(--text);background:var(--bg-alt)}
+.ew-add-row-btn{margin-top:10px;border:0;background:none;padding:4px 0;cursor:pointer;color:var(--text-2);font:500 13px var(--font);transition:color 80ms;display:block}
+.ew-add-row-btn:hover{color:var(--text)}
+.ew-status{display:inline-block;padding:3px 9px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;user-select:none;white-space:nowrap}
+.ew-status.pending{background:#FFF3CD;color:#856404}
+.ew-status.paid{background:#D4EDDA;color:#155724}
+.ew-status.overdue{background:#F8D7DA;color:#721C24}
+.ew-status.confirmed{background:#D4EDDA;color:#155724}
+.ew-status.scouting{background:#E2E3E5;color:#383D41}
+.ew-status.contacted{background:#D1ECF1;color:#0C5460}
+.ew-status.booked{background:#D4EDDA;color:#155724}
+.ew-status.gold{background:#FFF3CD;color:#856404}
+.ew-status.silver{background:#E2E3E5;color:#383D41}
+.ew-status.bronze{background:#FDEBD0;color:#784212}
+.ew-status.custom{background:#E8D5F5;color:#5B2C7A}
+.ew-totals-row{display:flex;gap:24px;margin-top:14px;padding-top:14px;border-top:2px solid var(--border)}
+.ew-total-item{display:flex;flex-direction:column;gap:2px}
+.ew-total-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-3)}
+.ew-total-val{font:700 20px var(--font);color:var(--text)}
+.ew-total-val.over{color:#C0392B}
+.ew-sched-endtime{font-size:12px;color:var(--text-3);white-space:nowrap;min-width:50px;display:inline-block}
+.ew-check-progress{font-size:12px;color:var(--text-3);margin-bottom:10px;font-weight:500}
+.ew-check-row{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--border)}
+.ew-check-row:last-child{border-bottom:0}
+.ew-check-row.done .ew-check-label-inp{text-decoration:line-through;color:var(--text-3)}
+.ew-check-cb{width:16px;height:16px;cursor:pointer;flex-shrink:0;accent-color:var(--accent)}
+.ew-check-label-inp{border:0;outline:0;font:400 13px var(--font);color:var(--text);background:transparent;flex:1;min-width:0}
+.ew-venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.ew-venue-field{display:flex;flex-direction:column;gap:4px}
+.ew-field-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-3)}
+.ew-add-section{margin-top:28px;padding-top:4px}
+.ew-add-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-3);margin-bottom:10px}
+.ew-tiles{display:flex;flex-wrap:wrap;gap:8px}
+.ew-tile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:10px 14px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);cursor:pointer;transition:all 80ms;text-align:left;min-width:108px}
+.ew-tile:hover{border-color:#4A90D9;background:var(--bg-alt)}
+.ew-tile-icon{font-size:18px;line-height:1}
+.ew-tile-label{font:600 13px var(--font);color:var(--text);margin-top:4px}
+.ew-tile-desc{font-size:11px;color:var(--text-3)}
+/* Custom event page (uses note-view shell) */
+.ew-evp-page{padding:60px 80px 80px;max-width:980px;width:100%;margin:0 auto;box-sizing:border-box}
+/* Note editor (full view when a note page is active) */
+#note-view{display:none;min-height:100vh;background:var(--bg)}
+#note-editor-wrap{display:flex;flex-direction:column}
+.notes-editor{padding:60px 80px 80px;display:flex;flex-direction:column;max-width:860px;width:100%;margin:0 auto;box-sizing:border-box}
+.notes-icon-row{display:flex;align-items:center;margin-bottom:8px;min-height:40px}
+.notes-icon-btn{font-size:36px;line-height:1;background:none;border:0;padding:4px;border-radius:var(--r-sm);cursor:pointer;transition:background 80ms;position:relative}
+.notes-icon-btn:hover{background:var(--bg-alt)}
+.notes-icon-btn .icon-tooltip{position:absolute;bottom:-24px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;color:var(--text-3);pointer-events:none;opacity:0;transition:opacity var(--t)}
+.notes-icon-btn:hover .icon-tooltip{opacity:1}
+.notes-title-input{border:0;outline:0;font:700 40px/1.15 var(--font);letter-spacing:-0.02em;color:var(--text);background:transparent;width:100%;padding:0 0 4px;resize:none;overflow:hidden;min-height:52px}
 .notes-title-input::placeholder{color:var(--text-3)}
-.notes-divider{height:1px;background:var(--border);margin:0 0 20px;flex-shrink:0}
-.notes-body-input{border:0;outline:0;font:400 15px/1.75 var(--font);color:var(--text);background:transparent;width:100%;flex:1;resize:none;min-height:360px;padding:0}
+.notes-body-input{border:0;outline:0;font:400 16px/1.7 var(--font);color:var(--text);background:transparent;width:100%;resize:none;min-height:500px;padding:16px 0 0}
 .notes-body-input::placeholder{color:var(--text-3)}
-.notes-no-page{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:40px;color:var(--text-3)}
-.notes-no-page .hint{font-size:13px}
-.notes-footer{padding:8px 12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-3);display:flex;align-items:center;justify-content:space-between}
-.notes-kb{display:inline-flex;gap:10px}
-.notes-kb kbd{display:inline-block;padding:1px 5px;border:1px solid var(--border);border-radius:3px;font-size:10px;font-family:inherit;background:var(--bg-soft)}
+/* Emoji picker */
+.notes-emoji-picker{position:fixed;z-index:60;background:var(--bg);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow-pop);padding:10px;display:none;width:248px}
+.notes-emoji-picker.show{display:block;animation:fadeIn var(--t)}
+.notes-emoji-picker .ep-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:2px}
+.notes-emoji-picker .ep-cell{font-size:20px;text-align:center;padding:5px 2px;border-radius:4px;cursor:pointer;border:0;background:none;transition:background 60ms;line-height:1}
+.notes-emoji-picker .ep-cell:hover{background:var(--bg-alt)}
 </style>
 </head><body>
+
+<!-- Persistent sidebar -->
+<aside id="app-sidebar">
+  <div class="sb-top">
+    <span class="sb-workspace">Eventful</span>
+  </div>
+  <div class="sb-section">Pages</div>
+  <div class="sb-list" id="sb-list"></div>
+  <button class="sb-new-btn" onclick="sbAddPage()">
+    <span class="sb-plus">+</span> New page
+  </button>
+</aside>
+
+<div id="app-main">
+
+<!-- Note view (shown when a note page is active in sidebar) -->
+<div id="note-view">
+  <div id="note-editor-wrap"></div>
+</div>
 
 <div class="container">
 
@@ -426,7 +524,6 @@ table.list tr:hover .row-actions{opacity:1}
       <button class="tab" data-tab="org" onclick="switchTab('org')">Organization</button>
       <button class="tab" data-tab="budget" onclick="switchTab('budget')">Budget</button>
       <button class="tab" data-tab="attendees" onclick="switchTab('attendees')">Attendees</button>
-      <button class="tab" data-tab="notes" onclick="switchTab('notes')">Notes</button>
     </nav>
   </div>
 </div>
@@ -556,36 +653,19 @@ table.list tr:hover .row-actions{opacity:1}
   <div id="att-list-wrap"></div>
 </section>
 
-<!-- TAB: Notes -->
-<section class="tab-panel" id="panel-notes">
-  <div class="notes-layout">
-    <aside class="notes-sidebar">
-      <div class="notes-sidebar-header">
-        <span class="notes-sidebar-title">Pages</span>
-        <button class="notes-add-btn" onclick="notesAddPage()" title="New page">+</button>
-      </div>
-      <div class="notes-page-list" id="notes-page-list" tabindex="0">
-        <div class="notes-empty-sidebar">No pages yet.<br>Click + to create one.</div>
-      </div>
-      <div class="notes-footer">
-        <span class="notes-kb">
-          <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
-          <span><kbd>↵</kbd> open</span>
-        </span>
-      </div>
-    </aside>
-    <div class="notes-main" id="notes-main">
-      <div class="notes-no-page">
-        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        <span class="hint">Click + to create your first page</span>
-      </div>
-    </div>
-  </div>
-</section>
-
 </main>
 
+</div><!-- /.container -->
+
+<!-- Event workspace (shown below AI tabs for main event) -->
+<div class="container" id="ew-workspace-container">
+  <div id="event-workspace"></div>
 </div>
+
+</div><!-- /#app-main -->
+
+<!-- Emoji picker (fixed, global) -->
+<div class="notes-emoji-picker" id="notes-emoji-picker"></div>
 
 <!-- Date popover -->
 <div class="popover" id="date-popover">
@@ -1013,6 +1093,7 @@ eventNameEl.addEventListener('blur', async () => {
   }
   await fetch('/event/info',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:newName})});
   await loadEventMeta();
+  sbSyncEventTitle(newName);
 });
 
 // ---------- Date popover ----------
@@ -1121,205 +1202,566 @@ function switchTab(name){
   stopAttendeePoll();
   if(name === 'budget') loadBudget();
   if(name === 'attendees'){ loadAttendees(); startAttendeePoll(); }
-  if(name === 'notes') notesInit();
   if(name === 'ei' && ALL_PEOPLE.length === 0){
     document.getElementById('result').innerHTML = emptyState('No prospects yet','Run a brief above to source attendees.','people');
   }
 }
 
-// ---------- Notes tab ----------
-const NOTES_KEY = 'eventful_notes_v1';
-let NOTES_PAGES = [];
-let NOTES_ACTIVE_ID = null;
-let NOTES_FOCUSED_IDX = -1; // keyboard-focused sidebar index
+// ---------- Persistent sidebar ----------
+const SB_KEY = 'eventful_sidebar_v1';
+const SB_DEFAULT_ICON = '🎯';
+const NOTES_EMOJIS = ['📄','📝','📋','📌','🗒️','🗓️','💡','🎯','✅','🔖','📊','📈','🗂️','💬','🔍','⭐','🚀','🎉','🏷️','📎','✏️','📐','🔧','💻','🌐','🧠','🎨','📚','🔑','💼','🗺️','⚡','🌟','🏆','📣','🔔','❤️','🤝','🌱','💎'];
+
+
+let SB_PAGES = [];
+let SB_ACTIVE_ID = null;
+let SB_RENAMING_ID = null;
 let NOTES_SAVE_TIMER = null;
-let NOTES_RENAMING_ID = null; // page currently being inline-renamed in sidebar
+let NOTES_EMOJI_TARGET_ID = null;
 
-function notesLoad(){
-  try{ NOTES_PAGES = JSON.parse(localStorage.getItem(NOTES_KEY) || '[]'); }
-  catch(_){ NOTES_PAGES = []; }
-}
-function notesSave(){
-  localStorage.setItem(NOTES_KEY, JSON.stringify(NOTES_PAGES));
-}
-function notesInit(){
-  notesLoad();
-  notesRenderSidebar();
-  if(NOTES_ACTIVE_ID && NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID)){
-    notesOpenPage(NOTES_ACTIVE_ID, false);
-  } else if(NOTES_PAGES.length > 0){
-    notesOpenPage(NOTES_PAGES[0].id, false);
-  } else {
-    notesShowEmpty();
+function sbLoad(){
+  try{ SB_PAGES = JSON.parse(localStorage.getItem(SB_KEY) || '[]'); }
+  catch(_){ SB_PAGES = []; }
+  if(!SB_PAGES.find(p => p.id === 'event_main')){
+    SB_PAGES.unshift({id:'event_main', type:'event', isMain:true, icon:SB_DEFAULT_ICON, title:'My Event'});
+    sbSave();
   }
-  // Attach keyboard nav to sidebar list
-  const list = document.getElementById('notes-page-list');
-  list.addEventListener('keydown', notesSidebarKeydown);
+}
+function sbSave(){ localStorage.setItem(SB_KEY, JSON.stringify(SB_PAGES)); }
+
+function sbInit(){
+  sbLoad();
+  sbRender();
+  const stored = localStorage.getItem('eventful_sb_active');
+  const found = stored && SB_PAGES.find(p => p.id === stored);
+  sbActivate(found ? stored : 'event_main', false);
+  document.addEventListener('mousedown', e => {
+    const picker = document.getElementById('notes-emoji-picker');
+    if(picker && picker.classList.contains('show') && !picker.contains(e.target) && !e.target.closest('.notes-icon-btn'))
+      notesCloseEmojiPicker();
+  });
 }
 
-function notesRenderSidebar(renamingId){
-  const list = document.getElementById('notes-page-list');
-  if(!NOTES_PAGES.length){
-    list.innerHTML = '<div class="notes-empty-sidebar">No pages yet.<br>Click + to create one.</div>';
-    NOTES_FOCUSED_IDX = -1;
-    return;
-  }
-  list.innerHTML = NOTES_PAGES.map((p, i) => {
-    const isActive = p.id === NOTES_ACTIVE_ID;
-    const isFocused = i === NOTES_FOCUSED_IDX;
-    const cls = ['notes-page-item', isActive?'active':'', isFocused?'focused':''].filter(Boolean).join(' ');
-    const isRenaming = p.id === renamingId;
-    if(isRenaming){
-      return `<div class="${cls}" data-id="${p.id}" data-idx="${i}">
-        <span class="page-icon">📄</span>
-        <input class="notes-rename-input" id="notes-rename-${p.id}" value="${escapeHtml(p.title)}" placeholder="Untitled"
-          onblur="notesCommitRename('${p.id}',this.value)"
+function sbRender(renamingId){
+  const list = document.getElementById('sb-list');
+  list.innerHTML = SB_PAGES.map(p => {
+    const isActive = p.id === SB_ACTIVE_ID;
+    const cls = 'sb-item' + (isActive ? ' active' : '');
+    const icon = p.icon || SB_DEFAULT_ICON;
+    if(p.id === renamingId){
+      return `<div class="${cls}" data-id="${p.id}">
+        <span class="si-icon">${icon}</span>
+        <input class="sb-rename-input" id="sb-rename-${p.id}" value="${escapeHtml(p.title||'')}" placeholder="Untitled event"
+          onblur="sbCommitRename('${p.id}',this.value)"
           onkeydown="if(event.key==='Enter'||event.key==='Escape'){event.preventDefault();this.blur()}">
       </div>`;
     }
-    const title = p.title || 'Untitled';
-    return `<div class="${cls}" data-id="${p.id}" data-idx="${i}" tabindex="0"
-        onclick="notesOpenPage('${p.id}')"
-        onkeydown="if(event.key==='Enter')notesOpenPage('${p.id}')"
-        onfocus="NOTES_FOCUSED_IDX=${i}">
-      <span class="page-icon">📄</span>
-      <span class="page-title">${escapeHtml(title)}</span>
-      <span class="page-actions">
-        <button class="page-del" onclick="event.stopPropagation();notesDeletePage('${p.id}')" title="Delete page">×</button>
-      </span>
+    const title = p.title || 'Untitled event';
+    const delBtn = !p.isMain ? `<button class="si-del" onclick="event.stopPropagation();sbDeletePage('${p.id}')" title="Delete">×</button>` : '';
+    return `<div class="${cls}" data-id="${p.id}" onclick="sbActivate('${p.id}')">
+      <span class="si-icon">${icon}</span>
+      <span class="si-title">${escapeHtml(title)}</span>
+      ${delBtn}
     </div>`;
   }).join('');
-
   if(renamingId){
-    const inp = document.getElementById('notes-rename-' + renamingId);
-    if(inp){ inp.focus(); inp.select(); }
+    const inp = document.getElementById('sb-rename-' + renamingId);
+    if(inp) setTimeout(()=>{inp.focus();inp.select();}, 0);
   }
 }
 
-function notesAddPage(){
-  const id = 'note_' + Date.now();
-  NOTES_PAGES.push({id, title:'', body:'', created: new Date().toISOString()});
-  NOTES_ACTIVE_ID = id;
-  NOTES_RENAMING_ID = id;
-  notesSave();
-  notesRenderSidebar(id); // renders with inline rename input
-  notesOpenPage(id, false); // open editor (blank) in background
+function sbActivate(id, save=true){
+  // flush any pending workspace save
+  if(EW_SAVE_TIMER){ clearTimeout(EW_SAVE_TIMER); EW_SAVE_TIMER=null; ewSave(); }
+  SB_ACTIVE_ID = id;
+  if(save) localStorage.setItem('eventful_sb_active', id);
+  const page = SB_PAGES.find(p => p.id === id);
+  if(!page) return;
+  sbRender(SB_RENAMING_ID || undefined);
+  const noteView = document.getElementById('note-view');
+  const eventEls = document.querySelectorAll('#app-main > .container, #app-main > .sticky-bar');
+  if(page.isMain){
+    noteView.style.display = 'none';
+    eventEls.forEach(el => el.style.display = '');
+    ewRenderMain();
+  } else {
+    eventEls.forEach(el => el.style.display = 'none');
+    noteView.style.display = 'block';
+    ewRenderPage(page);
+  }
 }
 
-function notesCommitRename(id, rawTitle){
-  NOTES_RENAMING_ID = null;
-  const page = NOTES_PAGES.find(p => p.id === id);
+// + New page → always creates a new event (not a note)
+function sbAddPage(){
+  const id = 'event_' + Date.now();
+  SB_PAGES.push({id, type:'event', isMain:false, icon:'📋', title:'', widgets:[], created:new Date().toISOString()});
+  SB_RENAMING_ID = id;
+  sbSave();
+  sbRender(id);
+  sbActivate(id);
+}
+
+function sbCommitRename(id, rawTitle){
+  SB_RENAMING_ID = null;
+  const page = SB_PAGES.find(p => p.id === id);
   if(!page) return;
   page.title = rawTitle.trim();
-  notesSave();
-  notesRenderSidebar(); // back to normal render
-  // Sync to editor title if this page is open
-  const titleEl = document.getElementById('notes-title');
-  if(titleEl && NOTES_ACTIVE_ID === id) titleEl.value = page.title;
-  // Focus body if page is open
-  setTimeout(() => {
-    const bodyEl = document.getElementById('notes-body');
-    if(bodyEl) bodyEl.focus();
-  }, 40);
+  sbSave();
+  sbRender();
+  const titleEl = document.getElementById('evp-title');
+  if(titleEl && SB_ACTIVE_ID === id){ titleEl.value = page.title; notesAutoResize(titleEl); }
 }
 
-function notesDeletePage(id){
-  const idx = NOTES_PAGES.findIndex(p => p.id === id);
-  NOTES_PAGES = NOTES_PAGES.filter(p => p.id !== id);
-  notesSave();
-  if(NOTES_ACTIVE_ID === id){
-    NOTES_ACTIVE_ID = null;
-    const next = NOTES_PAGES[Math.min(idx, NOTES_PAGES.length - 1)];
-    if(next) notesOpenPage(next.id);
-    else notesShowEmpty();
+function sbDeletePage(id){
+  const idx = SB_PAGES.findIndex(p => p.id === id);
+  SB_PAGES = SB_PAGES.filter(p => p.id !== id);
+  sbSave();
+  if(SB_ACTIVE_ID === id){
+    SB_ACTIVE_ID = null;
+    const next = SB_PAGES[Math.max(0, idx-1)] || SB_PAGES[0];
+    if(next) sbActivate(next.id);
+  } else { sbRender(); }
+}
+
+function sbSyncEventTitle(name){
+  const page = SB_PAGES.find(p => p.isMain);
+  if(!page || page.title === name) return;
+  page.title = name; sbSave(); sbRender();
+}
+
+// ---------- Event workspace (8 widgets) ----------
+const EW_KEY = 'eventful_workspace_v1';
+const EW_WIDGETS_DEF = [
+  {id:'overview',  icon:'📋', label:'Overview',       desc:'Event overview & notes'},
+  {id:'budget',    icon:'💰', label:'Budget Tracker', desc:'Items, costs & totals'},
+  {id:'schedule',  icon:'📅', label:'Schedule',       desc:'Time blocks & agenda'},
+  {id:'venue',     icon:'🏢', label:'Venue',          desc:'Venue details'},
+  {id:'team',      icon:'👥', label:'Team',           desc:'Members & roles'},
+  {id:'checklist', icon:'✅', label:'Checklist',      desc:'Tasks & to-dos'},
+  {id:'sponsors',  icon:'🤝', label:'Sponsors',       desc:'Sponsorship tracking'},
+  {id:'links',     icon:'🔗', label:'Notes / Links',  desc:'Notes & resources'},
+];
+const EW_DEFS = {
+  overview: ()=>({body:''}),
+  budget:   ()=>({items:[]}),
+  schedule: ()=>({blocks:[]}),
+  venue:    ()=>({name:'',address:'',capacity:'',contact:'',notes:''}),
+  team:     ()=>({members:[]}),
+  checklist:()=>({items:[]}),
+  sponsors: ()=>({items:[]}),
+  links:    ()=>({body:''}),
+};
+
+let EW_ALL = {};
+let EW_SAVE_TIMER = null;
+
+function ewLoad(){ try{ EW_ALL=JSON.parse(localStorage.getItem(EW_KEY)||'{}'); }catch(_){ EW_ALL={}; } }
+function ewSave(){ localStorage.setItem(EW_KEY, JSON.stringify(EW_ALL)); }
+function ewDebounceSave(){ if(EW_SAVE_TIMER) clearTimeout(EW_SAVE_TIMER); EW_SAVE_TIMER=setTimeout(ewSave,400); }
+
+function ewPageData(pid){
+  if(!EW_ALL[pid]) EW_ALL[pid]={widgets:[],collapsed:{}};
+  if(!EW_ALL[pid].collapsed) EW_ALL[pid].collapsed={};
+  return EW_ALL[pid];
+}
+
+function ewInitMainWidgets(){
+  const d=ewPageData('event_main');
+  if(d.widgets.length===0){
+    EW_WIDGETS_DEF.forEach(def=>d.widgets.push({id:def.id,...EW_DEFS[def.id]()}));
+    ewSave();
   }
-  notesRenderSidebar();
 }
 
-function notesOpenPage(id, focusBody=true){
-  NOTES_ACTIVE_ID = id;
-  const page = NOTES_PAGES.find(p => p.id === id);
-  if(!page) return;
-  notesRenderSidebar(NOTES_RENAMING_ID || undefined);
-  const main = document.getElementById('notes-main');
-  main.innerHTML = `<div class="notes-editor">
-    <textarea id="notes-title" class="notes-title-input" rows="1" placeholder="Untitled"
-      oninput="notesAutoResize(this);notesSyncTitle()">${escapeHtml(page.title)}</textarea>
-    <div class="notes-divider"></div>
-    <textarea id="notes-body" class="notes-body-input" placeholder="Start writing…"
-      oninput="notesDebounceSave()">${escapeHtml(page.body)}</textarea>
+function ewRenderMain(){
+  const el=document.getElementById('event-workspace'); if(!el) return;
+  ewInitMainWidgets();
+  const d=ewPageData('event_main');
+  el.innerHTML=`<div class="ew-section-header"><h2 class="ew-section-title">Event Workspace</h2></div>`+ewWorkspaceHTML('event_main',d);
+  ewSetupDrag('event_main');
+}
+
+function ewRenderPage(page){
+  const wrap=document.getElementById('note-editor-wrap'); if(!wrap) return;
+  const d=ewPageData(page.id);
+  const icon=page.icon||'📋';
+  wrap.innerHTML=`<div class="ew-evp-page">
+    <div class="notes-icon-row">
+      <button class="notes-icon-btn" onclick="notesOpenEmojiPicker(event,'${page.id}')">
+        <span id="notes-page-icon">${icon}</span><span class="icon-tooltip">Change icon</span>
+      </button>
+    </div>
+    <textarea id="evp-title" class="notes-title-input" rows="1" placeholder="Untitled event"
+      oninput="notesAutoResize(this);evpSyncTitle()">${escapeHtml(page.title||'')}</textarea>
+    ${ewWorkspaceHTML(page.id,d)}
   </div>`;
-  const titleEl = document.getElementById('notes-title');
-  notesAutoResize(titleEl);
-  // Enter in title → jump to body; Tab → jump to body
-  titleEl.addEventListener('keydown', e => {
-    if(e.key === 'Enter'){ e.preventDefault(); document.getElementById('notes-body').focus(); }
-    if(e.key === 'Tab'){ e.preventDefault(); document.getElementById('notes-body').focus(); }
+  const titleEl=document.getElementById('evp-title');
+  if(titleEl){ notesAutoResize(titleEl); }
+  ewSetupDrag(page.id);
+}
+
+function ewWorkspaceHTML(pid, d){
+  const existing=d.widgets.map(w=>w.id);
+  const addable=EW_WIDGETS_DEF.filter(def=>!existing.includes(def.id));
+  return `<div class="ew-widgets" id="ew-widgets-${pid}">${d.widgets.map((w,i)=>ewWidgetHTML(pid,w,d.collapsed[w.id],i)).join('')}</div>
+  ${addable.length?`<div class="ew-add-section">
+    <div class="ew-add-label">+ Add section</div>
+    <div class="ew-tiles">${addable.map(def=>`<button class="ew-tile" onclick="ewAddWidget('${pid}','${def.id}')">
+      <span class="ew-tile-icon">${def.icon}</span>
+      <span class="ew-tile-label">${def.label}</span>
+      <span class="ew-tile-desc">${def.desc}</span>
+    </button>`).join('')}</div>
+  </div>`:''}`;
+}
+
+function ewWidgetHTML(pid, w, collapsed, idx){
+  const def=EW_WIDGETS_DEF.find(d=>d.id===w.id); if(!def) return '';
+  const col=collapsed?'ew-collapsed':'';
+  const arrow=collapsed?'▸':'▾';
+  return `<div class="ew-widget ${col}" id="ew-w-${pid}-${w.id}" data-pid="${pid}" data-wid="${w.id}" draggable="true">
+    <div class="ew-whead">
+      <span class="ew-drag">⠿</span>
+      <button class="ew-collapse-btn" onclick="ewToggleCollapse('${pid}','${w.id}')">${arrow}</button>
+      <span class="ew-whead-icon">${def.icon}</span>
+      <span class="ew-whead-title">${def.label}</span>
+      ${ewMeta(w)}
+      <button class="ew-whead-del" onclick="ewRemoveWidget('${pid}','${w.id}')" title="Remove">✕</button>
+    </div>
+    <div class="ew-wbody">${ewWidgetBody(pid,w)}</div>
+  </div>`;
+}
+
+function ewMeta(w){
+  if(w.id==='checklist'){const tot=(w.items||[]).length,dn=(w.items||[]).filter(i=>i.done).length;if(tot>0)return`<span class="ew-wmeta">${dn}/${tot} complete</span>`;}
+  if(w.id==='budget'){const b=(w.items||[]).reduce((s,i)=>s+(+i.budgeted||0),0),a=(w.items||[]).reduce((s,i)=>s+(+i.actual||0),0);if(b>0||a>0)return`<span class="ew-wmeta">$${a.toLocaleString()} / $${b.toLocaleString()}</span>`;}
+  if(w.id==='sponsors'){const t=(w.items||[]).reduce((s,i)=>s+(+i.amount||0),0);if(t>0)return`<span class="ew-wmeta">$${t.toLocaleString()} raised</span>`;}
+  return '';
+}
+
+function ewCalcEnd(start,dur){
+  if(!start||!dur) return '—';
+  try{ const[h,m]=start.split(':').map(Number),tot=h*60+m+(+dur); return String(Math.floor(tot/60)%24).padStart(2,'0')+':'+String(tot%60).padStart(2,'0'); }
+  catch(_){ return '—'; }
+}
+
+function ewWidgetBody(pid, w){
+  if(w.id==='overview') return `<textarea class="ew-textarea" placeholder="Write event overview, goals, key details…"
+    oninput="ewField('${pid}','overview','body',this.value)">${escapeHtml(w.body||'')}</textarea>`;
+
+  if(w.id==='budget'){
+    const items=w.items||[];
+    const totB=items.reduce((s,i)=>s+(+i.budgeted||0),0);
+    const totA=items.reduce((s,i)=>s+(+i.actual||0),0);
+    const over=totA>totB&&totB>0;
+    return `<table class="ew-table"><thead><tr>
+      <th style="width:38%">Item</th><th>Budgeted</th><th>Actual</th><th>Status</th><th></th>
+    </tr></thead><tbody>${items.map((it,i)=>`<tr>
+      <td><input class="ew-inp ew-inp-flex" placeholder="Item name" value="${escapeHtml(it.name||'')}" oninput="ewListField('${pid}','budget','items',${i},'name',this.value)"></td>
+      <td><input class="ew-inp ew-inp-num" type="number" placeholder="0" value="${it.budgeted||''}" oninput="ewListField('${pid}','budget','items',${i},'budgeted',+this.value);ewBudgetTotals('${pid}')"></td>
+      <td><input class="ew-inp ew-inp-num" type="number" placeholder="0" value="${it.actual||''}" oninput="ewListField('${pid}','budget','items',${i},'actual',+this.value);ewBudgetTotals('${pid}')"></td>
+      <td><span class="ew-status ${it.status||'pending'}" onclick="ewCycleStatus('${pid}','budget','items',${i},['pending','paid','overdue'])">${it.status||'pending'}</span></td>
+      <td><button class="ew-row-del" onclick="ewListRemove('${pid}','budget','items',${i})">×</button></td>
+    </tr>`).join('')}</tbody></table>
+    <div class="ew-totals-row">
+      <div class="ew-total-item"><span class="ew-total-label">Budgeted</span><span class="ew-total-val" id="ew-bud-b-${pid}">$${totB.toLocaleString()}</span></div>
+      <div class="ew-total-item"><span class="ew-total-label">Actual</span><span class="ew-total-val${over?' over':''}" id="ew-bud-a-${pid}">$${totA.toLocaleString()}</span></div>
+    </div>
+    <button class="ew-add-row-btn" onclick="ewListAdd('${pid}','budget','items',{name:'',budgeted:0,actual:0,status:'pending'})">+ Add item</button>`;
+  }
+
+  if(w.id==='schedule'){
+    const blocks=w.blocks||[];
+    return `<table class="ew-table"><thead><tr>
+      <th>Start</th><th>End</th><th>Duration (min)</th><th>Title</th><th></th>
+    </tr></thead><tbody>${blocks.map((b,i)=>`<tr>
+      <td><input class="ew-inp ew-inp-time" type="time" value="${b.start||''}" onchange="ewListField('${pid}','schedule','blocks',${i},'start',this.value);ewSchedEnd('${pid}',${i})"></td>
+      <td><span class="ew-sched-endtime" id="ew-se-${pid}-${i}">${ewCalcEnd(b.start,b.dur)}</span></td>
+      <td><input class="ew-inp ew-inp-num" type="number" min="0" placeholder="60" value="${b.dur||''}" oninput="ewListField('${pid}','schedule','blocks',${i},'dur',+this.value);ewSchedEnd('${pid}',${i})"></td>
+      <td><input class="ew-inp ew-inp-flex" placeholder="Block title" value="${escapeHtml(b.title||'')}" oninput="ewListField('${pid}','schedule','blocks',${i},'title',this.value)"></td>
+      <td><button class="ew-row-del" onclick="ewListRemove('${pid}','schedule','blocks',${i})">×</button></td>
+    </tr>`).join('')}</tbody></table>
+    <button class="ew-add-row-btn" onclick="ewListAdd('${pid}','schedule','blocks',{start:'',dur:60,title:''})">+ Add time block</button>`;
+  }
+
+  if(w.id==='venue') return `<div class="ew-venue-grid">
+    <div class="ew-venue-field"><span class="ew-field-label">Venue Name</span><input class="ew-inp" value="${escapeHtml(w.name||'')}" placeholder="Convention Center" oninput="ewField('${pid}','venue','name',this.value)"></div>
+    <div class="ew-venue-field"><span class="ew-field-label">Address</span><input class="ew-inp" value="${escapeHtml(w.address||'')}" placeholder="123 Main St, City" oninput="ewField('${pid}','venue','address',this.value)"></div>
+    <div class="ew-venue-field"><span class="ew-field-label">Capacity</span><input class="ew-inp" type="number" value="${w.capacity||''}" placeholder="100" oninput="ewField('${pid}','venue','capacity',+this.value)"></div>
+    <div class="ew-venue-field"><span class="ew-field-label">Contact</span><input class="ew-inp" value="${escapeHtml(w.contact||'')}" placeholder="Name / email / phone" oninput="ewField('${pid}','venue','contact',this.value)"></div>
+  </div>
+  <div class="ew-venue-field"><span class="ew-field-label">Notes</span>
+    <textarea class="ew-textarea" style="min-height:80px" placeholder="Parking, AV setup, catering notes…" oninput="ewField('${pid}','venue','notes',this.value)">${escapeHtml(w.notes||'')}</textarea>
+  </div>`;
+
+  if(w.id==='team'){
+    const members=w.members||[];
+    return `<table class="ew-table"><thead><tr>
+      <th>Name</th><th>Role</th><th>Contact</th><th></th>
+    </tr></thead><tbody>${members.map((m,i)=>`<tr>
+      <td><input class="ew-inp ew-inp-flex" placeholder="Name" value="${escapeHtml(m.name||'')}" oninput="ewListField('${pid}','team','members',${i},'name',this.value)"></td>
+      <td><input class="ew-inp ew-inp-flex" placeholder="Role" value="${escapeHtml(m.role||'')}" oninput="ewListField('${pid}','team','members',${i},'role',this.value)"></td>
+      <td><input class="ew-inp ew-inp-flex" placeholder="Email / phone" value="${escapeHtml(m.contact||'')}" oninput="ewListField('${pid}','team','members',${i},'contact',this.value)"></td>
+      <td><button class="ew-row-del" onclick="ewListRemove('${pid}','team','members',${i})">×</button></td>
+    </tr>`).join('')}</tbody></table>
+    <button class="ew-add-row-btn" onclick="ewListAdd('${pid}','team','members',{name:'',role:'',contact:''})">+ Add member</button>`;
+  }
+
+  if(w.id==='checklist'){
+    const items=w.items||[];
+    const done=items.filter(i=>i.done).length;
+    return `<div class="ew-check-progress" id="ew-ck-prog-${pid}">${done}/${items.length} complete</div>
+    <div id="ew-ck-list-${pid}">${items.map((it,i)=>`<div class="ew-check-row${it.done?' done':''}">
+      <input type="checkbox" class="ew-check-cb" ${it.done?'checked':''} onchange="ewCheckToggle('${pid}',${i},this.checked)">
+      <input class="ew-check-label-inp" placeholder="Add item…" value="${escapeHtml(it.text||'')}" oninput="ewListField('${pid}','checklist','items',${i},'text',this.value)">
+      <button class="ew-row-del" onclick="ewListRemove('${pid}','checklist','items',${i})">×</button>
+    </div>`).join('')}</div>
+    <button class="ew-add-row-btn" onclick="ewListAdd('${pid}','checklist','items',{text:'',done:false})">+ Add item</button>`;
+  }
+
+  if(w.id==='sponsors'){
+    const items=w.items||[];
+    const total=items.reduce((s,i)=>s+(+i.amount||0),0);
+    return `<table class="ew-table"><thead><tr>
+      <th>Company</th><th>Tier</th><th>Amount</th><th>Status</th><th></th>
+    </tr></thead><tbody>${items.map((it,i)=>`<tr>
+      <td><input class="ew-inp ew-inp-flex" placeholder="Company" value="${escapeHtml(it.company||'')}" oninput="ewListField('${pid}','sponsors','items',${i},'company',this.value)"></td>
+      <td><select class="ew-sel" onchange="ewListField('${pid}','sponsors','items',${i},'tier',this.value)">
+        <option ${(!it.tier||it.tier==='gold')?'selected':''} value="gold">gold</option>
+        <option ${it.tier==='silver'?'selected':''} value="silver">silver</option>
+        <option ${it.tier==='bronze'?'selected':''} value="bronze">bronze</option>
+        <option ${it.tier==='custom'?'selected':''} value="custom">custom</option>
+      </select></td>
+      <td><input class="ew-inp ew-inp-num" type="number" placeholder="0" value="${it.amount||''}" oninput="ewListField('${pid}','sponsors','items',${i},'amount',+this.value);ewSponsorTotal('${pid}')"></td>
+      <td><span class="ew-status ${it.status||'pending'}" onclick="ewCycleStatus('${pid}','sponsors','items',${i},['pending','confirmed'])">${it.status||'pending'}</span></td>
+      <td><button class="ew-row-del" onclick="ewListRemove('${pid}','sponsors','items',${i})">×</button></td>
+    </tr>`).join('')}</tbody></table>
+    <div class="ew-totals-row">
+      <div class="ew-total-item"><span class="ew-total-label">Total Raised</span><span class="ew-total-val" id="ew-spon-tot-${pid}">$${total.toLocaleString()}</span></div>
+    </div>
+    <button class="ew-add-row-btn" onclick="ewListAdd('${pid}','sponsors','items',{company:'',tier:'gold',amount:0,status:'pending'})">+ Add sponsor</button>`;
+  }
+
+  if(w.id==='links') return `<textarea class="ew-textarea" placeholder="Add notes, links, resources…"
+    oninput="ewField('${pid}','links','body',this.value)">${escapeHtml(w.body||'')}</textarea>`;
+
+  return '';
+}
+
+function ewBudgetTotals(pid){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id==='budget'); if(!w) return;
+  const items=w.items||[];
+  const b=items.reduce((s,i)=>s+(+i.budgeted||0),0);
+  const a=items.reduce((s,i)=>s+(+i.actual||0),0);
+  const bEl=document.getElementById(`ew-bud-b-${pid}`);
+  const aEl=document.getElementById(`ew-bud-a-${pid}`);
+  if(bEl) bEl.textContent='$'+b.toLocaleString();
+  if(aEl){ aEl.textContent='$'+a.toLocaleString(); aEl.className='ew-total-val'+(a>b&&b>0?' over':''); }
+}
+
+function ewSponsorTotal(pid){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id==='sponsors'); if(!w) return;
+  const t=(w.items||[]).reduce((s,i)=>s+(+i.amount||0),0);
+  const el=document.getElementById(`ew-spon-tot-${pid}`);
+  if(el) el.textContent='$'+t.toLocaleString();
+}
+
+function ewSchedEnd(pid,idx){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id==='schedule'); if(!w) return;
+  const b=w.blocks[idx]; if(!b) return;
+  const el=document.getElementById(`ew-se-${pid}-${idx}`);
+  if(el) el.textContent=ewCalcEnd(b.start,b.dur);
+}
+
+function ewToggleCollapse(pid,wid){
+  const d=ewPageData(pid);
+  d.collapsed[wid]=!d.collapsed[wid];
+  const el=document.getElementById(`ew-w-${pid}-${wid}`); if(!el) return;
+  el.classList.toggle('ew-collapsed',d.collapsed[wid]);
+  const btn=el.querySelector('.ew-collapse-btn');
+  if(btn) btn.textContent=d.collapsed[wid]?'▸':'▾';
+  ewDebounceSave();
+}
+
+function ewAddWidget(pid,wid){
+  const d=ewPageData(pid);
+  d.widgets.push({id:wid,...EW_DEFS[wid]()});
+  ewSave();
+  const page=SB_PAGES.find(p=>p.id===pid);
+  if(page&&page.isMain) ewRenderMain(); else if(page) ewRenderPage(page);
+}
+
+function ewRemoveWidget(pid,wid){
+  const d=ewPageData(pid);
+  d.widgets=d.widgets.filter(w=>w.id!==wid);
+  ewSave();
+  const page=SB_PAGES.find(p=>p.id===pid);
+  if(page&&page.isMain) ewRenderMain(); else if(page) ewRenderPage(page);
+}
+
+function ewField(pid,wid,key,val){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id===wid); if(!w) return;
+  w[key]=val; ewDebounceSave();
+}
+
+function ewListField(pid,wid,listKey,idx,key,val){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id===wid); if(!w) return;
+  if(!w[listKey]) w[listKey]=[];
+  if(!w[listKey][idx]) w[listKey][idx]={};
+  w[listKey][idx][key]=val; ewDebounceSave();
+}
+
+function ewListAdd(pid,wid,listKey,defs){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id===wid); if(!w) return;
+  if(!w[listKey]) w[listKey]=[];
+  w[listKey].push({...defs});
+  ewSave();
+  const page=SB_PAGES.find(p=>p.id===pid);
+  if(page&&page.isMain) ewRenderMain(); else if(page) ewRenderPage(page);
+}
+
+function ewListRemove(pid,wid,listKey,idx){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id===wid); if(!w) return;
+  w[listKey]=(w[listKey]||[]).filter((_,i)=>i!==idx);
+  ewSave();
+  const page=SB_PAGES.find(p=>p.id===pid);
+  if(page&&page.isMain) ewRenderMain(); else if(page) ewRenderPage(page);
+}
+
+function ewCycleStatus(pid,wid,listKey,idx,states){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id===wid); if(!w) return;
+  if(!w[listKey]||!w[listKey][idx]) return;
+  const cur=w[listKey][idx].status||states[0];
+  const next=states[(states.indexOf(cur)+1)%states.length];
+  w[listKey][idx].status=next;
+  ewSave();
+  const wEl=document.getElementById(`ew-w-${pid}-${wid}`);
+  if(wEl){ const body=wEl.querySelector('.ew-wbody'); if(body) body.innerHTML=ewWidgetBody(pid,w); }
+  const metaEl=wEl&&wEl.querySelector('.ew-wmeta');
+  if(metaEl){ const fresh=ewMeta(w); if(fresh) metaEl.outerHTML=fresh; }
+}
+
+function ewCheckToggle(pid,idx,checked){
+  const d=ewPageData(pid); const w=d.widgets.find(w=>w.id==='checklist'); if(!w) return;
+  if(!w.items||!w.items[idx]) return;
+  w.items[idx].done=checked; ewDebounceSave();
+  const rows=document.querySelectorAll(`#ew-ck-list-${pid} .ew-check-row`);
+  if(rows[idx]) rows[idx].classList.toggle('done',checked);
+  const done=w.items.filter(i=>i.done).length;
+  const prog=document.getElementById(`ew-ck-prog-${pid}`);
+  if(prog) prog.textContent=`${done}/${w.items.length} complete`;
+  const wEl=document.getElementById(`ew-w-${pid}-checklist`);
+  const meta=wEl&&wEl.querySelector('.ew-wmeta');
+  if(meta) meta.textContent=`${done}/${w.items.length} complete`;
+}
+
+function ewSetupDrag(pid){
+  const container=document.getElementById(`ew-widgets-${pid}`); if(!container) return;
+  let dragEl=null, dragOver=null;
+  container.addEventListener('dragstart',e=>{
+    dragEl=e.target.closest('.ew-widget'); if(!dragEl) return;
+    e.dataTransfer.effectAllowed='move';
+    setTimeout(()=>dragEl.classList.add('ew-dragging'),0);
   });
-  if(focusBody){ setTimeout(() => { const b = document.getElementById('notes-body'); if(b) b.focus(); }, 40); }
+  container.addEventListener('dragend',()=>{
+    if(dragEl) dragEl.classList.remove('ew-dragging');
+    container.querySelectorAll('.ew-drag-over').forEach(el=>el.classList.remove('ew-drag-over'));
+    dragEl=null; dragOver=null;
+  });
+  container.addEventListener('dragover',e=>{
+    e.preventDefault();
+    const t=e.target.closest('.ew-widget');
+    if(!t||t===dragEl) return;
+    if(dragOver!==t){ if(dragOver) dragOver.classList.remove('ew-drag-over'); dragOver=t; t.classList.add('ew-drag-over'); }
+  });
+  container.addEventListener('drop',e=>{
+    e.preventDefault();
+    const t=e.target.closest('.ew-widget');
+    if(!t||t===dragEl||!dragEl) return;
+    t.classList.remove('ew-drag-over');
+    const all=[...container.querySelectorAll('.ew-widget')];
+    const fi=all.indexOf(dragEl), ti=all.indexOf(t); if(fi===ti) return;
+    if(fi<ti) container.insertBefore(dragEl,t.nextSibling); else container.insertBefore(dragEl,t);
+    const d=ewPageData(pid);
+    const moved=d.widgets.splice(fi,1)[0]; d.widgets.splice(ti,0,moved);
+    ewSave();
+  });
 }
 
-function notesShowEmpty(){
-  const main = document.getElementById('notes-main');
-  main.innerHTML = `<div class="notes-no-page">
-    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-    <span class="hint">Click + to create your first page</span>
+function evpSyncTitle(){
+  if(!SB_ACTIVE_ID) return;
+  const el=document.getElementById('evp-title'); if(!el) return;
+  const page=SB_PAGES.find(p=>p.id===SB_ACTIVE_ID); if(!page) return;
+  page.title=el.value;
+  const item=document.querySelector(`.sb-item[data-id="${SB_ACTIVE_ID}"] .si-title`);
+  if(item) item.textContent=page.title||'Untitled event';
+  sbSave();
+}
+
+// ---------- Note editor (kept for backward compat with existing note pages) ----------
+function notesOpenPage(page){
+  const wrap = document.getElementById('note-editor-wrap');
+  wrap.innerHTML = `<div class="notes-editor">
+    <div class="notes-icon-row">
+      <button class="notes-icon-btn" onclick="notesOpenEmojiPicker(event,'${page.id}')">
+        <span id="notes-page-icon">${page.icon||'📄'}</span><span class="icon-tooltip">Change icon</span>
+      </button>
+    </div>
+    <textarea id="notes-title" class="notes-title-input" rows="1" placeholder="Untitled"
+      oninput="notesAutoResize(this);notesSyncTitle()">${escapeHtml(page.title||'')}</textarea>
+    <textarea id="notes-body" class="notes-body-input" placeholder="Start writing…"
+      oninput="notesDebounceSave()">${escapeHtml(page.body||'')}</textarea>
   </div>`;
+  const t = document.getElementById('notes-title'); notesAutoResize(t);
+  t.addEventListener('keydown', e=>{ if(e.key==='Enter'){e.preventDefault();document.getElementById('notes-body').focus();}});
 }
-
-function notesAutoResize(el){
-  el.style.height = 'auto';
-  el.style.height = el.scrollHeight + 'px';
-}
-
-// Sync title to sidebar immediately as the user types
 function notesSyncTitle(){
-  if(!NOTES_ACTIVE_ID) return;
-  const titleEl = document.getElementById('notes-title');
-  if(!titleEl) return;
-  const page = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
-  if(!page) return;
-  page.title = titleEl.value;
-  // Update sidebar label without re-rendering (avoids focus loss)
-  const item = document.querySelector(`.notes-page-item[data-id="${NOTES_ACTIVE_ID}"]`);
-  if(item){ const span = item.querySelector('.page-title'); if(span) span.textContent = page.title || 'Untitled'; }
+  if(!SB_ACTIVE_ID) return;
+  const t = document.getElementById('notes-title'); if(!t) return;
+  const page = SB_PAGES.find(p=>p.id===SB_ACTIVE_ID); if(!page) return;
+  page.title = t.value;
+  const item = document.querySelector(`.sb-item[data-id="${SB_ACTIVE_ID}"] .si-title`);
+  if(item) item.textContent = page.title||'Untitled';
   notesDebounceSave();
 }
-
+function notesAutoResize(el){ el.style.height='auto'; el.style.height=el.scrollHeight+'px'; }
 function notesDebounceSave(){
   if(NOTES_SAVE_TIMER) clearTimeout(NOTES_SAVE_TIMER);
-  NOTES_SAVE_TIMER = setTimeout(() => {
-    if(!NOTES_ACTIVE_ID) return;
-    const titleEl = document.getElementById('notes-title');
-    const bodyEl = document.getElementById('notes-body');
-    if(!bodyEl) return;
-    const page = NOTES_PAGES.find(p => p.id === NOTES_ACTIVE_ID);
-    if(!page) return;
-    if(titleEl) page.title = titleEl.value;
-    page.body = bodyEl.value;
-    notesSave();
+  NOTES_SAVE_TIMER = setTimeout(()=>{
+    if(!SB_ACTIVE_ID) return;
+    const page = SB_PAGES.find(p=>p.id===SB_ACTIVE_ID&&p.type==='note'); if(!page) return;
+    const t=document.getElementById('notes-title'), b=document.getElementById('notes-body');
+    if(t) page.title=t.value; if(b) page.body=b.value;
+    sbSave();
   }, 400);
 }
 
-// Keyboard navigation in the sidebar list (↑ ↓ to move, Enter to open)
-function notesSidebarKeydown(e){
-  if(!NOTES_PAGES.length) return;
-  if(e.key === 'ArrowDown'){
-    e.preventDefault();
-    NOTES_FOCUSED_IDX = Math.min(NOTES_FOCUSED_IDX + 1, NOTES_PAGES.length - 1);
-    notesRenderSidebar();
-    const item = document.querySelector(`.notes-page-item[data-idx="${NOTES_FOCUSED_IDX}"]`);
-    if(item) item.focus();
-  } else if(e.key === 'ArrowUp'){
-    e.preventDefault();
-    NOTES_FOCUSED_IDX = Math.max(NOTES_FOCUSED_IDX - 1, 0);
-    notesRenderSidebar();
-    const item = document.querySelector(`.notes-page-item[data-idx="${NOTES_FOCUSED_IDX}"]`);
-    if(item) item.focus();
-  } else if(e.key === 'Enter' && NOTES_FOCUSED_IDX >= 0){
-    const page = NOTES_PAGES[NOTES_FOCUSED_IDX];
-    if(page) notesOpenPage(page.id);
-  }
+function notesOpenEmojiPicker(ev, id){
+  ev.stopPropagation();
+  NOTES_EMOJI_TARGET_ID = id;
+  const picker = document.getElementById('notes-emoji-picker');
+  picker.innerHTML = `<div class="ep-grid">${NOTES_EMOJIS.map(e =>
+    `<button class="ep-cell" onclick="notesPickEmoji('${e}')">${e}</button>`).join('')}</div>`;
+  const btn = ev.currentTarget;
+  const rect = btn.getBoundingClientRect();
+  picker.style.top = (rect.bottom + window.scrollY + 6) + 'px';
+  picker.style.left = (rect.left + window.scrollX) + 'px';
+  picker.classList.add('show');
+}
+function notesCloseEmojiPicker(){
+  document.getElementById('notes-emoji-picker').classList.remove('show');
+  NOTES_EMOJI_TARGET_ID = null;
+}
+function notesPickEmoji(emoji){
+  if(!NOTES_EMOJI_TARGET_ID) return;
+  const page = SB_PAGES.find(p => p.id === NOTES_EMOJI_TARGET_ID);
+  if(!page) return;
+  page.icon = emoji;
+  sbSave();
+  notesCloseEmojiPicker();
+  const iconEl = document.getElementById('notes-page-icon');
+  if(iconEl) iconEl.textContent = emoji;
+  const item = document.querySelector(`.sb-item[data-id="${page.id}"]`);
+  if(item){ const ic = item.querySelector('.si-icon'); if(ic) ic.textContent = emoji; }
 }
 
 // ---------- Message modal ----------
@@ -1934,6 +2376,8 @@ BUDGET_CATS.forEach(cat => {
 });
 
 // ---------- Init ----------
+ewLoad();
+sbInit();
 loadEventMeta();
 refreshAllStats();
 // Render an empty EI state initially so the tab doesn't look broken before /run
