@@ -1,11 +1,15 @@
+import os
 import shutil
 import sqlite3
 import threading
 import time
 from pathlib import Path
 
-DB_PATH = Path("hackathon.db")
-BACKUP_DIR = Path("backups")
+# DATA_DIR is set to the Railway Volume mount path in production (/app/data).
+# Falls back to the repo root for local development.
+_DATA_DIR = Path(os.getenv("DATA_DIR", "."))
+DB_PATH = _DATA_DIR / "hackathon.db"
+BACKUP_DIR = _DATA_DIR / "backups"
 MAX_BACKUPS = 20
 
 SCHEMA_SQL = """
