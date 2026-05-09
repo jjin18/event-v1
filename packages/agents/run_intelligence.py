@@ -37,6 +37,7 @@ from packages.agents import (
     room_balance_agent,
 )
 from packages.scoring.attendee_fit import score_all
+from packages.scoring.sponsor_match import match_all_attendees
 
 
 # --- Default paths ---
@@ -213,6 +214,14 @@ def run_pipeline(
     state.setdefault("people", {})["ranked_prospects"] = ranked
 
     room_balance_agent.run(ranked, target_size=objective.get("target_size", 100), event_state=state)
+
+    # PRD §6.2 — preliminary sponsor matching. Runs only if the operator has
+    # already added sponsors to state['sponsors']['roster']. Pre-event matches
+    # are an upper bound on what the booth scanner could verify on the day.
+    sponsors_roster = state.get("sponsors", {}).get("roster", []) or []
+    if sponsors_roster:
+        prelim_matches = match_all_attendees(ranked, sponsors_roster)
+        state.setdefault("sponsors", {})["matches"] = prelim_matches
 
     # Contact discovery folded into the pipeline. The standalone "Discover
     # contacts" button is gone — the Contact column has to be populated by
