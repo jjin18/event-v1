@@ -37,6 +37,12 @@ from apps.api.routes import organization as organization_routes
 from apps.api.routes import event_meta as event_meta_routes
 from apps.api.routes import budget as budget_routes
 from apps.api.routes import attendees as attendees_routes
+from apps.api.routes import sponsors as sponsors_routes
+from apps.api.routes import scans as scans_routes
+from apps.api.routes import composition as composition_routes
+from apps.api.routes import contracts as contracts_routes
+from apps.api.routes import packets as packets_routes
+from apps.api.routes import outcomes as outcomes_routes
 
 app = FastAPI(title="Eventful API", version="0.1.0")
 
@@ -46,6 +52,13 @@ app.include_router(organization_routes.router)
 app.include_router(event_meta_routes.router)
 app.include_router(budget_routes.router)
 app.include_router(attendees_routes.router)
+# PRD §5–§6 surfaces (sponsor measurement layer):
+app.include_router(sponsors_routes.router)
+app.include_router(scans_routes.router)
+app.include_router(composition_routes.router)
+app.include_router(contracts_routes.router)
+app.include_router(packets_routes.router)
+app.include_router(outcomes_routes.router)
 
 
 _INDEX_HTML = """<!doctype html>

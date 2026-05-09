@@ -109,6 +109,67 @@ def issue(attendee_id: str,
     return f"{body}.{_b64url_encode(sig)}"
 
 
+# --- Badge / scanner tokens (PRD §5.5–§5.6) -----------------------------------
+#
+# Badge tokens are baked into the QR code printed on each attendee's badge at
+# check-in. They carry only the attendee id + event id and are valid for the
+# event-day window (default: through the event date). The booth scanner verifies
+# a badge token by re-deriving the eid against the current event payload.
+#
+# Scanner-staff tokens authenticate booth staff into the scanner UI itself.
+# They carry the sponsor id + staff email + event id; ``kind: "scanner"``
+# distinguishes them from RSVP tokens at verify time.
+
+def issue_badge(attendee_id: str,
+                event: dict,
+                event_date_iso: Optional[str] = None,
+                ttl_seconds: int = DEFAULT_TTL_SECONDS) -> str:
+    """QR-code badge token. Same shape as ``issue`` — kept as a named alias
+    so call sites describe intent."""
+    return issue(attendee_id, event, event_date_iso=event_date_iso, ttl_seconds=ttl_seconds)
+
+
+def issue_scanner_session(sponsor_id: str,
+                          staff_email: str,
+                          event: dict,
+                          event_date_iso: Optional[str] = None,
+                          ttl_seconds: int = DEFAULT_TTL_SECONDS) -> str:
+    """Booth-staff scanner session token. Carries sponsor + staff identity."""
+    payload = {
+        "kind": "scanner",
+        "sid": sponsor_id,
+        "staff": (staff_email or "").strip().lower(),
+        "eid": event_id_for(event or {}),
+        "exp": _expiry_unix(event_date_iso or (event or {}).get("date") or "", ttl_seconds),
+    }
+    body = _b64url_encode(json.dumps(payload, separators=(",", ":")).encode("utf-8"))
+    sig = hmac.new(_secret(), body.encode("ascii"), hashlib.sha256).digest()
+    return f"{body}.{_b64url_encode(sig)}"
+
+
+def verify_scanner_session(token: str, event: dict) -> dict:
+    """Verify a scanner-session token. Same signature/expiry/event checks as
+    ``verify`` but additionally requires kind == 'scanner'."""
+    payload = verify(token, event)
+    if payload.get("kind") != "scanner":
+        raise TokenError("not a scanner token")
+    if not payload.get("sid"):
+        raise TokenError("missing sponsor id")
+    return payload
+
+
+def sponsor_id_for(company_name: str) -> str:
+    """Stable sponsor id from company name."""
+    norm = (company_name or "").strip().lower().encode("utf-8")
+    return "spn_" + hashlib.sha256(norm).hexdigest()[:16]
+
+
+def scan_id_for(sponsor_id: str, attendee_id: str, ts: int) -> str:
+    """Stable-ish scan id. ts allows multiple scans of same attendee."""
+    raw = f"{sponsor_id}|{attendee_id}|{ts}".encode("utf-8")
+    return "scn_" + hashlib.sha256(raw).hexdigest()[:16]
+
+
 class TokenError(Exception):
     """Verification failure — bad signature, expired, or wrong event."""
 

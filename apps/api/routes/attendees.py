@@ -298,6 +298,23 @@ def _render_confirm_page(*,
     )
 
 
+# -------- badge token issue (PRD §5.5) --------
+
+@router.get("/attendees/{attendee_id}/badge")
+async def get_badge(attendee_id: str) -> dict:
+    """Issue a badge token for the attendee, suitable for printing as a QR
+    code at check-in. The booth scanner verifies this token at scan time
+    (see /scans)."""
+    state = read_state()
+    attendees = state.get("attendees") or []
+    if not any(a.get("id") == attendee_id for a in attendees):
+        raise HTTPException(404, f"attendee {attendee_id} not found")
+    event = state.get("event") or {}
+    event_date = state.get("event_date") or event.get("date")
+    token = token_mod.issue_badge(attendee_id, event, event_date_iso=event_date)
+    return {"ok": True, "attendee_id": attendee_id, "badge_token": token}
+
+
 @router.get("/confirm/{token}", response_class=HTMLResponse)
 async def confirm_page(token: str) -> HTMLResponse:
     state = read_state()
