@@ -1,0 +1,28 @@
+{
+  "username": "yunbinbae",
+  "name": "Yunbin Bae",
+  "bio": "ms-hci @umd\r\nai ux founder, hci researcher, ux designer",
+  "company": "",
+  "location": "San Francisco, CA",
+  "blog": "https://yunbinbae.net/",
+  "twitter_username": "yunbin_bae",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 1,
+  "created_at": "2025-10-03T04:54:58Z",
+  "languages": {
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "auto-apply-template",
+      "description": "auto-job-apply agent: Playwright-based job application automation for LinkedIn, Glassdoor, and Indeed",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/yunbinbae/auto-apply-template",
+      "updated_at": "2026-04-16T18:24:47Z"
+    }
+  ],
+  "top_topics": []
+}

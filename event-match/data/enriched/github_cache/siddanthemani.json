@@ -1,0 +1,129 @@
+{
+  "username": "SiddanthEmani",
+  "name": "Ramana Siddanth Emani",
+  "bio": "Data Scientist and AI enthusiast.\r\nWork @ https://github.com/siddanth-auditoria",
+  "company": "Auditoria AI",
+  "location": "San Jose, CA",
+  "blog": "siddanthemani.github.io",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 0,
+  "public_repos": 6,
+  "created_at": "2024-02-11T22:47:17Z",
+  "languages": {
+    "Python": 3,
+    "JavaScript": 1,
+    "Cuda": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "patient_chatbot",
+      "description": "Patient Assistant Chatbot: An intelligent, real-time chatbot built with Django and Neo4j, leveraging AI-driven intent recognition to assist patients with managing appointments, medications, and health-related inquiries securely and efficiently.",
+      "stars": 18,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "channels",
+        "chatbot",
+        "django",
+        "gemini",
+        "gen-ai",
+        "healthcare",
+        "langchain",
+        "llm",
+        "neo4j",
+        "websocket"
+      ],
+      "url": "https://github.com/SiddanthEmani/patient_chatbot",
+      "updated_at": "2026-03-10T13:34:39Z"
+    },
+    {
+      "name": "daily-ai-times",
+      "description": "Daily AI Times - AI-powered news aggregration platform",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/SiddanthEmani/daily-ai-times",
+      "updated_at": "2026-05-12T06:40:26Z"
+    },
+    {
+      "name": "Ozone_Level_Detection",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/SiddanthEmani/Ozone_Level_Detection",
+      "updated_at": "2026-03-10T13:07:42Z"
+    },
+    {
+      "name": "GPT-2-124M-CUDA",
+      "description": "",
+      "stars": 1,
+      "language": "Cuda",
+      "topics": [],
+      "url": "https://github.com/SiddanthEmani/GPT-2-124M-CUDA",
+      "updated_at": "2025-03-27T19:32:45Z"
+    },
+    {
+      "name": "kyros",
+      "description": "A daily-refreshed iCalendar feed of the highest-signal AI events in the San Francisco Bay Area. Ranked by host reputation, filtered for technical depth, skips events that clash with your work day. One URL \u2014 subscribe from any calendar app.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-events",
+        "ai-meetups",
+        "automation",
+        "bay-area",
+        "calendar",
+        "calendar-feed",
+        "developer-tools",
+        "github-actions",
+        "ical",
+        "icalendar",
+        "ics",
+        "llm",
+        "lu-ma",
+        "luma",
+        "machine-learning",
+        "productivity",
+        "python",
+        "san-francisco"
+      ],
+      "url": "https://github.com/SiddanthEmani/kyros",
+      "updated_at": "2026-05-12T08:36:38Z"
+    },
+    {
+      "name": "SiddanthEmani.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/SiddanthEmani/SiddanthEmani.github.io",
+      "updated_at": "2025-03-09T09:34:18Z"
+    }
+  ],
+  "top_topics": [
+    "ai",
+    "llm",
+    "channels",
+    "chatbot",
+    "django",
+    "gemini",
+    "gen-ai",
+    "healthcare",
+    "langchain",
+    "neo4j",
+    "websocket",
+    "ai-events",
+    "ai-meetups",
+    "automation",
+    "bay-area",
+    "calendar",
+    "calendar-feed",
+    "developer-tools",
+    "github-actions",
+    "ical"
+  ]
+}

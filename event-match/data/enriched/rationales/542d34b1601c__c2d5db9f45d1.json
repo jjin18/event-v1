@@ -1,0 +1,4 @@
+{
+  "rationale": "Shiza is building Haptile at the intersection of robotics and applied ML after mechanical engineering at 1X, while Nathan is an ML engineer at VisionLabs (YC X25) focused on vision-language-action models and world models for robotics. They share deep conviction that robotics requires moving beyond LLM-only approaches toward systems grounded in physics and causality, and their skill sets are highly complementary\u2014Shiza brings hands-on hardware/robotics deployment experience and C++ alongside ML, while Nathan brings production ML infrastructure (PyTorch, CUDA) and VLA expertise.",
+  "intro_message": "Shiza Charania, meet Nathan Yan \u2014 you're both building at the robotics-ML frontier with complementary expertise (hardware deployment + ML infra) and aligned conviction that world models and physics understanding will drive the next generation of robotics systems."
+}

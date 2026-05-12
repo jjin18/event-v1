@@ -1,0 +1,123 @@
+{
+  "username": "raghu25",
+  "name": "raghu",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 5,
+  "following": 19,
+  "public_repos": 25,
+  "created_at": "2016-01-26T22:22:28Z",
+  "languages": {
+    "Python": 6,
+    "Go": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "eventsapp",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/raghu25/eventsapp",
+      "updated_at": "2025-12-16T22:06:28Z"
+    },
+    {
+      "name": "goustocks",
+      "description": "",
+      "stars": 0,
+      "language": "Go",
+      "topics": [],
+      "url": "https://github.com/raghu25/goustocks",
+      "updated_at": "2022-06-20T03:23:06Z"
+    },
+    {
+      "name": "pythonscripting",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "files",
+        "python",
+        "regular-expressions"
+      ],
+      "url": "https://github.com/raghu25/pythonscripting",
+      "updated_at": "2020-08-21T14:35:13Z"
+    },
+    {
+      "name": "AlexaApp",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/raghu25/AlexaApp",
+      "updated_at": "2019-09-21T10:13:47Z"
+    },
+    {
+      "name": "udpclientserverprogram",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "socketprogramming",
+        "udp"
+      ],
+      "url": "https://github.com/raghu25/udpclientserverprogram",
+      "updated_at": "2018-08-17T18:32:20Z"
+    },
+    {
+      "name": "junos-pyez-automation",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/raghu25/junos-pyez-automation",
+      "updated_at": "2018-08-17T18:28:08Z"
+    },
+    {
+      "name": "python_net_automation",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "jinja2",
+        "python3"
+      ],
+      "url": "https://github.com/raghu25/python_net_automation",
+      "updated_at": "2018-08-17T18:07:07Z"
+    },
+    {
+      "name": "SubnetCalculator",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/raghu25/SubnetCalculator",
+      "updated_at": "2018-04-19T13:24:40Z"
+    },
+    {
+      "name": "restapilearn",
+      "description": "restapi endpoint",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "restapi"
+      ],
+      "url": "https://github.com/raghu25/restapilearn",
+      "updated_at": "2018-04-18T22:28:35Z"
+    }
+  ],
+  "top_topics": [
+    "files",
+    "python",
+    "regular-expressions",
+    "socketprogramming",
+    "udp",
+    "jinja2",
+    "python3",
+    "restapi"
+  ]
+}

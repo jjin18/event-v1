@@ -1,0 +1,4 @@
+{
+  "rationale": "Both David and Sparsh work in ML infrastructure with overlapping technical foundations\u2014David is building edge AI inference systems in Rust and Python, while Sparsh brings production AI software engineering experience from Google across multiple systems languages including C++ and Python. As judges at this event, they can offer complementary perspectives on infrastructure challenges, with David's deep systems optimization focus pairing well with Sparsh's broad assessment experience across developer tooling and performance.",
+  "intro_message": "David Venegas, meet Sparsh Rawlani \u2014 you're both judges working in ML infrastructure and share technical depth in Python and systems-level optimization; worth comparing notes on what you're seeing in edge AI and infrastructure tooling submissions."
+}

@@ -1,0 +1,168 @@
+{
+  "username": "amlfarhad",
+  "name": "Amal Farhad",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 2,
+  "public_repos": 19,
+  "created_at": "2025-08-08T18:43:45Z",
+  "languages": {
+    "Python": 12,
+    "HTML": 3,
+    "TypeScript": 2,
+    "Jupyter Notebook": 1
+  },
+  "top_repos": [
+    {
+      "name": "rideshare-pricing-group4",
+      "description": "Rideshare pricing analytics project with exploratory modeling and team deliverables.",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "analytics",
+        "jupyter-notebook",
+        "pricing"
+      ],
+      "url": "https://github.com/amlfarhad/rideshare-pricing-group4",
+      "updated_at": "2026-05-09T16:29:06Z"
+    },
+    {
+      "name": "experiment-forge",
+      "description": "Statistical experimentation platform with CUPED, sequential testing, multi-armed bandits, and peeking simulation",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/amlfarhad/experiment-forge",
+      "updated_at": "2026-05-12T01:54:10Z"
+    },
+    {
+      "name": "fairrec",
+      "description": "Multi-objective recommender system with PyTorch Neural CF, IPS debiasing, MMR diversity reranking, and fairness-aware evaluation metrics.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [
+        "machine-learning",
+        "pytorch",
+        "ranking",
+        "recommender-system"
+      ],
+      "url": "https://github.com/amlfarhad/fairrec",
+      "updated_at": "2026-05-09T19:23:44Z"
+    },
+    {
+      "name": "ai-rehab-assistant",
+      "description": "Research synthesis workspace for PubMed retrieval, LLM answer grounding, citation coverage, evidence overlap, and uncertainty evaluation.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [
+        "hallucination-detection",
+        "llm-evaluation",
+        "rag",
+        "uncertainty-estimation"
+      ],
+      "url": "https://github.com/amlfarhad/ai-rehab-assistant",
+      "updated_at": "2026-05-09T16:34:32Z"
+    },
+    {
+      "name": "amlfarhad.github.io",
+      "description": "Portfolio site for analytics, data science, and applied AI projects.",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [
+        "applied-ai",
+        "data-science",
+        "portfolio"
+      ],
+      "url": "https://github.com/amlfarhad/amlfarhad.github.io",
+      "updated_at": "2026-05-09T16:29:42Z"
+    },
+    {
+      "name": "StreakSocial",
+      "description": "Goal-tracking social app with community accountability and AI-assisted motivation.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "coach",
+        "goal-tracking",
+        "productivity",
+        "social-app",
+        "social-media",
+        "typescript"
+      ],
+      "url": "https://github.com/amlfarhad/StreakSocial",
+      "updated_at": "2026-05-09T16:29:41Z"
+    },
+    {
+      "name": "powertechs-os",
+      "description": "Full PowerTechs OS application (frontend + backend) for workforce intelligence and ETD analysis.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/amlfarhad/powertechs-os",
+      "updated_at": "2026-03-26T05:25:34Z"
+    },
+    {
+      "name": "stock-prediction",
+      "description": "Stock price prediction using Random Forest regression with GridSearchCV optimization",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/amlfarhad/stock-prediction",
+      "updated_at": "2026-02-10T18:05:40Z"
+    },
+    {
+      "name": "customer-360-warehouse",
+      "description": "Customer analytics warehouse integrating CRM, billing, product usage, support, and marketing data with quality checks and dashboard outputs.",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [
+        "analytics-engineering",
+        "customer-analytics",
+        "data-quality",
+        "python"
+      ],
+      "url": "https://github.com/amlfarhad/customer-360-warehouse",
+      "updated_at": "2026-05-11T01:39:00Z"
+    },
+    {
+      "name": "causal-product-rollout-engine",
+      "description": "Causal analysis prototype for product rollout evaluation and decision support.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "causal-inference",
+        "product-analytics",
+        "python"
+      ],
+      "url": "https://github.com/amlfarhad/causal-product-rollout-engine",
+      "updated_at": "2026-05-09T19:24:43Z"
+    }
+  ],
+  "top_topics": [
+    "python",
+    "analytics",
+    "data-science",
+    "workforce-analytics",
+    "jupyter-notebook",
+    "pricing",
+    "machine-learning",
+    "pytorch",
+    "ranking",
+    "recommender-system",
+    "hallucination-detection",
+    "llm-evaluation",
+    "rag",
+    "uncertainty-estimation",
+    "applied-ai",
+    "portfolio",
+    "ai",
+    "coach",
+    "goal-tracking",
+    "productivity"
+  ]
+}

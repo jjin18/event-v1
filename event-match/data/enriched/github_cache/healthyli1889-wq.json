@@ -1,0 +1,111 @@
+{
+  "username": "healthyli1889-wq",
+  "name": "Healthy",
+  "bio": "Outlier ",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 1,
+  "public_repos": 29,
+  "created_at": "2025-09-09T01:31:57Z",
+  "languages": {
+    "TypeScript": 4,
+    "Python": 3,
+    "HTML": 2
+  },
+  "top_repos": [
+    {
+      "name": "lume-agent",
+      "description": "Always-on AI teammate for small teams \u2014 workspace agent with persistent memory, schema-only privacy, and a programmable agent endpoint.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/lume-agent",
+      "updated_at": "2026-05-05T02:41:38Z"
+    },
+    {
+      "name": "SpaEval",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/SpaEval",
+      "updated_at": "2026-05-04T16:53:08Z"
+    },
+    {
+      "name": "substack-research-writer",
+      "description": "A reusable Claude skill that turns a topic into a Stratechery-quality long-form essay \u2014 with research, charts, inline citations, and a learning companion. Works in Cowork, Claude Code, and the Agent SDK.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/substack-research-writer",
+      "updated_at": "2026-04-24T00:39:29Z"
+    },
+    {
+      "name": "Spatial",
+      "description": "Human brains are non linear, knowledge acuiqistion shouldnt either. However, most products provide suggestions, not \u201cstructure\u201d. ",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/Spatial",
+      "updated_at": "2026-04-12T21:46:12Z"
+    },
+    {
+      "name": "healthy-website",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/healthy-website",
+      "updated_at": "2026-04-11T03:46:44Z"
+    },
+    {
+      "name": "Interactive-Personal-Website",
+      "description": "Rocket - navigate the universe ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/Interactive-Personal-Website",
+      "updated_at": "2026-03-30T13:28:17Z"
+    },
+    {
+      "name": "break-into-ML_MVP",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/break-into-ML_MVP",
+      "updated_at": "2026-03-29T19:59:36Z"
+    },
+    {
+      "name": "navagent",
+      "description": "make website navigation easy - directing you to the right space, all in 1 second",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/navagent",
+      "updated_at": "2026-03-08T03:19:40Z"
+    },
+    {
+      "name": "Transformer",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/Transformer",
+      "updated_at": "2026-02-10T04:38:18Z"
+    },
+    {
+      "name": "google-devpost-hackathon",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/healthyli1889-wq/google-devpost-hackathon",
+      "updated_at": "2026-02-06T03:16:30Z"
+    }
+  ],
+  "top_topics": []
+}

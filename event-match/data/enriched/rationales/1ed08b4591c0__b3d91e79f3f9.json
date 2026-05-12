@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Vamsi and Rid work across Python and TypeScript with strong ML foundations, but they're building in complementary spaces\u2014Vamsi's background spans NLP and computer vision while Rid is shipping applied ML systems in robotics and multi-agent infrastructure. This is a solid pairing for exploring how research-grade ML translates into production systems, whether that's through collaboration, knowledge exchange, or a potential project that bridges their domains.",
+  "intro_message": "Vamsi Krishna N K, meet Rid M \u2014 you're both full-stack ML engineers (Python + TypeScript) working at different layers of the stack, and could swap insights on taking ML research into production systems."
+}

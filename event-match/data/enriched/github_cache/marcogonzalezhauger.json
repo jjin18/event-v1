@@ -1,0 +1,37 @@
+{
+  "username": "MarcoGonzalezHauger",
+  "name": "Marco Gonzalez Hauger",
+  "bio": "",
+  "company": "Daily's Robotics, Inc.",
+  "location": "San Francisco, CA",
+  "blog": "marcogh.info",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 2,
+  "created_at": "2018-12-14T19:45:47Z",
+  "languages": {
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "RoboLeague",
+      "description": "VT Hacks 12 Repo",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/MarcoGonzalezHauger/RoboLeague",
+      "updated_at": "2024-09-15T11:11:03Z"
+    },
+    {
+      "name": "CapConsole2",
+      "description": "A Console for Windows which allows you to make your own commands. Activated with the Caps key.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/MarcoGonzalezHauger/CapConsole2",
+      "updated_at": "2019-01-04T02:28:12Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Artem and Saurabh are builders in the LLM tooling and ML infrastructure space, with complementary technical strengths\u2014Artem brings deep ML systems expertise from Nous Research and hands-on work on efficient inference (loopvlm, PyTorch/MLX implementations), while Saurabh focuses on applied AI and developer tooling with shipped projects in AI agents and LLM-adjacent tools. They overlap on Python, JavaScript, and the practical challenge of shipping ML-powered products, making them well-positioned to collaborate on a hackathon project that bridges research-grade inference optimization with real-world developer experience.",
+  "intro_message": "Artem Yatsenko, meet Saurabh Khire \u2014 you both work on LLM tooling and ML infrastructure, and your skills complement well: Artem's efficient inference expertise and Saurabh's applied AI shipping experience could be a strong hackathon pairing."
+}

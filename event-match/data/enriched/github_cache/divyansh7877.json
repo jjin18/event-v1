@@ -1,0 +1,115 @@
+{
+  "username": "divyansh7877",
+  "name": "Div Agarwal",
+  "bio": "respice finem",
+  "company": "",
+  "location": "San Francisco",
+  "blog": "div--vi.com",
+  "twitter_username": "div__vi",
+  "followers": 7,
+  "following": 28,
+  "public_repos": 69,
+  "created_at": "2019-10-26T06:24:49Z",
+  "languages": {
+    "TypeScript": 13,
+    "Python": 12,
+    "Jupyter Notebook": 6,
+    "JavaScript": 2,
+    "HTML": 2,
+    "Haskell": 1,
+    "Makefile": 1
+  },
+  "top_repos": [
+    {
+      "name": "myPortfolio",
+      "description": "https://div--vi.com",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/myPortfolio",
+      "updated_at": "2026-05-10T18:21:06Z"
+    },
+    {
+      "name": "variant_ppts",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/variant_ppts",
+      "updated_at": "2026-04-26T17:40:41Z"
+    },
+    {
+      "name": "live-suggestions-app",
+      "description": "Real-time AI meeting copilot \u2014 live transcript, contextual suggestions, and chat powered by Groq",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/live-suggestions-app",
+      "updated_at": "2026-04-22T01:51:46Z"
+    },
+    {
+      "name": "coherence-engine",
+      "description": "Multi-agent meeting tool that transcribes, researches claims, identifies conflicts, and drives consensus using NVIDIA Nemotron, Tavily, and Daytona",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/coherence-engine",
+      "updated_at": "2026-04-11T23:53:36Z"
+    },
+    {
+      "name": "divyansh7877",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/divyansh7877",
+      "updated_at": "2026-04-09T00:52:30Z"
+    },
+    {
+      "name": "know_it_all",
+      "description": "Point your MacBook camera at anything, hover to segment with MobileSAM, click to get a rich micro-lesson card from Gemini 2.5 Flash.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/know_it_all",
+      "updated_at": "2026-04-08T02:51:12Z"
+    },
+    {
+      "name": "grouplikes",
+      "description": "Discover what your group really likes - preference collection app for families and friends",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/grouplikes",
+      "updated_at": "2026-04-04T20:36:03Z"
+    },
+    {
+      "name": "do-it-agent",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/do-it-agent",
+      "updated_at": "2026-04-04T20:31:52Z"
+    },
+    {
+      "name": "mapper",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/mapper",
+      "updated_at": "2026-04-01T06:05:29Z"
+    },
+    {
+      "name": "typst-resume",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/divyansh7877/typst-resume",
+      "updated_at": "2026-03-31T22:10:21Z"
+    }
+  ],
+  "top_topics": []
+}

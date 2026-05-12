@@ -1,0 +1,153 @@
+{
+  "username": "rafaelmaranon",
+  "name": "",
+  "bio": "",
+  "company": "ProdLab",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 0,
+  "public_repos": 19,
+  "created_at": "2014-06-27T18:54:36Z",
+  "languages": {
+    "JavaScript": 5,
+    "TypeScript": 5,
+    "Python": 4,
+    "HTML": 3
+  },
+  "top_repos": [
+    {
+      "name": "waymo-validation-lab",
+      "description": "AV scenario validation metrics built on the Waymo Open Dataset.",
+      "stars": 2,
+      "language": "Python",
+      "topics": [
+        "autonomous-driving",
+        "autonomous-vehicles",
+        "robotics",
+        "scenario-analysis",
+        "waymo",
+        "waymo-open-dataset"
+      ],
+      "url": "https://github.com/rafaelmaranon/waymo-validation-lab",
+      "updated_at": "2026-03-31T19:12:45Z"
+    },
+    {
+      "name": "alpamayo-trace",
+      "description": "VLA \u2260 VLM. Side-by-side viewer running NVIDIA Alpamayo R1 (vision-language-action) alongside Qwen2.5-VL (vision-language) on the same 44-sec SF dashcam clip at 5 Hz. 220 paired traces. Surfaces what an action-trained model sees that a scene-trained model doesn't, and vice versa.",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [
+        "alpamayo",
+        "autonomous-vehicles",
+        "av-evaluation",
+        "end-to-end-driving",
+        "evaluation-harness",
+        "huggingface",
+        "machine-learning",
+        "multimodal",
+        "qwen",
+        "robotics",
+        "self-driving",
+        "vision-language-action",
+        "vla",
+        "vlm"
+      ],
+      "url": "https://github.com/rafaelmaranon/alpamayo-trace",
+      "updated_at": "2026-05-08T03:41:50Z"
+    },
+    {
+      "name": "strategic-analysis-lab",
+      "description": "AI-assisted analysis of complex strategic questions using web evidence and structured reasoning.",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/strategic-analysis-lab",
+      "updated_at": "2026-03-12T07:15:51Z"
+    },
+    {
+      "name": "launch-readiness-simulator",
+      "description": "A strategic decision lab for product, operations, and engineering leaders. This turn-based system dynamics simulation explores how capacity, scope growth, regression risk, and utilization interact under deadline pressure.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/launch-readiness-simulator",
+      "updated_at": "2026-03-04T17:18:14Z"
+    },
+    {
+      "name": "autonomy-scale-roi",
+      "description": "Autonomy Scale ROI is an interactive simulation + insight tool for modeling how autonomous vehicle networks scale \u2014 combining real-world deployment data, unit economics, and conversational AI.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/autonomy-scale-roi",
+      "updated_at": "2026-03-02T03:21:35Z"
+    },
+    {
+      "name": "robotaxi-cost-model",
+      "description": "Interactive unit economics simulator for autonomous ride-hailing fleets.  Built to explore how utilization, deadhead, vehicle cost, and operations scale impact robotaxi profitability.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/robotaxi-cost-model",
+      "updated_at": "2026-02-26T07:41:07Z"
+    },
+    {
+      "name": "Decide",
+      "description": "DECIDE is an AI-orchestrated, real-time incident response system for robotaxi operations and other complex, safety-critical environments.  When vehicles get stuck and context is fragmented across teams (fleet ops, rider support, field recovery, authorities), DECIDE aggregates live signals and parallel conversations, continuously reassesses severity",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/Decide",
+      "updated_at": "2026-02-24T10:31:09Z"
+    },
+    {
+      "name": "FixNow",
+      "description": "A revolutionary repair marketplace powered by 3 specialized AI agents working in perfect collaboration.  Perfect alignment with hackathon theme: \"Multi-Agent Collaboration\" \ud83c\udfaf",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/FixNow",
+      "updated_at": "2026-02-24T10:30:42Z"
+    },
+    {
+      "name": "Availo",
+      "description": "Availo features an AI agent that reasons about time overlap, location matching, and provides friendly human responses. You can see the AI \"thinking\" in real-time through console logging.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/Availo",
+      "updated_at": "2026-02-24T10:30:20Z"
+    },
+    {
+      "name": "WorkSafe",
+      "description": "",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/rafaelmaranon/WorkSafe",
+      "updated_at": "2026-01-14T17:45:27Z"
+    }
+  ],
+  "top_topics": [
+    "autonomous-vehicles",
+    "robotics",
+    "autonomous-driving",
+    "scenario-analysis",
+    "waymo",
+    "waymo-open-dataset",
+    "alpamayo",
+    "av-evaluation",
+    "end-to-end-driving",
+    "evaluation-harness",
+    "huggingface",
+    "machine-learning",
+    "multimodal",
+    "qwen",
+    "self-driving",
+    "vision-language-action",
+    "vla",
+    "vlm"
+  ]
+}

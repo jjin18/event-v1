@@ -1,0 +1,83 @@
+{
+  "username": "gksr15",
+  "name": "Gautham Krishna ",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 2,
+  "public_repos": 11,
+  "created_at": "2019-03-20T19:41:50Z",
+  "languages": {
+    "Python": 3,
+    "Jupyter Notebook": 3
+  },
+  "top_repos": [
+    {
+      "name": "Programming-for-Bioinformatics",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/gksr15/Programming-for-Bioinformatics",
+      "updated_at": "2024-06-24T16:51:39Z"
+    },
+    {
+      "name": "Little_Nona",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/gksr15/Little_Nona",
+      "updated_at": "2025-12-08T18:03:50Z"
+    },
+    {
+      "name": "Leetcode_Python_Scripts",
+      "description": "Daily Python scripts from leetcode",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gksr15/Leetcode_Python_Scripts",
+      "updated_at": "2025-10-01T22:43:55Z"
+    },
+    {
+      "name": "Tahoe_trail",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/gksr15/Tahoe_trail",
+      "updated_at": "2025-06-06T22:27:10Z"
+    },
+    {
+      "name": "ML-Based-Survival-Analysis-of-mRNA-Gene-Expression-and-Clinical-Outcomes-in-Breast-Cancer",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/gksr15/ML-Based-Survival-Analysis-of-mRNA-Gene-Expression-and-Clinical-Outcomes-in-Breast-Cancer",
+      "updated_at": "2024-10-25T19:57:49Z"
+    },
+    {
+      "name": "Detecting-Presence-of-Huntington-Disease-Using-Machine-Learning-Models-on-Gene-Expression-Data",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/gksr15/Detecting-Presence-of-Huntington-Disease-Using-Machine-Learning-Models-on-Gene-Expression-Data",
+      "updated_at": "2024-06-24T17:52:58Z"
+    },
+    {
+      "name": "IOT-Cybersecurity-using-Machine-Learning-for-Distributed-Denial-of-Service-DDoS-Attacks",
+      "description": "My research experience at Universidad de Panama where I was focusing on a implementing Classification Algorithms like Decision Trees, Linear Regression, Random Forest to evaluate the IOT CICDDoS2019 dataset on DDOS attacks",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/gksr15/IOT-Cybersecurity-using-Machine-Learning-for-Distributed-Denial-of-Service-DDoS-Attacks",
+      "updated_at": "2024-06-24T17:37:06Z"
+    }
+  ],
+  "top_topics": []
+}

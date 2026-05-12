@@ -1,0 +1,116 @@
+{
+  "username": "SND96",
+  "name": "Sahith Dambekodi",
+  "bio": "",
+  "company": "2K Games",
+  "location": "San Francisco, California",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 24,
+  "following": 4,
+  "public_repos": 38,
+  "created_at": "2015-08-14T06:13:00Z",
+  "languages": {
+    "Python": 7,
+    "HTML": 5,
+    "TypeScript": 1,
+    "C++": 1,
+    "Jupyter Notebook": 1,
+    "C": 1,
+    "Matlab": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "pocketsphinx-scores",
+      "description": "Speech recognition and acoustic score displaying in JavaScript",
+      "stars": 10,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/SND96/pocketsphinx-scores",
+      "updated_at": "2022-05-04T16:06:00Z"
+    },
+    {
+      "name": "twine-stories",
+      "description": "",
+      "stars": 4,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/SND96/twine-stories",
+      "updated_at": "2022-10-18T06:31:59Z"
+    },
+    {
+      "name": "paper-a-week",
+      "description": "",
+      "stars": 3,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/SND96/paper-a-week",
+      "updated_at": "2020-10-28T04:57:29Z"
+    },
+    {
+      "name": "warren",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/SND96/warren",
+      "updated_at": "2025-12-01T11:24:44Z"
+    },
+    {
+      "name": "MTurk-TransciptionTask",
+      "description": "",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/SND96/MTurk-TransciptionTask",
+      "updated_at": "2020-08-26T18:02:41Z"
+    },
+    {
+      "name": "mlpack-rl",
+      "description": "",
+      "stars": 1,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/SND96/mlpack-rl",
+      "updated_at": "2019-01-28T19:52:34Z"
+    },
+    {
+      "name": "Random-Forests-Matlab",
+      "description": "Implementation of Random Forests using ID3 algorithm for decision trees.",
+      "stars": 1,
+      "language": "Matlab",
+      "topics": [],
+      "url": "https://github.com/SND96/Random-Forests-Matlab",
+      "updated_at": "2017-01-02T13:59:37Z"
+    },
+    {
+      "name": "seldon",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/SND96/seldon",
+      "updated_at": "2026-03-01T21:13:31Z"
+    },
+    {
+      "name": "pii-redact",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/SND96/pii-redact",
+      "updated_at": "2025-06-04T05:13:56Z"
+    },
+    {
+      "name": "AIResearcher",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/SND96/AIResearcher",
+      "updated_at": "2025-04-30T04:12:09Z"
+    }
+  ],
+  "top_topics": []
+}

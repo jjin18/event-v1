@@ -1,0 +1,122 @@
+{
+  "username": "thuthancs",
+  "name": "Thu T.",
+  "bio": "i code and design \ud83c\udf31 always crave for a hot latte :)",
+  "company": "",
+  "location": "sf & vn",
+  "blog": "thuinanutshell.com/",
+  "twitter_username": "",
+  "followers": 10,
+  "following": 30,
+  "public_repos": 32,
+  "created_at": "2025-08-27T10:31:41Z",
+  "languages": {
+    "JavaScript": 2,
+    "Jupyter Notebook": 2,
+    "TypeScript": 2
+  },
+  "top_repos": [
+    {
+      "name": "pair-programming-sessions",
+      "description": "A collection of frontend coding exercises",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [
+        "css",
+        "html",
+        "javascript",
+        "react"
+      ],
+      "url": "https://github.com/thuthancs/pair-programming-sessions",
+      "updated_at": "2026-02-11T19:37:25Z"
+    },
+    {
+      "name": "notion-leetcode-chrome-extension",
+      "description": "A Chrome extension and backend server to seamlessly time and track your LeetCode problem-solving progress in Notion\u2014no more manual copy-pasting",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [
+        "expressjs",
+        "javascript",
+        "notion-automation"
+      ],
+      "url": "https://github.com/thuthancs/notion-leetcode-chrome-extension",
+      "updated_at": "2026-04-18T19:48:52Z"
+    },
+    {
+      "name": "thuthancs",
+      "description": "Welcome to my software engineering learning journal!",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/thuthancs/thuthancs",
+      "updated_at": "2026-04-19T21:52:05Z"
+    },
+    {
+      "name": "rl-games-tutorials",
+      "description": "\ud83c\udfae a collection of python tutorials on reinforcement learning algorithms in games (e.g., snake, flappy bird, multiagent, alphago, etc.)",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "oop",
+        "python",
+        "pytorch"
+      ],
+      "url": "https://github.com/thuthancs/rl-games-tutorials",
+      "updated_at": "2026-04-05T22:06:13Z"
+    },
+    {
+      "name": "thu-portfolio",
+      "description": "\ud83d\udc69\u200d\ud83c\udfa8 a personal portfolio with style inspired by figma and notion. built with typescript and nextjs.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [
+        "nextjs",
+        "typescript"
+      ],
+      "url": "https://github.com/thuthancs/thu-portfolio",
+      "updated_at": "2026-02-15T04:33:12Z"
+    },
+    {
+      "name": "inline",
+      "description": "\ud83d\udcd6 a chrome extension that enables seamless online reading experience (e.g., add comment, ask questions about specific text in-browser and save to notion pages)",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [
+        "express",
+        "notion-sdk",
+        "typescript"
+      ],
+      "url": "https://github.com/thuthancs/inline",
+      "updated_at": "2026-02-14T23:02:33Z"
+    },
+    {
+      "name": "genuary-2026",
+      "description": "let's code up some art!",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "genuary2026",
+        "python"
+      ],
+      "url": "https://github.com/thuthancs/genuary-2026",
+      "updated_at": "2026-01-06T07:29:28Z"
+    }
+  ],
+  "top_topics": [
+    "javascript",
+    "python",
+    "typescript",
+    "css",
+    "html",
+    "react",
+    "expressjs",
+    "notion-automation",
+    "oop",
+    "pytorch",
+    "nextjs",
+    "express",
+    "notion-sdk",
+    "genuary2026"
+  ]
+}

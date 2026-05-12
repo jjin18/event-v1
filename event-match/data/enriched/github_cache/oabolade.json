@@ -1,0 +1,111 @@
+{
+  "username": "oabolade",
+  "name": "Olasile Abolade",
+  "bio": "",
+  "company": "",
+  "location": "San Francisco, CA",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 3,
+  "public_repos": 21,
+  "created_at": "2020-05-04T06:31:56Z",
+  "languages": {
+    "TypeScript": 11,
+    "Python": 6,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "figma_mcp_server_actor",
+      "description": "An MCP that enables AI assistants to interact programmatically with Figma designs",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/oabolade/figma_mcp_server_actor",
+      "updated_at": "2026-03-23T03:53:45Z"
+    },
+    {
+      "name": "Lead_Sniper_AI",
+      "description": "An agentic system that optimizes leads based on true signals and intent",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/oabolade/Lead_Sniper_AI",
+      "updated_at": "2026-02-26T19:59:20Z"
+    },
+    {
+      "name": "nutripilot",
+      "description": "NutriPilot AI - Autonomous nutrition agent for the Commit to Change hackahon",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/oabolade/nutripilot",
+      "updated_at": "2026-02-12T09:50:14Z"
+    },
+    {
+      "name": "startup-intelligence-agents",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/oabolade/startup-intelligence-agents",
+      "updated_at": "2025-11-30T18:59:20Z"
+    },
+    {
+      "name": "factoryflow",
+      "description": "Autonomous predictive maintenance agent \u2014 AMD x LabLab.ai Hackathon 2026",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/oabolade/factoryflow",
+      "updated_at": "2026-05-11T05:29:12Z"
+    },
+    {
+      "name": "tos-watchdog",
+      "description": "Apify Actor that compares two Terms of Service URLs and uses AI to analyze legal risk of changes",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/oabolade/tos-watchdog",
+      "updated_at": "2026-04-23T16:33:46Z"
+    },
+    {
+      "name": "ap-agent",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/oabolade/ap-agent",
+      "updated_at": "2026-04-21T01:00:38Z"
+    },
+    {
+      "name": "guidealong",
+      "description": "Real-time multimodal accessibility agent \u2014 voice-guided form assistance using Gemini Live API + Vision. Built for Google Gemini Live Agent Challenge.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/oabolade/guidealong",
+      "updated_at": "2026-03-14T08:19:38Z"
+    },
+    {
+      "name": "re-alpha-engine",
+      "description": "RE Alpha Engine \u2014 Institutional Deal Intelligence Agent for multifamily underwriting",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/oabolade/re-alpha-engine",
+      "updated_at": "2026-03-07T01:07:03Z"
+    },
+    {
+      "name": "CMG-Website",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/oabolade/CMG-Website",
+      "updated_at": "2026-02-18T18:36:42Z"
+    }
+  ],
+  "top_topics": []
+}

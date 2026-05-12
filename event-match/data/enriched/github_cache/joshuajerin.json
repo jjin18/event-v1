@@ -1,0 +1,113 @@
+{
+  "username": "joshuajerin",
+  "name": "Joshua Jerin",
+  "bio": ":)",
+  "company": "",
+  "location": "San Francisco",
+  "blog": "joshuajerin.com",
+  "twitter_username": "",
+  "followers": 14,
+  "following": 25,
+  "public_repos": 31,
+  "created_at": "2021-04-20T18:38:59Z",
+  "languages": {
+    "Python": 7,
+    "Swift": 2,
+    "JavaScript": 1,
+    "TypeScript": 1,
+    "Rust": 1
+  },
+  "top_repos": [
+    {
+      "name": "pg_linearalgebra",
+      "description": "Matrix Operations Extension for postgres",
+      "stars": 3,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/pg_linearalgebra",
+      "updated_at": "2024-09-17T15:52:54Z"
+    },
+    {
+      "name": "trading-mcp",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/trading-mcp",
+      "updated_at": "2025-08-05T21:35:32Z"
+    },
+    {
+      "name": "yanshee-mirror",
+      "description": "Real-time pose mirroring for the UBTech Yanshee mini humanoid \u2014 robot watches you with its camera and mirrors your arm movements via MediaPipe Pose + REST API.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/yanshee-mirror",
+      "updated_at": "2026-05-07T17:07:54Z"
+    },
+    {
+      "name": "pppp",
+      "description": "Pen Pineapple Apple Pen \u00d7 computer vision. Procedural 3D Three.js + MediaPipe Hands + Tone.js beat. All local, no API keys.",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/pppp",
+      "updated_at": "2026-05-03T05:40:55Z"
+    },
+    {
+      "name": "agent-watch",
+      "description": "Generic Apple Watch voice client for VPS-hosted AI agents",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/agent-watch",
+      "updated_at": "2026-04-24T07:09:47Z"
+    },
+    {
+      "name": "replit-ns-hackathon",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/replit-ns-hackathon",
+      "updated_at": "2026-04-18T09:56:17Z"
+    },
+    {
+      "name": "cv-opus-hackathon",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/cv-opus-hackathon",
+      "updated_at": "2026-02-16T19:58:27Z"
+    },
+    {
+      "name": "SharkByte",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/SharkByte",
+      "updated_at": "2025-11-09T15:19:02Z"
+    },
+    {
+      "name": "unit-tests-python-eece6032",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/unit-tests-python-eece6032",
+      "updated_at": "2025-10-13T01:30:14Z"
+    },
+    {
+      "name": "futureofdata",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/joshuajerin/futureofdata",
+      "updated_at": "2025-09-06T22:13:05Z"
+    }
+  ],
+  "top_topics": []
+}

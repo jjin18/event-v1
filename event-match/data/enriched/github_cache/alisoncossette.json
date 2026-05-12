@@ -1,0 +1,113 @@
+{
+  "username": "alisoncossette",
+  "name": "Alison Cossette",
+  "bio": "",
+  "company": "",
+  "location": "Burlington, VT",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 18,
+  "following": 7,
+  "public_repos": 97,
+  "created_at": "2014-12-30T19:42:26Z",
+  "languages": {
+    "TypeScript": 6,
+    "Jupyter Notebook": 6,
+    "Python": 5,
+    "HTML": 3,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "Graph-Intelligence-Workshop-AIEWF-2025",
+      "description": "",
+      "stars": 13,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/Graph-Intelligence-Workshop-AIEWF-2025",
+      "updated_at": "2026-03-15T16:08:32Z"
+    },
+    {
+      "name": "Workshop_May_2025",
+      "description": "",
+      "stars": 6,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/Workshop_May_2025",
+      "updated_at": "2025-06-10T16:21:45Z"
+    },
+    {
+      "name": "discord_workshop0425",
+      "description": "",
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/discord_workshop0425",
+      "updated_at": "2025-05-09T09:23:37Z"
+    },
+    {
+      "name": "carmelos-canine",
+      "description": "Carmelo is 97. He lives alone. His grandson lives three states away. Every fall, every missed pill, every quiet day \u2014 nobody knows. A robot in the home can sit in that gap.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/carmelos-canine",
+      "updated_at": "2026-05-04T16:36:57Z"
+    },
+    {
+      "name": "GraphRAG_Ebook",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/GraphRAG_Ebook",
+      "updated_at": "2026-03-15T16:13:34Z"
+    },
+    {
+      "name": "MS422",
+      "description": "Code for MS 422",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/MS422",
+      "updated_at": "2024-01-07T10:47:17Z"
+    },
+    {
+      "name": "TheJargonFile",
+      "description": "Reclaiming The Jargon File for the modern era",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/TheJargonFile",
+      "updated_at": "2020-04-29T23:22:11Z"
+    },
+    {
+      "name": "carmelos-cucina",
+      "description": "So101 arms for kitchen assistance for the elderly - working with maker-mods cli",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/carmelos-cucina",
+      "updated_at": "2026-05-11T11:31:02Z"
+    },
+    {
+      "name": "rubysredrover",
+      "description": "CP-aware emotion detection for the Innate MARS robot. Winner: Best Multi-Modal, Innate RoboHacks (Google DeepMind)",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/rubysredrover",
+      "updated_at": "2026-04-30T00:41:08Z"
+    },
+    {
+      "name": "rubysredrover-app",
+      "description": "Ruby's Red Rover \u2014 MARS robot companion app",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/alisoncossette/rubysredrover-app",
+      "updated_at": "2026-04-29T20:07:08Z"
+    }
+  ],
+  "top_topics": []
+}

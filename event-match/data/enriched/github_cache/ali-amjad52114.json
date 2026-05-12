@@ -1,0 +1,76 @@
+{
+  "username": "ali-amjad52114",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 6,
+  "created_at": "2021-03-28T19:59:47Z",
+  "languages": {
+    "TypeScript": 2,
+    "TeX": 1,
+    "Python": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "PersonalPortfolio",
+      "description": "",
+      "stars": 0,
+      "language": "TeX",
+      "topics": [],
+      "url": "https://github.com/ali-amjad52114/PersonalPortfolio",
+      "updated_at": "2026-04-07T02:03:46Z"
+    },
+    {
+      "name": "whale_classification",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ali-amjad52114/whale_classification",
+      "updated_at": "2026-04-07T01:56:38Z"
+    },
+    {
+      "name": "PathForge",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/ali-amjad52114/PathForge",
+      "updated_at": "2026-04-07T00:16:55Z"
+    },
+    {
+      "name": "3rdOptionAi",
+      "description": "Third option generator",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/ali-amjad52114/3rdOptionAi",
+      "updated_at": "2026-04-07T00:00:00Z"
+    },
+    {
+      "name": "MedConsult",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ali-amjad52114/MedConsult",
+      "updated_at": "2026-04-06T23:35:24Z"
+    },
+    {
+      "name": "gemma3n",
+      "description": "Created with StackBlitz \u26a1\ufe0f",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/ali-amjad52114/gemma3n",
+      "updated_at": "2025-08-06T14:49:49Z"
+    }
+  ],
+  "top_topics": []
+}

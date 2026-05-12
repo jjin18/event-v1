@@ -1,0 +1,114 @@
+{
+  "username": "himavanthkar",
+  "name": "himavanth_karpurapu",
+  "bio": "MSCS Student @ SJSU | Passionate about AI, Machine Learning, Cloud Computing | Mozilla and Stanford LLMxLAW winner | Ex-Intern @ Geoparadigm | Ex-Intern @ WinIT",
+  "company": "San Jose State University",
+  "location": "San Jose",
+  "blog": "https://www.himavanthkarpurapu.com",
+  "twitter_username": "",
+  "followers": 4,
+  "following": 23,
+  "public_repos": 27,
+  "created_at": "2020-07-28T09:33:28Z",
+  "languages": {
+    "JavaScript": 13,
+    "TypeScript": 3,
+    "Python": 3
+  },
+  "top_repos": [
+    {
+      "name": "Shopper-Try-on",
+      "description": "",
+      "stars": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Shopper-Try-on",
+      "updated_at": "2026-04-19T00:27:05Z"
+    },
+    {
+      "name": "Hackathon_mozilla",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Hackathon_mozilla",
+      "updated_at": "2026-04-10T02:51:07Z"
+    },
+    {
+      "name": "project-portfolio-hima",
+      "description": "",
+      "stars": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/project-portfolio-hima",
+      "updated_at": "2026-04-10T02:51:02Z"
+    },
+    {
+      "name": "Productivity-Assister-personaliser",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Productivity-Assister-personaliser",
+      "updated_at": "2026-04-10T02:50:41Z"
+    },
+    {
+      "name": "GameTree-to-GameHub",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/GameTree-to-GameHub",
+      "updated_at": "2026-04-10T02:50:37Z"
+    },
+    {
+      "name": "Coral-Babies-Detection-Using-Computer-Vision",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Coral-Babies-Detection-Using-Computer-Vision",
+      "updated_at": "2026-04-10T02:50:31Z"
+    },
+    {
+      "name": "Mindclash-Battle-of-Wits",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Mindclash-Battle-of-Wits",
+      "updated_at": "2026-04-10T02:50:20Z"
+    },
+    {
+      "name": "Scalable-Three-Tier-Web-App-Migration-to-AWS",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Scalable-Three-Tier-Web-App-Migration-to-AWS",
+      "updated_at": "2026-04-10T02:50:19Z"
+    },
+    {
+      "name": "himavanthkar",
+      "description": "",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/himavanthkar",
+      "updated_at": "2026-05-08T00:35:23Z"
+    },
+    {
+      "name": "Local-First-Multimodal-File-Index-via-MCP",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/himavanthkar/Local-First-Multimodal-File-Index-via-MCP",
+      "updated_at": "2026-05-03T05:29:40Z"
+    }
+  ],
+  "top_topics": [
+    "config",
+    "github-config"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "username": "Usgupta",
+  "name": "Umang Gupta",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "umangpt.com",
+  "twitter_username": "umangguptacs",
+  "followers": 11,
+  "following": 11,
+  "public_repos": 54,
+  "created_at": "2019-11-15T13:16:13Z",
+  "languages": {
+    "Python": 7,
+    "HTML": 2,
+    "JavaScript": 1,
+    "ShaderLab": 1,
+    "TeX": 1,
+    "C": 1,
+    "Swift": 1,
+    "C++": 1,
+    "Jupyter Notebook": 1,
+    "Ruby": 1
+  },
+  "top_repos": [
+    {
+      "name": "50.002-Computation-Structures-1D-Project",
+      "description": "Group 27",
+      "stars": 4,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Usgupta/50.002-Computation-Structures-1D-Project",
+      "updated_at": "2024-01-31T17:47:29Z"
+    },
+    {
+      "name": "drauntie",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Usgupta/drauntie",
+      "updated_at": "2025-11-16T13:57:16Z"
+    },
+    {
+      "name": "product-claim-auditor-skill",
+      "description": "product-claim-auditor agent skill",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Usgupta/product-claim-auditor-skill",
+      "updated_at": "2026-04-26T16:26:48Z"
+    },
+    {
+      "name": "catmeme",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Usgupta/catmeme",
+      "updated_at": "2026-01-12T17:02:20Z"
+    },
+    {
+      "name": "impluse",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Usgupta/impluse",
+      "updated_at": "2026-01-13T18:23:29Z"
+    },
+    {
+      "name": "gic-financial-chatbot",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Usgupta/gic-financial-chatbot",
+      "updated_at": "2025-10-25T17:56:19Z"
+    },
+    {
+      "name": "dubtok",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Usgupta/dubtok",
+      "updated_at": "2024-07-17T07:33:43Z"
+    },
+    {
+      "name": "MurderMansion",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Usgupta/MurderMansion",
+      "updated_at": "2024-01-25T17:59:35Z"
+    },
+    {
+      "name": "HeartLedger",
+      "description": "Block by Block, Heart to Heart - a charity DApp",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Usgupta/HeartLedger",
+      "updated_at": "2023-12-08T14:37:25Z"
+    },
+    {
+      "name": "Castle-of-the-Dead",
+      "description": "50033-midterm-partb-Usgupta created by GitHub Classroom",
+      "stars": 0,
+      "language": "ShaderLab",
+      "topics": [],
+      "url": "https://github.com/Usgupta/Castle-of-the-Dead",
+      "updated_at": "2023-12-07T02:15:28Z"
+    }
+  ],
+  "top_topics": []
+}

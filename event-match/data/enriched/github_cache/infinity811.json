@@ -1,0 +1,119 @@
+{
+  "username": "infinity811",
+  "name": "Om Jodhpurkar",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 7,
+  "following": 2,
+  "public_repos": 18,
+  "created_at": "2020-07-30T16:54:10Z",
+  "languages": {
+    "HTML": 4,
+    "Python": 3,
+    "Jupyter Notebook": 1,
+    "JavaScript": 1,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "multimodal_depression_detection",
+      "description": "Automatic Depression Detection using Multi-modal transformer for CSCI-554",
+      "stars": 4,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/infinity811/multimodal_depression_detection",
+      "updated_at": "2025-12-30T07:48:36Z"
+    },
+    {
+      "name": "infinity811",
+      "description": "Config files for my GitHub profile.",
+      "stars": 1,
+      "language": "",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "url": "https://github.com/infinity811/infinity811",
+      "updated_at": "2025-03-18T04:23:17Z"
+    },
+    {
+      "name": "Bike-Rental-Prediction",
+      "description": "",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/infinity811/Bike-Rental-Prediction",
+      "updated_at": "2025-02-28T00:53:35Z"
+    },
+    {
+      "name": "focus-monitor",
+      "description": "Browser-based focus tracking tool with webcam face detection, posture monitoring, drowsiness alerts, Pomodoro timer, ambient sounds, and more. All processing runs locally.",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/infinity811/focus-monitor",
+      "updated_at": "2026-03-15T12:35:03Z"
+    },
+    {
+      "name": "omjodhpurkar-portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/infinity811/omjodhpurkar-portfolio",
+      "updated_at": "2025-04-07T10:26:53Z"
+    },
+    {
+      "name": "omjdhpurkar",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/infinity811/omjdhpurkar",
+      "updated_at": "2025-03-16T01:19:11Z"
+    },
+    {
+      "name": "portfoliowebsite",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/infinity811/portfoliowebsite",
+      "updated_at": "2025-02-11T21:49:19Z"
+    },
+    {
+      "name": "moralis-backend",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/infinity811/moralis-backend",
+      "updated_at": "2023-03-13T17:51:23Z"
+    },
+    {
+      "name": "moralis-meta-connect",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/infinity811/moralis-meta-connect",
+      "updated_at": "2023-03-13T17:48:35Z"
+    },
+    {
+      "name": "Weather_App",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/infinity811/Weather_App",
+      "updated_at": "2023-02-16T23:34:50Z"
+    }
+  ],
+  "top_topics": [
+    "config",
+    "github-config"
+  ]
+}

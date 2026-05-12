@@ -1,0 +1,4 @@
+{
+  "rationale": "Jiale brings deep expertise in scalable ML infrastructure and distributed training systems from Meta and Uber, while AJ is building dexterous robotic systems that require exactly this kind of foundational ML platform work. AJ's focus on simulation and real-world data synthesis for robot learning, combined with hardware-software co-design, aligns well with Jiale's background in systems engineering and deep learning infrastructure\u2014there's a concrete skill exchange where Jiale's platform expertise could inform how Seed Physical scales its learning pipeline.",
+  "intro_message": "Jiale Zhi, meet AJ Chahal \u2014 AJ is building dexterous robotic systems at Seed Physical and could benefit from your ML infrastructure expertise, while you might find his robotics learning approaches and hardware-software co-design philosophy interesting for understanding real-world constraints on scalable ML systems."
+}

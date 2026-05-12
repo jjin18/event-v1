@@ -1,0 +1,4 @@
+{
+  "rationale": "Era is building sovereign, edge-deployed AI infrastructure at Edge (co-founded with a Transformer paper author) while Louan is applying deep learning to real clinical neuroimaging problems at UCSF\u2014a natural pairing of ML infrastructure expertise with applied neuroscience use cases. Louan's work on self-supervised methods (JEPA, VICReg) and medical imaging pipelines could benefit from Edge's focus on on-device, privacy-preserving AI, while Era's conviction around composable open-source stacks aligns with the kind of reproducible ML tooling that clinical AI requires.",
+  "intro_message": "Era, meet Louan\u2014he's a neuro-computational scientist at UCSF building applied ML for neuroimaging (fMRI, lesion detection) and you're focused on edge inference and sovereign AI; could be interesting to explore how on-device models might serve clinical workflows."
+}

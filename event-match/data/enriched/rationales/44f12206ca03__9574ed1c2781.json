@@ -1,0 +1,4 @@
+{
+  "rationale": "Louan's applied ML work on neuroimaging pipelines (fMRI analysis, lesion detection) could benefit from Jiale's deep expertise in distributed training systems and ML infrastructure at Meta\u2014taking domain-specific models from research into production-scale deployment. Both are based in San Francisco and working at the intersection of deep learning systems, making this a natural technical collaboration opportunity around scaling medical imaging applications.",
+  "intro_message": "Louan, meet Jiale Zhi \u2014 he builds ML infrastructure and distributed training systems at Meta and could help you think through scaling your neuroimaging pipelines from research into production."
+}

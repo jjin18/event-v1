@@ -1,0 +1,4 @@
+{
+  "rationale": "Micah's work on visual intuition for ML systems and interactive data visualization interfaces complements Louan's applied ML pipelines for clinical neuroimaging\u2014where visualization of complex brain imaging data could unlock better human interpretation of deep learning results. Both are SF-based and work at the intersection of ML tooling and specialized domains (graph data & WebXR vs. medical imaging & fMRI), making them well-positioned to explore how visual approaches could improve neuroimaging analysis workflows.",
+  "intro_message": "Micah Stubbs, meet Louan\u2014you're both exploring how to make ML systems more interpretable through better interfaces, and Louan's neuroimaging work could be a compelling use case for your visual ML tooling."
+}

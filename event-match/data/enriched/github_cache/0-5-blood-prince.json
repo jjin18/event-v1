@@ -1,0 +1,117 @@
+{
+  "username": "0-5-blood-prince",
+  "name": "Mooizz",
+  "bio": "Avid Traveller ",
+  "company": "Columbia University",
+  "location": "New York City",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 4,
+  "following": 16,
+  "public_repos": 55,
+  "created_at": "2018-08-28T17:10:55Z",
+  "languages": {
+    "Python": 7,
+    "Jupyter Notebook": 5,
+    "Haskell": 1,
+    "C++": 1,
+    "TypeScript": 1,
+    "Ruby": 1,
+    "Java": 1,
+    "Assembly": 1,
+    "C": 1
+  },
+  "top_repos": [
+    {
+      "name": "code-llm",
+      "description": "Starcoder2 optimized inference",
+      "stars": 1,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/code-llm",
+      "updated_at": "2024-08-06T01:55:56Z"
+    },
+    {
+      "name": "cloud-based-video-conferencing-application-using-openvidu",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/cloud-based-video-conferencing-application-using-openvidu",
+      "updated_at": "2024-06-29T19:46:51Z"
+    },
+    {
+      "name": "dining-conceirge-chat-bot-using-aws",
+      "description": "A Chat bot which sends restaurant recommendations to your email",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/dining-conceirge-chat-bot-using-aws",
+      "updated_at": "2023-11-09T05:38:06Z"
+    },
+    {
+      "name": "nebius-build",
+      "description": "RoboMind: LLM-orchestrated Unitree G1 robot control with predictive planning \u2014 Nebius AI Hackathon",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/nebius-build",
+      "updated_at": "2026-03-15T22:03:02Z"
+    },
+    {
+      "name": "passage_retrieval_haskell",
+      "description": "",
+      "stars": 0,
+      "language": "Haskell",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/passage_retrieval_haskell",
+      "updated_at": "2024-12-19T04:32:42Z"
+    },
+    {
+      "name": "UniIR",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/UniIR",
+      "updated_at": "2024-09-05T19:52:23Z"
+    },
+    {
+      "name": "ControlNet_ImageNet",
+      "description": "Apply Control Net on ImageNet Dataset with Sketch Condition",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/ControlNet_ImageNet",
+      "updated_at": "2024-04-30T01:34:39Z"
+    },
+    {
+      "name": "Sketch-based-Image-generation-using-clip-and-styleGAN",
+      "description": "Sketch-based-Image-generation-using-clip-and-styleGAN",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/Sketch-based-Image-generation-using-clip-and-styleGAN",
+      "updated_at": "2023-12-02T02:22:24Z"
+    },
+    {
+      "name": "cloud-conferencing-app",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/cloud-conferencing-app",
+      "updated_at": "2023-11-23T01:16:20Z"
+    },
+    {
+      "name": "ubiquitous-waffle",
+      "description": "",
+      "stars": 0,
+      "language": "Ruby",
+      "topics": [],
+      "url": "https://github.com/0-5-blood-prince/ubiquitous-waffle",
+      "updated_at": "2023-09-05T21:56:03Z"
+    }
+  ],
+  "top_topics": []
+}

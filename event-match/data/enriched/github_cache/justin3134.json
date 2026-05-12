@@ -1,0 +1,111 @@
+{
+  "username": "Justin3134",
+  "name": "kim",
+  "bio": "Think Beyond",
+  "company": "UI Open",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 22,
+  "created_at": "2025-07-15T17:55:21Z",
+  "languages": {
+    "TypeScript": 11,
+    "Python": 6,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "memo",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Justin3134/memo",
+      "updated_at": "2026-03-04T05:04:20Z"
+    },
+    {
+      "name": "Lux-linkedin-OpenComputerUse",
+      "description": "Professionals struggle to maintain an active LinkedIn presence due to time constraints and content creation friction. Manual posting, commenting, and networking takes hours weekly. LinkedInFlow bridges the gap between your thoughts and professional networking.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Justin3134/Lux-linkedin-OpenComputerUse",
+      "updated_at": "2026-02-19T22:26:52Z"
+    },
+    {
+      "name": "RecallJump",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Justin3134/RecallJump",
+      "updated_at": "2026-02-19T22:23:08Z"
+    },
+    {
+      "name": "Axiom",
+      "description": "An autonomous AI agent that answers any question by running its own experiments.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Justin3134/Axiom",
+      "updated_at": "2026-05-10T02:59:06Z"
+    },
+    {
+      "name": "Bet",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Justin3134/Bet",
+      "updated_at": "2026-05-10T02:36:43Z"
+    },
+    {
+      "name": "testrepo",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Justin3134/testrepo",
+      "updated_at": "2026-05-09T19:41:40Z"
+    },
+    {
+      "name": "LightHouse",
+      "description": "utonomous agent that monitors how every LLM describes your company across the web, detects hallucinations and misinformation, and autonomously fixes them.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Justin3134/LightHouse",
+      "updated_at": "2026-04-24T18:09:09Z"
+    },
+    {
+      "name": "GeoScale",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Justin3134/GeoScale",
+      "updated_at": "2026-04-20T02:56:01Z"
+    },
+    {
+      "name": "Dispatch-AI",
+      "description": "Dispatch AI scans live web data across your entire competitive landscape and hands you the 3 actions to take this week, then executes them.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Justin3134/Dispatch-AI",
+      "updated_at": "2026-04-11T17:32:38Z"
+    },
+    {
+      "name": "Verity",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Justin3134/Verity",
+      "updated_at": "2026-04-07T17:58:44Z"
+    }
+  ],
+  "top_topics": []
+}

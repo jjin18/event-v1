@@ -1,0 +1,112 @@
+{
+  "username": "anruv",
+  "name": "Varun",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 6,
+  "following": 5,
+  "public_repos": 18,
+  "created_at": "2017-02-01T16:31:44Z",
+  "languages": {
+    "Python": 8,
+    "HTML": 2,
+    "Jupyter Notebook": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "Watcher_agent_framework",
+      "description": "A dual-agent framework ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/anruv/Watcher_agent_framework",
+      "updated_at": "2026-04-02T21:02:25Z"
+    },
+    {
+      "name": "Paper_Digest",
+      "description": "Papers I read",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/anruv/Paper_Digest",
+      "updated_at": "2026-03-30T22:05:36Z"
+    },
+    {
+      "name": "rag-pipeline",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/anruv/rag-pipeline",
+      "updated_at": "2026-03-20T23:14:40Z"
+    },
+    {
+      "name": "remove-shorts-safari-extension",
+      "description": "A lightweight Safari Web Extension that removes YouTube Shorts from your browsing experience on macOS.",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/anruv/remove-shorts-safari-extension",
+      "updated_at": "2026-03-19T20:04:28Z"
+    },
+    {
+      "name": "Huawei-Advertisement-CTR-Prediction",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/anruv/Huawei-Advertisement-CTR-Prediction",
+      "updated_at": "2024-11-25T20:45:36Z"
+    },
+    {
+      "name": "adversarial_search",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/anruv/adversarial_search",
+      "updated_at": "2024-05-27T20:07:20Z"
+    },
+    {
+      "name": "Constaint-Satisfaction-Visualization",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/anruv/Constaint-Satisfaction-Visualization",
+      "updated_at": "2024-05-25T21:40:38Z"
+    },
+    {
+      "name": "pdf",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/anruv/pdf",
+      "updated_at": "2023-10-25T01:19:26Z"
+    },
+    {
+      "name": "BERTSum_tutorial",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/anruv/BERTSum_tutorial",
+      "updated_at": "2023-05-08T03:34:44Z"
+    },
+    {
+      "name": "project-5",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/anruv/project-5",
+      "updated_at": "2023-05-02T07:18:24Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,47 @@
+{
+  "username": "omnaathg",
+  "name": "Omnaath Guptha",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 3,
+  "created_at": "2015-10-15T18:36:47Z",
+  "languages": {
+    "Python": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "turbopi_isaaclab",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/omnaathg/turbopi_isaaclab",
+      "updated_at": "2026-05-10T21:43:24Z"
+    },
+    {
+      "name": "pythonrobotics",
+      "description": "Robotics in python",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/omnaathg/pythonrobotics",
+      "updated_at": "2023-11-25T19:16:13Z"
+    },
+    {
+      "name": "Cpp_Practice",
+      "description": "Practice CPP - Udacity course work",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/omnaathg/Cpp_Practice",
+      "updated_at": "2020-05-24T20:48:51Z"
+    }
+  ],
+  "top_topics": []
+}

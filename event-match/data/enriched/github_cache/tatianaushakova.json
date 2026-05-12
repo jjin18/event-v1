@@ -1,0 +1,75 @@
+{
+  "username": "TatianaUshakova",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 6,
+  "created_at": "2023-08-22T01:01:17Z",
+  "languages": {
+    "HTML": 2,
+    "Python": 2,
+    "Jupyter Notebook": 1
+  },
+  "top_repos": [
+    {
+      "name": "Anemia_detection",
+      "description": "Anemia detection using deep learning, designed for rural India where anemia-related complications, especially in pregnant women, are common and access to medical help is limited. The project includes tools for color correction, image segmentation, data cleaning, multiple predictive models. Patient data remains private; similar public data is used.",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/TatianaUshakova/Anemia_detection",
+      "updated_at": "2025-05-23T20:46:11Z"
+    },
+    {
+      "name": "TatianaUshakova.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/TatianaUshakova/TatianaUshakova.github.io",
+      "updated_at": "2026-04-27T09:14:42Z"
+    },
+    {
+      "name": "Gym_Style_Snake",
+      "description": "Snake game Reinforcement Learning agent written fully compatible with the gym environment to be used interchangible and suitable for any RL library (SB3, RLlib, custom code, etc.)",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/TatianaUshakova/Gym_Style_Snake",
+      "updated_at": "2025-05-27T04:26:05Z"
+    },
+    {
+      "name": "vision-language-action_robocar",
+      "description": "Integrating a vision-language-action(code) model to a simple $30 robotic car from amazon for autonomous control with the purpose to evaluate the robustness and limits of current models for future use in more complex projects with real world usage",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/TatianaUshakova/vision-language-action_robocar",
+      "updated_at": "2025-05-27T02:24:11Z"
+    },
+    {
+      "name": "PPO_from_scratch",
+      "description": "implementation of Proximal Policy Optimization (PPO) Reinforcement Learning algorithm from scratch, following the algorithm in the original OpenAI paper. To be uploaded: custom gym-style env from scratch end experiments of custom reward creation on it",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/TatianaUshakova/PPO_from_scratch",
+      "updated_at": "2025-05-18T02:17:26Z"
+    },
+    {
+      "name": "sculpture_cakes_portfolio",
+      "description": "The website I created for my sister's awesome sculpture cakes. Sculptures, gargoyles, magical characters, hyporealistic cakes and a drawing on the cake. For now only in russian - but you can look at the amazing puctures of the cakes - I promese you've never seen something similar before ",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/TatianaUshakova/sculpture_cakes_portfolio",
+      "updated_at": "2025-05-07T07:24:00Z"
+    }
+  ],
+  "top_topics": []
+}

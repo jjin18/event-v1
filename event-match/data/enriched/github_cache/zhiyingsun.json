@@ -1,0 +1,84 @@
+{
+  "username": "ZhiYingSun",
+  "name": "Sophy Sun",
+  "bio": "Infra @HubSpot ",
+  "company": "University of Toronto",
+  "location": "Toronto, ON",
+  "blog": "https://www.linkedin.com/in/sophysun/",
+  "twitter_username": "",
+  "followers": 15,
+  "following": 29,
+  "public_repos": 13,
+  "created_at": "2020-04-03T12:50:47Z",
+  "languages": {
+    "Python": 2,
+    "JavaScript": 1,
+    "TypeScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "pr_tam_v2",
+      "description": "rewrite of pr_tam",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/pr_tam_v2",
+      "updated_at": "2025-11-23T18:14:24Z"
+    },
+    {
+      "name": "d3-toronto-choropleth-map",
+      "description": "map using d3.js and react",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/d3-toronto-choropleth-map",
+      "updated_at": "2022-11-07T23:40:27Z"
+    },
+    {
+      "name": "timbits",
+      "description": "code snippets that could be useful -- and should be scripts ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/timbits",
+      "updated_at": "2022-08-30T15:38:44Z"
+    },
+    {
+      "name": "random-us-intern-advice",
+      "description": "What I learned from the Unofficial Waterloo USA Intern Guide and more!",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/random-us-intern-advice",
+      "updated_at": "2022-06-18T14:32:24Z"
+    },
+    {
+      "name": "ZhiYingSun",
+      "description": "\ud83c\udf09",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/ZhiYingSun",
+      "updated_at": "2022-03-04T23:57:45Z"
+    },
+    {
+      "name": "programming-problems",
+      "description": "Collection of programming questions in Python.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/programming-problems",
+      "updated_at": "2022-02-14T23:49:11Z"
+    },
+    {
+      "name": "shop-checkout",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/ZhiYingSun/shop-checkout",
+      "updated_at": "2022-02-10T02:38:48Z"
+    }
+  ],
+  "top_topics": []
+}

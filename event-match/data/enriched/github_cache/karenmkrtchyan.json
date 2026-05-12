@@ -1,0 +1,115 @@
+{
+  "username": "KarenMkrtchyan",
+  "name": "Karen Mkrtchyan",
+  "bio": "building the next huge ChatGPT wrapper",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "mkr_kar",
+  "followers": 10,
+  "following": 24,
+  "public_repos": 43,
+  "created_at": "2020-08-29T23:48:02Z",
+  "languages": {
+    "Python": 9,
+    "JavaScript": 8,
+    "TypeScript": 5,
+    "HTML": 3,
+    "C": 2,
+    "C++": 2,
+    "Verilog": 1
+  },
+  "top_repos": [
+    {
+      "name": "Mechanistic_Analysis_of_Universality",
+      "description": "Code for upcoming Universality Theory research paper",
+      "stars": 5,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/Mechanistic_Analysis_of_Universality",
+      "updated_at": "2026-04-19T21:02:23Z"
+    },
+    {
+      "name": "resume",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/resume",
+      "updated_at": "2026-04-29T19:11:21Z"
+    },
+    {
+      "name": "birb",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/birb",
+      "updated_at": "2026-04-23T00:39:25Z"
+    },
+    {
+      "name": "follow_bot",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/follow_bot",
+      "updated_at": "2026-04-21T20:35:00Z"
+    },
+    {
+      "name": "mech-univ-paper-site",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/mech-univ-paper-site",
+      "updated_at": "2026-04-20T09:00:59Z"
+    },
+    {
+      "name": "Pi_Sensor_board",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/Pi_Sensor_board",
+      "updated_at": "2026-04-16T23:28:22Z"
+    },
+    {
+      "name": "hj",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/hj",
+      "updated_at": "2026-04-10T05:20:30Z"
+    },
+    {
+      "name": "FPGA_Surfers",
+      "description": "",
+      "stars": 0,
+      "language": "Verilog",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/FPGA_Surfers",
+      "updated_at": "2026-03-07T21:59:02Z"
+    },
+    {
+      "name": "CTC_Detection_From_WSI",
+      "description": "AI powered early stage cancer detection pipeline",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/CTC_Detection_From_WSI",
+      "updated_at": "2026-03-07T21:56:40Z"
+    },
+    {
+      "name": "grovePiLab",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/KarenMkrtchyan/grovePiLab",
+      "updated_at": "2026-03-04T22:12:36Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,84 @@
+{
+  "username": "roboyak",
+  "name": "Shawn Cunningham",
+  "bio": "Dismantler of Chaos.",
+  "company": "Layer 3 Development, Inc.",
+  "location": "San Francisco, CA",
+  "blog": "http://www.layer3dev.com",
+  "twitter_username": "",
+  "followers": 5,
+  "following": 11,
+  "public_repos": 26,
+  "created_at": "2011-08-02T14:43:56Z",
+  "languages": {
+    "Jupyter Notebook": 4,
+    "HTML": 1,
+    "Ruby": 1
+  },
+  "top_repos": [
+    {
+      "name": "solarcast",
+      "description": "UC Berkeley AI/ML course work, final captsone submission",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/roboyak/solarcast",
+      "updated_at": "2026-05-01T13:39:09Z"
+    },
+    {
+      "name": "comparing_classifiers",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/roboyak/comparing_classifiers",
+      "updated_at": "2026-04-20T20:24:05Z"
+    },
+    {
+      "name": "vehicle_price_analysis",
+      "description": "UC Berkeley AI/ML course work",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/roboyak/vehicle_price_analysis",
+      "updated_at": "2026-02-19T09:41:22Z"
+    },
+    {
+      "name": "dragon-wings-image-gen",
+      "description": "Dragon Wings AI Image Generator - Midjourney-style SaaS platform with Rails frontend and Python Stable Diffusion backend",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/roboyak/dragon-wings-image-gen",
+      "updated_at": "2026-02-05T21:28:20Z"
+    },
+    {
+      "name": "coupon-acceptance-analysis",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/roboyak/coupon-acceptance-analysis",
+      "updated_at": "2025-12-18T16:45:59Z"
+    },
+    {
+      "name": "f1-ml-capstone-portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/roboyak/f1-ml-capstone-portfolio",
+      "updated_at": "2025-12-17T02:03:50Z"
+    },
+    {
+      "name": "lakota",
+      "description": "",
+      "stars": 0,
+      "language": "Ruby",
+      "topics": [],
+      "url": "https://github.com/roboyak/lakota",
+      "updated_at": "2020-09-03T10:24:22Z"
+    }
+  ],
+  "top_topics": []
+}

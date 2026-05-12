@@ -1,0 +1,122 @@
+{
+  "username": "pranavpatel08",
+  "name": "Pranav Patel",
+  "bio": "Enthusiastic programmer, envisioning to make lives easier by solving real-world problems.",
+  "company": "http://github.cerner.com/",
+  "location": "",
+  "blog": "http://pranavj.netlify.app/",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 0,
+  "public_repos": 33,
+  "created_at": "2020-04-07T11:09:49Z",
+  "languages": {
+    "JavaScript": 8,
+    "Jupyter Notebook": 6,
+    "Python": 5,
+    "HTML": 4,
+    "TypeScript": 3,
+    "CSS": 2,
+    "Go": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "Optimizing-Healthcare-Scheduling-Systems",
+      "description": "",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/Optimizing-Healthcare-Scheduling-Systems",
+      "updated_at": "2025-07-12T13:40:22Z"
+    },
+    {
+      "name": "KFold-GeoScience",
+      "description": "A K-Fold stacking framework for Pore Pressure Prediction",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/KFold-GeoScience",
+      "updated_at": "2026-05-08T22:19:36Z"
+    },
+    {
+      "name": "dream-weaver-ai",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/dream-weaver-ai",
+      "updated_at": "2026-05-06T23:42:36Z"
+    },
+    {
+      "name": "dao-treasury-sentinel",
+      "description": "Always-on treasury analyst for any DAO \u2014 free, open-source, OpenClaw-native skill",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/dao-treasury-sentinel",
+      "updated_at": "2026-04-27T01:58:36Z"
+    },
+    {
+      "name": "sentient-arena-agent",
+      "description": "Sentient Arena - Grounded Reasoning Challenge Agent (OfficeQA benchmark). Codename: The Dark Knight.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/sentient-arena-agent",
+      "updated_at": "2026-04-24T20:35:19Z"
+    },
+    {
+      "name": "StillTrue",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/StillTrue",
+      "updated_at": "2026-03-21T23:46:51Z"
+    },
+    {
+      "name": "founderOS",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/founderOS",
+      "updated_at": "2026-03-13T19:08:36Z"
+    },
+    {
+      "name": "TurtleTalk",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/TurtleTalk",
+      "updated_at": "2026-02-22T02:21:12Z"
+    },
+    {
+      "name": "CS6650-hw1a",
+      "description": "",
+      "stars": 0,
+      "language": "Go",
+      "topics": [],
+      "url": "https://github.com/pranavpatel08/CS6650-hw1a",
+      "updated_at": "2026-01-15T20:40:49Z"
+    },
+    {
+      "name": "pranavpatel08",
+      "description": "Config files for my GitHub profile.",
+      "stars": 0,
+      "language": "",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "url": "https://github.com/pranavpatel08/pranavpatel08",
+      "updated_at": "2026-01-09T19:35:22Z"
+    }
+  ],
+  "top_topics": [
+    "config",
+    "github-config"
+  ]
+}

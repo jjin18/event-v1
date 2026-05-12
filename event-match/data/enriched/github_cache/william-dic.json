@@ -1,0 +1,115 @@
+{
+  "username": "william-Dic",
+  "name": "Guanming Wang",
+  "bio": "Co-Founder of General Instinct (YC X26)\r\n",
+  "company": "",
+  "location": "",
+  "blog": "guanmingwang0717@gmail.com",
+  "twitter_username": "",
+  "followers": 60,
+  "following": 16,
+  "public_repos": 45,
+  "created_at": "2021-05-16T01:42:03Z",
+  "languages": {
+    "Python": 11,
+    "Jupyter Notebook": 3,
+    "C#": 1,
+    "C": 1,
+    "HTML": 1,
+    "MATLAB": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "DeepBattler",
+      "description": "DeepBattler - Your BEST LLM Battlegrounds Coach/Friend\uff01",
+      "stars": 296,
+      "language": "C#",
+      "topics": [],
+      "url": "https://github.com/william-Dic/DeepBattler",
+      "updated_at": "2026-04-28T08:55:05Z"
+    },
+    {
+      "name": "Fullstack-Embodied-AI-Guide",
+      "description": "",
+      "stars": 72,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/Fullstack-Embodied-AI-Guide",
+      "updated_at": "2026-05-04T00:35:44Z"
+    },
+    {
+      "name": "ErrGAN",
+      "description": "ErrGAN used on imitation learning",
+      "stars": 7,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/ErrGAN",
+      "updated_at": "2025-08-30T11:38:56Z"
+    },
+    {
+      "name": "Self-Reflection-Claude",
+      "description": "",
+      "stars": 7,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/Self-Reflection-Claude",
+      "updated_at": "2025-08-04T18:42:47Z"
+    },
+    {
+      "name": "FedVLA",
+      "description": "",
+      "stars": 4,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/FedVLA",
+      "updated_at": "2025-05-31T09:13:14Z"
+    },
+    {
+      "name": "CS285_22fall_hw_answers",
+      "description": "",
+      "stars": 4,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/william-Dic/CS285_22fall_hw_answers",
+      "updated_at": "2025-03-26T09:06:49Z"
+    },
+    {
+      "name": "First-Principle",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/First-Principle",
+      "updated_at": "2026-01-13T22:29:04Z"
+    },
+    {
+      "name": "BaristaBot-LinkedIn-Coffee-Chats",
+      "description": "Analyses LinkedIn profiles with ChatGPT to generate personalised coffee chat invitations that help you network more effectively.",
+      "stars": 2,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/william-Dic/BaristaBot-LinkedIn-Coffee-Chats",
+      "updated_at": "2025-09-07T04:45:48Z"
+    },
+    {
+      "name": "MCTS_GameTheory",
+      "description": "This repo is about using MCTS on Zhajinhua(Ancient Chinese Card Game) to develop a AI agent which achieves 90% of winning accuracy.",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/MCTS_GameTheory",
+      "updated_at": "2025-09-07T04:45:44Z"
+    },
+    {
+      "name": "Deepflow_Public",
+      "description": "Fully Autonomous Multimodal Input Agent",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/william-Dic/Deepflow_Public",
+      "updated_at": "2025-09-07T04:45:37Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,37 @@
+{
+  "username": "rakesh-ranj",
+  "name": "Rakesh",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 4,
+  "following": 0,
+  "public_repos": 2,
+  "created_at": "2014-01-13T02:59:35Z",
+  "languages": {
+    "GDScript": 2
+  },
+  "top_repos": [
+    {
+      "name": "crash-course",
+      "description": "",
+      "stars": 0,
+      "language": "GDScript",
+      "topics": [],
+      "url": "https://github.com/rakesh-ranj/crash-course",
+      "updated_at": "2026-03-02T20:29:29Z"
+    },
+    {
+      "name": "lane-dash",
+      "description": "Lane Dash - A 3D car racing game built with Godot 4.x and Kenney Racing Kit",
+      "stars": 0,
+      "language": "GDScript",
+      "topics": [],
+      "url": "https://github.com/rakesh-ranj/lane-dash",
+      "updated_at": "2026-02-22T23:55:38Z"
+    }
+  ],
+  "top_topics": []
+}

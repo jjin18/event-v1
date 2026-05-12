@@ -1,0 +1,130 @@
+{
+  "username": "bojiang3",
+  "name": "Bojiang Li",
+  "bio": "Software Engineer",
+  "company": "",
+  "location": "San Francisco, CA",
+  "blog": "bojiangli.com",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 32,
+  "public_repos": 25,
+  "created_at": "2017-09-19T17:19:22Z",
+  "languages": {
+    "Swift": 3,
+    "TypeScript": 2,
+    "Python": 2,
+    "JavaScript": 1,
+    "Java": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "ImageApp",
+      "description": "A powerful and user-friendly image editing application for iOS devices developed with SwiftUI and CoreImage",
+      "stars": 2,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/bojiang3/ImageApp",
+      "updated_at": "2023-03-10T03:00:30Z"
+    },
+    {
+      "name": "TransitiOS",
+      "description": "A cutting-edge transportation application developed with Swift, UIKit and Apple MapKit",
+      "stars": 1,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/bojiang3/TransitiOS",
+      "updated_at": "2025-01-26T00:47:24Z"
+    },
+    {
+      "name": "Illini-Printer-Map",
+      "description": "An Android app visualizing printers' locations at the University of Illinois with new features. Aim to serve 50,000 U of I (UIUC) students and scholars.",
+      "stars": 1,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/bojiang3/Illini-Printer-Map",
+      "updated_at": "2025-01-26T00:42:28Z"
+    },
+    {
+      "name": "bojiangli-portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/bojiang3/bojiangli-portfolio",
+      "updated_at": "2026-03-30T05:30:52Z"
+    },
+    {
+      "name": "gmi-gpu-optimizer",
+      "description": "\u26a1 Agentic AI GPU cost optimizer with autonomous tool use \u2014 Powered by Kimi K2.5 on GMI Cloud | Built at GMI Hackathon 2026",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "cost-optimization",
+        "gmi-cloud",
+        "gpu-cloud",
+        "hackathon",
+        "kimi",
+        "tool-use"
+      ],
+      "url": "https://github.com/bojiang3/gmi-gpu-optimizer",
+      "updated_at": "2026-03-29T00:22:10Z"
+    },
+    {
+      "name": "fluidstack-gpu-dashboard",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/bojiang3/fluidstack-gpu-dashboard",
+      "updated_at": "2026-03-16T00:21:45Z"
+    },
+    {
+      "name": "css-complexity-analyzer",
+      "description": "A modern web tool for analyzing CSS complexity, identifying performance issues, and providing actionable optimization recommendations.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/bojiang3/css-complexity-analyzer",
+      "updated_at": "2025-03-11T02:31:14Z"
+    },
+    {
+      "name": "kubernetes-flashcards-ios",
+      "description": "iOS app - Kubernetes Flashcards",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/bojiang3/kubernetes-flashcards-ios",
+      "updated_at": "2025-03-07T07:48:15Z"
+    },
+    {
+      "name": "car-lease-calculator-ios",
+      "description": "iOS app - Car Lease Calculator",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/bojiang3/car-lease-calculator-ios",
+      "updated_at": "2025-03-04T22:42:38Z"
+    },
+    {
+      "name": "which-next-ios",
+      "description": "iOS app: Which Next",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/bojiang3/which-next-ios",
+      "updated_at": "2025-03-04T22:41:14Z"
+    }
+  ],
+  "top_topics": [
+    "ai-agent",
+    "cost-optimization",
+    "gmi-cloud",
+    "gpu-cloud",
+    "hackathon",
+    "kimi",
+    "tool-use"
+  ]
+}

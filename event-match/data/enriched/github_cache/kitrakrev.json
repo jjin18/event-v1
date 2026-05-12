@@ -1,0 +1,115 @@
+{
+  "username": "kitrakrev",
+  "name": "Karthik Raja A",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 19,
+  "following": 87,
+  "public_repos": 64,
+  "created_at": "2020-11-29T15:35:13Z",
+  "languages": {
+    "Python": 11,
+    "Jupyter Notebook": 3,
+    "TypeScript": 2,
+    "Java": 2,
+    "HTML": 1,
+    "Go": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "rl-recruits",
+      "description": "RL Recruiting System",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/rl-recruits",
+      "updated_at": "2026-04-11T07:54:54Z"
+    },
+    {
+      "name": "LLM_Pushback_Analysis",
+      "description": "Chat Bot Pusha Analysis and evaluation",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/LLM_Pushback_Analysis",
+      "updated_at": "2025-03-18T01:54:39Z"
+    },
+    {
+      "name": "teamhq",
+      "description": "TeamHQ \u2014 the engineering org's command center for autonomous code change. Nozomio Hackathon Track 4.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/teamhq",
+      "updated_at": "2026-05-10T02:45:14Z"
+    },
+    {
+      "name": "teamhq-hero",
+      "description": "Hero target repo for TeamHQ migration agent demo (openai==0.28 + custom retry wrapper)",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/teamhq-hero",
+      "updated_at": "2026-05-10T00:33:06Z"
+    },
+    {
+      "name": "smart-router-multi-modal",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/smart-router-multi-modal",
+      "updated_at": "2026-04-18T16:29:51Z"
+    },
+    {
+      "name": "digi-helper",
+      "description": "Vercel x deepmind hackathon",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/digi-helper",
+      "updated_at": "2026-03-22T00:25:16Z"
+    },
+    {
+      "name": "vercel-kitrak-website",
+      "description": "Vercel version of personal website",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/vercel-kitrak-website",
+      "updated_at": "2026-03-21T23:56:52Z"
+    },
+    {
+      "name": "vercel-discord-bot",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/vercel-discord-bot",
+      "updated_at": "2026-03-21T22:55:43Z"
+    },
+    {
+      "name": "mulit-modal-llm-evals",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/mulit-modal-llm-evals",
+      "updated_at": "2026-03-21T21:41:53Z"
+    },
+    {
+      "name": "realtime-log-processor",
+      "description": "Realtime Log Processor",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/kitrakrev/realtime-log-processor",
+      "updated_at": "2026-03-21T21:41:48Z"
+    }
+  ],
+  "top_topics": []
+}

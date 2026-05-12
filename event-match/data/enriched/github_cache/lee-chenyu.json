@@ -1,0 +1,132 @@
+{
+  "username": "LEE-CHENYU",
+  "name": "Chenyu Li",
+  "bio": "explorer.",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 14,
+  "public_repos": 38,
+  "created_at": "2020-02-04T12:30:37Z",
+  "languages": {
+    "Python": 5,
+    "TypeScript": 5,
+    "JavaScript": 4,
+    "HTML": 2,
+    "Jupyter Notebook": 2,
+    "MDX": 1
+  },
+  "top_repos": [
+    {
+      "name": "leviathan",
+      "description": "Exploring the Emergence of Complex Systems through Individual Decisions and Relationships",
+      "stars": 4,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "automata",
+        "complexity",
+        "decision-making-game",
+        "emergence",
+        "evolutionary-game-theory",
+        "genetic-algorithm",
+        "llm-agent",
+        "simulation"
+      ],
+      "url": "https://github.com/LEE-CHENYU/leviathan",
+      "updated_at": "2026-02-27T20:17:50Z"
+    },
+    {
+      "name": "OpenCausality",
+      "description": "Open-source platform for transparent, auditable causal inference. DAG-based reasoning, agentic estimation, human-in-the-loop governance, and LLM-assisted discovery.",
+      "stars": 3,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/OpenCausality",
+      "updated_at": "2026-05-11T16:50:35Z"
+    },
+    {
+      "name": "poetry-annotation-toolkit",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/poetry-annotation-toolkit",
+      "updated_at": "2026-01-06T08:50:20Z"
+    },
+    {
+      "name": "value_seeker_backend",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/value_seeker_backend",
+      "updated_at": "2024-11-27T04:11:59Z"
+    },
+    {
+      "name": "llm-daily-papers-bilingual-summary",
+      "description": "Daily Summaries of Hugging Face Papers: Bilingual Insights in English and Chinese",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/llm-daily-papers-bilingual-summary",
+      "updated_at": "2024-02-20T16:01:28Z"
+    },
+    {
+      "name": "compliance-os",
+      "description": "Continuous compliance OS for immigrants \u2014 document vault, deadline engine, and expert routing",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/compliance-os",
+      "updated_at": "2026-05-02T05:19:48Z"
+    },
+    {
+      "name": "vapi-hackathon-0325",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/vapi-hackathon-0325",
+      "updated_at": "2026-03-26T03:28:30Z"
+    },
+    {
+      "name": "ai-aint-interested-cooking-monitor",
+      "description": "AI Aint Interested Cooking Monitor",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/ai-aint-interested-cooking-monitor",
+      "updated_at": "2026-03-03T06:47:30Z"
+    },
+    {
+      "name": "demo",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/demo",
+      "updated_at": "2026-02-28T19:27:54Z"
+    },
+    {
+      "name": "v0-graph-adventure-game",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/LEE-CHENYU/v0-graph-adventure-game",
+      "updated_at": "2025-10-12T01:56:16Z"
+    }
+  ],
+  "top_topics": [
+    "automata",
+    "complexity",
+    "decision-making-game",
+    "emergence",
+    "evolutionary-game-theory",
+    "genetic-algorithm",
+    "llm-agent",
+    "simulation"
+  ]
+}

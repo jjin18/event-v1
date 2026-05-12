@@ -1,0 +1,113 @@
+{
+  "username": "JaehoonSon",
+  "name": "Jaehoon Son",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 6,
+  "following": 3,
+  "public_repos": 25,
+  "created_at": "2020-05-18T05:47:13Z",
+  "languages": {
+    "TypeScript": 11,
+    "JavaScript": 4,
+    "C#": 2,
+    "Python": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "ProxyChecker",
+      "description": "",
+      "stars": 2,
+      "language": "C#",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/ProxyChecker",
+      "updated_at": "2024-06-26T01:54:25Z"
+    },
+    {
+      "name": "Jodas",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/Jodas",
+      "updated_at": "2024-02-19T16:44:07Z"
+    },
+    {
+      "name": "ml-final",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/ml-final",
+      "updated_at": "2026-05-11T17:50:22Z"
+    },
+    {
+      "name": "Lobe-Brain-Training-Game",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/Lobe-Brain-Training-Game",
+      "updated_at": "2026-02-08T01:31:11Z"
+    },
+    {
+      "name": "brain-app-site",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/brain-app-site",
+      "updated_at": "2026-02-04T23:00:39Z"
+    },
+    {
+      "name": "presentation-ai",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/presentation-ai",
+      "updated_at": "2026-01-28T03:30:04Z"
+    },
+    {
+      "name": "website-builder",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/website-builder",
+      "updated_at": "2026-01-28T03:29:31Z"
+    },
+    {
+      "name": "JaehoonSon",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/JaehoonSon",
+      "updated_at": "2026-01-27T05:16:14Z"
+    },
+    {
+      "name": "image-edit",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/image-edit",
+      "updated_at": "2026-01-24T16:17:00Z"
+    },
+    {
+      "name": "bulks",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JaehoonSon/bulks",
+      "updated_at": "2025-10-27T00:37:27Z"
+    }
+  ],
+  "top_topics": []
+}

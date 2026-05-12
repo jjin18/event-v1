@@ -1,0 +1,83 @@
+{
+  "username": "pescerosso",
+  "name": "simone morellato",
+  "bio": "CMO | Marketer, Builder, Innovator | AI Trailblazer, Kubernetes Enthusiast | Help Tech Companies Articulate Product Value and Differentiate it in the Market",
+  "company": "Sveltos",
+  "location": "United States",
+  "blog": "https://sveltos.projectsveltos.io/",
+  "twitter_username": "",
+  "followers": 8,
+  "following": 3,
+  "public_repos": 32,
+  "created_at": "2014-03-14T03:32:50Z",
+  "languages": {
+    "HTML": 2,
+    "Astro": 1
+  },
+  "top_repos": [
+    {
+      "name": "cloudExplorer",
+      "description": "Cloud Explorer",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/pescerosso/cloudExplorer",
+      "updated_at": "2021-09-11T02:13:42Z"
+    },
+    {
+      "name": "astro-blog-starter-template",
+      "description": "",
+      "stars": 0,
+      "language": "Astro",
+      "topics": [],
+      "url": "https://github.com/pescerosso/astro-blog-starter-template",
+      "updated_at": "2025-07-21T05:03:56Z"
+    },
+    {
+      "name": "pescerosso",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/pescerosso/pescerosso",
+      "updated_at": "2025-06-18T21:22:28Z"
+    },
+    {
+      "name": "sveltoswebsite",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/pescerosso/sveltoswebsite",
+      "updated_at": "2024-12-20T11:44:02Z"
+    },
+    {
+      "name": "vsphere-volume",
+      "description": "How to create persistent volumes when Kubernetes is installed on vSphere",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/pescerosso/vsphere-volume",
+      "updated_at": "2018-08-17T23:09:38Z"
+    },
+    {
+      "name": "seleniumcompose",
+      "description": "Compose file for Selenium",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/pescerosso/seleniumcompose",
+      "updated_at": "2017-10-09T22:42:04Z"
+    },
+    {
+      "name": "simonetest",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/pescerosso/simonetest",
+      "updated_at": "2016-11-17T06:40:58Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,135 @@
+{
+  "username": "ben2chu2",
+  "name": "Ben Chu",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 1,
+  "public_repos": 18,
+  "created_at": "2017-10-07T20:29:34Z",
+  "languages": {
+    "Pug": 1,
+    "CSS": 1,
+    "Jupyter Notebook": 1,
+    "Python": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "Econometrics-Statistics-and-Multivariate-Linear-Regression",
+      "description": "Statistical Analysis of Datasets with Stata - Topics include T-test, F-test, Kurtosis, Confidence Intervals, P-Values, and 2-tail Hypothesis Tests",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/Econometrics-Statistics-and-Multivariate-Linear-Regression",
+      "updated_at": "2020-12-29T19:18:11Z"
+    },
+    {
+      "name": "trading_bot",
+      "description": "Trading Bot",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/trading_bot",
+      "updated_at": "2025-08-24T02:20:43Z"
+    },
+    {
+      "name": "flask-rc",
+      "description": "",
+      "stars": 0,
+      "language": "Pug",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/flask-rc",
+      "updated_at": "2021-04-07T06:36:23Z"
+    },
+    {
+      "name": "flask-argon",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/flask-argon",
+      "updated_at": "2021-04-07T06:10:41Z"
+    },
+    {
+      "name": "Data-Science-100",
+      "description": "Advanced Data Science Techniques - University of California Berkeley",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/Data-Science-100",
+      "updated_at": "2020-07-29T06:46:06Z"
+    },
+    {
+      "name": "Coursera_Capstone",
+      "description": "IBM Professional Data Science Certificate",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "data-science"
+      ],
+      "url": "https://github.com/ben2chu2/Coursera_Capstone",
+      "updated_at": "2020-07-11T23:19:50Z"
+    },
+    {
+      "name": "Consulting-Portfolio",
+      "description": "Portfolio of Midpoint and Final Consulting Deliverables for various companies and startups",
+      "stars": 0,
+      "language": "",
+      "topics": [
+        "consulting",
+        "presentation",
+        "technical-analysis"
+      ],
+      "url": "https://github.com/ben2chu2/Consulting-Portfolio",
+      "updated_at": "2020-07-11T23:19:11Z"
+    },
+    {
+      "name": "CS61A",
+      "description": "Computational Structures - University of California Berkeley",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/CS61A",
+      "updated_at": "2020-07-11T23:09:23Z"
+    },
+    {
+      "name": "Probability-Projects---IEOR-172",
+      "description": "Industrial Engineering and Operations Research - Probability and Risk Statistics for Engineers",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ben2chu2/Probability-Projects---IEOR-172",
+      "updated_at": "2020-07-11T22:47:17Z"
+    },
+    {
+      "name": "CS61B",
+      "description": "Data Structures - University of California Berkeley",
+      "stars": 0,
+      "language": "Java",
+      "topics": [
+        "algorithms",
+        "algorithms-and-data-structures",
+        "artificial-intelligence",
+        "data-structures",
+        "java"
+      ],
+      "url": "https://github.com/ben2chu2/CS61B",
+      "updated_at": "2020-07-11T21:59:01Z"
+    }
+  ],
+  "top_topics": [
+    "data-science",
+    "consulting",
+    "presentation",
+    "technical-analysis",
+    "algorithms",
+    "algorithms-and-data-structures",
+    "artificial-intelligence",
+    "data-structures",
+    "java"
+  ]
+}

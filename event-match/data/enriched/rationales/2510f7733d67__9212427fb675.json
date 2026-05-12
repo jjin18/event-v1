@@ -1,0 +1,4 @@
+{
+  "rationale": "Micah's conviction that interactive data visualization is the key interface between AI and human decision-making directly addresses David's core challenge: building observability and UX on top of complex autonomous systems for production robotics. David's real-time infrastructure work at LiveKit and production robotics experience at Skycatch and Agtonomy could benefit from Micah's expertise in visual intuition for machine learning systems, while Micah's work on graph data and WebXR interfaces aligns with the observability infrastructure gap David is solving.",
+  "intro_message": "Micah Stubbs, meet David Chen \u2014 you're both building critical infrastructure layers for AI systems in the physical world, and David's real-time robotics observability challenges could be a perfect use case for Micah's visual approaches to ML."
+}

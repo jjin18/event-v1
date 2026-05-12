@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Sameer and Shyam are focused on robotics, with Shyam actively building end-to-end robotic manipulation systems using simulation tools like Isaac Gym and MuJoCo, while Sameer brings senior-level ML expertise from CVS Health that could inform the perception and control layers of physical AI systems. This is a strong domain overlap with clear potential for knowledge exchange on production-scale robotics and ML integration.",
+  "intro_message": "Sameer Shah, meet Shyam Ganatra \u2014 you're both deep in robotics, and Shyam's current work on robotic manipulation with simulation and reasoning could benefit from your production ML background at scale."
+}

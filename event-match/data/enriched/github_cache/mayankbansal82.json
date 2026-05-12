@@ -1,0 +1,112 @@
+{
+  "username": "mayankbansal82",
+  "name": "Mayank Bansal",
+  "bio": "Really interested in robotics and automation. I try to learn something new everyday .",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 5,
+  "following": 2,
+  "public_repos": 25,
+  "created_at": "2018-12-08T13:26:08Z",
+  "languages": {
+    "Python": 14,
+    "HTML": 2,
+    "C#": 1,
+    "MATLAB": 1
+  },
+  "top_repos": [
+    {
+      "name": "Robust-Trajectory-Tracking-for-Quadrotor-UAVs-using-Sliding-Mode-Control",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/Robust-Trajectory-Tracking-for-Quadrotor-UAVs-using-Sliding-Mode-Control",
+      "updated_at": "2024-11-04T13:45:55Z"
+    },
+    {
+      "name": "Coverage-Path-Planning-in-Unity",
+      "description": "",
+      "stars": 1,
+      "language": "C#",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/Coverage-Path-Planning-in-Unity",
+      "updated_at": "2024-07-04T08:14:28Z"
+    },
+    {
+      "name": "Deep_VIO",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/Deep_VIO",
+      "updated_at": "2024-05-21T02:02:10Z"
+    },
+    {
+      "name": "Einstein_Vision",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/Einstein_Vision",
+      "updated_at": "2024-04-18T01:09:05Z"
+    },
+    {
+      "name": "SfM-and-NeRF",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/SfM-and-NeRF",
+      "updated_at": "2024-04-06T02:31:48Z"
+    },
+    {
+      "name": "UAV-Attitude-Estimation",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/UAV-Attitude-Estimation",
+      "updated_at": "2024-02-07T21:44:37Z"
+    },
+    {
+      "name": "Motion-Planning-for-UAV",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/Motion-Planning-for-UAV",
+      "updated_at": "2024-02-07T21:10:36Z"
+    },
+    {
+      "name": "AutoPano",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/AutoPano",
+      "updated_at": "2024-02-07T06:06:20Z"
+    },
+    {
+      "name": "AutoCalib",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/AutoCalib",
+      "updated_at": "2024-02-07T01:04:05Z"
+    },
+    {
+      "name": "Enhancing_VRCNet",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/mayankbansal82/Enhancing_VRCNet",
+      "updated_at": "2023-12-19T19:35:51Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,4 @@
+{
+  "rationale": "David's conviction that production robotics requires purpose-built real-time infrastructure and observability tooling aligns directly with Lydia's expertise in developer experience and making complex technical systems accessible to engineers. While David is building the infrastructure layer for autonomous systems at LiveKit, Lydia's background scaling developer tooling at Vercel and Bun\u2014plus her current focus on Claude Code developer experience\u2014could inform how robotics infrastructure gets communicated and adopted by the engineering teams who'll need to use it.",
+  "intro_message": "David Chen, meet Lydia Hallie \u2014 you're both in SF and thinking deeply about how to build great developer experiences around complex systems (real-time robotics infrastructure vs. agentic coding tools), and there might be something to explore on how production robotics gets documented and shipped to engineers."
+}

@@ -1,0 +1,120 @@
+{
+  "username": "EthanReid",
+  "name": "Ethan Reid",
+  "bio": "",
+  "company": "Moondream",
+  "location": "SF",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 22,
+  "following": 8,
+  "public_repos": 52,
+  "created_at": "2014-05-03T19:04:04Z",
+  "languages": {
+    "C#": 4,
+    "Swift": 4,
+    "HTML": 3,
+    "JavaScript": 3,
+    "Python": 2,
+    "C": 2,
+    "CSS": 2,
+    "Objective-C": 2,
+    "C++": 1,
+    "R": 1,
+    "PHP": 1,
+    "ASP": 1
+  },
+  "top_repos": [
+    {
+      "name": "unity-scripts",
+      "description": "scripts that will be useful for unity 3d games",
+      "stars": 29,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/EthanReid/unity-scripts",
+      "updated_at": "2026-04-17T21:16:58Z"
+    },
+    {
+      "name": "Centr",
+      "description": "",
+      "stars": 1,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/EthanReid/Centr",
+      "updated_at": "2015-09-16T00:33:13Z"
+    },
+    {
+      "name": "EthanReid.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/EthanReid/EthanReid.github.io",
+      "updated_at": "2026-05-08T18:07:38Z"
+    },
+    {
+      "name": "semi_consistency_models",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/EthanReid/semi_consistency_models",
+      "updated_at": "2024-08-26T21:57:24Z"
+    },
+    {
+      "name": "DeepHopfieldNetworks",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/EthanReid/DeepHopfieldNetworks",
+      "updated_at": "2024-03-27T21:55:45Z"
+    },
+    {
+      "name": "AssociativeMemories",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/EthanReid/AssociativeMemories",
+      "updated_at": "2024-02-16T16:49:38Z"
+    },
+    {
+      "name": "EPNomad",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/EthanReid/EPNomad",
+      "updated_at": "2024-02-16T15:47:00Z"
+    },
+    {
+      "name": "mytar_357",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/EthanReid/mytar_357",
+      "updated_at": "2023-03-27T20:00:28Z"
+    },
+    {
+      "name": "asgn6",
+      "description": "Cal Poly",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/EthanReid/asgn6",
+      "updated_at": "2022-02-28T20:02:29Z"
+    },
+    {
+      "name": "ECON339",
+      "description": "Files From ECON 339",
+      "stars": 0,
+      "language": "R",
+      "topics": [],
+      "url": "https://github.com/EthanReid/ECON339",
+      "updated_at": "2022-01-28T05:54:28Z"
+    }
+  ],
+  "top_topics": []
+}

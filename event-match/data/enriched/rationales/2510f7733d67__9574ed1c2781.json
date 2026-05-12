@@ -1,0 +1,4 @@
+{
+  "rationale": "Micah is building IntentiveAI around visual interfaces for machine learning systems, while Jiale has spent the last several years architecting the deep learning infrastructure and distributed training systems that power those models at Meta and Uber. Micah's conviction that interactive data visualization is the key interface between AI and human decision-making pairs naturally with Jiale's systems-level expertise \u2014 there's a real opportunity to discuss how ML infrastructure can be designed with interpretability and visual explainability in mind from the ground up.",
+  "intro_message": "Micah Stubbs, meet Jiale Zhi \u2014 you're both in San Francisco building at different layers of the ML stack (visual interfaces for understanding models vs. the infrastructure powering them) and could explore how better tooling bridges that gap."
+}

@@ -1,0 +1,103 @@
+{
+  "username": "tonychen-2006",
+  "name": "Tony Chen",
+  "bio": "",
+  "company": "",
+  "location": "Vancouver, British Columbia",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 0,
+  "public_repos": 9,
+  "created_at": "2021-03-27T19:42:24Z",
+  "languages": {
+    "C": 6,
+    "TypeScript": 1,
+    "SystemVerilog": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "website_portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/website_portfolio",
+      "updated_at": "2026-04-06T01:51:41Z"
+    },
+    {
+      "name": "shell_lab",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/shell_lab",
+      "updated_at": "2026-04-01T09:53:14Z"
+    },
+    {
+      "name": "virtual_memory_lab",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/virtual_memory_lab",
+      "updated_at": "2026-04-01T04:51:42Z"
+    },
+    {
+      "name": "heap_allocation",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/heap_allocation",
+      "updated_at": "2026-03-11T09:52:17Z"
+    },
+    {
+      "name": "riscv_cpu_single_cycle",
+      "description": "",
+      "stars": 0,
+      "language": "SystemVerilog",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/riscv_cpu_single_cycle",
+      "updated_at": "2026-03-11T07:51:36Z"
+    },
+    {
+      "name": "fpga_tron_game",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/fpga_tron_game",
+      "updated_at": "2026-03-11T07:33:03Z"
+    },
+    {
+      "name": "stm32_bootloader",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/stm32_bootloader",
+      "updated_at": "2026-01-11T22:09:50Z"
+    },
+    {
+      "name": "music_sync",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/music_sync",
+      "updated_at": "2026-01-05T19:52:47Z"
+    },
+    {
+      "name": "zephyr-embedded-framework",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/tonychen-2006/zephyr-embedded-framework",
+      "updated_at": "2025-12-31T02:34:38Z"
+    }
+  ],
+  "top_topics": []
+}

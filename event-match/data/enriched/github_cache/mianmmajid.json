@@ -1,0 +1,84 @@
+{
+  "username": "MianMMajid",
+  "name": "Mian Majid",
+  "bio": "A programmer with the future in mind ",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 2,
+  "public_repos": 13,
+  "created_at": "2024-01-09T18:51:37Z",
+  "languages": {
+    "TypeScript": 3,
+    "Python": 2,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "Origin",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/Origin",
+      "updated_at": "2026-05-06T00:54:15Z"
+    },
+    {
+      "name": "MCp-Use",
+      "description": "Maple ",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/MCp-Use",
+      "updated_at": "2026-04-14T01:11:37Z"
+    },
+    {
+      "name": "Luminous",
+      "description": "Luminous",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/Luminous",
+      "updated_at": "2026-04-14T00:15:52Z"
+    },
+    {
+      "name": "VoiceID",
+      "description": "Voice authentication for human verificiaiotn ",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/VoiceID",
+      "updated_at": "2026-03-11T05:02:22Z"
+    },
+    {
+      "name": "MCP-APPs",
+      "description": "test case for MCP AHckathon ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/MCP-APPs",
+      "updated_at": "2026-02-20T19:04:54Z"
+    },
+    {
+      "name": "EmergenVID",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/EmergenVID",
+      "updated_at": "2026-02-20T00:47:11Z"
+    },
+    {
+      "name": "YCAgenticPayments",
+      "description": "YC Hackathon for agentic payments",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/MianMMajid/YCAgenticPayments",
+      "updated_at": "2025-11-15T23:13:45Z"
+    }
+  ],
+  "top_topics": []
+}

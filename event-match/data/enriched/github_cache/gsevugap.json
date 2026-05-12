@@ -1,0 +1,110 @@
+{
+  "username": "gsevugap",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 17,
+  "created_at": "2013-02-01T00:29:39Z",
+  "languages": {
+    "Apex": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "lwc-customer-form",
+      "description": "",
+      "stars": 0,
+      "language": "Apex",
+      "topics": [],
+      "url": "https://github.com/gsevugap/lwc-customer-form",
+      "updated_at": "2026-04-24T13:20:12Z"
+    },
+    {
+      "name": "align-demo",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/align-demo",
+      "updated_at": "2020-10-14T21:26:16Z"
+    },
+    {
+      "name": "demo",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/demo",
+      "updated_at": "2020-10-14T16:10:20Z"
+    },
+    {
+      "name": "tools-demo",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/tools-demo",
+      "updated_at": "2020-10-14T15:18:16Z"
+    },
+    {
+      "name": "tools-demo1",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/tools-demo1",
+      "updated_at": "2020-09-28T23:12:19Z"
+    },
+    {
+      "name": "salesforceDX",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/salesforceDX",
+      "updated_at": "2020-09-21T17:59:11Z"
+    },
+    {
+      "name": "AOLDEV",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gsevugap/AOLDEV",
+      "updated_at": "2019-02-22T01:33:30Z"
+    },
+    {
+      "name": "geolocation",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/geolocation",
+      "updated_at": "2018-03-23T22:34:24Z"
+    },
+    {
+      "name": "best-repo-ever",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/best-repo-ever",
+      "updated_at": "2018-03-22T23:10:52Z"
+    },
+    {
+      "name": "Test1",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gsevugap/Test1",
+      "updated_at": "2017-02-24T20:41:12Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,170 @@
+{
+  "username": "ShashwatNigam99",
+  "name": "Meher Shashwat Nigam",
+  "bio": "Master's in Computer Science (ML) at Georgia Tech, Atlanta",
+  "company": "Georgia Tech",
+  "location": "Atlanta",
+  "blog": "https://www.linkedin.com/in/mehershashwatnigam/",
+  "twitter_username": "",
+  "followers": 85,
+  "following": 153,
+  "public_repos": 75,
+  "created_at": "2017-08-13T07:25:26Z",
+  "languages": {
+    "Python": 20,
+    "Jupyter Notebook": 13,
+    "JavaScript": 3,
+    "C": 3,
+    "MATLAB": 2,
+    "C++": 2,
+    "Java": 1,
+    "Go": 1
+  },
+  "top_repos": [
+    {
+      "name": "Subway-Surfers",
+      "description": "An imitation of popular game Subway surfers, made using WebGL",
+      "stars": 9,
+      "language": "JavaScript",
+      "topics": [
+        "3d-game",
+        "game-development",
+        "graphics",
+        "hammerjs",
+        "javascript",
+        "javascript-game",
+        "lighting-effects",
+        "mousetrap",
+        "shading",
+        "subway-surfers",
+        "texture-mapping",
+        "webgame",
+        "webgl"
+      ],
+      "url": "https://github.com/ShashwatNigam99/Subway-Surfers",
+      "updated_at": "2026-04-20T07:13:35Z"
+    },
+    {
+      "name": "MeshToBinvox",
+      "description": "Mesh to binvox converter",
+      "stars": 9,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ShashwatNigam99/MeshToBinvox",
+      "updated_at": "2025-03-16T14:22:21Z"
+    },
+    {
+      "name": "Robotics-Planning-Navigation-Algorithms",
+      "description": "Assignments solved in the course Robotics: Path Planning and Navigation course by Dr. Madhav Krishna in Spring 2021.",
+      "stars": 7,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "navigation",
+        "path-planning",
+        "robotics"
+      ],
+      "url": "https://github.com/ShashwatNigam99/Robotics-Planning-Navigation-Algorithms",
+      "updated_at": "2024-12-17T21:18:00Z"
+    },
+    {
+      "name": "PointCloud_Generation",
+      "description": "Point cloud generation from single image and its depth map",
+      "stars": 7,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ShashwatNigam99/PointCloud_Generation",
+      "updated_at": "2024-01-15T09:39:25Z"
+    },
+    {
+      "name": "Super-Mario",
+      "description": "A terminal based implementation that tries to simulate the classic Super Mario game.",
+      "stars": 4,
+      "language": "Python",
+      "topics": [
+        "colorama",
+        "mario",
+        "oop-principles",
+        "pep8",
+        "python3"
+      ],
+      "url": "https://github.com/ShashwatNigam99/Super-Mario",
+      "updated_at": "2023-01-26T18:43:28Z"
+    },
+    {
+      "name": "Seam_Carving",
+      "description": "Content Aware Image Resizing",
+      "stars": 3,
+      "language": "MATLAB",
+      "topics": [
+        "content-aware-scaling",
+        "image-resize"
+      ],
+      "url": "https://github.com/ShashwatNigam99/Seam_Carving",
+      "updated_at": "2023-01-11T23:05:43Z"
+    },
+    {
+      "name": "Layout_To_3D",
+      "description": "Takes egocentric bird's eye view and front view layouts of a scene and reconstructs the scene in camera frame, as a mesh, point-cloud or isolated vertices.",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ShashwatNigam99/Layout_To_3D",
+      "updated_at": "2022-03-30T16:40:33Z"
+    },
+    {
+      "name": "EquiFash",
+      "description": "Making fashion more accessible",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/ShashwatNigam99/EquiFash",
+      "updated_at": "2025-05-04T21:48:43Z"
+    },
+    {
+      "name": "Fair-Stable-Diffusion",
+      "description": "Making stable diffusion fair using h-space editing",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ShashwatNigam99/Fair-Stable-Diffusion",
+      "updated_at": "2024-07-10T12:22:51Z"
+    },
+    {
+      "name": "Jetpack-Joyride",
+      "description": "2D OpenGL simulation of the popular Jetpack Joyride game in C++.",
+      "stars": 2,
+      "language": "C++",
+      "topics": [
+        "2d-game",
+        "c-plus-plus",
+        "game-development",
+        "jetpack-joyride",
+        "opengl"
+      ],
+      "url": "https://github.com/ShashwatNigam99/Jetpack-Joyride",
+      "updated_at": "2022-08-31T02:10:02Z"
+    }
+  ],
+  "top_topics": [
+    "game-development",
+    "javascript",
+    "3d-game",
+    "graphics",
+    "hammerjs",
+    "javascript-game",
+    "lighting-effects",
+    "mousetrap",
+    "shading",
+    "subway-surfers",
+    "texture-mapping",
+    "webgame",
+    "webgl",
+    "navigation",
+    "path-planning",
+    "robotics",
+    "colorama",
+    "mario",
+    "oop-principles",
+    "pep8"
+  ]
+}

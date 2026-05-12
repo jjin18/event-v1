@@ -1,0 +1,115 @@
+{
+  "username": "Akshath-Singhal",
+  "name": "Akshath Singhal",
+  "bio": "Robotics Software Developer",
+  "company": "Northeastern University",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 4,
+  "public_repos": 33,
+  "created_at": "2016-04-11T17:53:36Z",
+  "languages": {
+    "MATLAB": 2,
+    "Python": 2,
+    "Jupyter Notebook": 1,
+    "CMake": 1,
+    "Makefile": 1,
+    "TeX": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "TopologyOptimization",
+      "description": "",
+      "stars": 21,
+      "language": "MATLAB",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/TopologyOptimization",
+      "updated_at": "2025-12-15T06:02:28Z"
+    },
+    {
+      "name": "RL_swarm_testbed",
+      "description": "Reinforcement Learning based swarm optimisation",
+      "stars": 2,
+      "language": "Makefile",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/RL_swarm_testbed",
+      "updated_at": "2020-06-11T15:43:23Z"
+    },
+    {
+      "name": "commonroad-sumo-interface",
+      "description": "Copied from https://gitlab.lrz.de/tum-cps/commonroad-sumo-interface",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/commonroad-sumo-interface",
+      "updated_at": "2023-06-15T04:11:56Z"
+    },
+    {
+      "name": "eece7398_project",
+      "description": "",
+      "stars": 0,
+      "language": "MATLAB",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/eece7398_project",
+      "updated_at": "2023-11-16T15:47:41Z"
+    },
+    {
+      "name": "starter-hugo-academic",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/starter-hugo-academic",
+      "updated_at": "2022-02-08T23:56:57Z"
+    },
+    {
+      "name": "turtlebot3_mr",
+      "description": "TurtleBot 3 Starter Code for Mobile Robotics",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/turtlebot3_mr",
+      "updated_at": "2021-10-26T00:36:00Z"
+    },
+    {
+      "name": "zipline_sim",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/zipline_sim",
+      "updated_at": "2021-05-03T08:48:41Z"
+    },
+    {
+      "name": "husky",
+      "description": "",
+      "stars": 0,
+      "language": "CMake",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/husky",
+      "updated_at": "2020-09-09T16:51:09Z"
+    },
+    {
+      "name": "Major-Project",
+      "description": "Major report",
+      "stars": 0,
+      "language": "TeX",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/Major-Project",
+      "updated_at": "2019-09-08T18:32:09Z"
+    },
+    {
+      "name": "ardupilot_LQR",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/Akshath-Singhal/ardupilot_LQR",
+      "updated_at": "2018-12-17T13:25:11Z"
+    }
+  ],
+  "top_topics": []
+}

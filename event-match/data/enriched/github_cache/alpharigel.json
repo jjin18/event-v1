@@ -1,0 +1,112 @@
+{
+  "username": "alpharigel",
+  "name": "Jay Dermody",
+  "bio": "",
+  "company": "",
+  "location": "San Anselmo, CA",
+  "blog": "https://alpharigel.github.io",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 2,
+  "public_repos": 35,
+  "created_at": "2013-07-17T03:59:06Z",
+  "languages": {
+    "JavaScript": 2,
+    "Python": 2,
+    "Jupyter Notebook": 2,
+    "Brainfuck": 1
+  },
+  "top_repos": [
+    {
+      "name": "family-gpt",
+      "description": "Personal GPT assistant for every member of your family, via Streamlit, Langchain and GPT-4",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/alpharigel/family-gpt",
+      "updated_at": "2023-07-08T21:39:28Z"
+    },
+    {
+      "name": "agent-skills",
+      "description": "Coding agent skills \u2014 works with Claude Code and OpenAI Codex CLI",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/alpharigel/agent-skills",
+      "updated_at": "2026-04-01T02:20:15Z"
+    },
+    {
+      "name": "loom",
+      "description": "Loom \u2014 agent project workspace manager",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/alpharigel/loom",
+      "updated_at": "2026-04-28T18:15:04Z"
+    },
+    {
+      "name": "google-skill",
+      "description": "Gmail and Google Calendar access for coding agents",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/alpharigel/google-skill",
+      "updated_at": "2026-03-30T03:30:58Z"
+    },
+    {
+      "name": "pm-ai-workflow",
+      "description": "My current best workflow for unlocking ai agents to turn ideas into tangible solutions",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/alpharigel/pm-ai-workflow",
+      "updated_at": "2026-03-17T17:38:01Z"
+    },
+    {
+      "name": "web-e2e-skill",
+      "description": "Claude Code plugin: end-to-end web app testing with Playwright",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/alpharigel/web-e2e-skill",
+      "updated_at": "2026-03-15T15:09:03Z"
+    },
+    {
+      "name": "ios-e2e-skill",
+      "description": "Claude Code plugin for end-to-end iOS app testing in the Simulator",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/alpharigel/ios-e2e-skill",
+      "updated_at": "2026-03-15T15:01:22Z"
+    },
+    {
+      "name": "ios-feedback-skill",
+      "description": "Claude Code skill: add an in-app feedback button to iOS apps with automatic GitHub issue creation",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/alpharigel/ios-feedback-skill",
+      "updated_at": "2026-03-15T15:01:19Z"
+    },
+    {
+      "name": "storycraft",
+      "description": "Addressing childhood literacy challenges by creating personalized stories",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/alpharigel/storycraft",
+      "updated_at": "2025-03-14T05:17:10Z"
+    },
+    {
+      "name": "code-agent",
+      "description": "Code Companion to help you develop your code using GPT-4, including itself!",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/alpharigel/code-agent",
+      "updated_at": "2023-06-03T00:09:59Z"
+    }
+  ],
+  "top_topics": []
+}

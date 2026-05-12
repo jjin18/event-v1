@@ -1,0 +1,112 @@
+{
+  "username": "Hades-HY-LI",
+  "name": "Sixy_Emerald",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 17,
+  "created_at": "2022-01-21T02:28:29Z",
+  "languages": {
+    "Python": 4,
+    "Jupyter Notebook": 3,
+    "TypeScript": 1,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "EM-Algorithm-for-Guassian-Mixture-Models",
+      "description": "Implementation of EM Algorithm for Mixture of Spherical Gaussians models and Mixture of Diagonal Gaussians",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/EM-Algorithm-for-Guassian-Mixture-Models",
+      "updated_at": "2025-04-22T13:40:40Z"
+    },
+    {
+      "name": "ufofiles",
+      "description": "UFO files interactive site",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/ufofiles",
+      "updated_at": "2026-05-12T08:31:42Z"
+    },
+    {
+      "name": "Adaptive-Change-Harness",
+      "description": "Break-Fix-Ship",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/Adaptive-Change-Harness",
+      "updated_at": "2026-04-19T09:24:31Z"
+    },
+    {
+      "name": "GenAI-Collections",
+      "description": "GenAI project collections. Hope I can create something fun.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/GenAI-Collections",
+      "updated_at": "2024-02-03T22:52:07Z"
+    },
+    {
+      "name": "Webpage-Practice",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/Webpage-Practice",
+      "updated_at": "2024-01-11T07:12:41Z"
+    },
+    {
+      "name": "NBA-team-analysis-using-Hidden-Markov-Model",
+      "description": "Analyzed the \u2018hidden\u2019 factors that will influence an NBA team\u2019s game result by using Hidden-Markov-Model. We proposed factors that each team should take care of for winning game and presented effective explanation. We successfully predicted the second game of the 21-22 season NBA Finals.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/NBA-team-analysis-using-Hidden-Markov-Model",
+      "updated_at": "2023-02-20T18:39:23Z"
+    },
+    {
+      "name": "Optimization-Operation-Research",
+      "description": "Models, ideas I proposed, and algorithms. ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/Optimization-Operation-Research",
+      "updated_at": "2023-02-20T17:56:38Z"
+    },
+    {
+      "name": "Gradient-Descent-and-Stochastic-Gradient-Descent",
+      "description": "Implementation of Gradient Descent (GD) and Stochastic Gradient Descent (SGD)",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/Gradient-Descent-and-Stochastic-Gradient-Descent",
+      "updated_at": "2023-02-20T05:21:38Z"
+    },
+    {
+      "name": "Edible-fungi-identification-by-Deep-Learning-Techniques",
+      "description": "We tried to do a project about identification of edible/non-edible fungi by leveraging the power of pre-trained computer vision models ResNet.",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/Edible-fungi-identification-by-Deep-Learning-Techniques",
+      "updated_at": "2023-02-20T05:19:37Z"
+    },
+    {
+      "name": "Stock-Prices-Linear-Factors-Investigation",
+      "description": "Proposed specific stock price prediction models with the index prices and commodity future prices as predictors and improved LOOCV (Leave One Out Cross Validation) value by more than 50%.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Hades-HY-LI/Stock-Prices-Linear-Factors-Investigation",
+      "updated_at": "2023-02-20T04:29:51Z"
+    }
+  ],
+  "top_topics": []
+}

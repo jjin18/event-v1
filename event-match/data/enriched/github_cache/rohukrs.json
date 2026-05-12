@@ -1,0 +1,28 @@
+{
+  "username": "rohukrs",
+  "name": "ROHIT KUMAR",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 1,
+  "public_repos": 1,
+  "created_at": "2022-09-09T04:31:46Z",
+  "languages": {
+    "R": 1
+  },
+  "top_repos": [
+    {
+      "name": "netflix-predict",
+      "description": "",
+      "stars": 0,
+      "language": "R",
+      "topics": [],
+      "url": "https://github.com/rohukrs/netflix-predict",
+      "updated_at": "2023-11-30T12:53:02Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,85 @@
+{
+  "username": "lbakshi",
+  "name": "Lakshya Bakshi",
+  "bio": "Duke CS/ECE + Nike SWE",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 11,
+  "created_at": "2018-08-27T16:49:49Z",
+  "languages": {
+    "Swift": 3,
+    "Python": 2,
+    "MDX": 1,
+    "HCL": 1
+  },
+  "top_repos": [
+    {
+      "name": "ece496_project",
+      "description": "",
+      "stars": 1,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/lbakshi/ece496_project",
+      "updated_at": "2021-04-22T15:03:46Z"
+    },
+    {
+      "name": "sync_n_swim",
+      "description": "Sync a Spotify playlist to Shokz OpenSwim Pro as MP3s",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lbakshi/sync_n_swim",
+      "updated_at": "2026-04-28T03:21:33Z"
+    },
+    {
+      "name": "cognition-hackathon",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lbakshi/cognition-hackathon",
+      "updated_at": "2025-08-11T01:39:52Z"
+    },
+    {
+      "name": "gymbro",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/lbakshi/gymbro",
+      "updated_at": "2025-08-02T23:14:10Z"
+    },
+    {
+      "name": "docs",
+      "description": "",
+      "stars": 0,
+      "language": "MDX",
+      "topics": [],
+      "url": "https://github.com/lbakshi/docs",
+      "updated_at": "2024-05-17T14:20:18Z"
+    },
+    {
+      "name": "python-ec2-microservice-template",
+      "description": "Basic with workflows and template for spinning up a python flask microservice",
+      "stars": 0,
+      "language": "HCL",
+      "topics": [],
+      "url": "https://github.com/lbakshi/python-ec2-microservice-template",
+      "updated_at": "2023-03-07T05:24:15Z"
+    },
+    {
+      "name": "GMS-iMessage-Samples",
+      "description": "Two example apps used for product support with Google's iOS Map SDK",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/lbakshi/GMS-iMessage-Samples",
+      "updated_at": "2021-08-20T07:32:30Z"
+    }
+  ],
+  "top_topics": []
+}

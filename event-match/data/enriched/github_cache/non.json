@@ -1,0 +1,115 @@
+{
+  "username": "non",
+  "name": "Erik Osheim",
+  "bio": "",
+  "company": "",
+  "location": "Burlington",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 671,
+  "following": 46,
+  "public_repos": 161,
+  "created_at": "2010-03-08T01:00:27Z",
+  "languages": {
+    "Scala": 28,
+    "Python": 4,
+    "Emacs Lisp": 2,
+    "JavaScript": 2,
+    "Shell": 1,
+    "HTML": 1,
+    "Perl": 1
+  },
+  "top_repos": [
+    {
+      "name": "debox",
+      "description": "Fast, deboxed, specialized data structures for Scala",
+      "stars": 267,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/debox",
+      "updated_at": "2026-02-15T14:11:39Z"
+    },
+    {
+      "name": "antimirov",
+      "description": "algebraic manipulation of regular expressions",
+      "stars": 198,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/antimirov",
+      "updated_at": "2026-04-06T13:43:06Z"
+    },
+    {
+      "name": "chain",
+      "description": "Simple, efficient wrapper for fast concatenation/iteration.",
+      "stars": 111,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/chain",
+      "updated_at": "2026-03-27T01:17:28Z"
+    },
+    {
+      "name": "imp",
+      "description": "macro for summoning implicit values",
+      "stars": 92,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/imp",
+      "updated_at": "2024-04-06T22:29:21Z"
+    },
+    {
+      "name": "clouseau",
+      "description": "Discover java object sizes through questionable sleuthing plus luck.",
+      "stars": 71,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/clouseau",
+      "updated_at": "2026-04-11T14:21:07Z"
+    },
+    {
+      "name": "alleycats",
+      "description": "Cats instances and classes which are outlaws, miscreants, and ne'er-do-wells.",
+      "stars": 62,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/alleycats",
+      "updated_at": "2023-05-09T19:12:01Z"
+    },
+    {
+      "name": "pairing",
+      "description": "Easily use tmux to collaborate with distant friends!",
+      "stars": 52,
+      "language": "Shell",
+      "topics": [],
+      "url": "https://github.com/non/pairing",
+      "updated_at": "2025-03-01T16:39:41Z"
+    },
+    {
+      "name": "kronecker",
+      "description": "Library for counting and enumerating things.",
+      "stars": 47,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/kronecker",
+      "updated_at": "2025-02-23T17:22:36Z"
+    },
+    {
+      "name": "sbt-javap",
+      "description": "Run javap directly from the SBT console",
+      "stars": 30,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/sbt-javap",
+      "updated_at": "2024-03-18T12:06:29Z"
+    },
+    {
+      "name": "junkion",
+      "description": "Library that provides those stupid little IO utility methods you always end up needing.",
+      "stars": 26,
+      "language": "Scala",
+      "topics": [],
+      "url": "https://github.com/non/junkion",
+      "updated_at": "2024-04-06T22:31:48Z"
+    }
+  ],
+  "top_topics": []
+}

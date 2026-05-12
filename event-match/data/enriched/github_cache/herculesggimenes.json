@@ -1,0 +1,115 @@
+{
+  "username": "herculesggimenes",
+  "name": "Hercules Gimenes",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 0,
+  "public_repos": 24,
+  "created_at": "2020-06-11T19:32:52Z",
+  "languages": {
+    "Python": 9,
+    "TypeScript": 5,
+    "Rust": 2,
+    "Go": 2,
+    "JavaScript": 1,
+    "Starlark": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "robot-task-ws-protocol",
+      "description": "Open WebSocket protocol for distributing robot image and motor-control tasks",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/robot-task-ws-protocol",
+      "updated_at": "2026-05-11T04:32:15Z"
+    },
+    {
+      "name": "can-mac-hackathon",
+      "description": "Hackathon YAM robot control CLI, one-arm policy workflow, and LeRobot dataset tooling",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/can-mac-hackathon",
+      "updated_at": "2026-05-11T04:27:01Z"
+    },
+    {
+      "name": "codex-yam",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/codex-yam",
+      "updated_at": "2026-05-11T04:24:46Z"
+    },
+    {
+      "name": "dreame-map-exporter",
+      "description": "Export Dreame robot vacuum lidar maps to images, JSON, and CAD-friendly DXF",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/dreame-map-exporter",
+      "updated_at": "2026-05-07T02:49:14Z"
+    },
+    {
+      "name": "bash-sandbox-benchmarks",
+      "description": "Benchmarks comparing native tools, just-bash, and Docker sandbox agent runtime shapes",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/bash-sandbox-benchmarks",
+      "updated_at": "2026-04-26T23:05:48Z"
+    },
+    {
+      "name": "cce",
+      "description": "Rust router for tmux + nvim with a dashboard UI",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/cce",
+      "updated_at": "2026-04-16T17:42:34Z"
+    },
+    {
+      "name": "editor-bridge",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/editor-bridge",
+      "updated_at": "2026-03-22T20:20:54Z"
+    },
+    {
+      "name": "kinesis-360-advantage-client",
+      "description": "Kinesis 360 advantage software UI sucks. This project creates a better UX using a TUI app with CLI for AI agents",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/kinesis-360-advantage-client",
+      "updated_at": "2026-03-18T01:32:10Z"
+    },
+    {
+      "name": "linear-programming-solver",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/linear-programming-solver",
+      "updated_at": "2025-07-03T15:43:58Z"
+    },
+    {
+      "name": "physics-simulations",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/herculesggimenes/physics-simulations",
+      "updated_at": "2024-09-04T12:16:07Z"
+    }
+  ],
+  "top_topics": []
+}

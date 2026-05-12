@@ -1,0 +1,128 @@
+{
+  "username": "badlogic",
+  "name": "Mario Zechner",
+  "bio": "",
+  "company": "",
+  "location": "0xa000",
+  "blog": "https://mariozechner.at",
+  "twitter_username": "badlogicgames",
+  "followers": 6018,
+  "following": 1,
+  "public_repos": 256,
+  "created_at": "2010-12-08T02:32:47Z",
+  "languages": {
+    "TypeScript": 41,
+    "JavaScript": 13,
+    "C": 9,
+    "HTML": 5,
+    "Java": 3,
+    "Swift": 2,
+    "Jupyter Notebook": 1,
+    "Assembly": 1,
+    "Rust": 1,
+    "Shell": 1,
+    "Kotlin": 1,
+    "Python": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "pi-skills",
+      "description": "Skills for pi coding agent (compatible with Claude Code and Codex CLI)",
+      "stars": 1679,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/pi-skills",
+      "updated_at": "2026-05-12T07:20:51Z"
+    },
+    {
+      "name": "lemmy",
+      "description": "Wrapper around tool using LLMs for agentic workflows",
+      "stars": 1597,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/lemmy",
+      "updated_at": "2026-05-12T02:06:07Z"
+    },
+    {
+      "name": "heissepreise",
+      "description": "Jo eh.",
+      "stars": 1025,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/heissepreise",
+      "updated_at": "2026-05-07T21:30:53Z"
+    },
+    {
+      "name": "sitegeist",
+      "description": "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need.",
+      "stars": 606,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/sitegeist",
+      "updated_at": "2026-05-11T17:34:07Z"
+    },
+    {
+      "name": "claude-commands",
+      "description": "Global Claude Code commands and workflows",
+      "stars": 501,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/badlogic/claude-commands",
+      "updated_at": "2026-04-30T13:04:06Z"
+    },
+    {
+      "name": "cchistory",
+      "description": "Extract and compare system prompts and tools from different Claude Code versions",
+      "stars": 423,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/cchistory",
+      "updated_at": "2026-05-12T02:08:27Z"
+    },
+    {
+      "name": "jot",
+      "description": "Minimal self-hosted markdown editor with inline comment threads",
+      "stars": 309,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/jot",
+      "updated_at": "2026-05-09T18:40:59Z"
+    },
+    {
+      "name": "pi-diff-review",
+      "description": "",
+      "stars": 258,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/pi-diff-review",
+      "updated_at": "2026-05-11T13:48:00Z"
+    },
+    {
+      "name": "browser-tools",
+      "description": "",
+      "stars": 251,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/badlogic/browser-tools",
+      "updated_at": "2026-05-11T18:54:13Z"
+    },
+    {
+      "name": "dos-dev-template",
+      "description": "Template project for developing DOS games/apps with DJGPP, including source-level remote debugging with GDB and DOSBox.",
+      "stars": 227,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/badlogic/dos-dev-template",
+      "updated_at": "2026-05-08T03:30:26Z"
+    }
+  ],
+  "top_topics": [
+    "emscripten",
+    "game-development",
+    "game-engine",
+    "game-engine-framework",
+    "graphics-programming",
+    "webassembly"
+  ]
+}

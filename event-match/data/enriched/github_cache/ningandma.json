@@ -1,0 +1,55 @@
+{
+  "username": "ningandma",
+  "name": "Ning",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 27,
+  "created_at": "2014-02-26T03:32:53Z",
+  "languages": {
+    "Jupyter Notebook": 4
+  },
+  "top_repos": [
+    {
+      "name": "AI-for-medical-treatment",
+      "description": "deeplearning.AI - AI for Medical Treatment class",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/ningandma/AI-for-medical-treatment",
+      "updated_at": "2022-06-17T03:03:41Z"
+    },
+    {
+      "name": "Udacity_Deeplearning_Nanodegree",
+      "description": "Projects from Udacity Deep Learning Nanodegree Program",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/ningandma/Udacity_Deeplearning_Nanodegree",
+      "updated_at": "2022-04-18T04:44:47Z"
+    },
+    {
+      "name": "AI-for-medical-prognosis",
+      "description": "deeplearning.AI - AI for Medical Prognosis class",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/ningandma/AI-for-medical-prognosis",
+      "updated_at": "2022-04-18T03:51:17Z"
+    },
+    {
+      "name": "AI-for-medical-diagnosis",
+      "description": "deeplearning.AI AI for Medical Diagnosis class",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/ningandma/AI-for-medical-diagnosis",
+      "updated_at": "2022-04-18T03:16:47Z"
+    }
+  ],
+  "top_topics": []
+}

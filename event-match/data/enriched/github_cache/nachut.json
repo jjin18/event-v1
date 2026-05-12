@@ -1,0 +1,118 @@
+{
+  "username": "NachuT",
+  "name": "Nachiappan Thenappan",
+  "bio": "Hi! I am really into Hardware and Computer Vision builds and I am always working on something!\r\n",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 3,
+  "public_repos": 76,
+  "created_at": "2024-01-22T23:10:42Z",
+  "languages": {
+    "Python": 12,
+    "TypeScript": 9,
+    "JavaScript": 8,
+    "HTML": 7,
+    "C++": 3,
+    "CSS": 2,
+    "Jupyter Notebook": 1,
+    "GDScript": 1,
+    "Verilog": 1,
+    "Vue": 1
+  },
+  "top_repos": [
+    {
+      "name": "Dots",
+      "description": "Code to place pixels on the screen!",
+      "stars": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/NachuT/Dots",
+      "updated_at": "2025-07-05T07:56:52Z"
+    },
+    {
+      "name": "DetectionRPD",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/NachuT/DetectionRPD",
+      "updated_at": "2025-01-06T02:20:25Z"
+    },
+    {
+      "name": "quickwebsite",
+      "description": "My personal website",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/NachuT/quickwebsite",
+      "updated_at": "2026-04-26T16:52:44Z"
+    },
+    {
+      "name": "Viper",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NachuT/Viper",
+      "updated_at": "2026-04-24T04:29:34Z"
+    },
+    {
+      "name": "Battery-Charger-Module",
+      "description": "A custom designed TP4056 Charger Module that allows you to charge LiPos with USB-C.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/NachuT/Battery-Charger-Module",
+      "updated_at": "2026-03-14T05:31:38Z"
+    },
+    {
+      "name": "Taco-Compass",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/NachuT/Taco-Compass",
+      "updated_at": "2026-01-20T19:05:18Z"
+    },
+    {
+      "name": "RevNews",
+      "description": "Revolutionizing Media: Decoding Bias and Accelerated Reading",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/NachuT/RevNews",
+      "updated_at": "2026-01-12T07:19:25Z"
+    },
+    {
+      "name": "Holiday-PCB",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/NachuT/Holiday-PCB",
+      "updated_at": "2025-12-15T02:30:14Z"
+    },
+    {
+      "name": "haxmas1",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/NachuT/haxmas1",
+      "updated_at": "2025-12-14T05:57:30Z"
+    },
+    {
+      "name": "Scioly-Robot-Tour",
+      "description": "A PCB board that consolidates all of your Robot Tour needs!",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/NachuT/Scioly-Robot-Tour",
+      "updated_at": "2025-11-27T03:01:17Z"
+    }
+  ],
+  "top_topics": []
+}

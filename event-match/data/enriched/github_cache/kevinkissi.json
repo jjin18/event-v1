@@ -1,0 +1,77 @@
+{
+  "username": "kevinkissi",
+  "name": "Kevin Kissi",
+  "bio": "Solving problems to advance humanity. #ImpactDriven",
+  "company": "Zof AI",
+  "location": "San Francisco, Ca",
+  "blog": "https://kevinkissi.com",
+  "twitter_username": "kevinkissi",
+  "followers": 26,
+  "following": 23,
+  "public_repos": 6,
+  "created_at": "2012-12-01T20:11:35Z",
+  "languages": {
+    "TeX": 1,
+    "Jupyter Notebook": 1,
+    "Python": 1,
+    "PHP": 1
+  },
+  "top_repos": [
+    {
+      "name": "solvability-of-matrix-riccati-inequality",
+      "description": "Solvability of Matrix Riccati Inequality Talk Slides Tex and Paper Tex Code",
+      "stars": 2,
+      "language": "TeX",
+      "topics": [
+        "beamer-theme",
+        "mathematics",
+        "matrix-riccati-inequality",
+        "talk-slides"
+      ],
+      "url": "https://github.com/kevinkissi/solvability-of-matrix-riccati-inequality",
+      "updated_at": "2021-07-19T06:58:43Z"
+    },
+    {
+      "name": "kevinkissi",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/kevinkissi/kevinkissi",
+      "updated_at": "2024-08-07T18:22:11Z"
+    },
+    {
+      "name": "machine-learning-specialization-code-repo",
+      "description": "Code for Coursera Machine Learning Specialization",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/kevinkissi/machine-learning-specialization-code-repo",
+      "updated_at": "2020-12-09T22:48:06Z"
+    },
+    {
+      "name": "probelm-meets-solution-repo",
+      "description": "Cracks at problems over time",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/kevinkissi/probelm-meets-solution-repo",
+      "updated_at": "2018-12-04T04:55:14Z"
+    },
+    {
+      "name": "old-website-kevinkissi-com",
+      "description": "My old website of 2015. Code given is a custom wordpress theme with built unique front page animation and interactivity.",
+      "stars": 0,
+      "language": "PHP",
+      "topics": [],
+      "url": "https://github.com/kevinkissi/old-website-kevinkissi-com",
+      "updated_at": "2018-11-20T20:07:39Z"
+    }
+  ],
+  "top_topics": [
+    "beamer-theme",
+    "mathematics",
+    "matrix-riccati-inequality",
+    "talk-slides"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "username": "edifice1989",
+  "name": "Mhe",
+  "bio": "Machine Learning Engineering & LLM",
+  "company": "",
+  "location": "SF",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 10,
+  "following": 27,
+  "public_repos": 14,
+  "created_at": "2014-12-09T02:33:58Z",
+  "languages": {
+    "Python": 4,
+    "R": 3,
+    "Jupyter Notebook": 1
+  },
+  "top_repos": [
+    {
+      "name": "DrugBank-web-scrape",
+      "description": "retrieve target gene list using Python lib BeautifulSoup",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/edifice1989/DrugBank-web-scrape",
+      "updated_at": "2023-05-05T16:13:49Z"
+    },
+    {
+      "name": "ML",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/edifice1989/ML",
+      "updated_at": "2025-03-11T19:31:32Z"
+    },
+    {
+      "name": "chatbot",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/edifice1989/chatbot",
+      "updated_at": "2024-01-25T07:29:29Z"
+    },
+    {
+      "name": "Stable_diffusion_from_scrath",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/edifice1989/Stable_diffusion_from_scrath",
+      "updated_at": "2023-12-30T20:07:04Z"
+    },
+    {
+      "name": "LSTM-from-scratch",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/edifice1989/LSTM-from-scratch",
+      "updated_at": "2023-12-28T22:51:11Z"
+    },
+    {
+      "name": "Transformer_pytorch_from_scratch",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/edifice1989/Transformer_pytorch_from_scratch",
+      "updated_at": "2023-12-04T03:31:42Z"
+    },
+    {
+      "name": "C-REx",
+      "description": "",
+      "stars": 0,
+      "language": "R",
+      "topics": [],
+      "url": "https://github.com/edifice1989/C-REx",
+      "updated_at": "2019-07-16T18:28:01Z"
+    },
+    {
+      "name": "rocker-c-rex",
+      "description": "Those source code are prepared to build a docker image of shiny web application",
+      "stars": 0,
+      "language": "R",
+      "topics": [],
+      "url": "https://github.com/edifice1989/rocker-c-rex",
+      "updated_at": "2019-07-16T04:48:10Z"
+    },
+    {
+      "name": "Rshinyexercise",
+      "description": "Rshiny exercise",
+      "stars": 0,
+      "language": "R",
+      "topics": [],
+      "url": "https://github.com/edifice1989/Rshinyexercise",
+      "updated_at": "2019-07-10T18:14:44Z"
+    },
+    {
+      "name": "edifice1989.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/edifice1989/edifice1989.github.io",
+      "updated_at": "2019-06-04T22:01:37Z"
+    }
+  ],
+  "top_topics": []
+}

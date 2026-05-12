@@ -1,0 +1,120 @@
+{
+  "username": "dav",
+  "name": "Dav Yaginuma",
+  "bio": "",
+  "company": "Sekai No, Inc",
+  "location": "San Francisco, CA",
+  "blog": "http://akuaku.org/",
+  "twitter_username": "",
+  "followers": 86,
+  "following": 8,
+  "public_repos": 76,
+  "created_at": "2008-04-02T22:05:38Z",
+  "languages": {
+    "Objective-C": 11,
+    "Ruby": 7,
+    "Swift": 5,
+    "C": 4,
+    "HTML": 2,
+    "Kotlin": 1,
+    "Rust": 1,
+    "Dart": 1,
+    "Elixir": 1,
+    "Go": 1,
+    "Shell": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "word2vec",
+      "description": "This tool provides an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words. These representations can be subsequently used in many natural language processing applications and for further research. ",
+      "stars": 1730,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/dav/word2vec",
+      "updated_at": "2026-05-12T08:13:13Z"
+    },
+    {
+      "name": "Objective-C-Lorem-Ipsum-Generator",
+      "description": "A simple class to generate lorem ipsum text in Objective-C.",
+      "stars": 25,
+      "language": "Objective-C",
+      "topics": [],
+      "url": "https://github.com/dav/Objective-C-Lorem-Ipsum-Generator",
+      "updated_at": "2026-04-10T21:29:38Z"
+    },
+    {
+      "name": "StackMob-Ruby-Toolkit",
+      "description": "A ruby toolkit for working with the StackMob API.  Currently allows you to create, read and delete your StackMob data from the command line.",
+      "stars": 5,
+      "language": "Ruby",
+      "topics": [],
+      "url": "https://github.com/dav/StackMob-Ruby-Toolkit",
+      "updated_at": "2025-05-22T13:36:47Z"
+    },
+    {
+      "name": "latlon",
+      "description": "Extremely simple app to get decimal lat,lon in your paste buffer",
+      "stars": 4,
+      "language": "Objective-C",
+      "topics": [],
+      "url": "https://github.com/dav/latlon",
+      "updated_at": "2016-11-07T17:39:34Z"
+    },
+    {
+      "name": "EyesOn",
+      "description": "An iPhone app for giving things you love a photographic hug",
+      "stars": 4,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/dav/EyesOn",
+      "updated_at": "2015-06-13T22:10:19Z"
+    },
+    {
+      "name": "One-Inch-Train-Tracks",
+      "description": "Designs for one-inch train track pieces. Intended to be realized via ShopBot",
+      "stars": 3,
+      "language": "Ruby",
+      "topics": [],
+      "url": "https://github.com/dav/One-Inch-Train-Tracks",
+      "updated_at": "2013-10-09T08:39:56Z"
+    },
+    {
+      "name": "exqcor",
+      "description": "Exquisite Corpse: The Play",
+      "stars": 2,
+      "language": "Ruby",
+      "topics": [],
+      "url": "https://github.com/dav/exqcor",
+      "updated_at": "2026-01-11T23:08:10Z"
+    },
+    {
+      "name": "stackmob-ios-sdk",
+      "description": "The official repository for the new and improved StackMob iOS SDK",
+      "stars": 2,
+      "language": "Objective-C",
+      "topics": [],
+      "url": "https://github.com/dav/stackmob-ios-sdk",
+      "updated_at": "2023-05-21T01:57:25Z"
+    },
+    {
+      "name": "GoodEReads",
+      "description": "Some scripts to compare my goodreads.com to-read bookshelf against available Library EBooks",
+      "stars": 2,
+      "language": "Ruby",
+      "topics": [],
+      "url": "https://github.com/dav/GoodEReads",
+      "updated_at": "2015-09-10T18:51:13Z"
+    },
+    {
+      "name": "pebble-longnow",
+      "description": "Long Now themed Pebble Watch Face",
+      "stars": 2,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/dav/pebble-longnow",
+      "updated_at": "2013-11-04T01:36:11Z"
+    }
+  ],
+  "top_topics": []
+}

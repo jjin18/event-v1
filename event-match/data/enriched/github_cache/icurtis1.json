@@ -1,0 +1,110 @@
+{
+  "username": "icurtis1",
+  "name": "Ian Curtis",
+  "bio": "AR \u2022 AI \u2022 UX \u2022 Designer \r\n@nianticspatial",
+  "company": "",
+  "location": "",
+  "blog": "https://xrarchitect.xyz",
+  "twitter_username": "XRarchitect",
+  "followers": 213,
+  "following": 5,
+  "public_repos": 13,
+  "created_at": "2020-09-25T00:30:25Z",
+  "languages": {
+    "TypeScript": 12,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "off-axis-sneaker",
+      "description": "A real-time head-tracking 3D viewer that creates an immersive \"Johnny Chung Lee\" style head-coupled perspective effect.",
+      "stars": 368,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/off-axis-sneaker",
+      "updated_at": "2026-05-12T08:24:14Z"
+    },
+    {
+      "name": "thebrowserlab",
+      "description": "A 3D editor and creative coding environment that runs entirely in the browser. Built with React, Three.js, and TypeScript.",
+      "stars": 145,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/thebrowserlab",
+      "updated_at": "2026-05-12T07:35:31Z"
+    },
+    {
+      "name": "web-camera-kit",
+      "description": "A lightweight, mobile-optimized camera boilerplate designed specifically for AI vision and computer vision projects.",
+      "stars": 60,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/web-camera-kit",
+      "updated_at": "2026-05-11T11:02:09Z"
+    },
+    {
+      "name": "mediapipe-face-tracking",
+      "description": "A real-time face landmark detection application built with React, TypeScript, and MediaPipe.",
+      "stars": 49,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/mediapipe-face-tracking",
+      "updated_at": "2026-05-07T02:54:51Z"
+    },
+    {
+      "name": "character-controller-sample-project",
+      "description": "A 3D character controller built with React Three Fiber, Rapier physics.",
+      "stars": 36,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/character-controller-sample-project",
+      "updated_at": "2026-05-09T04:21:59Z"
+    },
+    {
+      "name": "fps-sample-project",
+      "description": "A modern first-person shooter character controller built with React, Three.js, and Rapier physics. Features smooth movement mechanics, gamepad support, and interactive physics-based gameplay.",
+      "stars": 15,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/fps-sample-project",
+      "updated_at": "2026-03-22T02:31:11Z"
+    },
+    {
+      "name": "gaussian-splat-character-controller",
+      "description": "A physics-based character controller navigating a Gaussian splat scene using SparkJS, Three.js, and Rapier.",
+      "stars": 14,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/gaussian-splat-character-controller",
+      "updated_at": "2026-05-09T01:41:48Z"
+    },
+    {
+      "name": "fluid-hand-tracking",
+      "description": "An interactive web application that demonstrates real-time hand tracking with fluid physics simulation. Wave your hands to interact with dynamic liquid particles in your browser!",
+      "stars": 7,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/fluid-hand-tracking",
+      "updated_at": "2026-03-27T11:16:52Z"
+    },
+    {
+      "name": "third-person-controller-splat",
+      "description": "3rd-person character controller with Gaussian splats, Rapier physics, and Three.js.",
+      "stars": 4,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/third-person-controller-splat",
+      "updated_at": "2026-05-12T08:00:44Z"
+    },
+    {
+      "name": "realtime-face-captioning",
+      "description": "A real-time face tracking and captioning application built with React, TypeScript, and MediaPipe. This project demonstrates advanced facial landmark detection combined with speech-to-text capabilities to create an augmented reality captioning experience.",
+      "stars": 4,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/icurtis1/realtime-face-captioning",
+      "updated_at": "2026-03-27T11:16:50Z"
+    }
+  ],
+  "top_topics": []
+}

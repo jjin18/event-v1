@@ -1,0 +1,116 @@
+{
+  "username": "thehimalayanleo",
+  "name": "Ajinkya K Mulay",
+  "bio": "Ajinkya Mulay is a PhD student in the Electrical and Computer Engineering department of Purdue University. Previously an undergrad at IIT Hyderabad in EE.",
+  "company": "",
+  "location": "West Lafayette, IN, USA",
+  "blog": "thehimalayanleo.github.io",
+  "twitter_username": "",
+  "followers": 19,
+  "following": 16,
+  "public_repos": 46,
+  "created_at": "2017-06-16T05:42:28Z",
+  "languages": {
+    "Jupyter Notebook": 5,
+    "Python": 4,
+    "CSS": 1,
+    "Arduino": 1
+  },
+  "top_repos": [
+    {
+      "name": "Private-Generative-Models",
+      "description": "Final Project for ECE695 (Generative Models) at Purdue. Scalable Implementations of:",
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/Private-Generative-Models",
+      "updated_at": "2025-07-07T22:16:32Z"
+    },
+    {
+      "name": "Private-Machine-Learning",
+      "description": "Reference materials and codes for machine learning. Includes implmentations of privacy and security algorithms.",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/Private-Machine-Learning",
+      "updated_at": "2021-05-11T01:36:21Z"
+    },
+    {
+      "name": "MLForResearchScientists",
+      "description": "A process for creating ML workflows for any researcher.",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/MLForResearchScientists",
+      "updated_at": "2021-02-06T22:23:13Z"
+    },
+    {
+      "name": "integration-game",
+      "description": "CGF-FGF Integration Games",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/integration-game",
+      "updated_at": "2026-04-28T22:07:18Z"
+    },
+    {
+      "name": "thehimalayanleo.github.io",
+      "description": "Personal Blog",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/thehimalayanleo.github.io",
+      "updated_at": "2026-04-23T23:06:07Z"
+    },
+    {
+      "name": "TensorTonic-Solutions",
+      "description": "My solutions to TensorTonic problems",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/TensorTonic-Solutions",
+      "updated_at": "2026-03-08T03:13:38Z"
+    },
+    {
+      "name": "Co-Founder-Matching",
+      "description": "Uses resumes/CVs to find similarity scores between resumes.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/Co-Founder-Matching",
+      "updated_at": "2022-12-04T09:30:36Z"
+    },
+    {
+      "name": "algorithmic-practice",
+      "description": "Solutions to algorithms on CodeSignal. ",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/algorithmic-practice",
+      "updated_at": "2022-04-29T05:28:27Z"
+    },
+    {
+      "name": "thehimalayanleo",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/thehimalayanleo",
+      "updated_at": "2021-10-12T15:36:39Z"
+    },
+    {
+      "name": "Algorithm-Practice",
+      "description": "Algorithms written from scratch using python",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/thehimalayanleo/Algorithm-Practice",
+      "updated_at": "2021-04-21T23:47:52Z"
+    }
+  ],
+  "top_topics": [
+    "edge-computing",
+    "literature-review",
+    "terahertz"
+  ]
+}

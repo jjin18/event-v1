@@ -1,0 +1,37 @@
+{
+  "username": "ayushjhx",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 0,
+  "public_repos": 2,
+  "created_at": "2026-01-31T13:17:24Z",
+  "languages": {
+    "Python": 2
+  },
+  "top_repos": [
+    {
+      "name": "mamba",
+      "description": "A tiny 1.5M parameter code model that can run on a CPU. ",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ayushjhx/mamba",
+      "updated_at": "2026-03-06T11:19:56Z"
+    },
+    {
+      "name": "GEMINIHACK",
+      "description": "Submission for Gemini 3 Hackathon",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ayushjhx/GEMINIHACK",
+      "updated_at": "2026-02-08T18:22:53Z"
+    }
+  ],
+  "top_topics": []
+}

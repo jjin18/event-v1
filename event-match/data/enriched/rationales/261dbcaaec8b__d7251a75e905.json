@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Kshitij and Mohit work on critical infrastructure at NVIDIA but in complementary domains\u2014Kshitij brings deep expertise in chip-level design verification (AXI, I3C protocols, SystemVerilog/UVM), while Mohit architects the ML systems that run on top of that hardware. Their combined perspective on infrastructure\u2014from silicon verification to ML systems\u2014could surface useful technical conversations about hardware-software co-design or verification challenges in ML accelerators.",
+  "intro_message": "Kshitij, meet Mohit\u2014you're both building infrastructure at NVIDIA from different angles (chip verification vs. ML systems), and your work likely intersects more than you realize."
+}

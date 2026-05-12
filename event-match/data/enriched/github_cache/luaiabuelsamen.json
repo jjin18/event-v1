@@ -1,0 +1,115 @@
+{
+  "username": "luaiabuelsamen",
+  "name": "Luai Abuelsamen",
+  "bio": "Accelerate, anon.",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 25,
+  "following": 151,
+  "public_repos": 31,
+  "created_at": "2019-09-13T01:37:29Z",
+  "languages": {
+    "Python": 19,
+    "HTML": 2,
+    "C++": 2,
+    "C": 2,
+    "Jupyter Notebook": 2,
+    "TypeScript": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "VentionMotionPlanner",
+      "description": "",
+      "stars": 9,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/VentionMotionPlanner",
+      "updated_at": "2026-02-22T08:27:03Z"
+    },
+    {
+      "name": "dexmate-vega-sim",
+      "description": "MuJoCo simulation stack for the dexmate Vega 1U humanoid: scene, point clouds, pick planning, admittance control",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/dexmate-vega-sim",
+      "updated_at": "2026-05-12T07:37:03Z"
+    },
+    {
+      "name": "luaiabuelsamen.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/luaiabuelsamen.github.io",
+      "updated_at": "2026-05-09T14:22:34Z"
+    },
+    {
+      "name": "geometric-learning",
+      "description": "SO(3)-structured latent space for 3D point clouds \u2014 Perceiver-style autoencoder with equivariance + cycle losses on ModelNet10. Runs on Jetson Orin.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/geometric-learning",
+      "updated_at": "2026-05-09T14:21:55Z"
+    },
+    {
+      "name": "Go2_locomotion",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/Go2_locomotion",
+      "updated_at": "2026-05-06T02:50:28Z"
+    },
+    {
+      "name": "LerobotExperiments",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/LerobotExperiments",
+      "updated_at": "2026-04-25T18:35:37Z"
+    },
+    {
+      "name": "PhysicsEngine",
+      "description": "Physics engine with simulation of mechanical systems with C++",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/PhysicsEngine",
+      "updated_at": "2026-04-13T16:52:54Z"
+    },
+    {
+      "name": "MotionPlanning",
+      "description": "Simple Motion Planner in CPP",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/MotionPlanning",
+      "updated_at": "2025-11-16T21:52:12Z"
+    },
+    {
+      "name": "bicycleUKF",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/bicycleUKF",
+      "updated_at": "2025-10-13T01:33:43Z"
+    },
+    {
+      "name": "cudaExperiments",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/luaiabuelsamen/cudaExperiments",
+      "updated_at": "2025-09-17T21:49:37Z"
+    }
+  ],
+  "top_topics": []
+}

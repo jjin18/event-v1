@@ -1,0 +1,47 @@
+{
+  "username": "jericakuah",
+  "name": "jericakuah",
+  "bio": "founder & product person || always a work in progress\r\n",
+  "company": "",
+  "location": "Canada",
+  "blog": "",
+  "twitter_username": "jerica_kuah",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 3,
+  "created_at": "2020-04-19T02:01:14Z",
+  "languages": {
+    "TypeScript": 1,
+    "MDX": 1
+  },
+  "top_repos": [
+    {
+      "name": "ux-for-agents",
+      "description": "a component library for agents best practices",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/jericakuah/ux-for-agents",
+      "updated_at": "2026-03-13T20:25:59Z"
+    },
+    {
+      "name": "portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/jericakuah/portfolio",
+      "updated_at": "2025-11-14T20:41:01Z"
+    },
+    {
+      "name": "docs",
+      "description": "",
+      "stars": 0,
+      "language": "MDX",
+      "topics": [],
+      "url": "https://github.com/jericakuah/docs",
+      "updated_at": "2025-07-04T15:52:52Z"
+    }
+  ],
+  "top_topics": []
+}

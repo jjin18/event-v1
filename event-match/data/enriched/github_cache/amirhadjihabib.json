@@ -1,0 +1,35 @@
+{
+  "username": "AmirHadjihabib",
+  "name": "Amir Hadjihabib",
+  "bio": "Product Design",
+  "company": "Middesk",
+  "location": "San Francisco",
+  "blog": "hadjihabib.com",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 4,
+  "public_repos": 2,
+  "created_at": "2013-06-04T23:27:00Z",
+  "languages": {},
+  "top_repos": [
+    {
+      "name": "unicode-drawing-skill",
+      "description": "A skill for drawing together. Like sharing a napkin and a pen \u2014 rough, fast, expressive, genuine.",
+      "stars": 2,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AmirHadjihabib/unicode-drawing-skill",
+      "updated_at": "2026-02-18T17:38:11Z"
+    },
+    {
+      "name": "communication-and-collaboration-skill",
+      "description": "Patterns for communication and collaboration, shaped with care \u2014 for humans and AI together.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AmirHadjihabib/communication-and-collaboration-skill",
+      "updated_at": "2026-02-04T04:54:17Z"
+    }
+  ],
+  "top_topics": []
+}

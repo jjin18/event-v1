@@ -1,0 +1,37 @@
+{
+  "username": "leakyfilter",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 4,
+  "created_at": "2025-01-31T22:26:22Z",
+  "languages": {
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "obsidian-git",
+      "description": "git repo for managing my obsidian vault",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/leakyfilter/obsidian-git",
+      "updated_at": "2026-01-11T05:56:19Z"
+    },
+    {
+      "name": "site",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/leakyfilter/site",
+      "updated_at": "2026-03-09T08:19:06Z"
+    }
+  ],
+  "top_topics": []
+}

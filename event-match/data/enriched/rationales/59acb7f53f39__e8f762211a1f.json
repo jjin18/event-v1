@@ -1,0 +1,4 @@
+{
+  "rationale": "Artem's deep work on efficient inference and model optimization (loopvlm, quantization, transformer fundamentals) directly complements Kobe's LMCache infrastructure role\u2014both are solving the practical problem of making LLMs faster and more accessible. They share overlapping conviction on ML infrastructure and could exchange insights on inference acceleration techniques and infrastructure trade-offs.",
+  "intro_message": "Artem Yatsenko, meet Kobe \u2014 you're both focused on making LLM inference faster and more efficient, with complementary expertise in optimization (Artem's loopvlm and quantization work) and caching infrastructure (Kobe's LMCache background)."
+}

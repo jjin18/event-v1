@@ -1,0 +1,46 @@
+{
+  "username": "fairfax33",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 3,
+  "created_at": "2025-12-02T21:43:55Z",
+  "languages": {
+    "Jupyter Notebook": 1
+  },
+  "top_repos": [
+    {
+      "name": "lennard-jones-2d-simulation",
+      "description": "Lennard Jones simulation of Molecular Dynamics featuring cell list implementation & velocity verlet integration. Physics kernels compiled in Numba for runtime.",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/fairfax33/lennard-jones-2d-simulation",
+      "updated_at": "2026-04-27T19:33:27Z"
+    },
+    {
+      "name": "readmy-citations",
+      "description": "Converting my zotero .bib exports into something conveniently viewable on github is a pain. So I'm building a project supporting a one-line github action to automatically inject formatted citations into any readme so I never have to worry about this again.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/fairfax33/readmy-citations",
+      "updated_at": "2026-04-27T19:32:13Z"
+    },
+    {
+      "name": "pbit-edge",
+      "description": "Solo building a nFPGA p-bit Ising machine for energy efficient on-device learning under space relevant constraints.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/fairfax33/pbit-edge",
+      "updated_at": "2026-04-23T18:27:35Z"
+    }
+  ],
+  "top_topics": []
+}

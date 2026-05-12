@@ -1,0 +1,115 @@
+{
+  "username": "Kamagh",
+  "name": "Kamo Aghbalyan",
+  "bio": "",
+  "company": "",
+  "location": "Yerevan, Armenia",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 5,
+  "following": 9,
+  "public_repos": 23,
+  "created_at": "2020-11-05T19:13:42Z",
+  "languages": {
+    "JavaScript": 12,
+    "TypeScript": 4,
+    "Jupyter Notebook": 1,
+    "PHP": 1,
+    "Java": 1,
+    "SCSS": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "GapFlow",
+      "description": "GapFlow isCompetitor analysis ",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/GapFlow",
+      "updated_at": "2024-11-17T01:51:35Z"
+    },
+    {
+      "name": "gf-api",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/gf-api",
+      "updated_at": "2024-11-17T01:49:04Z"
+    },
+    {
+      "name": "gf-frontend",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/gf-frontend",
+      "updated_at": "2024-11-17T01:47:53Z"
+    },
+    {
+      "name": "dp-frontend",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/dp-frontend",
+      "updated_at": "2024-05-22T07:46:27Z"
+    },
+    {
+      "name": "tv-app",
+      "description": "Movie rating web application using next with tailwindcss",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/tv-app",
+      "updated_at": "2024-04-03T06:47:39Z"
+    },
+    {
+      "name": "Remote-Emergency-Pharmacies",
+      "description": "Remote Emergency Pharmacies",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/Remote-Emergency-Pharmacies",
+      "updated_at": "2024-02-27T19:25:43Z"
+    },
+    {
+      "name": "CS-260-Image-Processing",
+      "description": "In this repository you'll find HomeWorks and other projects done during Image Processing course",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Kamagh/CS-260-Image-Processing",
+      "updated_at": "2023-12-22T09:37:18Z"
+    },
+    {
+      "name": "e-commerce-app",
+      "description": "",
+      "stars": 0,
+      "language": "PHP",
+      "topics": [],
+      "url": "https://github.com/Kamagh/e-commerce-app",
+      "updated_at": "2023-12-20T08:51:56Z"
+    },
+    {
+      "name": "Bouncing-Ballz",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kamagh/Bouncing-Ballz",
+      "updated_at": "2023-12-17T19:50:44Z"
+    },
+    {
+      "name": "OOP_project_MovieDaran",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/Kamagh/OOP_project_MovieDaran",
+      "updated_at": "2023-11-14T07:35:41Z"
+    }
+  ],
+  "top_topics": []
+}

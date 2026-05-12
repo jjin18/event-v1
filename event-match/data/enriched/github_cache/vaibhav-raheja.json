@@ -1,0 +1,119 @@
+{
+  "username": "Vaibhav-Raheja",
+  "name": "Vaibhav Raheja",
+  "bio": "Robotics Engineer @TerraSentia ",
+  "company": "@TerraSentia ",
+  "location": "Champaign",
+  "blog": "Vaibhav-Raheja.github.io",
+  "twitter_username": "",
+  "followers": 7,
+  "following": 20,
+  "public_repos": 22,
+  "created_at": "2019-08-03T07:08:40Z",
+  "languages": {
+    "Python": 4,
+    "Jupyter Notebook": 3,
+    "Shell": 1,
+    "JavaScript": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "Multi-Disease-Prediction-System",
+      "description": "",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Multi-Disease-Prediction-System",
+      "updated_at": "2024-09-23T19:23:16Z"
+    },
+    {
+      "name": "Deep-Learining-Computer-Vision",
+      "description": "UIUC CS 444",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Deep-Learining-Computer-Vision",
+      "updated_at": "2026-04-04T06:45:57Z"
+    },
+    {
+      "name": "Vaibhav-Raheja.github.io",
+      "description": "Website",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Vaibhav-Raheja.github.io",
+      "updated_at": "2025-10-03T22:16:47Z"
+    },
+    {
+      "name": "Vaibhav-Raheja",
+      "description": "Config files for my GitHub profile.",
+      "stars": 0,
+      "language": "Shell",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "url": "https://github.com/Vaibhav-Raheja/Vaibhav-Raheja",
+      "updated_at": "2026-04-20T19:38:02Z"
+    },
+    {
+      "name": "Domain-Adaptation-using-Satellite-Images",
+      "description": "Repo Containg our work and Implementation for CS444 at UIUC",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Domain-Adaptation-using-Satellite-Images",
+      "updated_at": "2026-01-06T12:44:24Z"
+    },
+    {
+      "name": "CV",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/CV",
+      "updated_at": "2025-11-10T06:46:01Z"
+    },
+    {
+      "name": "GRAIC",
+      "description": "Project for 'Principles of Safe Autonomy' course at UIUC",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/GRAIC",
+      "updated_at": "2024-06-14T06:21:28Z"
+    },
+    {
+      "name": "Robotis_Mini",
+      "description": "ECE_598 @ UIUC",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Robotis_Mini",
+      "updated_at": "2024-03-04T03:53:17Z"
+    },
+    {
+      "name": "Mini-Projects",
+      "description": "Mini Projects done at UIUC",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Mini-Projects",
+      "updated_at": "2024-02-05T20:34:07Z"
+    },
+    {
+      "name": "Skin-Disease-Detection",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Vaibhav-Raheja/Skin-Disease-Detection",
+      "updated_at": "2022-11-10T03:24:42Z"
+    }
+  ],
+  "top_topics": [
+    "config",
+    "github-config"
+  ]
+}

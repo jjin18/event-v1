@@ -1,0 +1,4 @@
+{
+  "rationale": "Georgi is building AI-agent automation for GTM workflows at early-stage startups, while Parth brings hands-on hardware testing and mechanical engineering experience from the robotics space at Tesla. This is a complementary pairing where Parth's robotics hardware rigor could inform how Rilo thinks about testing and validation of multi-agent systems in production, and Georgi's expertise in scaling small teams through automation could apply to Parth's hardware engineering workflows.",
+  "intro_message": "Georgi, meet Parth Behani \u2014 a Robotics Hardware Test Engineer at Tesla working on humanoid robotics; his experience validating complex mechanical systems could offer useful perspectives on testing and hardening multi-agent workflows at scale."
+}

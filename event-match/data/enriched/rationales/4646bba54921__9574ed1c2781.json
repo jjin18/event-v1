@@ -1,0 +1,4 @@
+{
+  "rationale": "Alex and Jiale both work at the intersection of ML infrastructure and systems engineering, with complementary expertise that could spark useful collaboration. Alex is focused on unifying fragmented ML developer tooling at Mercor, while Jiale brings deep experience building scalable ML platforms and distributed training systems at Meta\u2014the kind of infrastructure challenges that directly inform better tooling. Both are in San Francisco and share Python as a core language, making them natural collaborators on infrastructure problems.",
+  "intro_message": "Alex Kreidler, meet Jiale Zhi \u2014 you're both tackling ML infrastructure from different angles (tooling vs. platform systems) and could compare notes on what's actually broken in the ecosystem."
+}

@@ -1,0 +1,91 @@
+{
+  "username": "mohulshukla",
+  "name": "Mohul Shukla",
+  "bio": "Berkeley EECS",
+  "company": "",
+  "location": "Berkeley, California",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 15,
+  "following": 49,
+  "public_repos": 9,
+  "created_at": "2020-04-22T07:50:53Z",
+  "languages": {
+    "Python": 4,
+    "TypeScript": 2
+  },
+  "top_repos": [
+    {
+      "name": "CoCo",
+      "description": "Draw with your hands, bring it to life.",
+      "stars": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/mohulshukla/CoCo",
+      "updated_at": "2025-10-23T16:08:08Z"
+    },
+    {
+      "name": "Fractals-Extended-Essay",
+      "description": "All the code I used for my mathematics extended essay about fractal dimensions and their real-world applications. ",
+      "stars": 1,
+      "language": "Python",
+      "topics": [
+        "fractals",
+        "hausdorff-dimension",
+        "mandelbrot-set"
+      ],
+      "url": "https://github.com/mohulshukla/Fractals-Extended-Essay",
+      "updated_at": "2025-01-07T22:22:47Z"
+    },
+    {
+      "name": "lxvm-frontend",
+      "description": "Decentralized prediction market resolution with EigenLayer",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/mohulshukla/lxvm-frontend",
+      "updated_at": "2025-10-18T11:45:27Z"
+    },
+    {
+      "name": "Tic-Tac-RL",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mohulshukla/Tic-Tac-RL",
+      "updated_at": "2025-07-26T08:21:14Z"
+    },
+    {
+      "name": "Grove",
+      "description": "Intentional scrolling",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mohulshukla/Grove",
+      "updated_at": "2025-07-03T20:59:35Z"
+    },
+    {
+      "name": "NFT-Appraisal-Main",
+      "description": "Flare x Google Verifiable AI Hackathon 1st Place Consensus Learning",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/mohulshukla/NFT-Appraisal-Main",
+      "updated_at": "2025-04-20T03:24:08Z"
+    },
+    {
+      "name": "stoic_flaskapp",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/mohulshukla/stoic_flaskapp",
+      "updated_at": "2024-08-28T18:40:46Z"
+    }
+  ],
+  "top_topics": [
+    "fractals",
+    "hausdorff-dimension",
+    "mandelbrot-set"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "username": "philipnisevich",
+  "name": "Philip Nisevich",
+  "bio": "",
+  "company": "",
+  "location": "Bay Area, CA",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 4,
+  "public_repos": 7,
+  "created_at": "2025-12-31T06:47:48Z",
+  "languages": {
+    "C++": 4,
+    "Python": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "smarthome-wifi-switch",
+      "description": "physical switch for wifi-based smarthome appliances using the Tuya Smart home framework",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/smarthome-wifi-switch",
+      "updated_at": "2026-05-05T22:57:15Z"
+    },
+    {
+      "name": "InstaCount",
+      "description": "Live instagram follower tracker",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/InstaCount",
+      "updated_at": "2026-04-10T17:17:27Z"
+    },
+    {
+      "name": "skimap",
+      "description": "live api ski resort trail and lift status",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/skimap",
+      "updated_at": "2026-04-09T18:41:03Z"
+    },
+    {
+      "name": "caltrain-map",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/caltrain-map",
+      "updated_at": "2026-04-08T06:16:43Z"
+    },
+    {
+      "name": "live-stock-market",
+      "description": "ESP32 Live Stock Tracker \u2013 Solo-built device that fetches real-time stock prices over Wi-Fi, parses JSON, and displays tickers on an I2C OLED. Designed hardware, firmware, API handling, and UI. Learned microcontroller networking, JSON parsing, I2C displays, memory-efficient code, and building stable always-on embedded systems.",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/live-stock-market",
+      "updated_at": "2026-04-06T03:20:56Z"
+    },
+    {
+      "name": "Click",
+      "description": "Customizeable shortcut pad",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/Click",
+      "updated_at": "2026-03-20T18:49:22Z"
+    },
+    {
+      "name": "mailbox",
+      "description": "Wireless Smart Mailbox \u2013 Solo-built ESP32 package counter with a wireless home display. Designed hardware, sensors, enclosure concept, and firmware with debounce and reliable communication. Learned embedded systems, IoT prototyping, sensor logic, and real-world debugging.",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/philipnisevich/mailbox",
+      "updated_at": "2025-12-31T07:02:55Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,4 @@
+{
+  "rationale": "Both work in ML infrastructure with complementary expertise: Artem brings deep hands-on experience in efficient inference, quantization, and transformer optimization (evidenced by his loopvlm real-time VLM project), while Naman's work on ML infrastructure and analytics at Meta provides large-scale systems perspective. They could explore how production ML infrastructure at scale intersects with the efficiency-focused optimization work Artem is pursuing.",
+  "intro_message": "Artem Yatsenko, meet Naman Shah \u2014 you're both focused on ML infrastructure from different angles (Artem on efficient inference and optimization, Naman on infrastructure and analytics at Meta), and could swap insights on making frontier models faster in production."
+}

@@ -1,0 +1,110 @@
+{
+  "username": "justrocketsci",
+  "name": "anu_bonth",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 16,
+  "created_at": "2019-10-06T06:00:09Z",
+  "languages": {
+    "TypeScript": 5,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "dfm-copilot",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/dfm-copilot",
+      "updated_at": "2026-03-24T04:17:06Z"
+    },
+    {
+      "name": "space-intel",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/space-intel",
+      "updated_at": "2026-02-26T16:39:36Z"
+    },
+    {
+      "name": "factory-floor-os",
+      "description": "Factory floor space management application with timeline scrubber and conflict detection for aerospace manufacturing",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/factory-floor-os",
+      "updated_at": "2026-02-20T01:58:50Z"
+    },
+    {
+      "name": "phone-wallpaper",
+      "description": "QR Canvas App",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/phone-wallpaper",
+      "updated_at": "2026-02-18T22:48:09Z"
+    },
+    {
+      "name": "space-signals-tracker",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/space-signals-tracker",
+      "updated_at": "2026-01-22T05:47:13Z"
+    },
+    {
+      "name": "launch-watcher",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/launch-watcher",
+      "updated_at": "2026-01-22T03:10:38Z"
+    },
+    {
+      "name": "portfolio",
+      "description": "My portfolio",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/portfolio",
+      "updated_at": "2025-07-30T03:43:49Z"
+    },
+    {
+      "name": "payload-portal-hub",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/payload-portal-hub",
+      "updated_at": "2025-04-11T23:42:01Z"
+    },
+    {
+      "name": "investment-score",
+      "description": "Investment Scorecard for Seed Stage Space Companies",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/investment-score",
+      "updated_at": "2025-02-03T00:15:54Z"
+    },
+    {
+      "name": "flappy-starship",
+      "description": "Flappy bird clone with Starship",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/justrocketsci/flappy-starship",
+      "updated_at": "2024-06-08T02:47:40Z"
+    }
+  ],
+  "top_topics": []
+}

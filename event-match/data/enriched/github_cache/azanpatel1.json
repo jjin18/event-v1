@@ -1,0 +1,74 @@
+{
+  "username": "Azanpatel1",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 3,
+  "public_repos": 6,
+  "created_at": "2022-04-29T23:00:14Z",
+  "languages": {
+    "TypeScript": 3,
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "Azan-Portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Azanpatel1/Azan-Portfolio",
+      "updated_at": "2026-05-12T02:16:57Z"
+    },
+    {
+      "name": "Overwatch",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Azanpatel1/Overwatch",
+      "updated_at": "2026-05-10T17:31:17Z"
+    },
+    {
+      "name": "diagnostics-platform",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Azanpatel1/diagnostics-platform",
+      "updated_at": "2026-02-17T01:15:53Z"
+    },
+    {
+      "name": "ENG-Farckle-APP",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Azanpatel1/ENG-Farckle-APP",
+      "updated_at": "2025-03-15T06:43:53Z"
+    },
+    {
+      "name": "Calculator",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Azanpatel1/Calculator",
+      "updated_at": "2025-02-09T10:59:09Z"
+    },
+    {
+      "name": "Z-LAb_Azan",
+      "description": "Z-LAb",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Azanpatel1/Z-LAb_Azan",
+      "updated_at": "2025-01-28T02:25:40Z"
+    }
+  ],
+  "top_topics": []
+}

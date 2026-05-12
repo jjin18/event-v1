@@ -1,0 +1,120 @@
+{
+  "username": "devxpy",
+  "name": "Dev Aggarwal",
+  "bio": "I love building abstractions! ",
+  "company": "Gooey.AI",
+  "location": "",
+  "blog": "devxpy.com",
+  "twitter_username": "",
+  "followers": 93,
+  "following": 13,
+  "public_repos": 118,
+  "created_at": "2016-05-20T15:09:28Z",
+  "languages": {
+    "Python": 14,
+    "JavaScript": 4,
+    "Jupyter Notebook": 3,
+    "Java": 2,
+    "Shell": 2,
+    "TypeScript": 1,
+    "Dart": 1,
+    "HTML": 1,
+    "PHP": 1,
+    "PLpgSQL": 1,
+    "Tcl": 1,
+    "Assembly": 1
+  },
+  "top_repos": [
+    {
+      "name": "anti-chatgpt",
+      "description": "Antivirus for your mind",
+      "stars": 129,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/devxpy/anti-chatgpt",
+      "updated_at": "2026-05-06T09:40:36Z"
+    },
+    {
+      "name": "threapybot",
+      "description": "",
+      "stars": 4,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/devxpy/threapybot",
+      "updated_at": "2025-09-24T14:44:30Z"
+    },
+    {
+      "name": "flutter-shared-value",
+      "description": "A straightforward way to manage global state in flutter apps.",
+      "stars": 4,
+      "language": "Dart",
+      "topics": [],
+      "url": "https://github.com/devxpy/flutter-shared-value",
+      "updated_at": "2023-10-19T06:42:29Z"
+    },
+    {
+      "name": "ai-matchmaker",
+      "description": "",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/devxpy/ai-matchmaker",
+      "updated_at": "2024-01-26T20:04:34Z"
+    },
+    {
+      "name": "wifi-switch",
+      "description": "An AP server-client switching script for linux, written in python",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/devxpy/wifi-switch",
+      "updated_at": "2023-01-28T19:51:34Z"
+    },
+    {
+      "name": "zeronet",
+      "description": "A zero-configuration networking/socket library for Python and friends",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/devxpy/zeronet",
+      "updated_at": "2025-10-16T19:16:22Z"
+    },
+    {
+      "name": "gea-telegram-bot",
+      "description": "Telegram bot made for a GE appliances hackathon",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/devxpy/gea-telegram-bot",
+      "updated_at": "2020-01-28T18:32:10Z"
+    },
+    {
+      "name": "gmail-approved",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/devxpy/gmail-approved",
+      "updated_at": "2026-04-14T01:44:21Z"
+    },
+    {
+      "name": "luma-auto-rsvp",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/devxpy/luma-auto-rsvp",
+      "updated_at": "2026-03-19T13:41:22Z"
+    },
+    {
+      "name": "StoryFlow",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/devxpy/StoryFlow",
+      "updated_at": "2026-03-06T03:51:03Z"
+    }
+  ],
+  "top_topics": []
+}

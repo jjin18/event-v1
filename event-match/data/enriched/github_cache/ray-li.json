@@ -1,0 +1,37 @@
+{
+  "username": "ray-li",
+  "name": "Ray",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "ray--li.com",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 2,
+  "created_at": "2014-08-19T19:49:08Z",
+  "languages": {
+    "Python": 2
+  },
+  "top_repos": [
+    {
+      "name": "pylixir",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ray-li/pylixir",
+      "updated_at": "2026-02-01T02:51:36Z"
+    },
+    {
+      "name": "prompt_dedent",
+      "description": "Dedentation library for nesting prompts in functions",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ray-li/prompt_dedent",
+      "updated_at": "2026-01-26T19:45:24Z"
+    }
+  ],
+  "top_topics": []
+}

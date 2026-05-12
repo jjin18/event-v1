@@ -1,0 +1,120 @@
+{
+  "username": "skr3178",
+  "name": "skr3178",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 16,
+  "following": 413,
+  "public_repos": 117,
+  "created_at": "2021-02-19T05:43:24Z",
+  "languages": {
+    "Python": 31,
+    "Jupyter Notebook": 7,
+    "HTML": 2,
+    "Swift": 1
+  },
+  "top_repos": [
+    {
+      "name": "DreamerV4",
+      "description": "implementation of DreamerV4: Training Agents Inside of Scalable World Models",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/DreamerV4",
+      "updated_at": "2026-04-11T09:17:53Z"
+    },
+    {
+      "name": "SmolVLA",
+      "description": "Lerobot SmolVLA explained",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/SmolVLA",
+      "updated_at": "2025-09-29T14:33:51Z"
+    },
+    {
+      "name": "CarPlanner",
+      "description": "CarPlanner: Consistent Auto-regressive Trajectory Planning for Large-scale Reinforcement Learning in Autonomous Driving",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/CarPlanner",
+      "updated_at": "2026-05-06T08:38:16Z"
+    },
+    {
+      "name": "Genie_google",
+      "description": "implementation of Genie: Genie: Generative Interactive Environments",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/skr3178/Genie_google",
+      "updated_at": "2026-04-10T22:49:22Z"
+    },
+    {
+      "name": "SO101-IsaacSim",
+      "description": "Here is some of the work I have done in the IsaacLab env. A few of the models were already available from the existing environment. SO101 stacking cubes was created from scratch..",
+      "stars": 1,
+      "language": "Python",
+      "topics": [
+        "isaac-gym",
+        "isaac-lab",
+        "isaac-sim"
+      ],
+      "url": "https://github.com/skr3178/SO101-IsaacSim",
+      "updated_at": "2026-04-08T09:27:53Z"
+    },
+    {
+      "name": "hand-landmarker-ios",
+      "description": "iOS Hand Landmarker app using MediaPipe for real-time hand tracking and gesture recognition",
+      "stars": 1,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/skr3178/hand-landmarker-ios",
+      "updated_at": "2026-02-24T10:39:14Z"
+    },
+    {
+      "name": "S2GO",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/S2GO",
+      "updated_at": "2026-05-12T06:46:37Z"
+    },
+    {
+      "name": "Odin",
+      "description": "a simple job search tool. may be auto applier. ",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/Odin",
+      "updated_at": "2026-05-06T07:06:03Z"
+    },
+    {
+      "name": "tennis_3D",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/tennis_3D",
+      "updated_at": "2026-04-20T10:21:48Z"
+    },
+    {
+      "name": "tennis_tracking",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/skr3178/tennis_tracking",
+      "updated_at": "2026-04-20T08:12:52Z"
+    }
+  ],
+  "top_topics": [
+    "isaac-gym",
+    "isaac-lab",
+    "isaac-sim"
+  ]
+}

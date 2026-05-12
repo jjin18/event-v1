@@ -1,0 +1,129 @@
+{
+  "username": "louanbardou",
+  "name": "Louan",
+  "bio": "Engineer and student at \u00c9cole Polytechnique (MX25)",
+  "company": "@rauschecker-sugrue-labs",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 3,
+  "public_repos": 11,
+  "created_at": "2024-11-07T19:05:18Z",
+  "languages": {
+    "Python": 6,
+    "Jupyter Notebook": 2,
+    "Astro": 1
+  },
+  "top_repos": [
+    {
+      "name": "wma-pipeline",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/louanbardou/wma-pipeline",
+      "updated_at": "2026-05-11T23:47:08Z"
+    },
+    {
+      "name": "rsi-wma",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/louanbardou/rsi-wma",
+      "updated_at": "2026-05-11T20:16:03Z"
+    },
+    {
+      "name": "leukoaraiosis-detection",
+      "description": "Weakly-supervised Swin UNETR pipeline for white matter lesion detection across 11,868 adolescents (ABCD Study) \u2014 no voxel annotations, extreme class imbalance, 21-site heterogeneity.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "deep-learning",
+        "medical-imaging",
+        "neuroimaging",
+        "pytorch",
+        "weak-supervision"
+      ],
+      "url": "https://github.com/louanbardou/leukoaraiosis-detection",
+      "updated_at": "2026-05-07T17:20:18Z"
+    },
+    {
+      "name": "liammocean-blog",
+      "description": "",
+      "stars": 0,
+      "language": "Astro",
+      "topics": [],
+      "url": "https://github.com/louanbardou/liammocean-blog",
+      "updated_at": "2026-05-06T02:25:57Z"
+    },
+    {
+      "name": "presidiostudy",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/louanbardou/presidiostudy",
+      "updated_at": "2026-04-21T05:53:05Z"
+    },
+    {
+      "name": "brain-jepa-extensions",
+      "description": "Multi-scale temporal masking and VICReg covariance regularization for self-supervised fMRI representation learning \u2014 extensions to Brain-JEPA.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "fmri",
+        "neuroimaging",
+        "pytorch",
+        "representation-learning",
+        "self-supervised-learning"
+      ],
+      "url": "https://github.com/louanbardou/brain-jepa-extensions",
+      "updated_at": "2026-04-20T01:55:32Z"
+    },
+    {
+      "name": "ens-ct-segmentation",
+      "description": "Multi-organ anatomic CT scan segmentation under partial supervision \u2014 ENS/Raidium 2025 Challenge",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "deep-learning",
+        "medical-imaging",
+        "pytorch",
+        "segmentation"
+      ],
+      "url": "https://github.com/louanbardou/ens-ct-segmentation",
+      "updated_at": "2026-04-20T01:52:53Z"
+    },
+    {
+      "name": "readme",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/louanbardou/readme",
+      "updated_at": "2026-04-20T01:52:44Z"
+    },
+    {
+      "name": "forest",
+      "description": "Developed a Random Forest Classifier that achieved 1st place out of 28 teams in a Kaggle competition.",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/louanbardou/forest",
+      "updated_at": "2025-10-08T10:27:17Z"
+    }
+  ],
+  "top_topics": [
+    "pytorch",
+    "deep-learning",
+    "medical-imaging",
+    "neuroimaging",
+    "weak-supervision",
+    "fmri",
+    "representation-learning",
+    "self-supervised-learning",
+    "segmentation"
+  ]
+}

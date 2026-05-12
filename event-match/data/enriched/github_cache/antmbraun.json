@@ -1,0 +1,114 @@
+{
+  "username": "antmbraun",
+  "name": "Anthony Braun",
+  "bio": "",
+  "company": "@mindbody",
+  "location": "Washington, DC",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 3,
+  "public_repos": 13,
+  "created_at": "2013-08-29T00:59:59Z",
+  "languages": {
+    "Python": 5,
+    "JavaScript": 4,
+    "Swift": 1,
+    "SCSS": 1,
+    "CSS": 1,
+    "PHP": 1
+  },
+  "top_repos": [
+    {
+      "name": "optimizely-b2b-dashboard",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/antmbraun/optimizely-b2b-dashboard",
+      "updated_at": "2025-05-23T19:43:40Z"
+    },
+    {
+      "name": "antone",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/antmbraun/antone",
+      "updated_at": "2026-03-20T04:04:52Z"
+    },
+    {
+      "name": "notesapp",
+      "description": "FastAPI notes application",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/antmbraun/notesapp",
+      "updated_at": "2025-12-10T03:03:27Z"
+    },
+    {
+      "name": "aoc2025",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/antmbraun/aoc2025",
+      "updated_at": "2025-12-04T02:21:04Z"
+    },
+    {
+      "name": "subreddit-posts-fetch",
+      "description": "A tool for fetching posts from subreddits",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/antmbraun/subreddit-posts-fetch",
+      "updated_at": "2025-07-16T23:04:15Z"
+    },
+    {
+      "name": "aoc2024",
+      "description": "advent of code 2024",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/antmbraun/aoc2024",
+      "updated_at": "2024-12-26T21:29:53Z"
+    },
+    {
+      "name": "antological",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/antmbraun/antological",
+      "updated_at": "2024-07-30T16:11:53Z"
+    },
+    {
+      "name": "aoc2023",
+      "description": "advent of code 2023",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/antmbraun/aoc2023",
+      "updated_at": "2023-12-11T04:50:10Z"
+    },
+    {
+      "name": "mb",
+      "description": "",
+      "stars": 0,
+      "language": "SCSS",
+      "topics": [],
+      "url": "https://github.com/antmbraun/mb",
+      "updated_at": "2023-01-10T15:33:37Z"
+    },
+    {
+      "name": "would-you-rather",
+      "description": "Project 2 for the Udacity React course",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/antmbraun/would-you-rather",
+      "updated_at": "2019-08-22T02:01:31Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,117 @@
+{
+  "username": "MarthalaSaiKavya",
+  "name": "Marthala Sai Kavya",
+  "bio": "while( age++ < life.length) \r\n    ++knowledge;\r\n",
+  "company": "MIT,Manipal",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 9,
+  "following": 15,
+  "public_repos": 29,
+  "created_at": "2019-09-20T16:28:09Z",
+  "languages": {
+    "Python": 10,
+    "Jupyter Notebook": 5,
+    "C": 3,
+    "TypeScript": 2,
+    "Go": 2,
+    "C++": 2,
+    "JavaScript": 2,
+    "Java": 1,
+    "Dart": 1
+  },
+  "top_repos": [
+    {
+      "name": "Agentic_LLM",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/Agentic_LLM",
+      "updated_at": "2025-12-04T22:04:28Z"
+    },
+    {
+      "name": "SleepQualityAnalysis",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/SleepQualityAnalysis",
+      "updated_at": "2024-06-27T13:02:57Z"
+    },
+    {
+      "name": "DV-Analysis",
+      "description": "",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/DV-Analysis",
+      "updated_at": "2022-08-04T23:31:25Z"
+    },
+    {
+      "name": "roofline-analyzer",
+      "description": "Live Roofline Analyzer \u2014 VS Code extension for real-time transformer performance analysis on TPUs and GPUs",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/roofline-analyzer",
+      "updated_at": "2026-04-19T14:55:50Z"
+    },
+    {
+      "name": "the-infrastructure-strikes-back-starter",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/the-infrastructure-strikes-back-starter",
+      "updated_at": "2026-04-10T03:45:45Z"
+    },
+    {
+      "name": "cs336",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/cs336",
+      "updated_at": "2026-03-31T19:35:36Z"
+    },
+    {
+      "name": "Voice_OpenClaw",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/Voice_OpenClaw",
+      "updated_at": "2026-03-14T23:31:23Z"
+    },
+    {
+      "name": "EffDL",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/EffDL",
+      "updated_at": "2025-12-03T03:21:00Z"
+    },
+    {
+      "name": "robotic-arm-full",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/robotic-arm-full",
+      "updated_at": "2025-12-02T08:50:50Z"
+    },
+    {
+      "name": "Privacy_Final",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/MarthalaSaiKavya/Privacy_Final",
+      "updated_at": "2025-11-30T03:34:24Z"
+    }
+  ],
+  "top_topics": []
+}

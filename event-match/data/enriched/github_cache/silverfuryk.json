@@ -1,0 +1,93 @@
+{
+  "username": "silverfuryK",
+  "name": "Kanishk",
+  "bio": "a student with interest in physics, robotics and generative art and design.",
+  "company": "",
+  "location": "San Jose",
+  "blog": "https://sites.google.com/view/kanishk-k",
+  "twitter_username": "",
+  "followers": 4,
+  "following": 2,
+  "public_repos": 15,
+  "created_at": "2019-09-09T13:13:46Z",
+  "languages": {
+    "Python": 3,
+    "Jupyter Notebook": 2,
+    "Processing": 2
+  },
+  "top_repos": [
+    {
+      "name": "Processing-flow-fields",
+      "description": "basic gradient based perlin noise flow field patterns",
+      "stars": 1,
+      "language": "Processing",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/Processing-flow-fields",
+      "updated_at": "2022-09-19T21:31:05Z"
+    },
+    {
+      "name": "processing-2D-img-depth",
+      "description": "creating an effect of depth from 2D images",
+      "stars": 1,
+      "language": "Processing",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/processing-2D-img-depth",
+      "updated_at": "2022-01-18T04:23:26Z"
+    },
+    {
+      "name": "Soft-Arm-Mujoco",
+      "description": "whole body control for a biped with a soft arm attached and learning inverse kinematics for the soft arm simulated in mujoco",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/Soft-Arm-Mujoco",
+      "updated_at": "2025-11-01T21:49:08Z"
+    },
+    {
+      "name": "rigid_arm",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/rigid_arm",
+      "updated_at": "2024-05-06T04:15:53Z"
+    },
+    {
+      "name": "Cassie_Ostrich_RL",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/Cassie_Ostrich_RL",
+      "updated_at": "2022-12-07T06:55:49Z"
+    },
+    {
+      "name": "two_wheeled_rl",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/two_wheeled_rl",
+      "updated_at": "2022-01-08T12:17:35Z"
+    },
+    {
+      "name": "Turbulence-Generation",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/Turbulence-Generation",
+      "updated_at": "2021-12-21T14:03:00Z"
+    },
+    {
+      "name": "processing-landscape",
+      "description": "adding noise to a bunch of straight lines",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/silverfuryK/processing-landscape",
+      "updated_at": "2020-06-05T20:06:44Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Wing Chuen and Omnaath work in robotics but from complementary angles\u2014Wing Chuen focuses on hardware and systems integration in humanoid robotics at The Robot Works, while Omnaath builds simulation software for autonomous systems at GM. Their shared robotics domain combined with Omnaath's C++ and simulation expertise could spark useful conversations about how software validation intersects with physical robot design and deployment.",
+  "intro_message": "Wing Chuen Lam, meet Omnaath Guptha Harihara Gupta \u2014 you both work in robotics (humanoid hardware vs. autonomous vehicle simulation), and Omnaath's software validation background could offer interesting perspective on your systems integration work."
+}

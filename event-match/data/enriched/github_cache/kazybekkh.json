@@ -1,0 +1,127 @@
+{
+  "username": "Kazybekkh",
+  "name": "Kazybek",
+  "bio": "I love robots",
+  "company": "",
+  "location": "United Kingdom, Exeter",
+  "blog": "",
+  "twitter_username": "NightodevZ",
+  "followers": 14,
+  "following": 18,
+  "public_repos": 20,
+  "created_at": "2020-12-20T06:57:09Z",
+  "languages": {
+    "TypeScript": 4,
+    "Python": 4,
+    "C++": 2,
+    "Java": 2
+  },
+  "top_repos": [
+    {
+      "name": "LiveRecall",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/LiveRecall",
+      "updated_at": "2026-05-03T17:52:33Z"
+    },
+    {
+      "name": "KazCable-DBMS",
+      "description": "",
+      "stars": 1,
+      "language": "Java",
+      "topics": [
+        "java",
+        "javafx",
+        "mysql",
+        "swing"
+      ],
+      "url": "https://github.com/Kazybekkh/KazCable-DBMS",
+      "updated_at": "2026-02-05T16:12:52Z"
+    },
+    {
+      "name": "PassFailBot",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/PassFailBot",
+      "updated_at": "2025-09-08T08:28:01Z"
+    },
+    {
+      "name": "Kazybekkh",
+      "description": "Config files for my GitHub profile.",
+      "stars": 0,
+      "language": "",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "url": "https://github.com/Kazybekkh/Kazybekkh",
+      "updated_at": "2026-05-11T16:55:13Z"
+    },
+    {
+      "name": "slamlabs",
+      "description": "Robotics-as-a-Service",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/slamlabs",
+      "updated_at": "2026-05-04T17:15:51Z"
+    },
+    {
+      "name": "Signmaxxing",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/Signmaxxing",
+      "updated_at": "2026-04-30T19:19:58Z"
+    },
+    {
+      "name": "Path-Viz",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/Path-Viz",
+      "updated_at": "2026-04-16T02:11:34Z"
+    },
+    {
+      "name": "CircuitCity",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/CircuitCity",
+      "updated_at": "2026-03-15T23:19:21Z"
+    },
+    {
+      "name": "Line-Following-Robot",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/Line-Following-Robot",
+      "updated_at": "2025-12-24T23:37:54Z"
+    },
+    {
+      "name": "LDN-HotelRates-Bot",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Kazybekkh/LDN-HotelRates-Bot",
+      "updated_at": "2025-12-16T21:53:02Z"
+    }
+  ],
+  "top_topics": [
+    "java",
+    "javafx",
+    "mysql",
+    "swing",
+    "config",
+    "github-config"
+  ]
+}

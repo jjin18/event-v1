@@ -1,0 +1,112 @@
+{
+  "username": "AbhayRathi",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 2,
+  "public_repos": 23,
+  "created_at": "2020-11-22T17:33:34Z",
+  "languages": {
+    "Python": 8,
+    "TypeScript": 5,
+    "JavaScript": 1,
+    "Kotlin": 1
+  },
+  "top_repos": [
+    {
+      "name": "QOR-prediction-OPBNB",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/QOR-prediction-OPBNB",
+      "updated_at": "2025-11-05T06:19:16Z"
+    },
+    {
+      "name": "CMPE131",
+      "description": "developing a cool project with cool people",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/CMPE131",
+      "updated_at": "2026-04-29T19:09:48Z"
+    },
+    {
+      "name": "tinywindow-core",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/tinywindow-core",
+      "updated_at": "2026-02-16T02:20:49Z"
+    },
+    {
+      "name": "HedgeDaChip",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/HedgeDaChip",
+      "updated_at": "2026-05-07T00:32:24Z"
+    },
+    {
+      "name": "agentorchestration",
+      "description": "autonomous coding and validation loop for agent specific repositories",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/agentorchestration",
+      "updated_at": "2026-05-06T23:58:54Z"
+    },
+    {
+      "name": "optimalkern",
+      "description": "GPU kernel optimization for editing images",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/optimalkern",
+      "updated_at": "2026-04-30T07:12:50Z"
+    },
+    {
+      "name": "TinyWindow",
+      "description": "Rewriting the broke, corrupt financial system for everyday people, fostering community, empowerment, and longevity.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/TinyWindow",
+      "updated_at": "2026-03-21T23:54:43Z"
+    },
+    {
+      "name": "tenantrightauto",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/tenantrightauto",
+      "updated_at": "2026-03-17T08:23:48Z"
+    },
+    {
+      "name": "AlphaWEEX",
+      "description": "trading algo for WEEX",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/AlphaWEEX",
+      "updated_at": "2026-02-01T12:49:41Z"
+    },
+    {
+      "name": "minimax",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/AbhayRathi/minimax",
+      "updated_at": "2026-01-30T01:47:14Z"
+    }
+  ],
+  "top_topics": []
+}

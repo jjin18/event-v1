@@ -1,0 +1,46 @@
+{
+  "username": "william2952",
+  "name": "William Wakefield",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 4,
+  "created_at": "2023-07-12T19:50:32Z",
+  "languages": {
+    "Jupyter Notebook": 3
+  },
+  "top_repos": [
+    {
+      "name": "EEG_FDG_dementia",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/william2952/EEG_FDG_dementia",
+      "updated_at": "2026-05-11T14:59:15Z"
+    },
+    {
+      "name": "ADRU",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/william2952/ADRU",
+      "updated_at": "2026-05-09T21:14:01Z"
+    },
+    {
+      "name": "vae_dementia",
+      "description": "Variational Autoencoder latent space as a classifier for dementia",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/william2952/vae_dementia",
+      "updated_at": "2026-03-10T13:43:38Z"
+    }
+  ],
+  "top_topics": []
+}

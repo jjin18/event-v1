@@ -1,0 +1,115 @@
+{
+  "username": "abdul3asith",
+  "name": "Abdul Basith",
+  "bio": "",
+  "company": "@WasabiBytes ",
+  "location": "San Francisco Bay Area",
+  "blog": "abdulbasith.xyz",
+  "twitter_username": "",
+  "followers": 6,
+  "following": 9,
+  "public_repos": 63,
+  "created_at": "2021-01-18T04:49:53Z",
+  "languages": {
+    "Python": 14,
+    "TypeScript": 9,
+    "JavaScript": 7,
+    "HTML": 5,
+    "Java": 3,
+    "Jupyter Notebook": 2,
+    "Cuda": 1
+  },
+  "top_repos": [
+    {
+      "name": "vllm-inference-gateway",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/vllm-inference-gateway",
+      "updated_at": "2026-04-08T12:24:07Z"
+    },
+    {
+      "name": "lms",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/lms",
+      "updated_at": "2024-10-22T16:30:13Z"
+    },
+    {
+      "name": "mock-interview-ai",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/mock-interview-ai",
+      "updated_at": "2026-05-11T21:43:51Z"
+    },
+    {
+      "name": "trendstrike-agent-apify",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/trendstrike-agent-apify",
+      "updated_at": "2026-05-06T22:23:26Z"
+    },
+    {
+      "name": "supportFlow-AI",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/supportFlow-AI",
+      "updated_at": "2026-05-04T05:00:21Z"
+    },
+    {
+      "name": "abdul3asith",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/abdul3asith",
+      "updated_at": "2026-05-03T20:56:23Z"
+    },
+    {
+      "name": "kernel-labs-cuda",
+      "description": "",
+      "stars": 0,
+      "language": "Cuda",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/kernel-labs-cuda",
+      "updated_at": "2026-05-03T20:15:38Z"
+    },
+    {
+      "name": "neural-networks-prod",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/neural-networks-prod",
+      "updated_at": "2026-03-11T00:02:18Z"
+    },
+    {
+      "name": "longevity-openclaw-cr40",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/longevity-openclaw-cr40",
+      "updated_at": "2026-03-07T23:43:12Z"
+    },
+    {
+      "name": "research-copilot",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/abdul3asith/research-copilot",
+      "updated_at": "2026-02-22T02:44:27Z"
+    }
+  ],
+  "top_topics": []
+}
