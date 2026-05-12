@@ -1,0 +1,112 @@
+{
+  "username": "sunotsue",
+  "name": "Su Park",
+  "bio": "nihil intentatum reliqui",
+  "company": "Carnegie Mellon University",
+  "location": "",
+  "blog": "https://sunotsue.github.io/",
+  "twitter_username": "",
+  "followers": 11,
+  "following": 17,
+  "public_repos": 51,
+  "created_at": "2017-10-07T18:38:12Z",
+  "languages": {
+    "Python": 3,
+    "Jupyter Notebook": 3,
+    "HTML": 1,
+    "TypeScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "pizza-pizza",
+      "description": "K-Means Clustering based cohort analysis & customer lifetime value model (BD/BG & MBD/BG) for a pizza delivery app.",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/sunotsue/pizza-pizza",
+      "updated_at": "2022-01-04T13:44:10Z"
+    },
+    {
+      "name": "Dota2",
+      "description": "predicting players' performance on Dota2, a free-to-play multiplayer online battle arena (MOBA) video game.",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/sunotsue/Dota2",
+      "updated_at": "2018-04-05T15:42:39Z"
+    },
+    {
+      "name": "sunotsue.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/sunotsue/sunotsue.github.io",
+      "updated_at": "2026-05-08T18:26:39Z"
+    },
+    {
+      "name": "code-ml",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/sunotsue/code-ml",
+      "updated_at": "2026-01-08T01:48:40Z"
+    },
+    {
+      "name": "code-native-labeler-ui",
+      "description": "code-native labeler UI for systematic coding data collection",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/sunotsue/code-native-labeler-ui",
+      "updated_at": "2025-12-11T22:48:27Z"
+    },
+    {
+      "name": "codenames",
+      "description": "codenames with AI-based clue suggestions",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sunotsue/codenames",
+      "updated_at": "2025-12-11T22:48:14Z"
+    },
+    {
+      "name": "talking-machines",
+      "description": "podcast creation pipeline that transforms academic AI papers into engaging, conversational podcast episodes \u2014 from PDF to audio.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sunotsue/talking-machines",
+      "updated_at": "2025-12-11T05:47:19Z"
+    },
+    {
+      "name": "ecommerce-env-data",
+      "description": "synthetic data generation pipeline for ecommerce env",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sunotsue/ecommerce-env-data",
+      "updated_at": "2025-12-09T08:22:00Z"
+    },
+    {
+      "name": "less-sftgo",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/sunotsue/less-sftgo",
+      "updated_at": "2025-11-20T21:03:32Z"
+    },
+    {
+      "name": "pats2-aisle",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/sunotsue/pats2-aisle",
+      "updated_at": "2022-12-08T18:29:34Z"
+    }
+  ],
+  "top_topics": []
+}

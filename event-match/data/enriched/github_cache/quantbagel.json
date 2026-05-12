@@ -1,0 +1,127 @@
+{
+  "username": "quantbagel",
+  "name": "Lucas",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 12,
+  "following": 16,
+  "public_repos": 30,
+  "created_at": "2025-11-26T17:09:55Z",
+  "languages": {
+    "Rust": 4,
+    "Python": 3,
+    "TypeScript": 3,
+    "Shell": 2,
+    "MDX": 1
+  },
+  "top_repos": [
+    {
+      "name": "rfx",
+      "description": "An extremely fast ROS alternative written in Rust.",
+      "stars": 27,
+      "language": "Python",
+      "topics": [
+        "cpu",
+        "cuda",
+        "kernels",
+        "metal",
+        "physical-ai",
+        "robotics"
+      ],
+      "url": "https://github.com/quantbagel/rfx",
+      "updated_at": "2026-04-20T05:22:35Z"
+    },
+    {
+      "name": "gust",
+      "description": "An extremely fast Swift package and project manager, written in Rust.",
+      "stars": 23,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/quantbagel/gust",
+      "updated_at": "2026-01-14T22:15:34Z"
+    },
+    {
+      "name": "omniclip",
+      "description": "universal clipboard for linux, Mac, windows, android, iOS",
+      "stars": 7,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/quantbagel/omniclip",
+      "updated_at": "2026-01-03T20:29:53Z"
+    },
+    {
+      "name": "can-mac",
+      "description": "SocketCAN-style CAN bridge for macOS",
+      "stars": 1,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/quantbagel/can-mac",
+      "updated_at": "2026-03-29T00:19:04Z"
+    },
+    {
+      "name": "kali-cli",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/quantbagel/kali-cli",
+      "updated_at": "2026-02-10T17:16:24Z"
+    },
+    {
+      "name": "sonder-releases",
+      "description": "",
+      "stars": 1,
+      "language": "Shell",
+      "topics": [],
+      "url": "https://github.com/quantbagel/sonder-releases",
+      "updated_at": "2026-01-04T06:56:39Z"
+    },
+    {
+      "name": "docs",
+      "description": "",
+      "stars": 0,
+      "language": "MDX",
+      "topics": [],
+      "url": "https://github.com/quantbagel/docs",
+      "updated_at": "2026-04-22T04:30:43Z"
+    },
+    {
+      "name": "mentat",
+      "description": "Mentat: public reimplementation of compiled computation inside transformers",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/quantbagel/mentat",
+      "updated_at": "2026-03-22T01:02:54Z"
+    },
+    {
+      "name": "treehacks26",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/quantbagel/treehacks26",
+      "updated_at": "2026-02-15T17:01:22Z"
+    },
+    {
+      "name": "df-sdk",
+      "description": "A codemode mcp for agents to play dwarf fortress",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/quantbagel/df-sdk",
+      "updated_at": "2026-02-09T06:33:57Z"
+    }
+  ],
+  "top_topics": [
+    "cpu",
+    "cuda",
+    "kernels",
+    "metal",
+    "physical-ai",
+    "robotics"
+  ]
+}

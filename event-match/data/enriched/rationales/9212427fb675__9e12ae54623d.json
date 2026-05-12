@@ -1,0 +1,4 @@
+{
+  "rationale": "David's conviction that production robotics requires purpose-built real-time infrastructure and observability directly intersects with Ahmad's expertise in AI-native hardware integration\u2014both are tackling the challenge of shipping sophisticated autonomous systems where hardware and software must be deeply coupled. David's decade of shipping autonomous systems (drones, tractors) combined with his WebRTC/real-time infrastructure focus could inform how Ahmad approaches hardware-software co-design for Midjourney's next-gen AI devices, while Ahmad's Vision Pro and hand-tracking background offers concrete hardware patterns for embodied robotics interfaces.",
+  "intro_message": "David Chen, meet Ahmad Abbas \u2014 both are solving the hard problem of shipping production-grade autonomous systems where real-time infrastructure and hardware form factor are competitive differentiators."
+}

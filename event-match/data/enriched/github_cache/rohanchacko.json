@@ -1,0 +1,142 @@
+{
+  "username": "RohanChacko",
+  "name": "Rohan Chacko",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "rohanchacko.github.io",
+  "twitter_username": "",
+  "followers": 93,
+  "following": 56,
+  "public_repos": 56,
+  "created_at": "2014-07-06T09:07:33Z",
+  "languages": {
+    "Python": 10,
+    "C++": 4,
+    "JavaScript": 3,
+    "HTML": 3,
+    "C#": 1,
+    "Jupyter Notebook": 1,
+    "Shell": 1,
+    "Fortran": 1,
+    "Java": 1,
+    "C": 1
+  },
+  "top_repos": [
+    {
+      "name": "PeeledHuman",
+      "description": "[3DV 2020] PeeledHuman: Robust Shape Representation for Textured 3D Human Body Reconstruction",
+      "stars": 41,
+      "language": "Python",
+      "topics": [
+        "pytorch",
+        "reconstruction-humans"
+      ],
+      "url": "https://github.com/RohanChacko/PeeledHuman",
+      "updated_at": "2026-01-23T14:31:44Z"
+    },
+    {
+      "name": "Subway-Surfers",
+      "description": "Subway Surfers Game in WebGL 2.0",
+      "stars": 40,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/Subway-Surfers",
+      "updated_at": "2026-04-24T01:03:59Z"
+    },
+    {
+      "name": "3d-reconstruction-from-accidental-motion",
+      "description": "Implementation of 3D reconstruction from accidental motion, CVPR 2014",
+      "stars": 12,
+      "language": "C++",
+      "topics": [
+        "3d-reconstruction",
+        "bundle-adjustment",
+        "conditional-random-fields",
+        "dense-reconstruction",
+        "multi-view-stereo"
+      ],
+      "url": "https://github.com/RohanChacko/3d-reconstruction-from-accidental-motion",
+      "updated_at": "2023-02-04T18:59:15Z"
+    },
+    {
+      "name": "CVIT-Summer-School",
+      "description": "Tutorial assignments, codes, worksheets, links, etc",
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/CVIT-Summer-School",
+      "updated_at": "2024-03-14T15:18:34Z"
+    },
+    {
+      "name": "Code-Fun-Do",
+      "description": "Won second place for Microsoft CodeFunDo Hackathon '18",
+      "stars": 3,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/Code-Fun-Do",
+      "updated_at": "2021-09-02T14:49:26Z"
+    },
+    {
+      "name": "Image-reflection-removal",
+      "description": "Implementation of CVPR 2015 paper in Matlab",
+      "stars": 3,
+      "language": "Fortran",
+      "topics": [
+        "cvpr2015",
+        "ghosting-cues",
+        "reflection-removal"
+      ],
+      "url": "https://github.com/RohanChacko/Image-reflection-removal",
+      "updated_at": "2021-01-05T20:29:28Z"
+    },
+    {
+      "name": "3D-Vision-IIITH",
+      "description": "Repository for 3D-Vision Group @ IIIT-Hyderabad",
+      "stars": 2,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/3D-Vision-IIITH",
+      "updated_at": "2023-05-18T05:51:17Z"
+    },
+    {
+      "name": "Slide-Matcher",
+      "description": "Powerpoint slide to video frame matching algorithm for DSAA Project",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/Slide-Matcher",
+      "updated_at": "2022-09-22T07:16:46Z"
+    },
+    {
+      "name": "Literature-Survey",
+      "description": "Research paper readings & summaries",
+      "stars": 2,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/Literature-Survey",
+      "updated_at": "2021-07-07T13:04:15Z"
+    },
+    {
+      "name": "dotfiles",
+      "description": "zsh + tmux + nvim",
+      "stars": 1,
+      "language": "Shell",
+      "topics": [],
+      "url": "https://github.com/RohanChacko/dotfiles",
+      "updated_at": "2023-02-12T14:50:16Z"
+    }
+  ],
+  "top_topics": [
+    "pytorch",
+    "reconstruction-humans",
+    "3d-reconstruction",
+    "bundle-adjustment",
+    "conditional-random-fields",
+    "dense-reconstruction",
+    "multi-view-stereo",
+    "cvpr2015",
+    "ghosting-cues",
+    "reflection-removal"
+  ]
+}

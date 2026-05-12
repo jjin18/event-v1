@@ -1,0 +1,114 @@
+{
+  "username": "v1dit",
+  "name": "vidit agarwal ",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 7,
+  "following": 9,
+  "public_repos": 23,
+  "created_at": "2024-09-01T23:19:00Z",
+  "languages": {
+    "TypeScript": 9,
+    "Python": 4,
+    "Solidity": 1,
+    "Jupyter Notebook": 1,
+    "JavaScript": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "ml-labs",
+      "description": "Autonomous end-to-end machine learning lab powered by coordinated agent swarms",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/v1dit/ml-labs",
+      "updated_at": "2026-05-04T04:16:58Z"
+    },
+    {
+      "name": "erevna",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/v1dit/erevna",
+      "updated_at": "2026-04-30T19:37:59Z"
+    },
+    {
+      "name": "homora-nvidia-short-hack",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/v1dit/homora-nvidia-short-hack",
+      "updated_at": "2026-04-29T04:18:18Z"
+    },
+    {
+      "name": "sportsbet-portfolio",
+      "description": "A full-stack Web3 + AI platform that models sports betting as a financial clearing and portfolio management system",
+      "stars": 0,
+      "language": "Solidity",
+      "topics": [],
+      "url": "https://github.com/v1dit/sportsbet-portfolio",
+      "updated_at": "2026-04-29T04:16:21Z"
+    },
+    {
+      "name": "networking-agent",
+      "description": "An AI-powered networking agent that automates personalized professional outreach end-to-end.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/v1dit/networking-agent",
+      "updated_at": "2026-04-29T04:15:47Z"
+    },
+    {
+      "name": "voyagent-api",
+      "description": "An intelligent Python-based flight search system that understands natural language queries and finds the cheapest flights using multiple APIs and data sources.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/v1dit/voyagent-api",
+      "updated_at": "2026-04-29T04:13:26Z"
+    },
+    {
+      "name": "personal-portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/v1dit/personal-portfolio",
+      "updated_at": "2026-04-14T20:13:16Z"
+    },
+    {
+      "name": "aegis-demo-checkpoints",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/v1dit/aegis-demo-checkpoints",
+      "updated_at": "2026-04-05T17:45:29Z"
+    },
+    {
+      "name": "CSCI-62",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/v1dit/CSCI-62",
+      "updated_at": "2026-03-11T01:15:18Z"
+    },
+    {
+      "name": "unicage-deaios-payments",
+      "description": "A blockchain-based payments prototype built for Unicage's Decentralized AI Operating System (deAIOS).  This project explores secure, transparent, and efficient payment flows, using smart contracts deployed on  a local Ethereum-like environment (Hardhat).",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/v1dit/unicage-deaios-payments",
+      "updated_at": "2026-01-16T04:38:34Z"
+    }
+  ],
+  "top_topics": []
+}

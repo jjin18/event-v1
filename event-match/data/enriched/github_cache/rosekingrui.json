@@ -1,0 +1,26 @@
+{
+  "username": "rosekingrui",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 2,
+  "public_repos": 1,
+  "created_at": "2019-10-19T01:59:19Z",
+  "languages": {},
+  "top_repos": [
+    {
+      "name": "IOT-TTU",
+      "description": "IOT Solution for TTU",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/rosekingrui/IOT-TTU",
+      "updated_at": "2019-10-19T02:01:52Z"
+    }
+  ],
+  "top_topics": []
+}

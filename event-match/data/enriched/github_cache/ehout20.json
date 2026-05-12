@@ -1,0 +1,112 @@
+{
+  "username": "EHout20",
+  "name": "Eric Hout",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 3,
+  "public_repos": 13,
+  "created_at": "2021-11-10T14:31:34Z",
+  "languages": {
+    "TypeScript": 5,
+    "JavaScript": 3,
+    "Python": 1,
+    "Go": 1
+  },
+  "top_repos": [
+    {
+      "name": "hackprinceton",
+      "description": "hackprinceton nov 7-9 2025",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/EHout20/hackprinceton",
+      "updated_at": "2025-11-09T11:09:17Z"
+    },
+    {
+      "name": "sussybaka",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/EHout20/sussybaka",
+      "updated_at": "2026-04-23T04:19:55Z"
+    },
+    {
+      "name": "GL-experiements",
+      "description": "Learning OpenGL/WebGL and linear transformations experiments",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/EHout20/GL-experiements",
+      "updated_at": "2026-04-09T02:33:57Z"
+    },
+    {
+      "name": "Ehout20",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/EHout20/Ehout20",
+      "updated_at": "2026-03-26T02:02:16Z"
+    },
+    {
+      "name": "Thinker_RL",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/EHout20/Thinker_RL",
+      "updated_at": "2026-03-25T23:01:48Z"
+    },
+    {
+      "name": "PolySearch",
+      "description": "Quickly get revelant data regarding oyur polymarket predictions.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/EHout20/PolySearch",
+      "updated_at": "2026-03-15T12:47:20Z"
+    },
+    {
+      "name": "cooking-for-wealthsimple",
+      "description": "as the title insists this is just a project for the wealthsimple ai builder",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/EHout20/cooking-for-wealthsimple",
+      "updated_at": "2026-02-24T07:08:08Z"
+    },
+    {
+      "name": "sample-app",
+      "description": "",
+      "stars": 0,
+      "language": "Go",
+      "topics": [],
+      "url": "https://github.com/EHout20/sample-app",
+      "updated_at": "2026-02-17T08:19:53Z"
+    },
+    {
+      "name": "deltahack12",
+      "description": "Deltahacks at McMaster University Hamilton Ontario. Mine environmental data dashboard designed to take in telemetry data and report values from sensors. ",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/EHout20/deltahack12",
+      "updated_at": "2026-01-11T16:00:40Z"
+    },
+    {
+      "name": "Testing_GithubActionsCI-CD",
+      "description": "just mesing around getting hte hang of CI/CD stuff",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/EHout20/Testing_GithubActionsCI-CD",
+      "updated_at": "2025-11-19T01:00:51Z"
+    }
+  ],
+  "top_topics": []
+}

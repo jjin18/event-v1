@@ -1,0 +1,110 @@
+{
+  "username": "zhoumiaosen",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 16,
+  "created_at": "2018-03-26T23:58:03Z",
+  "languages": {
+    "Jupyter Notebook": 9,
+    "Python": 4
+  },
+  "top_repos": [
+    {
+      "name": "GPT_2",
+      "description": "GPT-2",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/GPT_2",
+      "updated_at": "2025-06-26T18:34:20Z"
+    },
+    {
+      "name": "Self_Drive_Car_Line_Tracking",
+      "description": "Line tracking for self driving car",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/Self_Drive_Car_Line_Tracking",
+      "updated_at": "2025-06-26T18:34:17Z"
+    },
+    {
+      "name": "Self_Drive_Car_Tensorflow_AI",
+      "description": "End to end AI model using tensorflow ",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/Self_Drive_Car_Tensorflow_AI",
+      "updated_at": "2025-06-26T18:34:15Z"
+    },
+    {
+      "name": "Car_Price_Estimation_Web_Server",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/Car_Price_Estimation_Web_Server",
+      "updated_at": "2025-06-26T18:34:13Z"
+    },
+    {
+      "name": "Car_Price_Estimation",
+      "description": "",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/Car_Price_Estimation",
+      "updated_at": "2025-06-26T18:34:11Z"
+    },
+    {
+      "name": "DeepMIMO_Binary_Prediction",
+      "description": "A neural network designed to classify incoming channel information as either 1 or 0",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/DeepMIMO_Binary_Prediction",
+      "updated_at": "2025-06-26T18:33:59Z"
+    },
+    {
+      "name": "Fraud_Detection",
+      "description": " Fraud Detection",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/Fraud_Detection",
+      "updated_at": "2025-06-26T18:33:36Z"
+    },
+    {
+      "name": "New_Tasty",
+      "description": "We aim to build a multi-modal hybrid recommender system that recommends restaurants on Google Map to users by leveraging collaborative signals, review sentiment, metadata, and visual content. Our project goes beyond simple collaborative filtering by integrating multiple modalities and applying explainable and advanced techniques.",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/New_Tasty",
+      "updated_at": "2025-05-06T21:05:00Z"
+    },
+    {
+      "name": "Cheapy_One",
+      "description": "A low-cost open-source robotic framework",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/Cheapy_One",
+      "updated_at": "2026-04-10T22:39:34Z"
+    },
+    {
+      "name": "AutoEvolve",
+      "description": "straightforward, implies automatic evolution",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/zhoumiaosen/AutoEvolve",
+      "updated_at": "2026-03-16T00:22:59Z"
+    }
+  ],
+  "top_topics": []
+}

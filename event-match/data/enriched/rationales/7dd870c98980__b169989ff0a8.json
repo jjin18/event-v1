@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Lokesh and Yasser are ML engineers working on complex, real-world systems\u2014Lokesh on data pipelines and forecasting at Beckman Coulter, Yasser on autonomous vehicle technology at Zoox. While their domains differ, Yasser's autonomous vehicle research and Lokesh's expertise in ML engineering, predictive modeling, and system architecture could spark useful cross-pollination on how production ML systems scale and handle real-time constraints.",
+  "intro_message": "Lokesh kank, meet Yasser \u2014 you're both building ML systems at scale (supply chain optimization vs. autonomous vehicles) and might find each other's approaches to production ML and real-time inference worth discussing."
+}

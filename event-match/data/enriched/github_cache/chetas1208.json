@@ -1,0 +1,116 @@
+{
+  "username": "chetas1208",
+  "name": "Chetas Parekh",
+  "bio": "",
+  "company": "",
+  "location": "San Francisco, CA, USA",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 3,
+  "public_repos": 32,
+  "created_at": "2024-10-17T22:41:24Z",
+  "languages": {
+    "Python": 13,
+    "TypeScript": 8,
+    "JavaScript": 3,
+    "Go": 1,
+    "Jupyter Notebook": 1,
+    "PHP": 1,
+    "C": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "Aviation-Dataset-Visualization",
+      "description": "",
+      "stars": 3,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/chetas1208/Aviation-Dataset-Visualization",
+      "updated_at": "2025-01-09T06:48:40Z"
+    },
+    {
+      "name": "Calculator-Application",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/chetas1208/Calculator-Application",
+      "updated_at": "2025-01-17T08:47:19Z"
+    },
+    {
+      "name": "100_Days_of_Code_Python",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/chetas1208/100_Days_of_Code_Python",
+      "updated_at": "2025-01-09T06:48:46Z"
+    },
+    {
+      "name": "Sentiment-Analysis-Dashboard",
+      "description": "",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/chetas1208/Sentiment-Analysis-Dashboard",
+      "updated_at": "2025-01-09T06:48:45Z"
+    },
+    {
+      "name": "Invoice-Management-System",
+      "description": "",
+      "stars": 2,
+      "language": "PHP",
+      "topics": [],
+      "url": "https://github.com/chetas1208/Invoice-Management-System",
+      "updated_at": "2025-01-09T06:48:44Z"
+    },
+    {
+      "name": "On-Board",
+      "description": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/chetas1208/On-Board",
+      "updated_at": "2025-01-09T06:48:44Z"
+    },
+    {
+      "name": "Whatsapp-chatbot",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/chetas1208/Whatsapp-chatbot",
+      "updated_at": "2025-01-09T06:48:43Z"
+    },
+    {
+      "name": "TSL_Web_Application",
+      "description": "",
+      "stars": 2,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/chetas1208/TSL_Web_Application",
+      "updated_at": "2025-01-09T06:48:41Z"
+    },
+    {
+      "name": "PPM-Project-ChatBot",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/chetas1208/PPM-Project-ChatBot",
+      "updated_at": "2025-06-02T20:58:00Z"
+    },
+    {
+      "name": "C-DSA-Practice",
+      "description": "",
+      "stars": 1,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/chetas1208/C-DSA-Practice",
+      "updated_at": "2025-01-09T06:48:42Z"
+    }
+  ],
+  "top_topics": []
+}

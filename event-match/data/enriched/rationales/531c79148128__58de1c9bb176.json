@@ -1,0 +1,4 @@
+{
+  "rationale": "Haibo and Udit both work at the intersection of robotics and computer vision, with complementary strengths: Haibo is advancing robot manipulation through equivariant deep learning and data-efficient imitation learning (published at CoRL, RAL, IJRR), while Udit brings production systems experience and hands-on robotics perception work including depth estimation and hand-eye calibration. Their combined expertise in geometric deep learning, perception systems, and structured learning could inform practical implementations of Haibo's research or help bridge his hierarchical skill-learning insights into deployed robotics applications.",
+  "intro_message": "Haibo Zhao, meet Udit Karthik \u2014 you're both deep in robotics and computer vision from different angles (research vs. production), and your work on data efficiency and perception systems could complement each other well."
+}

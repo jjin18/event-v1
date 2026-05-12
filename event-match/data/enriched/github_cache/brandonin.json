@@ -1,0 +1,115 @@
+{
+  "username": "brandonin",
+  "name": "brandon in ",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 26,
+  "following": 17,
+  "public_repos": 134,
+  "created_at": "2014-12-19T03:51:44Z",
+  "languages": {
+    "JavaScript": 14,
+    "TypeScript": 8,
+    "Python": 3,
+    "MDX": 3,
+    "ObjectScript": 1,
+    "Gherkin": 1,
+    "Go": 1
+  },
+  "top_repos": [
+    {
+      "name": "helion-hackathon-submission",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/brandonin/helion-hackathon-submission",
+      "updated_at": "2026-03-15T00:29:54Z"
+    },
+    {
+      "name": "cursor-chat-history-mcp",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/brandonin/cursor-chat-history-mcp",
+      "updated_at": "2026-01-11T17:16:43Z"
+    },
+    {
+      "name": "documentation",
+      "description": "",
+      "stars": 0,
+      "language": "MDX",
+      "topics": [],
+      "url": "https://github.com/brandonin/documentation",
+      "updated_at": "2025-10-07T06:14:46Z"
+    },
+    {
+      "name": "mintlify-docs",
+      "description": "",
+      "stars": 0,
+      "language": "MDX",
+      "topics": [],
+      "url": "https://github.com/brandonin/mintlify-docs",
+      "updated_at": "2025-08-22T00:31:54Z"
+    },
+    {
+      "name": "docs",
+      "description": "",
+      "stars": 0,
+      "language": "MDX",
+      "topics": [],
+      "url": "https://github.com/brandonin/docs",
+      "updated_at": "2025-08-22T00:31:39Z"
+    },
+    {
+      "name": "brandonin",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/brandonin/brandonin",
+      "updated_at": "2023-03-13T17:36:50Z"
+    },
+    {
+      "name": "release-based-workflow",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/brandonin/release-based-workflow",
+      "updated_at": "2021-06-17T00:32:29Z"
+    },
+    {
+      "name": "tic-tac-toe-backend",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/brandonin/tic-tac-toe-backend",
+      "updated_at": "2020-08-21T20:02:48Z"
+    },
+    {
+      "name": "algorithms",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/brandonin/algorithms",
+      "updated_at": "2020-08-11T06:53:59Z"
+    },
+    {
+      "name": "tic-tac-toe",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/brandonin/tic-tac-toe",
+      "updated_at": "2020-07-20T19:53:07Z"
+    }
+  ],
+  "top_topics": []
+}

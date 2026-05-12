@@ -1,0 +1,111 @@
+{
+  "username": "Saurabhkhire",
+  "name": "Saurabh Khire",
+  "bio": "Backend developer & Android app creator passionate about Java, Spring Boot, Python, ML & QML. MSCS graduate @ Cleveland State University. Let\u2019s connect!",
+  "company": "",
+  "location": "Cleveland, Ohio",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 3,
+  "public_repos": 23,
+  "created_at": "2019-04-01T06:59:48Z",
+  "languages": {
+    "JavaScript": 8,
+    "Python": 6,
+    "TypeScript": 3
+  },
+  "top_repos": [
+    {
+      "name": "reconciliation-agent",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/reconciliation-agent",
+      "updated_at": "2026-04-18T06:27:25Z"
+    },
+    {
+      "name": "marketing",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/marketing",
+      "updated_at": "2026-05-10T00:35:11Z"
+    },
+    {
+      "name": "foundersmatchmaking",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/foundersmatchmaking",
+      "updated_at": "2026-05-09T09:38:03Z"
+    },
+    {
+      "name": "vibe-coding-agent-extension",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/vibe-coding-agent-extension",
+      "updated_at": "2026-04-19T19:09:42Z"
+    },
+    {
+      "name": "law",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/law",
+      "updated_at": "2026-04-13T01:13:34Z"
+    },
+    {
+      "name": "startforge",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/startforge",
+      "updated_at": "2026-04-12T01:14:59Z"
+    },
+    {
+      "name": "onboard",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/onboard",
+      "updated_at": "2026-04-12T00:30:31Z"
+    },
+    {
+      "name": "scrappy",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/scrappy",
+      "updated_at": "2026-04-10T07:21:46Z"
+    },
+    {
+      "name": "vibestart",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/vibestart",
+      "updated_at": "2026-04-10T04:53:41Z"
+    },
+    {
+      "name": "smartnetworking",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Saurabhkhire/smartnetworking",
+      "updated_at": "2026-04-02T08:39:43Z"
+    }
+  ],
+  "top_topics": []
+}

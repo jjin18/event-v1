@@ -1,0 +1,4 @@
+{
+  "rationale": "Bill is building efficient LLM systems for real-time perception tasks at General Instinct, while Mufaddal brings 15+ years of embedded systems and automotive software expertise from roles at LiveWire, Volkswagen, and other OEMs. Their skill sets complement each other well\u2014Bill's focus on parameter-efficient fine-tuning and hardware-level LLM optimizations could benefit from Mufaddal's deep knowledge of embedded Linux, connectivity, and OTA architecture if General Instinct targets hardware-constrained or edge deployment scenarios.",
+  "intro_message": "Bill Jiao, meet Mufaddal Esmael\u2014Bill's working on LLM efficiency and real-time perception at General Instinct (YC P26), and Mufaddal is a Principal Software Engineer with deep embedded systems and automotive experience who could offer valuable perspective on deploying optimized models to constrained devices."
+}

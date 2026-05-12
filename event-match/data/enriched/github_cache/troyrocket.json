@@ -1,0 +1,113 @@
+{
+  "username": "troyrocket",
+  "name": "troyrocket",
+  "bio": "AI, crypto and space tech.",
+  "company": "Hyperloop Finance",
+  "location": "San Fransisco",
+  "blog": "",
+  "twitter_username": "Troy_crypto_",
+  "followers": 1,
+  "following": 16,
+  "public_repos": 17,
+  "created_at": "2022-05-08T14:45:42Z",
+  "languages": {
+    "HTML": 3,
+    "JavaScript": 2,
+    "Python": 2,
+    "Swift": 1,
+    "TypeScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "skill-link",
+      "description": "Skill Link: Inter-Skill Evolving System - Skillathon 2026 Continual Learning Track",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/troyrocket/skill-link",
+      "updated_at": "2026-04-07T21:58:09Z"
+    },
+    {
+      "name": "parallel-universe",
+      "description": "The credit and financial layer for your Digital Self (AI workforce) \u2014 identity, credit scoring, lending, revenue management, and collection, all backed by real-person accountability.",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/troyrocket/parallel-universe",
+      "updated_at": "2026-03-24T02:44:25Z"
+    },
+    {
+      "name": "space-machine",
+      "description": "Multi-Domain AI Infrastructure Site Selection Engine \u2014 LEO, Moon, Mars",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/troyrocket/space-machine",
+      "updated_at": "2026-03-23T21:59:59Z"
+    },
+    {
+      "name": "btc-endgame",
+      "description": "\u5708\u5185OG\u6768\u6d77\u5761\u7684\u60b2\u89c2\u63a8\u6f14\uff1a\u6bd4\u7279\u5e01\u548c\u52a0\u5bc6\u8d27\u5e01\u8d70\u5230\u4e86\u7ec8\u5c40",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/troyrocket/btc-endgame",
+      "updated_at": "2026-04-24T23:25:10Z"
+    },
+    {
+      "name": "taste-md",
+      "description": "Yelp in markdown \u2014 built for AI to read and recommend.",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/troyrocket/taste-md",
+      "updated_at": "2026-04-08T07:08:40Z"
+    },
+    {
+      "name": "fox",
+      "description": "Your personal AI CFO \u2014 she trades, kills waste, and lives on your desktop.",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/troyrocket/fox",
+      "updated_at": "2026-04-03T23:50:24Z"
+    },
+    {
+      "name": "Moonbase",
+      "description": "AI-Powered Lunar Data Center Site Selection \u2014 Where on the Moon should humanity store its most critical data?",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/troyrocket/Moonbase",
+      "updated_at": "2026-03-15T03:37:58Z"
+    },
+    {
+      "name": "troyrocket",
+      "description": "Profile README",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/troyrocket/troyrocket",
+      "updated_at": "2026-03-09T07:05:20Z"
+    },
+    {
+      "name": "universe-bank-on-chain-JP-Morgan-CLI-Interface",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/troyrocket/universe-bank-on-chain-JP-Morgan-CLI-Interface",
+      "updated_at": "2026-03-04T06:21:44Z"
+    },
+    {
+      "name": "Talent-Evaluation-Agent-for-Entrepreneurs-First",
+      "description": "Talent Evaluation Agent (Built for Entrepreneurs First)",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/troyrocket/Talent-Evaluation-Agent-for-Entrepreneurs-First",
+      "updated_at": "2026-03-04T06:15:16Z"
+    }
+  ],
+  "top_topics": []
+}

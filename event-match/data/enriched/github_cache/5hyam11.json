@@ -1,0 +1,85 @@
+{
+  "username": "5hyam11",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 0,
+  "public_repos": 8,
+  "created_at": "2024-10-26T01:17:31Z",
+  "languages": {
+    "Python": 4,
+    "Swift": 1,
+    "HTML": 1,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "Pi_Cv_implementation",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/5hyam11/Pi_Cv_implementation",
+      "updated_at": "2026-05-10T15:32:18Z"
+    },
+    {
+      "name": "Qubo_path_planner",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/5hyam11/Qubo_path_planner",
+      "updated_at": "2026-03-27T17:48:04Z"
+    },
+    {
+      "name": "Sign_Bridge",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/5hyam11/Sign_Bridge",
+      "updated_at": "2026-02-24T07:36:07Z"
+    },
+    {
+      "name": "Car_perception",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/5hyam11/Car_perception",
+      "updated_at": "2026-02-23T20:02:57Z"
+    },
+    {
+      "name": "Multi_Taskl_Perception",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/5hyam11/Multi_Taskl_Perception",
+      "updated_at": "2026-02-23T02:43:15Z"
+    },
+    {
+      "name": "portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/5hyam11/portfolio",
+      "updated_at": "2026-02-21T01:17:04Z"
+    },
+    {
+      "name": "jarvis-rag",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/5hyam11/jarvis-rag",
+      "updated_at": "2026-01-16T20:03:07Z"
+    }
+  ],
+  "top_topics": []
+}

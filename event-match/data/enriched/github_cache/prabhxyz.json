@@ -1,0 +1,123 @@
+{
+  "username": "prabhxyz",
+  "name": "Prabhdeep Singh",
+  "bio": "I enjoy ml research | cs/math/stats @ uoft",
+  "company": "",
+  "location": "Canada",
+  "blog": "https://prabhxyz.github.io/",
+  "twitter_username": "prabhdeeps_",
+  "followers": 10,
+  "following": 2,
+  "public_repos": 41,
+  "created_at": "2022-12-15T22:33:47Z",
+  "languages": {
+    "Python": 21,
+    "JavaScript": 3,
+    "Jupyter Notebook": 3,
+    "HTML": 2,
+    "TypeScript": 2,
+    "Java": 2,
+    "Cuda": 1,
+    "Dart": 1,
+    "C#": 1
+  },
+  "top_repos": [
+    {
+      "name": "feta-transformers",
+      "description": "Functionally\u2011Equivalent Token Adaptation (FETA): Unifying Token Injection and LoRA with Theory, Training, and a Compiler.",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/feta-transformers",
+      "updated_at": "2026-01-16T03:11:46Z"
+    },
+    {
+      "name": "basic-rag",
+      "description": "Full mathematical implementation of a RAG from scratch using TF-IDF. ",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/basic-rag",
+      "updated_at": "2026-01-12T15:39:33Z"
+    },
+    {
+      "name": "neural-axiom",
+      "description": "Transformer-based learning of algebraic invariances and theorem discovery without explicit axioms.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/neural-axiom",
+      "updated_at": "2025-12-24T06:11:40Z"
+    },
+    {
+      "name": "prabhxyz.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/prabhxyz.github.io",
+      "updated_at": "2026-05-10T21:22:29Z"
+    },
+    {
+      "name": "localcode",
+      "description": "Claude Code, but local and private. ",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/localcode",
+      "updated_at": "2026-03-05T00:13:51Z"
+    },
+    {
+      "name": "unified-representation",
+      "description": "Unifying Representation Spaces in Hierarchical Multimodal Transformers for Robust Latents",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/unified-representation",
+      "updated_at": "2026-01-17T01:02:56Z"
+    },
+    {
+      "name": "pco-analysis",
+      "description": "Using Vision-Language Models To Prevent Posterior Capsule Opacification",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/pco-analysis",
+      "updated_at": "2025-11-17T09:17:11Z"
+    },
+    {
+      "name": "asion",
+      "description": "Asion: An ML-powered Sky Navigation and Constellation Recognition System.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/asion",
+      "updated_at": "2025-10-24T04:32:31Z"
+    },
+    {
+      "name": "prabhxyz",
+      "description": "GitHub profile files.",
+      "stars": 0,
+      "language": "",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "url": "https://github.com/prabhxyz/prabhxyz",
+      "updated_at": "2025-10-13T00:53:33Z"
+    },
+    {
+      "name": "tdnn-demo",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/prabhxyz/tdnn-demo",
+      "updated_at": "2025-09-17T06:04:09Z"
+    }
+  ],
+  "top_topics": [
+    "config",
+    "github-config"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "username": "chinguun101",
+  "name": "Chinguun Ganbaatar",
+  "bio": "",
+  "company": "",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 5,
+  "following": 4,
+  "public_repos": 22,
+  "created_at": "2022-02-21T08:41:02Z",
+  "languages": {
+    "Python": 7,
+    "TypeScript": 3,
+    "HTML": 2,
+    "Jupyter Notebook": 2,
+    "JavaScript": 2,
+    "EJS": 1
+  },
+  "top_repos": [
+    {
+      "name": "Tinder-Swiping-Bot",
+      "description": "100 swipes a day with selenium webdrive.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/chinguun101/Tinder-Swiping-Bot",
+      "updated_at": "2025-01-02T19:46:37Z"
+    },
+    {
+      "name": "portfolio-site",
+      "description": "Personal portfolio \u2014 projects, resume, contact",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/chinguun101/portfolio-site",
+      "updated_at": "2026-05-12T01:14:14Z"
+    },
+    {
+      "name": "chinguun101",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/chinguun101/chinguun101",
+      "updated_at": "2026-05-08T21:51:57Z"
+    },
+    {
+      "name": "VEX",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/chinguun101/VEX",
+      "updated_at": "2025-12-01T21:09:45Z"
+    },
+    {
+      "name": "hairfit.app",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/chinguun101/hairfit.app",
+      "updated_at": "2025-11-16T01:09:16Z"
+    },
+    {
+      "name": "ease",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/chinguun101/ease",
+      "updated_at": "2025-05-30T20:57:51Z"
+    },
+    {
+      "name": "portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/chinguun101/portfolio",
+      "updated_at": "2025-05-07T01:32:25Z"
+    },
+    {
+      "name": "bookbond",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/chinguun101/bookbond",
+      "updated_at": "2025-05-04T21:07:06Z"
+    },
+    {
+      "name": "causal_inference",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/chinguun101/causal_inference",
+      "updated_at": "2025-04-23T00:29:16Z"
+    },
+    {
+      "name": "leetcode",
+      "description": "This repository is managed by LeetPush extension: https://github.com/husamahmud/LeetPush",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/chinguun101/leetcode",
+      "updated_at": "2025-02-09T01:07:11Z"
+    }
+  ],
+  "top_topics": []
+}

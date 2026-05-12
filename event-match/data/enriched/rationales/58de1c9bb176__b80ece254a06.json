@@ -1,0 +1,4 @@
+{
+  "rationale": "Haibo's research on data-efficient robot manipulation and equivariant learning directly addresses core challenges in the embodied AI and RL work Oren is building. Haibo's published insights on hierarchical skill learning and structured data for robotic generalization could inform Oren's projects at the intersection of simulation and autonomous agents, while Oren's hands-on building experience with MuJoCo and RL could ground Haibo's theoretical work in practical implementation.",
+  "intro_message": "Haibo Zhao, meet Oren Nathaniel Gershony \u2014 you're both working on robot learning from different angles (Haibo on data-efficient manipulation policies, Oren on embodied AI and RL projects) and could learn a lot from each other's approach."
+}

@@ -1,0 +1,116 @@
+{
+  "username": "gauana1",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 0,
+  "public_repos": 15,
+  "created_at": "2020-06-14T17:55:01Z",
+  "languages": {
+    "JavaScript": 6,
+    "Python": 2,
+    "TypeScript": 1,
+    "Go": 1,
+    "Java": 1,
+    "Swift": 1,
+    "C++": 1,
+    "Jupyter Notebook": 1
+  },
+  "top_repos": [
+    {
+      "name": "pathways-recruiting-agent",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/gauana1/pathways-recruiting-agent",
+      "updated_at": "2026-04-17T21:46:45Z"
+    },
+    {
+      "name": "Gradescope-tool",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gauana1/Gradescope-tool",
+      "updated_at": "2026-02-27T19:25:24Z"
+    },
+    {
+      "name": "Sharded-KV-Store",
+      "description": "Sharded Key Value Store",
+      "stars": 0,
+      "language": "Go",
+      "topics": [],
+      "url": "https://github.com/gauana1/Sharded-KV-Store",
+      "updated_at": "2025-11-12T05:38:07Z"
+    },
+    {
+      "name": "CS-132",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/gauana1/CS-132",
+      "updated_at": "2025-06-01T21:45:13Z"
+    },
+    {
+      "name": "NoteNest",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gauana1/NoteNest",
+      "updated_at": "2024-05-13T02:31:40Z"
+    },
+    {
+      "name": "BeHarmony",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/gauana1/BeHarmony",
+      "updated_at": "2024-03-22T04:47:10Z"
+    },
+    {
+      "name": "Chat-App",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gauana1/Chat-App",
+      "updated_at": "2023-10-08T19:39:11Z"
+    },
+    {
+      "name": "Application-Logger",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gauana1/Application-Logger",
+      "updated_at": "2023-09-17T22:34:33Z"
+    },
+    {
+      "name": "CS32",
+      "description": "Projects and Homework from CS32",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/gauana1/CS32",
+      "updated_at": "2023-08-31T18:02:56Z"
+    },
+    {
+      "name": "Calorie-Tracker",
+      "description": "Calculates calories based on dish",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gauana1/Calorie-Tracker",
+      "updated_at": "2023-08-16T13:56:33Z"
+    }
+  ],
+  "top_topics": []
+}

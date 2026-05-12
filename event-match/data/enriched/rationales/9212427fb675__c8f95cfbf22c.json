@@ -1,0 +1,4 @@
+{
+  "rationale": "David brings a decade of production robotics and autonomous systems experience (drones, tractors, shipping to real customers), while Ming is architecting universal verifiable computation infrastructure through zkMIPS\u2014a complementary lens on what 'production-grade' systems require. David's conviction that real-time infrastructure and observability are foundational to robotics could intersect with Ming's vision of programmable trust and verifiable computation as a cross-system layer, particularly as autonomous systems need cryptographic proof of state and decision-making at scale.",
+  "intro_message": "David Chen, meet Ming Guo \u2014 David ships production autonomous systems and sees real-time infrastructure as foundational; Ming is building universal verifiable computation (zkMIPS) to create programmable trust across systems, and there may be interesting ground where robotics observability and cryptographic proof overlap."
+}

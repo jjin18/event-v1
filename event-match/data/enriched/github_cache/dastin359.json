@@ -1,0 +1,56 @@
+{
+  "username": "dastin359",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 0,
+  "public_repos": 4,
+  "created_at": "2024-02-11T01:34:26Z",
+  "languages": {
+    "Python": 2
+  },
+  "top_repos": [
+    {
+      "name": "athanor",
+      "description": "ARC-AGI-2 solver: 95.7% public eval at $3.12/task \u2014 lowest cost above 95%. Full inference traces included.",
+      "stars": 7,
+      "language": "Python",
+      "topics": [
+        "agent-orchestration",
+        "arc-agi-2",
+        "research",
+        "stateful-agents"
+      ],
+      "url": "https://github.com/dastin359/athanor",
+      "updated_at": "2026-05-12T02:00:58Z"
+    },
+    {
+      "name": "LM-from-scratch",
+      "description": "",
+      "stars": 4,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dastin359/LM-from-scratch",
+      "updated_at": "2025-09-22T10:10:28Z"
+    },
+    {
+      "name": "irobot",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dastin359/irobot",
+      "updated_at": "2024-02-11T01:36:41Z"
+    }
+  ],
+  "top_topics": [
+    "agent-orchestration",
+    "arc-agi-2",
+    "research",
+    "stateful-agents"
+  ]
+}

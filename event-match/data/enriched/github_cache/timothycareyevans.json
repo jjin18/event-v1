@@ -1,0 +1,101 @@
+{
+  "username": "timothycareyevans",
+  "name": "Timothy Carey Evans",
+  "bio": "Hacker + AI Enthusiast, Founder\r\n\r\n\ud83d\udcbb\ud83d\udcf2\ud83c\udfa8\u262f\ufe0f\ud83d\udc7d",
+  "company": "Stealth Startup",
+  "location": "San Francisco, CA",
+  "blog": "www.timothycareyevans.com",
+  "twitter_username": "shinobi9982",
+  "followers": 0,
+  "following": 6,
+  "public_repos": 39,
+  "created_at": "2022-01-31T21:09:28Z",
+  "languages": {
+    "HTML": 7,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "main-website",
+      "description": "My personal website, quantified-self, blog, and portfolio built with HTML, CSS, JS",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/main-website",
+      "updated_at": "2026-05-11T21:58:20Z"
+    },
+    {
+      "name": "prototype-2",
+      "description": "Staging and Production mockups and integrations",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/prototype-2",
+      "updated_at": "2026-04-27T00:36:41Z"
+    },
+    {
+      "name": "SVG-Recreations",
+      "description": "Standalone SVG recreations inspired by futuristic technical UI designs",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/SVG-Recreations",
+      "updated_at": "2026-04-27T00:34:01Z"
+    },
+    {
+      "name": "Social-Media-Templates---Personal-Brand",
+      "description": "Interactive social media copy templates for personal brand creators \u2014 Instagram, Twitter/X & LinkedIn",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/Social-Media-Templates---Personal-Brand",
+      "updated_at": "2026-04-22T20:54:36Z"
+    },
+    {
+      "name": "youtube-tracker",
+      "description": "A clean, dark-themed web app to track YouTube videos you want to watch, are currently watching, and have finished \u2014 all saved locally in your browser with no account or server needed.",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/youtube-tracker",
+      "updated_at": "2026-04-15T08:35:07Z"
+    },
+    {
+      "name": "timothycareyevans.github.io",
+      "description": "Github Page",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/timothycareyevans.github.io",
+      "updated_at": "2026-04-14T13:23:00Z"
+    },
+    {
+      "name": "bookmark-manager",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/bookmark-manager",
+      "updated_at": "2026-04-11T15:26:01Z"
+    },
+    {
+      "name": "book-tracker",
+      "description": "A personal reading and listening tracker built with Python (Flask) and SQLite, served as a web app in the browser.",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/book-tracker",
+      "updated_at": "2026-04-10T02:05:21Z"
+    },
+    {
+      "name": "pomodoro-quest",
+      "description": "Gamified Pomodoro timer with XP, levels, streaks, achievements, leaderboard & activity chart",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/timothycareyevans/pomodoro-quest",
+      "updated_at": "2026-04-07T15:24:46Z"
+    }
+  ],
+  "top_topics": []
+}

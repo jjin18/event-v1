@@ -1,0 +1,166 @@
+{
+  "username": "jwalin-shah",
+  "name": "Jwalin Shah",
+  "bio": "Building local-first AI systems on Apple Silicon. OpenHuman core contributor @tinyhumansai. Previously @SkildAI.",
+  "company": "",
+  "location": "San Francisco Bay Area",
+  "blog": "https://www.linkedin.com/in/jwalin-shah/",
+  "twitter_username": "jwalin_shah",
+  "followers": 2,
+  "following": 1,
+  "public_repos": 22,
+  "created_at": "2025-04-26T00:38:52Z",
+  "languages": {
+    "Python": 13,
+    "CSS": 1,
+    "TypeScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "officeqa-arena",
+      "description": "Competition entry: end-to-end OfficeQA pipeline for Sentient Arena \u2014 retrieval, ledger extraction, and LLM reasoning over 10k+ financial documents",
+      "stars": 3,
+      "language": "Python",
+      "topics": [
+        "competition",
+        "document-qa",
+        "evaluation",
+        "financial-analysis",
+        "llm",
+        "local-first",
+        "python",
+        "rag"
+      ],
+      "url": "https://github.com/jwalin-shah/officeqa-arena",
+      "updated_at": "2026-04-18T23:00:54Z"
+    },
+    {
+      "name": "jarvis-ai-assistant",
+      "description": "Privacy-first local AI assistant for macOS (MLX + sqlite-vec) with 0.42s mean latency and <5% hallucination rate",
+      "stars": 2,
+      "language": "Python",
+      "topics": [
+        "apple-silicon",
+        "evaluation",
+        "imessage",
+        "local-first",
+        "mlx",
+        "privacy",
+        "rag",
+        "slm",
+        "sqlite-vec"
+      ],
+      "url": "https://github.com/jwalin-shah/jarvis-ai-assistant",
+      "updated_at": "2026-03-23T21:12:44Z"
+    },
+    {
+      "name": "proof-of-action",
+      "description": "Self-hostable OpenHuman \u2014 personal AI agent with provable privacy boundary. Built at Ship to Prod 2026.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/proof-of-action",
+      "updated_at": "2026-05-12T00:13:50Z"
+    },
+    {
+      "name": "inbox",
+      "description": "Unified inbox TUI: iMessage, Gmail, Calendar, Drive, Notes, Reminders, GitHub \u2014 local FastAPI server + Textual TUI",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "calendar",
+        "fastapi",
+        "github",
+        "gmail",
+        "google-drive",
+        "imessage",
+        "local-first",
+        "mlx",
+        "notes",
+        "privacy",
+        "reminders",
+        "textual",
+        "tui",
+        "whisper"
+      ],
+      "url": "https://github.com/jwalin-shah/inbox",
+      "updated_at": "2026-05-12T00:10:51Z"
+    },
+    {
+      "name": "fafsa-engine",
+      "description": "Neurosymbolic FAFSA SAI pipeline: LLM extracts facts, proof engine computes deterministically, full derivation trace",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/fafsa-engine",
+      "updated_at": "2026-05-11T01:25:03Z"
+    },
+    {
+      "name": "tensor-logic",
+      "description": "Working through Pedro Domingos' tensor logic paper \u2014 runnable demos walking from one einsum to continual learning.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/tensor-logic",
+      "updated_at": "2026-05-11T00:28:32Z"
+    },
+    {
+      "name": "quicksilver-zk",
+      "description": "Pedagogical pure-Python implementation of the QuickSilver zero-knowledge proof system (Yang, Sarkar, Weng, Wang \u2014 CCS 2021).",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/quicksilver-zk",
+      "updated_at": "2026-05-11T00:27:20Z"
+    },
+    {
+      "name": "chatgpt",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/chatgpt",
+      "updated_at": "2026-05-05T23:09:51Z"
+    },
+    {
+      "name": "agihouse",
+      "description": "Ambient agent for Even Realities G2 \u2014 AGI House hackathon 2026-04-26",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/agihouse",
+      "updated_at": "2026-04-30T14:51:50Z"
+    },
+    {
+      "name": "jwalin-shah",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/jwalin-shah/jwalin-shah",
+      "updated_at": "2026-04-29T06:14:22Z"
+    }
+  ],
+  "top_topics": [
+    "local-first",
+    "evaluation",
+    "rag",
+    "privacy",
+    "document-qa",
+    "financial-analysis",
+    "llm",
+    "python",
+    "imessage",
+    "mlx",
+    "competition",
+    "apple-silicon",
+    "slm",
+    "sqlite-vec",
+    "calendar",
+    "fastapi",
+    "github",
+    "gmail",
+    "google-drive",
+    "notes"
+  ]
+}

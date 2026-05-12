@@ -1,0 +1,112 @@
+{
+  "username": "vaibhav514",
+  "name": "Vaibhav Agrawal",
+  "bio": "Learner, I had a basic knowledge of Java and Python and still trying to learn more language.",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "Vaibhav6296002",
+  "followers": 2,
+  "following": 0,
+  "public_repos": 11,
+  "created_at": "2021-09-15T13:14:49Z",
+  "languages": {
+    "Java": 4,
+    "CSS": 2,
+    "Jupyter Notebook": 2,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "InfoSecByte",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/InfoSecByte",
+      "updated_at": "2024-05-06T12:06:32Z"
+    },
+    {
+      "name": "InfoSec",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/InfoSec",
+      "updated_at": "2024-05-06T04:16:06Z"
+    },
+    {
+      "name": "birthday",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/birthday",
+      "updated_at": "2023-09-08T17:30:07Z"
+    },
+    {
+      "name": "SMARTBRIDGE-20BCY10090",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/SMARTBRIDGE-20BCY10090",
+      "updated_at": "2023-07-03T18:10:28Z"
+    },
+    {
+      "name": "trying-portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/trying-portfolio",
+      "updated_at": "2023-06-16T13:50:17Z"
+    },
+    {
+      "name": "HackerRank-VIT-BHOPAL",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/HackerRank-VIT-BHOPAL",
+      "updated_at": "2023-05-21T16:51:15Z"
+    },
+    {
+      "name": "java-practice",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/java-practice",
+      "updated_at": "2023-05-21T08:21:19Z"
+    },
+    {
+      "name": "vaibhav514",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/vaibhav514",
+      "updated_at": "2023-05-21T05:41:28Z"
+    },
+    {
+      "name": "water-level-prediction",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/water-level-prediction",
+      "updated_at": "2023-05-20T18:45:57Z"
+    },
+    {
+      "name": "leetcode-answer",
+      "description": "Contain the answer of leetcode question",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/vaibhav514/leetcode-answer",
+      "updated_at": "2023-05-20T17:15:55Z"
+    }
+  ],
+  "top_topics": []
+}

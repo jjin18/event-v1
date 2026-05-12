@@ -1,0 +1,191 @@
+{
+  "username": "Ajor-Saha",
+  "name": "AJOR SAHA",
+  "bio": "Hello there! \ud83d\udc4b I'm Ajor Saha, a passionate Full  stack web developer with a love for crafting robust and user friendly applications",
+  "company": "",
+  "location": "",
+  "blog": "https://personal-site-portfolio-three.vercel.app/",
+  "twitter_username": "",
+  "followers": 7,
+  "following": 7,
+  "public_repos": 56,
+  "created_at": "2023-08-05T04:56:25Z",
+  "languages": {
+    "JavaScript": 23,
+    "TypeScript": 15,
+    "HTML": 2,
+    "Jupyter Notebook": 1,
+    "CSS": 1,
+    "Kotlin": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "NextJs-14-Blog-App",
+      "description": "A nextjs-14 full stack web application",
+      "stars": 4,
+      "language": "JavaScript",
+      "topics": [
+        "app-router-nextjs",
+        "blog-app",
+        "full-stack-development",
+        "mongodb",
+        "mongoose",
+        "nextjs14",
+        "reactjs",
+        "tailwindcss",
+        "web-development"
+      ],
+      "url": "https://github.com/Ajor-Saha/NextJs-14-Blog-App",
+      "updated_at": "2026-01-05T19:12:20Z"
+    },
+    {
+      "name": "E-commerce-App",
+      "description": "A mern stack ecommerce app",
+      "stars": 3,
+      "language": "JavaScript",
+      "topics": [
+        "cloudinary",
+        "expressjs",
+        "javscript",
+        "mern-project",
+        "mern-stack",
+        "mern-stack-development",
+        "monodb",
+        "nodejs",
+        "react-redux",
+        "reactjs",
+        "tailwindcss"
+      ],
+      "url": "https://github.com/Ajor-Saha/E-commerce-App",
+      "updated_at": "2025-04-28T08:52:50Z"
+    },
+    {
+      "name": "Food-Delivery-App",
+      "description": "A Food Delivery App built with React.js is a web application that allows users to browse and order food from home.",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [
+        "front-end-development",
+        "html-css-javascript",
+        "javascript",
+        "react",
+        "react-redux-toolkit",
+        "react-router-dom",
+        "reactjs",
+        "tailwindcss"
+      ],
+      "url": "https://github.com/Ajor-Saha/Food-Delivery-App",
+      "updated_at": "2024-06-17T17:32:38Z"
+    },
+    {
+      "name": "Hack4Good-Fintech-Hackathon",
+      "description": "A project for Hack4Good Hackathon",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Ajor-Saha/Hack4Good-Fintech-Hackathon",
+      "updated_at": "2026-03-19T10:20:42Z"
+    },
+    {
+      "name": "company-task-management",
+      "description": "A modern, full-stack task management solution designed for companies to efficiently manage projects, employees, and tasks.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [
+        "fullstack-development",
+        "nextjs15",
+        "typescript"
+      ],
+      "url": "https://github.com/Ajor-Saha/company-task-management",
+      "updated_at": "2026-03-18T06:37:34Z"
+    },
+    {
+      "name": "Social-Media-Nextjs-App",
+      "description": "This web application is inspired by the popular Thread app and is designed to provide users with a comprehensive platform for social interaction, content sharing, and community building.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [
+        "daisyui",
+        "mern-stack",
+        "mongodb",
+        "mongoose",
+        "next-auth",
+        "nextjs",
+        "tailwind-css",
+        "typescript"
+      ],
+      "url": "https://github.com/Ajor-Saha/Social-Media-Nextjs-App",
+      "updated_at": "2025-10-31T09:12:59Z"
+    },
+    {
+      "name": "Video-Streaming-Platform-RestApi",
+      "description": "A versatile social media platform and video-streaming platfrom",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [
+        "backend",
+        "expressjs",
+        "javascript",
+        "mongodb",
+        "mongoose",
+        "restapi"
+      ],
+      "url": "https://github.com/Ajor-Saha/Video-Streaming-Platform-RestApi",
+      "updated_at": "2025-08-21T08:14:24Z"
+    },
+    {
+      "name": "cs24-p2-Team_Nande",
+      "description": "A project for codeSamurai hackthon",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [
+        "code-samurai-2024",
+        "hackthon",
+        "web-development"
+      ],
+      "url": "https://github.com/Ajor-Saha/cs24-p2-Team_Nande",
+      "updated_at": "2024-09-28T07:24:29Z"
+    },
+    {
+      "name": "ai-assisted-research-prototypes",
+      "description": "These prototypes are designed to explore how AI could support university students in their learning process.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Ajor-Saha/ai-assisted-research-prototypes",
+      "updated_at": "2026-05-06T17:59:21Z"
+    },
+    {
+      "name": "cuet-aI-fiction-datathon-",
+      "description": "A repo contain datathon notebook, reports",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Ajor-Saha/cuet-aI-fiction-datathon-",
+      "updated_at": "2026-04-25T09:11:40Z"
+    }
+  ],
+  "top_topics": [
+    "mongodb",
+    "reactjs",
+    "expressjs",
+    "javascript",
+    "mongoose",
+    "tailwindcss",
+    "web-development",
+    "mern-stack",
+    "nodejs",
+    "fullstack-development",
+    "typescript",
+    "nextjs",
+    "backend",
+    "postgresql",
+    "app-router-nextjs",
+    "blog-app",
+    "full-stack-development",
+    "nextjs14",
+    "cloudinary",
+    "javscript"
+  ]
+}

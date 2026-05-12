@@ -1,0 +1,4 @@
+{
+  "rationale": "Micah is building IntentiveAI with a focus on visual interfaces for machine learning and graph data, while Kobe is an infrastructure engineer at LMCache working on LLM optimization. They share core interest in ML infrastructure but approach it from complementary angles\u2014Micah's expertise in data visualization and WebXR interfaces could directly enhance how LMCache's users interact with and understand LLM behavior, while Kobe's infrastructure work represents the backend systems that visual tools like Micah's need to operate effectively.",
+  "intro_message": "Micah Stubbs, meet Kobe \u2014 you're both focused on ML infrastructure (LMCache's LLM optimization + IntentiveAI's visual ML tooling) and could explore how better interfaces unlock LLM system visibility."
+}

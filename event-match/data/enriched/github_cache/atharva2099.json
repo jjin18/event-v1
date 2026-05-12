@@ -1,0 +1,123 @@
+{
+  "username": "Atharva2099",
+  "name": "FullMLAlchemist",
+  "bio": "",
+  "company": "",
+  "location": "San Francisco",
+  "blog": "https://atharva2099.github.io/",
+  "twitter_username": "attharave",
+  "followers": 4,
+  "following": 5,
+  "public_repos": 28,
+  "created_at": "2021-11-09T07:50:31Z",
+  "languages": {
+    "Python": 8,
+    "Jupyter Notebook": 6,
+    "JavaScript": 3,
+    "TypeScript": 2,
+    "C": 2,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "saffron",
+      "description": "",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/saffron",
+      "updated_at": "2026-04-23T22:53:18Z"
+    },
+    {
+      "name": "letter-llama",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/letter-llama",
+      "updated_at": "2025-08-04T17:07:02Z"
+    },
+    {
+      "name": "Optimizer-Ablation-Study",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/Optimizer-Ablation-Study",
+      "updated_at": "2026-05-10T06:43:47Z"
+    },
+    {
+      "name": "mlx-LoRA",
+      "description": "Trying to Finetune models in MLX",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/mlx-LoRA",
+      "updated_at": "2026-05-03T19:16:13Z"
+    },
+    {
+      "name": "nano-gpt-mlx",
+      "description": "Small Sub 1M param LM in pure MLX",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/nano-gpt-mlx",
+      "updated_at": "2026-05-03T17:28:26Z"
+    },
+    {
+      "name": "Trip.AI",
+      "description": "A LLM powered Trip planner",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/Trip.AI",
+      "updated_at": "2026-05-01T00:22:04Z"
+    },
+    {
+      "name": "Atharva2099.github.io",
+      "description": "Self Hosting my resume for possible recruiters",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [
+        "jobsearch",
+        "jobseeking"
+      ],
+      "url": "https://github.com/Atharva2099/Atharva2099.github.io",
+      "updated_at": "2026-04-30T07:33:33Z"
+    },
+    {
+      "name": "280CharsArentEnough",
+      "description": "Personal Blog",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [
+        "blogsite"
+      ],
+      "url": "https://github.com/Atharva2099/280CharsArentEnough",
+      "updated_at": "2026-04-19T02:26:04Z"
+    },
+    {
+      "name": "Smogon-RL",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/Smogon-RL",
+      "updated_at": "2026-04-17T23:21:34Z"
+    },
+    {
+      "name": "PivotRL",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Atharva2099/PivotRL",
+      "updated_at": "2026-04-07T20:12:38Z"
+    }
+  ],
+  "top_topics": [
+    "jobsearch",
+    "jobseeking",
+    "blogsite"
+  ]
+}

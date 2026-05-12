@@ -1,0 +1,126 @@
+{
+  "username": "Anantaverma20",
+  "name": "Ananta verma",
+  "bio": "",
+  "company": "UNIVERSITY OF THE PACIFIC",
+  "location": "San Francisco",
+  "blog": "https://anantas-portfolio-d0858a.webflow.io/",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 2,
+  "public_repos": 26,
+  "created_at": "2021-09-09T09:19:43Z",
+  "languages": {
+    "Python": 11,
+    "TypeScript": 5,
+    "Jupyter Notebook": 5,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "Loop",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Loop",
+      "updated_at": "2026-05-10T01:48:34Z"
+    },
+    {
+      "name": "AI-Judge-Alignment-Checker",
+      "description": "Meta-evaluation system that detects bias, inconsistency, and hallucinated rationales in LLM judges using PubMedQA",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "ai-reliability",
+        "ai-safety",
+        "bias-detection",
+        "llm-evaluation",
+        "meta-evaluation",
+        "nlp"
+      ],
+      "url": "https://github.com/Anantaverma20/AI-Judge-Alignment-Checker",
+      "updated_at": "2026-04-06T19:32:23Z"
+    },
+    {
+      "name": "Uber-Simulation-",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Uber-Simulation-",
+      "updated_at": "2026-03-08T20:05:19Z"
+    },
+    {
+      "name": "Conscious-Web",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Conscious-Web",
+      "updated_at": "2026-02-28T00:06:32Z"
+    },
+    {
+      "name": "Lucid-Browsing",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Lucid-Browsing",
+      "updated_at": "2026-02-14T22:51:18Z"
+    },
+    {
+      "name": "Agent-Orchestration-Hack",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Agent-Orchestration-Hack",
+      "updated_at": "2026-01-11T00:45:41Z"
+    },
+    {
+      "name": "vision-compression-project",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/vision-compression-project",
+      "updated_at": "2025-12-23T01:54:28Z"
+    },
+    {
+      "name": "Retailmind",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Retailmind",
+      "updated_at": "2025-11-06T19:52:57Z"
+    },
+    {
+      "name": "NovaIQ",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/NovaIQ",
+      "updated_at": "2025-10-30T03:00:54Z"
+    },
+    {
+      "name": "Merger",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Anantaverma20/Merger",
+      "updated_at": "2025-10-26T01:01:14Z"
+    }
+  ],
+  "top_topics": [
+    "ai-reliability",
+    "ai-safety",
+    "bias-detection",
+    "llm-evaluation",
+    "meta-evaluation",
+    "nlp"
+  ]
+}

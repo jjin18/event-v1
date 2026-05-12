@@ -1,0 +1,115 @@
+{
+  "username": "neohack22",
+  "name": "@neohack22",
+  "bio": "@ethercourt NLP Engineer | @WELTAREmanager | @Africa80 coauthor | @wef contributor | @ethergency cofounder | \ud83d\udcbb (il)literate #Pythonista",
+  "company": "Ethercourt.ml",
+  "location": "Neuilly Sur Seine",
+  "blog": "https://www.linkedin.com/in/adoucoure/",
+  "twitter_username": "neohack22",
+  "followers": 24,
+  "following": 70,
+  "public_repos": 85,
+  "created_at": "2016-10-15T13:55:06Z",
+  "languages": {
+    "Jupyter Notebook": 20,
+    "Python": 4,
+    "JavaScript": 3,
+    "CSS": 3,
+    "HTML": 2,
+    "TypeScript": 2,
+    "Solidity": 1
+  },
+  "top_repos": [
+    {
+      "name": "legifina",
+      "description": "",
+      "stars": 1,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/neohack22/legifina",
+      "updated_at": "2024-11-07T09:52:34Z"
+    },
+    {
+      "name": "velos",
+      "description": "",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/neohack22/velos",
+      "updated_at": "2022-02-07T02:11:14Z"
+    },
+    {
+      "name": "paristinkerers",
+      "description": "AI Tinkerers",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/neohack22/paristinkerers",
+      "updated_at": "2026-04-19T21:11:49Z"
+    },
+    {
+      "name": "startup-action-agent",
+      "description": "Startup Build / Automate / Delegate Console \u2014 paste weekly updates, get actionable next steps",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/neohack22/startup-action-agent",
+      "updated_at": "2026-04-19T18:35:31Z"
+    },
+    {
+      "name": "quick-polars-bench",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/neohack22/quick-polars-bench",
+      "updated_at": "2026-04-18T14:39:08Z"
+    },
+    {
+      "name": "skybridge",
+      "description": "Alpic",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/neohack22/skybridge",
+      "updated_at": "2026-04-14T20:32:47Z"
+    },
+    {
+      "name": "ebw3nt",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/neohack22/ebw3nt",
+      "updated_at": "2026-03-10T15:25:26Z"
+    },
+    {
+      "name": "AI_contract_agent",
+      "description": "An AI-powered job matching system that transforms resume analysis into personalized career pathway recommendations with gap analysis and improvement suggestions.",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/neohack22/AI_contract_agent",
+      "updated_at": "2026-03-09T04:09:58Z"
+    },
+    {
+      "name": "Datascience-Seminaire-Exercices",
+      "description": "Ce d\u00e9p\u00f4t GitHub offre des exercices vari\u00e9s couvrant l'analyse d'algorithmes, le deep learning, le machine learning, le NLP, et des frameworks tels que PyTorch, TensorFlow, et Spark. Des exercices sur les syst\u00e8mes de recommandations sont aussi disponibles.",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/neohack22/Datascience-Seminaire-Exercices",
+      "updated_at": "2025-10-02T12:42:14Z"
+    },
+    {
+      "name": "bmad-podcast-buddy",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/neohack22/bmad-podcast-buddy",
+      "updated_at": "2025-09-27T17:53:04Z"
+    }
+  ],
+  "top_topics": []
+}

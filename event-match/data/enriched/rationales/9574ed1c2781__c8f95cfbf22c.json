@@ -1,0 +1,4 @@
+{
+  "rationale": "Ming's work on zkMIPS and universal zero-knowledge virtual machines complements Jiale's deep expertise in ML infrastructure and distributed systems \u2014 both are solving architectural challenges around scalability and verification at different layers. While Ming frames ZK as a trust layer across siloed systems, Jiale's background in building scalable ML platforms at Meta and Uber suggests potential overlap in how verifiable computation could enhance distributed training and model deployment, especially as both work with low-level systems (MIPS architecture vs. Kubernetes/systems infrastructure).",
+  "intro_message": "Ming Guo, meet Jiale Zhi \u2014 both of you work on infrastructure that bridges trust and scale across complex distributed systems, and your backgrounds in hardware/VM design and ML systems might unlock interesting conversations around verifiable AI pipelines."
+}

@@ -1,0 +1,4 @@
+{
+  "rationale": "Ming's work on zkMIPS and universal verifiable computation could benefit from Akshath's deep expertise in multi-agent systems, sensor integration, and autonomous robotics \u2014 domains where cryptographic trust and provable state become critical as systems scale. While their immediate technical stacks differ, Ming's conviction that ZK enables programmable trust across fundamentally different systems aligns naturally with the sensor placement and localization challenges Akshath solves in collaborative robotics, where coordinated autonomy requires reliable, verifiable state across multiple agents.",
+  "intro_message": "Ming Guo, meet Akshath Singhal \u2014 you're both building foundational infrastructure for systems that need to coordinate and prove truth across distributed, heterogeneous components: Ming in verifiable computation and decentralized AI, Akshath in multi-agent SLAM and autonomous robotics."
+}

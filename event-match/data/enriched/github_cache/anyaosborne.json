@@ -1,0 +1,79 @@
+{
+  "username": "anyaosborne",
+  "name": "Anya Osborne",
+  "bio": "Ph.D. Candidate in Computational Media @SET-Lab-UCSC, Design Scientist in social VR/XR with a background in games",
+  "company": "@UCSC",
+  "location": "Los Angeles",
+  "blog": "www.anyaosborne.com",
+  "twitter_username": "anya0sborne",
+  "followers": 3,
+  "following": 8,
+  "public_repos": 6,
+  "created_at": "2018-06-10T23:44:09Z",
+  "languages": {
+    "Python": 3,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "anyaosborne",
+      "description": "My personal repository",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/anyaosborne/anyaosborne",
+      "updated_at": "2022-11-23T00:28:08Z"
+    },
+    {
+      "name": "RocketPatrol",
+      "description": "This is a Phaser 3 clone/remake of the APF-M1000 built-in gallery shooter developed in JavaScript.",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/anyaosborne/RocketPatrol",
+      "updated_at": "2021-12-02T02:55:37Z"
+    },
+    {
+      "name": "DreamyFood",
+      "description": "The project is based on the trained Generative Adversarial Network (GAN) of World of Warcraft (WoW) icons that generates new stylized art using the Google Deep Dream algorithm and Gradient Ascent. We then used a trained food classifier using the Inception V3 model and applied it to classify the resulting Deep Dreamed images of WoW art. We show that our algorithm can be employed for creating stylized images that can be viewed by the machine as food.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "gan",
+        "google-deep-dream",
+        "inception-v3"
+      ],
+      "url": "https://github.com/anyaosborne/DreamyFood",
+      "updated_at": "2021-10-15T22:10:39Z"
+    },
+    {
+      "name": "Char-RNN-Tensorflow-Games",
+      "description": "This project represents the Multi-layer Recurrent Neural Networks (LSTM, RNN) for character-level language models in Python using Tensorflow. The original inspiation comes from Andrej Karpathy's char-rnn. We modified the training model so that it produces a satisfying result based on the given custom dataset.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "char-rnn"
+      ],
+      "url": "https://github.com/anyaosborne/Char-RNN-Tensorflow-Games",
+      "updated_at": "2021-02-17T14:20:28Z"
+    },
+    {
+      "name": "Wikipedia-Text-Extractor-Games",
+      "description": "This project is a slightly modified version of Wikipedia-Text-Extractor. It extracts plan text from Wikipedia of about 110 game titles given in the pageTitleList.txt file. ",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "wikipedia-text-extractor"
+      ],
+      "url": "https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games",
+      "updated_at": "2021-02-11T13:28:49Z"
+    }
+  ],
+  "top_topics": [
+    "gan",
+    "google-deep-dream",
+    "inception-v3",
+    "char-rnn",
+    "wikipedia-text-extractor"
+  ]
+}

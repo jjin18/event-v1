@@ -1,0 +1,112 @@
+{
+  "username": "kwawmannanjnr",
+  "name": "Kwaw Annan",
+  "bio": "Software engineer from San Francisco, California. My interests are in iOS, Android and Web development.",
+  "company": "SF Innovation Lab",
+  "location": "San Francisco, California",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 9,
+  "following": 23,
+  "public_repos": 103,
+  "created_at": "2015-09-27T16:26:20Z",
+  "languages": {
+    "Java": 11,
+    "Swift": 4,
+    "Kotlin": 3,
+    "JavaScript": 2
+  },
+  "top_repos": [
+    {
+      "name": "Snitch-PoliceScanner-iOS",
+      "description": "This is a Radio is the police scanner mobile app of live audio streams including police scanners, public safety alerts, fire alarms, wildfires map and info, railroad radios, severe weather warnings, hurricane, marine, aircraft, emergency, news, and amateur radio.",
+      "stars": 3,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/Snitch-PoliceScanner-iOS",
+      "updated_at": "2024-07-27T05:33:10Z"
+    },
+    {
+      "name": "SpeedTrack",
+      "description": "Speedometer to Track speed using the Hardware(gps sensor)",
+      "stars": 2,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/SpeedTrack",
+      "updated_at": "2020-09-23T13:02:55Z"
+    },
+    {
+      "name": "ZenieFocus",
+      "description": "Enhance your productivity with our advanced Pomodoro Timer App, featuring a 40Hz Binaural-Beats Generator",
+      "stars": 1,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/ZenieFocus",
+      "updated_at": "2024-05-03T08:59:13Z"
+    },
+    {
+      "name": "FloatingStickies",
+      "description": "Floating Stickies stay on top of all other apps, and allow you to quickly jot down notes for easy access from anywhere! Easily dock your stickies by dragging them to the left side of the screen. All stickies are auto-saved, and can be accessed through the app. ",
+      "stars": 1,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/FloatingStickies",
+      "updated_at": "2021-11-21T10:15:45Z"
+    },
+    {
+      "name": "Android-RecyclerView-CountryList",
+      "description": "Displays List of objects in a RecyclerView using Kotlin",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/Android-RecyclerView-CountryList",
+      "updated_at": "2025-05-05T23:17:34Z"
+    },
+    {
+      "name": "FetchRewardsTest",
+      "description": "An an mobile app to show developing android apps with best practices",
+      "stars": 0,
+      "language": "Kotlin",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/FetchRewardsTest",
+      "updated_at": "2025-01-07T13:23:53Z"
+    },
+    {
+      "name": "SecureEnvAPIKeyServer",
+      "description": "Implemented a server to securely fetch API keys from environment variables, enhancing security by preventing the exposure of API keys in commit messages.",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/SecureEnvAPIKeyServer",
+      "updated_at": "2024-03-29T17:39:57Z"
+    },
+    {
+      "name": "CountryList-MVVM",
+      "description": "Android app to demonstrate using MVVM Architecture RecyclerView and Retrofit ",
+      "stars": 0,
+      "language": "Kotlin",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/CountryList-MVVM",
+      "updated_at": "2024-03-01T17:44:40Z"
+    },
+    {
+      "name": "Wheelie-Sensor-Data-collector",
+      "description": "Used to collect sensor data for Wheelie BMX rides",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/Wheelie-Sensor-Data-collector",
+      "updated_at": "2024-02-22T23:02:29Z"
+    },
+    {
+      "name": "MyLive",
+      "description": "MyLive(Instagram Live Simulator)",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/kwawmannanjnr/MyLive",
+      "updated_at": "2024-02-13T21:11:42Z"
+    }
+  ],
+  "top_topics": []
+}

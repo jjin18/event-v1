@@ -1,0 +1,4 @@
+{
+  "rationale": "Dev is building low-code AI orchestration tooling at Gooey.AI and actively thinking about intelligent model orchestration, while Watson evaluates AI agent performance and reliability at TikTok\u2014putting them at complementary points in the LLM-tooling stack. They could explore how evaluation frameworks inform orchestration design, and whether TikTok's consumer-AI context creates opportunities for Dev's multilingual and small-model approaches.",
+  "intro_message": "Dev Aggarwal, meet Watson \u2014 you're both deep in AI infrastructure (orchestration vs. agent evaluation) and could compare notes on how evals shape real-world deployment decisions."
+}

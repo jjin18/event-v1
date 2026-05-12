@@ -1,0 +1,114 @@
+{
+  "username": "AeRabelais",
+  "name": "Ashia Livaudais",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 9,
+  "following": 7,
+  "public_repos": 33,
+  "created_at": "2020-01-30T00:06:53Z",
+  "languages": {
+    "Python": 7,
+    "HTML": 3,
+    "CSS": 1,
+    "Jupyter Notebook": 1,
+    "JavaScript": 1,
+    "R": 1
+  },
+  "top_repos": [
+    {
+      "name": "synthetic_ct",
+      "description": "Improving Tuberculosis (TB) Prediction using Synthetically Generated Computed Tomography (CT) Images",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/synthetic_ct",
+      "updated_at": "2024-10-30T09:04:21Z"
+    },
+    {
+      "name": "Recurse-Deep-Learning-Group",
+      "description": "A hub for members of Recurse's Deep Learning Group to store our code, insights, and other information related to our deep learning projects.",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/Recurse-Deep-Learning-Group",
+      "updated_at": "2025-07-19T00:27:54Z"
+    },
+    {
+      "name": "Lovelace-computing-club",
+      "description": "Computing Club Repository of Info",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/Lovelace-computing-club",
+      "updated_at": "2023-12-14T19:12:25Z"
+    },
+    {
+      "name": "draper_aliens",
+      "description": "",
+      "stars": 0,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/draper_aliens",
+      "updated_at": "2026-04-20T22:36:12Z"
+    },
+    {
+      "name": "hyve",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/hyve",
+      "updated_at": "2026-03-16T01:08:53Z"
+    },
+    {
+      "name": "corpuscle",
+      "description": "A backup for my brain dump ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/corpuscle",
+      "updated_at": "2025-07-20T03:15:35Z"
+    },
+    {
+      "name": "sym.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/sym.github.io",
+      "updated_at": "2024-11-19T08:52:00Z"
+    },
+    {
+      "name": "the-queue",
+      "description": "A game about having a jolly time in a Soviet-era queue.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/the-queue",
+      "updated_at": "2024-09-15T14:02:27Z"
+    },
+    {
+      "name": "jester",
+      "description": "A semi end-to-end hiring package",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/jester",
+      "updated_at": "2024-08-23T04:53:41Z"
+    },
+    {
+      "name": "resume",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/AeRabelais/resume",
+      "updated_at": "2023-08-03T15:30:53Z"
+    }
+  ],
+  "top_topics": []
+}

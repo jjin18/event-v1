@@ -1,0 +1,4 @@
+{
+  "rationale": "Louan's deep learning work on clinical neuroimaging (fMRI segmentation, lesion detection with Swin UNETRs) and Kaarel's track record shipping computer vision and ML matching systems at scale represent a strong skill complement\u2014Louan brings domain expertise in medical imaging pipelines while Kaarel excels at rapid prototyping and production ML. Both are Python/PyTorch practitioners in San Francisco, and Kaarel's conviction around moving fast to ship what larger companies haven't could accelerate Louan's applied neuroimaging work into a real product or startup.",
+  "intro_message": "Louan, meet Kaarel Kaarelson \u2014 a founding ML engineer at Known.com who ships computer vision and matching systems at exceptional speed, and could help you productionize your fMRI and neuroimaging segmentation pipelines."
+}

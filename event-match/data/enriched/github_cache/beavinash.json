@@ -1,0 +1,115 @@
+{
+  "username": "beavinash",
+  "name": "Avinash Reddy",
+  "bio": "A Story!\r\nGenerative AI and Deep Learning Engineer",
+  "company": "",
+  "location": "San Francisco, CA",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 0,
+  "public_repos": 79,
+  "created_at": "2016-08-20T20:42:29Z",
+  "languages": {
+    "Swift": 35,
+    "Java": 6,
+    "Python": 4,
+    "JavaScript": 4,
+    "Jupyter Notebook": 3,
+    "HTML": 1,
+    "PHP": 1
+  },
+  "top_repos": [
+    {
+      "name": "rl-snake",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/beavinash/rl-snake",
+      "updated_at": "2026-03-01T09:39:45Z"
+    },
+    {
+      "name": "rlhf-sentence-analyzer",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/beavinash/rlhf-sentence-analyzer",
+      "updated_at": "2026-02-16T15:07:43Z"
+    },
+    {
+      "name": "MachineLearningPracticeProjects",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/beavinash/MachineLearningPracticeProjects",
+      "updated_at": "2023-07-23T07:20:16Z"
+    },
+    {
+      "name": "IntroToSQL",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/beavinash/IntroToSQL",
+      "updated_at": "2021-07-07T11:18:50Z"
+    },
+    {
+      "name": "ios-code-challenge-areddy",
+      "description": "Rune iOS code challenge for Avinash Reddy",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/beavinash/ios-code-challenge-areddy",
+      "updated_at": "2020-03-03T02:42:00Z"
+    },
+    {
+      "name": "NetworkingFoundation",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/beavinash/NetworkingFoundation",
+      "updated_at": "2019-06-22T22:29:33Z"
+    },
+    {
+      "name": "TabbedApp",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/beavinash/TabbedApp",
+      "updated_at": "2019-05-07T23:01:35Z"
+    },
+    {
+      "name": "ChatApplication",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/beavinash/ChatApplication",
+      "updated_at": "2019-05-05T02:16:46Z"
+    },
+    {
+      "name": "SwiftNetwork",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/beavinash/SwiftNetwork",
+      "updated_at": "2019-04-14T20:00:42Z"
+    },
+    {
+      "name": "TabbedApplication",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/beavinash/TabbedApplication",
+      "updated_at": "2019-04-09T19:07:37Z"
+    }
+  ],
+  "top_topics": []
+}

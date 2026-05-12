@@ -1,0 +1,113 @@
+{
+  "username": "vsrikar08",
+  "name": "Srikar Voleti",
+  "bio": "-AI Engineer ",
+  "company": "DefRM",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 19,
+  "created_at": "2018-06-18T23:08:07Z",
+  "languages": {
+    "Python": 2,
+    "HTML": 2,
+    "TypeScript": 1,
+    "Jupyter Notebook": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "osint-monitoring",
+      "description": "for hackathon ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/osint-monitoring",
+      "updated_at": "2026-05-03T18:59:02Z"
+    },
+    {
+      "name": "defrm-signal-gateway",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/defrm-signal-gateway",
+      "updated_at": "2026-03-03T04:15:31Z"
+    },
+    {
+      "name": "dual-use-deep-fake-srikar-voleti_no_code",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/dual-use-deep-fake-srikar-voleti_no_code",
+      "updated_at": "2025-10-02T16:32:11Z"
+    },
+    {
+      "name": "dual-use-deep-fake-srikar-voleti",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/dual-use-deep-fake-srikar-voleti",
+      "updated_at": "2025-09-27T01:05:04Z"
+    },
+    {
+      "name": "CS-180ViewPublic",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/CS-180ViewPublic",
+      "updated_at": "2022-02-21T21:07:13Z"
+    },
+    {
+      "name": "CS170Project2",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/CS170Project2",
+      "updated_at": "2021-12-11T05:23:38Z"
+    },
+    {
+      "name": "svole001-jhan136-pmund001-project",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/svole001-jhan136-pmund001-project",
+      "updated_at": "2021-01-27T19:34:20Z"
+    },
+    {
+      "name": "Java_in_College",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/Java_in_College",
+      "updated_at": "2019-11-02T06:10:53Z"
+    },
+    {
+      "name": "C-HIGHSCHOOL",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/C-HIGHSCHOOL",
+      "updated_at": "2019-11-02T05:59:01Z"
+    },
+    {
+      "name": "Basehacks3",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/vsrikar08/Basehacks3",
+      "updated_at": "2019-11-02T05:55:36Z"
+    }
+  ],
+  "top_topics": []
+}

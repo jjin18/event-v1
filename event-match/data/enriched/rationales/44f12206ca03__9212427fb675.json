@@ -1,0 +1,4 @@
+{
+  "rationale": "David brings deep expertise in shipping autonomous systems and real-time infrastructure (WebRTC, LiveKit, computer vision), while Louan is building applied ML pipelines for medical imaging with self-supervised learning methods\u2014their combined skillset in computer vision, edge compute, and production ML systems could tackle real-time perception problems at the intersection of robotics and clinical applications. Both are based in San Francisco and could explore how robust neuroimaging ML techniques might improve robot perception or autonomous system observability.",
+  "intro_message": "David Chen, meet Louan \u2014 you both work at the intersection of computer vision and production systems (robotics infrastructure vs. clinical ML pipelines), and your combined expertise in real-time perception and self-supervised learning could be useful if you're hacking on anything that needs intelligent visual processing."
+}

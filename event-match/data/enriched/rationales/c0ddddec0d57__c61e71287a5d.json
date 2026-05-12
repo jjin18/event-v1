@@ -1,0 +1,4 @@
+{
+  "rationale": "Sandeep's expertise in ML infrastructure and inference optimization at xAI complements Rakesh's AI research work at Meta\u2014Sandeep can offer practical systems-level perspective on deploying the models that research teams build. While their immediate domains differ (tooling/infra vs. research), Sandeep's deep conviction that inference optimization is a key bottleneck and Rakesh's research focus create a natural knowledge exchange around making AI systems faster and more efficient.",
+  "intro_message": "Sandeep, meet Rakesh Ranjan \u2014 he's doing AI research at Meta, and given your focus on inference optimization and large-scale systems, you two could swap insights on what's actually hard to deploy at scale."
+}

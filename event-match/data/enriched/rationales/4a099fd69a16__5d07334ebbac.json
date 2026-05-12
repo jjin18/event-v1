@@ -1,0 +1,4 @@
+{
+  "rationale": "Both Bill and Sharon work on LLM-based infrastructure, but from complementary angles: Bill is optimizing LLMs for real-time perception and efficiency (sparse attention, parameter-efficient fine-tuning), while Sharon's TheAgentic.Ai builds production-ready AI agent infrastructure for high-stakes verticals like biotech and fintech. They could explore how Bill's efficiency techniques and real-time perception capabilities could strengthen Sharon's agent reliability and deployment constraints in regulated industries.",
+  "intro_message": "Bill Jiao, meet Sharon \u2014 you're both shipping LLM infrastructure at different layers (real-time perception & efficiency vs. production agent systems), and her work on accuracy-critical agent deployment could benefit from your parameter-efficient fine-tuning and hardware optimization expertise."
+}

@@ -1,0 +1,112 @@
+{
+  "username": "arjraw10-cell",
+  "name": "Arjun Rawat",
+  "bio": "",
+  "company": "https://jobinba.com",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 5,
+  "public_repos": 13,
+  "created_at": "2025-11-15T02:40:01Z",
+  "languages": {
+    "TypeScript": 5,
+    "Python": 4,
+    "HTML": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "KairosAgent",
+      "description": "Name says it all",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/KairosAgent",
+      "updated_at": "2026-04-26T06:18:14Z"
+    },
+    {
+      "name": "AGInference",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/AGInference",
+      "updated_at": "2026-04-13T01:22:45Z"
+    },
+    {
+      "name": "ai-research-agent",
+      "description": "An AI web research agent. Check the readme for more info.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/ai-research-agent",
+      "updated_at": "2026-03-25T03:33:58Z"
+    },
+    {
+      "name": "GitPay",
+      "description": "Incentivises contributions to open-source projects. Check README for more info.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/GitPay",
+      "updated_at": "2026-03-18T22:42:37Z"
+    },
+    {
+      "name": "testfail",
+      "description": "For my hackathon, it shows a failure that the demo will fix.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/testfail",
+      "updated_at": "2026-03-05T17:27:58Z"
+    },
+    {
+      "name": "GeminiCLIInference",
+      "description": "I found a way to use the access tokens and authentication from gemini CLI to get free inference using google's internal v1 API, only requiring a google cloud account.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/GeminiCLIInference",
+      "updated_at": "2026-02-28T20:42:51Z"
+    },
+    {
+      "name": "sentry-ai-demo",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/sentry-ai-demo",
+      "updated_at": "2026-02-08T17:33:33Z"
+    },
+    {
+      "name": "failDemo",
+      "description": "Demo fail",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/failDemo",
+      "updated_at": "2026-01-24T20:54:36Z"
+    },
+    {
+      "name": "FastAPITestFramework",
+      "description": "This is a framework I personally use in hackathons just as something I can look at in case I forget how this works.",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/FastAPITestFramework",
+      "updated_at": "2025-12-14T06:08:40Z"
+    },
+    {
+      "name": "usacoSolutions",
+      "description": "A repo containing a few USACO problems that I did for practice and look back on.",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/arjraw10-cell/usacoSolutions",
+      "updated_at": "2025-11-27T19:45:25Z"
+    }
+  ],
+  "top_topics": []
+}

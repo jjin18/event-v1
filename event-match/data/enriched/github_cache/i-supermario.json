@@ -1,0 +1,120 @@
+{
+  "username": "i-supermario",
+  "name": "Sarang",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 4,
+  "following": 5,
+  "public_repos": 35,
+  "created_at": "2019-01-02T05:51:45Z",
+  "languages": {
+    "TypeScript": 11,
+    "JavaScript": 8,
+    "HTML": 5,
+    "Java": 3,
+    "Python": 1,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "shivali-site",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/i-supermario/shivali-site",
+      "updated_at": "2026-02-15T20:34:48Z"
+    },
+    {
+      "name": "originally-ui",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/i-supermario/originally-ui",
+      "updated_at": "2025-08-28T18:15:06Z"
+    },
+    {
+      "name": "originally-api",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/i-supermario/originally-api",
+      "updated_at": "2025-08-27T04:01:49Z"
+    },
+    {
+      "name": "trip-planner",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/i-supermario/trip-planner",
+      "updated_at": "2025-08-14T02:14:28Z"
+    },
+    {
+      "name": "assist-me-health",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/i-supermario/assist-me-health",
+      "updated_at": "2025-08-03T01:41:04Z"
+    },
+    {
+      "name": "i-supermario",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/i-supermario/i-supermario",
+      "updated_at": "2025-07-29T19:47:35Z"
+    },
+    {
+      "name": "func-key-explainer",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/i-supermario/func-key-explainer",
+      "updated_at": "2025-06-13T01:40:37Z"
+    },
+    {
+      "name": "leetcode",
+      "description": "Collection of successful LeetCode submissions - automatically synced using LitCoach",
+      "stars": 0,
+      "language": "Java",
+      "topics": [
+        "data-structures-and-algorithms",
+        "leetcode-solutions"
+      ],
+      "url": "https://github.com/i-supermario/leetcode",
+      "updated_at": "2025-04-29T22:09:34Z"
+    },
+    {
+      "name": "LLD",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/i-supermario/LLD",
+      "updated_at": "2025-04-08T16:19:15Z"
+    },
+    {
+      "name": "superflex-hack",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/i-supermario/superflex-hack",
+      "updated_at": "2025-02-16T21:55:19Z"
+    }
+  ],
+  "top_topics": [
+    "data-structures-and-algorithms",
+    "leetcode-solutions"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "username": "Bikz",
+  "name": "Bikz",
+  "bio": "building stuff..",
+  "company": "",
+  "location": "",
+  "blog": "bikz.cc",
+  "twitter_username": "bikbrar",
+  "followers": 6,
+  "following": 8,
+  "public_repos": 47,
+  "created_at": "2015-07-09T18:53:04Z",
+  "languages": {
+    "TypeScript": 17,
+    "JavaScript": 3,
+    "Python": 2,
+    "Swift": 1,
+    "Rust": 1,
+    "Ruby": 1,
+    "MDX": 1
+  },
+  "top_repos": [
+    {
+      "name": "codex-chat",
+      "description": "Open-source macOS SwiftUI Codex client with local Markdown chat history, reusable context, Skills + Mods, and explicit local safety controls.",
+      "stars": 18,
+      "language": "Swift",
+      "topics": [
+        "ai-agent",
+        "automation",
+        "codex",
+        "desktop-app",
+        "developer-tools",
+        "extensible",
+        "keychain",
+        "llm",
+        "local-first",
+        "macos",
+        "markdown",
+        "plugin-system",
+        "productivity",
+        "sqlite",
+        "swift",
+        "swiftui",
+        "xcode"
+      ],
+      "url": "https://github.com/Bikz/codex-chat",
+      "updated_at": "2026-05-07T08:35:54Z"
+    },
+    {
+      "name": "repoprompter-public",
+      "description": "Repoprompter.com helps developers turn GitHub repos into optimized context for AI coding tools and assistants. This repository is for reporting bugs, feature requests, and discussion",
+      "stars": 5,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Bikz/repoprompter-public",
+      "updated_at": "2026-04-08T13:15:31Z"
+    },
+    {
+      "name": "capsule-memory",
+      "description": "Unified Capsule Memory Router (RaaS) for the Agentic Memory MongoDB hackathon: RaaS is an open-source \u201cmemory substrate\u201d that any AI agent can call to store, retrieve, summarize, pin, and forget information with explanations and policy controls, powered by MongoDB Atlas Vector Search and Voyage AI embeddings.",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Bikz/capsule-memory",
+      "updated_at": "2025-10-24T07:49:18Z"
+    },
+    {
+      "name": "general-augment",
+      "description": "Public SDKs, CLI, examples, and agent integration guidance for General Augment.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Bikz/general-augment",
+      "updated_at": "2026-05-06T09:28:29Z"
+    },
+    {
+      "name": "songbird-skills",
+      "description": "Portable agent skills for operating Songbird through its local CLI",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Bikz/songbird-skills",
+      "updated_at": "2026-05-02T20:01:33Z"
+    },
+    {
+      "name": "Bikz",
+      "description": "me",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Bikz/Bikz",
+      "updated_at": "2026-04-23T23:49:05Z"
+    },
+    {
+      "name": "Disco",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Bikz/Disco",
+      "updated_at": "2026-03-12T10:55:43Z"
+    },
+    {
+      "name": "packetpilot-denial-rescue",
+      "description": "PacketPilot Denial Rescue",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Bikz/packetpilot-denial-rescue",
+      "updated_at": "2026-02-24T23:59:56Z"
+    },
+    {
+      "name": "openclaw-starbeam",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Bikz/openclaw-starbeam",
+      "updated_at": "2026-02-15T00:10:38Z"
+    },
+    {
+      "name": "Roam",
+      "description": "Invite-only social platform for vanlifers: safe discovery, messaging, verified networking, and paid builder-help services for people on the road.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Bikz/Roam",
+      "updated_at": "2026-02-14T22:33:59Z"
+    }
+  ],
+  "top_topics": [
+    "developer-tools",
+    "ai-agent",
+    "automation",
+    "codex",
+    "desktop-app",
+    "extensible",
+    "keychain",
+    "llm",
+    "local-first",
+    "macos",
+    "markdown",
+    "plugin-system",
+    "productivity",
+    "sqlite",
+    "swift",
+    "swiftui",
+    "xcode",
+    "ai",
+    "cli",
+    "commit"
+  ]
+}

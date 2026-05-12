@@ -1,0 +1,118 @@
+{
+  "username": "Sunilkumarchavhan9",
+  "name": "Sunilakumar ",
+  "bio": " Github campus student  & cohort-2025 student member of hack club",
+  "company": "Turbin3 ",
+  "location": "bengaluru",
+  "blog": "",
+  "twitter_username": "FrostbytHitsuG",
+  "followers": 5,
+  "following": 13,
+  "public_repos": 109,
+  "created_at": "2024-08-21T05:57:21Z",
+  "languages": {
+    "TypeScript": 28,
+    "JavaScript": 7,
+    "Rust": 4,
+    "Solidity": 3,
+    "Jupyter Notebook": 1,
+    "Java": 1,
+    "Python": 1,
+    "Astro": 1,
+    "HTML": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "sunilkumarchavhan9",
+      "description": "",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/sunilkumarchavhan9",
+      "updated_at": "2026-03-04T09:42:43Z"
+    },
+    {
+      "name": "Jinx.ppf",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/Jinx.ppf",
+      "updated_at": "2026-03-02T10:10:59Z"
+    },
+    {
+      "name": "sk-chavhan",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/sk-chavhan",
+      "updated_at": "2025-10-13T17:36:10Z"
+    },
+    {
+      "name": "Will-Contract-using-Solidity_ETH",
+      "description": "",
+      "stars": 1,
+      "language": "Solidity",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/Will-Contract-using-Solidity_ETH",
+      "updated_at": "2025-08-25T05:58:55Z"
+    },
+    {
+      "name": "custom-ERC20-token",
+      "description": "",
+      "stars": 1,
+      "language": "Solidity",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/custom-ERC20-token",
+      "updated_at": "2025-08-24T14:38:30Z"
+    },
+    {
+      "name": "DocStart---Notion-Powered-Documentation-Platform",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/DocStart---Notion-Powered-Documentation-Platform",
+      "updated_at": "2025-08-06T17:58:31Z"
+    },
+    {
+      "name": "Indee-Internship-Assignment-",
+      "description": "by sunil kumar",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/Indee-Internship-Assignment-",
+      "updated_at": "2025-07-30T09:05:55Z"
+    },
+    {
+      "name": "Vegito",
+      "description": "",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/Vegito",
+      "updated_at": "2025-03-13T19:40:08Z"
+    },
+    {
+      "name": "todo-app-with-auth",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/todo-app-with-auth",
+      "updated_at": "2025-03-01T05:40:44Z"
+    },
+    {
+      "name": "Morden-js-calcy",
+      "description": "",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/Sunilkumarchavhan9/Morden-js-calcy",
+      "updated_at": "2025-02-07T14:07:39Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,66 @@
+{
+  "username": "WillStark",
+  "name": "WillStark",
+  "bio": "Designer. Director. Developer.\r\n",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 6,
+  "following": 1,
+  "public_repos": 8,
+  "created_at": "2016-04-22T01:12:52Z",
+  "languages": {
+    "TypeScript": 3,
+    "JavaScript": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "distill",
+      "description": "Paste any URL \u2014 Distill renders the working mini-app you actually wanted. Built for the Generative UI Global Hackathon (May 2026) on CopilotKit + AG-UI + A2UI + MCP Apps + Gemini + Apify.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/WillStark/distill",
+      "updated_at": "2026-05-09T23:48:24Z"
+    },
+    {
+      "name": "Magnetron",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/WillStark/Magnetron",
+      "updated_at": "2026-05-01T01:45:25Z"
+    },
+    {
+      "name": "Memento",
+      "description": "Ledger-based memory agent for spoken work \u2014 AGI House x Even Realities Proactive Agent Build Day",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/WillStark/Memento",
+      "updated_at": "2026-04-27T00:14:28Z"
+    },
+    {
+      "name": "CD-Interaction",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/WillStark/CD-Interaction",
+      "updated_at": "2022-05-19T03:33:44Z"
+    },
+    {
+      "name": "frc5563",
+      "description": "Basically robot code",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/WillStark/frc5563",
+      "updated_at": "2018-03-15T19:45:38Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,135 @@
+{
+  "username": "gabrielnan",
+  "name": "Gabriel Nakajima An",
+  "bio": "\r\n    Perception Engineer @ Zipline\r\nMaster's + Bachelor's in Computer Science from Georgia Tech\r\n",
+  "company": "Zipline",
+  "location": "San Francisco, CA",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 16,
+  "following": 14,
+  "public_repos": 26,
+  "created_at": "2015-10-29T05:42:55Z",
+  "languages": {
+    "Python": 6,
+    "TypeScript": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "ddp",
+      "description": "Differential Dynamic Programming python implementation for a cartpole system",
+      "stars": 6,
+      "language": "Python",
+      "topics": [
+        "controls",
+        "differential-dynamic-programming",
+        "ilqr",
+        "robotics"
+      ],
+      "url": "https://github.com/gabrielnan/ddp",
+      "updated_at": "2024-02-29T09:52:56Z"
+    },
+    {
+      "name": "rl-gan",
+      "description": "",
+      "stars": 2,
+      "language": "Python",
+      "topics": [
+        "gan",
+        "keras",
+        "reinforcement-learning"
+      ],
+      "url": "https://github.com/gabrielnan/rl-gan",
+      "updated_at": "2019-01-27T15:18:43Z"
+    },
+    {
+      "name": "submax",
+      "description": "Implementation of \"Submodular maximization with cardinality constraints\" by Buchbinder et al.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/submax",
+      "updated_at": "2024-12-18T07:49:40Z"
+    },
+    {
+      "name": "click-distill",
+      "description": "CUA research hackathon \u2014 Tzafon Northstar idea pool",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/click-distill",
+      "updated_at": "2026-05-09T23:20:10Z"
+    },
+    {
+      "name": "obsidian-dimensions",
+      "description": "Obsidian plugin: multi-dimensional views over a unified vault hierarchy (folder \u2192 file \u2192 heading \u2192 label \u2192 bullet) with inherited dimensions like priority and timeframe",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/obsidian-dimensions",
+      "updated_at": "2026-04-11T18:07:44Z"
+    },
+    {
+      "name": "chess-axia",
+      "description": "Learning to evaluate chess piece values using deep learning representations",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "chess",
+        "chess-engine",
+        "deep-learning"
+      ],
+      "url": "https://github.com/gabrielnan/chess-axia",
+      "updated_at": "2020-04-26T00:52:23Z"
+    },
+    {
+      "name": "cse6242-hw2",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/cse6242-hw2",
+      "updated_at": "2019-10-04T20:03:26Z"
+    },
+    {
+      "name": "cube",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/cube",
+      "updated_at": "2019-07-26T22:10:43Z"
+    },
+    {
+      "name": "test",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/test",
+      "updated_at": "2017-08-12T00:09:18Z"
+    },
+    {
+      "name": "dl-tensorflow",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/gabrielnan/dl-tensorflow",
+      "updated_at": "2017-04-14T02:33:52Z"
+    }
+  ],
+  "top_topics": [
+    "controls",
+    "differential-dynamic-programming",
+    "ilqr",
+    "robotics",
+    "gan",
+    "keras",
+    "reinforcement-learning",
+    "chess",
+    "chess-engine",
+    "deep-learning"
+  ]
+}

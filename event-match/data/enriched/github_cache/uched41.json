@@ -1,0 +1,114 @@
+{
+  "username": "uched41",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "https://www.linkedin.com/in/uche-david-47041a52/",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 0,
+  "public_repos": 27,
+  "created_at": "2016-09-01T09:43:45Z",
+  "languages": {
+    "C": 9,
+    "Python": 4,
+    "C++": 3,
+    "Makefile": 3,
+    "Swift": 1,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "Encrypted-Bootloader-and-Flasher-for-Microcontroller",
+      "description": "Encrypted boot-loader and flasher for micro-controllers. Implements Double encryption to protect your proprietary firmware.",
+      "stars": 28,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/uched41/Encrypted-Bootloader-and-Flasher-for-Microcontroller",
+      "updated_at": "2026-05-01T20:26:26Z"
+    },
+    {
+      "name": "incuArt",
+      "description": "",
+      "stars": 1,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/uched41/incuArt",
+      "updated_at": "2019-09-16T13:19:01Z"
+    },
+    {
+      "name": "novellaDjango",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/uched41/novellaDjango",
+      "updated_at": "2019-03-17T02:30:19Z"
+    },
+    {
+      "name": "smart_environment",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/uched41/smart_environment",
+      "updated_at": "2025-10-15T02:31:03Z"
+    },
+    {
+      "name": "DUGLABS",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/uched41/DUGLABS",
+      "updated_at": "2025-07-18T15:49:35Z"
+    },
+    {
+      "name": "IOS-nRF-Connect-Device-Manager",
+      "description": "Fork of IOS-nRF-Connect-Device-Manager to point to tag 1.7.3",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/uched41/IOS-nRF-Connect-Device-Manager",
+      "updated_at": "2025-02-14T06:30:59Z"
+    },
+    {
+      "name": "uched41.github.io",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/uched41/uched41.github.io",
+      "updated_at": "2021-04-08T02:53:38Z"
+    },
+    {
+      "name": "seniorcare_node",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/uched41/seniorcare_node",
+      "updated_at": "2021-02-05T18:17:21Z"
+    },
+    {
+      "name": "PatHealthCare-Device",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/uched41/PatHealthCare-Device",
+      "updated_at": "2021-01-15T16:11:20Z"
+    },
+    {
+      "name": "grandma_su",
+      "description": "",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/uched41/grandma_su",
+      "updated_at": "2020-12-28T19:12:32Z"
+    }
+  ],
+  "top_topics": []
+}

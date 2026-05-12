@@ -1,0 +1,48 @@
+{
+  "username": "rlhatoo20",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 0,
+  "public_repos": 3,
+  "created_at": "2025-06-10T18:52:04Z",
+  "languages": {
+    "TypeScript": 1,
+    "Swift": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "manudesk",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rlhatoo20/manudesk",
+      "updated_at": "2026-04-20T01:40:08Z"
+    },
+    {
+      "name": "punjab-tutor",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/rlhatoo20/punjab-tutor",
+      "updated_at": "2026-04-20T01:20:40Z"
+    },
+    {
+      "name": "vault-backend",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/rlhatoo20/vault-backend",
+      "updated_at": "2025-06-10T21:49:09Z"
+    }
+  ],
+  "top_topics": []
+}

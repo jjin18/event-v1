@@ -1,0 +1,112 @@
+{
+  "username": "lokesh75-kank",
+  "name": "Lokesh Kank",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 1,
+  "public_repos": 36,
+  "created_at": "2021-06-01T17:09:24Z",
+  "languages": {
+    "Jupyter Notebook": 14,
+    "Python": 12,
+    "HTML": 1,
+    "EJS": 1
+  },
+  "top_repos": [
+    {
+      "name": "Realtime_ETL_Kafka_AWS",
+      "description": "",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/Realtime_ETL_Kafka_AWS",
+      "updated_at": "2023-08-24T00:19:49Z"
+    },
+    {
+      "name": "lokesh75-kank",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/lokesh75-kank",
+      "updated_at": "2026-04-30T05:45:45Z"
+    },
+    {
+      "name": "Autonomous_outreach-agent",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/Autonomous_outreach-agent",
+      "updated_at": "2026-03-02T02:25:07Z"
+    },
+    {
+      "name": "Inspiration-to-Action-Funnel-Analyzer-IAFA-",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/Inspiration-to-Action-Funnel-Analyzer-IAFA-",
+      "updated_at": "2026-01-12T03:31:11Z"
+    },
+    {
+      "name": "Uber_reserve_supply_forecaster",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/Uber_reserve_supply_forecaster",
+      "updated_at": "2026-01-09T08:13:34Z"
+    },
+    {
+      "name": "CX_fulfillment_ML_System",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/CX_fulfillment_ML_System",
+      "updated_at": "2026-01-09T08:01:49Z"
+    },
+    {
+      "name": "Data-to-Decisions-Predicting-Loan-Defaults-through-Intelligent-Modeling",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/Data-to-Decisions-Predicting-Loan-Defaults-through-Intelligent-Modeling",
+      "updated_at": "2025-10-16T05:19:21Z"
+    },
+    {
+      "name": "SmartDine.AI",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/SmartDine.AI",
+      "updated_at": "2025-02-23T06:39:10Z"
+    },
+    {
+      "name": "MLflow_Project_End_to_End_with_deployment",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/MLflow_Project_End_to_End_with_deployment",
+      "updated_at": "2024-07-24T05:28:05Z"
+    },
+    {
+      "name": "Automatically-visualize-your-CSV-data-with-Lida-LLM-Lightweight-Machine-Learning-model",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/lokesh75-kank/Automatically-visualize-your-CSV-data-with-Lida-LLM-Lightweight-Machine-Learning-model",
+      "updated_at": "2024-03-30T21:47:39Z"
+    }
+  ],
+  "top_topics": []
+}

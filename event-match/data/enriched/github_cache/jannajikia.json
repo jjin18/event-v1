@@ -1,0 +1,121 @@
+{
+  "username": "JannaJikia",
+  "name": "Janna",
+  "bio": "Software Engineer \ud83d\udc69\ud83c\udffd\u200d\ud83d\udcbb\ud83d\udc85\r\n",
+  "company": "",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 5,
+  "following": 0,
+  "public_repos": 27,
+  "created_at": "2019-03-27T11:09:16Z",
+  "languages": {
+    "JavaScript": 9,
+    "TypeScript": 3,
+    "HTML": 2,
+    "C#": 1,
+    "Rust": 1,
+    "CSS": 1,
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "my-dex",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/my-dex",
+      "updated_at": "2023-12-15T16:40:22Z"
+    },
+    {
+      "name": "ERC20Balance",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/ERC20Balance",
+      "updated_at": "2023-07-18T14:09:42Z"
+    },
+    {
+      "name": "JannaJikia",
+      "description": "Config files for my GitHub profile.",
+      "stars": 0,
+      "language": "",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "url": "https://github.com/JannaJikia/JannaJikia",
+      "updated_at": "2026-05-05T04:27:12Z"
+    },
+    {
+      "name": "isha-practice-tracker",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/isha-practice-tracker",
+      "updated_at": "2026-04-27T06:18:08Z"
+    },
+    {
+      "name": "job-suit-next-2",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/job-suit-next-2",
+      "updated_at": "2026-04-22T23:55:39Z"
+    },
+    {
+      "name": "otus-algorithms-homeworks",
+      "description": "",
+      "stars": 0,
+      "language": "C#",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/otus-algorithms-homeworks",
+      "updated_at": "2026-02-16T13:54:23Z"
+    },
+    {
+      "name": "nextjs-sanity-college-template",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/nextjs-sanity-college-template",
+      "updated_at": "2025-12-15T13:18:18Z"
+    },
+    {
+      "name": "invoice-ge-case-study",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/invoice-ge-case-study",
+      "updated_at": "2025-12-15T10:35:58Z"
+    },
+    {
+      "name": "rust_webserver",
+      "description": "rust_webserver",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/rust_webserver",
+      "updated_at": "2024-01-16T03:07:12Z"
+    },
+    {
+      "name": "my-wave-portal",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/JannaJikia/my-wave-portal",
+      "updated_at": "2022-09-27T18:41:41Z"
+    }
+  ],
+  "top_topics": [
+    "config",
+    "github-config"
+  ]
+}

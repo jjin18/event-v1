@@ -1,0 +1,66 @@
+{
+  "username": "harriswarren",
+  "name": "Harris Warren",
+  "bio": "",
+  "company": "Amazon",
+  "location": "San Francisco, CA",
+  "blog": "",
+  "twitter_username": "harriswarren",
+  "followers": 14,
+  "following": 22,
+  "public_repos": 10,
+  "created_at": "2016-02-02T07:44:25Z",
+  "languages": {
+    "TypeScript": 2,
+    "HTML": 1,
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "otherworld-hackathon",
+      "description": "",
+      "stars": 2,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/harriswarren/otherworld-hackathon",
+      "updated_at": "2026-02-08T13:39:07Z"
+    },
+    {
+      "name": "reflection",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/harriswarren/reflection",
+      "updated_at": "2026-03-19T00:37:26Z"
+    },
+    {
+      "name": "voxatlas",
+      "description": "Omnilingual ASR - Demo - Mapping Every Voice on Earth",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/harriswarren/voxatlas",
+      "updated_at": "2026-03-02T06:08:58Z"
+    },
+    {
+      "name": "x402ai",
+      "description": "",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/harriswarren/x402ai",
+      "updated_at": "2025-09-05T07:26:34Z"
+    },
+    {
+      "name": "worldvault",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/harriswarren/worldvault",
+      "updated_at": "2026-01-11T23:49:30Z"
+    }
+  ],
+  "top_topics": []
+}

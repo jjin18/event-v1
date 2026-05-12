@@ -1,0 +1,4 @@
+{
+  "rationale": "Both are hands-on ML engineers shipping across the full stack\u2014Artem built efficient inference systems and vision-language models at Nous Research, while Kaarel is a founding ML engineer at Known.com shipping zero-shot matching problems and agentic tools. They overlap deeply in llm-tooling, ml-infra, and computer-vision, but Kaarel's founding experience and consumer-AI focus complemented by Artem's systems-level expertise in transformers and model optimization create strong potential for collaboration or knowledge exchange on scaling ML products.",
+  "intro_message": "Artem Yatsenko, meet Kaarel Kaarelson \u2014 you both move fast across the ML stack (inference, vision models, tooling) and could learn a lot from each other's work shipping production systems."
+}

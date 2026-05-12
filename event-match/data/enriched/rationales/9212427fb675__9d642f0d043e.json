@@ -1,0 +1,4 @@
+{
+  "rationale": "David's work shipping production robotics systems (drones at Skycatch, autonomous tractors at Agtonomy) directly intersects with Era's focus on edge intelligence and on-device AI \u2014 both are solving the infrastructure gap between prototype and production in physical systems. David's conviction that production robotics requires purpose-built real-time infrastructure complements Era's expertise in sovereign AI and composable open-source stacks, creating potential for exploring how edge inference and real-time comms can solve the ML infrastructure burden David identifies as vastly underestimated in the industry.",
+  "intro_message": "David Chen, meet Era Qian \u2014 you're both building infrastructure for the next generation of autonomous systems, and David's production robotics experience paired with Era's edge AI expertise could unlock ideas around on-device inference for physical robots."
+}

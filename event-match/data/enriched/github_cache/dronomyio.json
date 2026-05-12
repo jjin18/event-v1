@@ -1,0 +1,115 @@
+{
+  "username": "dronomyio",
+  "name": "dronomy.io",
+  "bio": "he Replicator Drone's software-defined architecture enables seamless upgrades and customization, ensuring it can easily adapt to evolving technological demands.",
+  "company": "dronomy.io",
+  "location": "San Francisco",
+  "blog": "https://dronomy.io",
+  "twitter_username": "suvasis",
+  "followers": 1,
+  "following": 0,
+  "public_repos": 55,
+  "created_at": "2024-06-14T22:30:58Z",
+  "languages": {
+    "Python": 30,
+    "HTML": 2,
+    "JavaScript": 2,
+    "TypeScript": 2,
+    "Go": 1,
+    "C++": 1,
+    "Dockerfile": 1
+  },
+  "top_repos": [
+    {
+      "name": "nats-transport-for-MCP",
+      "description": "",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dronomyio/nats-transport-for-MCP",
+      "updated_at": "2025-04-13T12:59:28Z"
+    },
+    {
+      "name": "Hackathon_Autonomous_flight",
+      "description": "autonomous flight",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/dronomyio/Hackathon_Autonomous_flight",
+      "updated_at": "2026-03-17T05:25:55Z"
+    },
+    {
+      "name": "Hackathon_musa_lab_SF",
+      "description": "Hackathon_musa_lab_SF - Treasury Agent",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dronomyio/Hackathon_musa_lab_SF",
+      "updated_at": "2026-03-16T16:05:09Z"
+    },
+    {
+      "name": "M3i",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dronomyio/M3i",
+      "updated_at": "2026-05-10T15:55:48Z"
+    },
+    {
+      "name": "AMD_Multi_Model_Mechanistic_Interpretability_Technical_walk_through",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dronomyio/AMD_Multi_Model_Mechanistic_Interpretability_Technical_walk_through",
+      "updated_at": "2026-05-10T07:52:03Z"
+    },
+    {
+      "name": "Explain_Mempool_UI",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dronomyio/Explain_Mempool_UI",
+      "updated_at": "2026-04-26T16:34:32Z"
+    },
+    {
+      "name": "mempool_intl_dec",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dronomyio/mempool_intl_dec",
+      "updated_at": "2026-04-26T05:12:08Z"
+    },
+    {
+      "name": "ros1_to_ros2_migration_agent",
+      "description": "ros1_to_ros2_migration_agent",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dronomyio/ros1_to_ros2_migration_agent",
+      "updated_at": "2026-04-19T18:50:49Z"
+    },
+    {
+      "name": "AI_Agents_Hackathon_31",
+      "description": "AI Agents Hackathon #31",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dronomyio/AI_Agents_Hackathon_31",
+      "updated_at": "2026-04-11T22:17:11Z"
+    },
+    {
+      "name": "Autonomous_Cryptp_trade",
+      "description": "Autonomous_Cryptp_trade",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/dronomyio/Autonomous_Cryptp_trade",
+      "updated_at": "2026-04-11T21:31:28Z"
+    }
+  ],
+  "top_topics": []
+}

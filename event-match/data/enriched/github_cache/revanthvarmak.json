@@ -1,0 +1,76 @@
+{
+  "username": "revanthvarmak",
+  "name": "Revanth Varma",
+  "bio": "",
+  "company": "Glass Imaging",
+  "location": "San Francisco",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 2,
+  "public_repos": 6,
+  "created_at": "2024-02-08T18:42:48Z",
+  "languages": {
+    "Python": 3,
+    "C#": 1,
+    "C++": 1,
+    "Cuda": 1
+  },
+  "top_repos": [
+    {
+      "name": "marbleUnity",
+      "description": "",
+      "stars": 1,
+      "language": "C#",
+      "topics": [],
+      "url": "https://github.com/revanthvarmak/marbleUnity",
+      "updated_at": "2026-03-19T18:51:17Z"
+    },
+    {
+      "name": "inter_frame_compress",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/revanthvarmak/inter_frame_compress",
+      "updated_at": "2025-07-10T21:32:57Z"
+    },
+    {
+      "name": "HDR-Imaging-Pipeline",
+      "description": "15663 Computational Photography HW2",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/revanthvarmak/HDR-Imaging-Pipeline",
+      "updated_at": "2025-07-07T19:58:10Z"
+    },
+    {
+      "name": "Basic-ISP-Pipeline",
+      "description": "Computational Photography Assignments",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/revanthvarmak/Basic-ISP-Pipeline",
+      "updated_at": "2025-07-07T19:57:37Z"
+    },
+    {
+      "name": "DailyDoseofCUDA",
+      "description": "Implementing algorithms related to Imaging and Computer Vision in CUDA",
+      "stars": 0,
+      "language": "Cuda",
+      "topics": [],
+      "url": "https://github.com/revanthvarmak/DailyDoseofCUDA",
+      "updated_at": "2025-06-21T04:41:33Z"
+    },
+    {
+      "name": "FaceTracking",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/revanthvarmak/FaceTracking",
+      "updated_at": "2025-02-03T03:06:46Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,58 @@
+{
+  "username": "micahstubbs",
+  "name": "Micah Stubbs",
+  "bio": "visual intuition for machine learning | all things #d3js #WebXR graph data | explorer of uncharted design spaces",
+  "company": "",
+  "location": "Silicon Valley",
+  "blog": "https://micah.fyi",
+  "twitter_username": "micahstubbs",
+  "followers": 294,
+  "following": 611,
+  "public_repos": 746,
+  "created_at": "2012-08-08T21:29:40Z",
+  "languages": {
+    "JavaScript": 1,
+    "HTML": 1,
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "lightpay",
+      "description": "Atomic swaps for the Lightning Payment Network",
+      "stars": 17,
+      "language": "JavaScript",
+      "topics": [
+        "bitcoin",
+        "javascript",
+        "lighting",
+        "payments"
+      ],
+      "url": "https://github.com/micahstubbs/lightpay",
+      "updated_at": "2026-04-17T17:33:01Z"
+    },
+    {
+      "name": "napoleon-best",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/micahstubbs/napoleon-best",
+      "updated_at": "2026-03-12T14:16:26Z"
+    },
+    {
+      "name": "claude-code-benchmarks",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/micahstubbs/claude-code-benchmarks",
+      "updated_at": "2026-01-26T18:22:07Z"
+    }
+  ],
+  "top_topics": [
+    "bitcoin",
+    "javascript",
+    "lighting",
+    "payments"
+  ]
+}

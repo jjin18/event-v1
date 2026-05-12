@@ -1,0 +1,113 @@
+{
+  "username": "Kadnat",
+  "name": "Nathana\u00ebl BLAVO BALLARIN",
+  "bio": "A student in embedded electronic systems",
+  "company": "exail Aerospace",
+  "location": "Toulouse",
+  "blog": "natbb.info",
+  "twitter_username": "",
+  "followers": 19,
+  "following": 19,
+  "public_repos": 12,
+  "created_at": "2023-02-21T16:50:21Z",
+  "languages": {
+    "Python": 4,
+    "TypeScript": 1,
+    "MATLAB": 1,
+    "VHDL": 1,
+    "SWIG": 1
+  },
+  "top_repos": [
+    {
+      "name": "Kadnat",
+      "description": "",
+      "stars": 4,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Kadnat/Kadnat",
+      "updated_at": "2025-10-21T08:36:04Z"
+    },
+    {
+      "name": "DLproject",
+      "description": "Repository for the Connected Data Logger project",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Kadnat/DLproject",
+      "updated_at": "2025-07-04T13:31:19Z"
+    },
+    {
+      "name": "Reach-CRM",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Kadnat/Reach-CRM",
+      "updated_at": "2026-05-09T23:03:07Z"
+    },
+    {
+      "name": "alex-releases",
+      "description": "Alex Mac \u2014 releases & auto-updates",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Kadnat/alex-releases",
+      "updated_at": "2026-03-31T08:07:36Z"
+    },
+    {
+      "name": "ESSEC_SPOC_AI",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Kadnat/ESSEC_SPOC_AI",
+      "updated_at": "2025-11-03T09:48:24Z"
+    },
+    {
+      "name": "octave_impedance_matching",
+      "description": "Ce projet permet de calculer les r\u00e9seaux d'adaptation d'imp\u00e9dance en L et affiche les r\u00e9sultats sous forme textuelle. Il est impl\u00e9ment\u00e9 en MATLAB/Octave.",
+      "stars": 0,
+      "language": "MATLAB",
+      "topics": [],
+      "url": "https://github.com/Kadnat/octave_impedance_matching",
+      "updated_at": "2025-03-16T18:26:12Z"
+    },
+    {
+      "name": "aquabot_theboys",
+      "description": "Repository pour l'\u00e9quipe TheBoys du projet Aquabot",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Kadnat/aquabot_theboys",
+      "updated_at": "2025-02-22T23:43:06Z"
+    },
+    {
+      "name": "TP_SOPC",
+      "description": "",
+      "stars": 0,
+      "language": "VHDL",
+      "topics": [],
+      "url": "https://github.com/Kadnat/TP_SOPC",
+      "updated_at": "2025-01-31T00:00:10Z"
+    },
+    {
+      "name": "TP_STR",
+      "description": "Repo for real time school project.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Kadnat/TP_STR",
+      "updated_at": "2025-01-15T10:58:22Z"
+    },
+    {
+      "name": "SPI-Project-Connected-Autonomous-Car",
+      "description": "Repository for the SPI project : Connected Autonomous Car",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Kadnat/SPI-Project-Connected-Autonomous-Car",
+      "updated_at": "2024-04-23T19:16:28Z"
+    }
+  ],
+  "top_topics": []
+}

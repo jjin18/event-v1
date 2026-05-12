@@ -1,0 +1,113 @@
+{
+  "username": "zlite",
+  "name": "Chris Anderson",
+  "bio": "Former CTO of Kittyhawk, CEO of 3DR, EIC of Wired. Started DIYRobocars, DIYDrones, Dronecode. Wrote Long Tail, FREE, Makers. Past: Economist, Nature, Science",
+  "company": "Stealth",
+  "location": "Palo Alto, CA",
+  "blog": "",
+  "twitter_username": "chr1sa",
+  "followers": 220,
+  "following": 16,
+  "public_repos": 86,
+  "created_at": "2008-07-23T05:12:07Z",
+  "languages": {
+    "Python": 16,
+    "C++": 11,
+    "Arduino": 4,
+    "Jupyter Notebook": 2,
+    "C": 1
+  },
+  "top_repos": [
+    {
+      "name": "OpenMVrover",
+      "description": "Autonomous car using the OpenMV camera",
+      "stars": 45,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zlite/OpenMVrover",
+      "updated_at": "2026-04-28T12:00:05Z"
+    },
+    {
+      "name": "rplidar",
+      "description": "",
+      "stars": 18,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zlite/rplidar",
+      "updated_at": "2024-09-20T07:23:28Z"
+    },
+    {
+      "name": "benewake",
+      "description": "Drivers for Benewake CE30-C solid state lidar",
+      "stars": 10,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zlite/benewake",
+      "updated_at": "2025-10-03T09:53:22Z"
+    },
+    {
+      "name": "PyRoot",
+      "description": "Python control of Root Robot via BLE",
+      "stars": 10,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zlite/PyRoot",
+      "updated_at": "2025-02-06T04:53:57Z"
+    },
+    {
+      "name": "HuskyRover",
+      "description": "FIrst commit",
+      "stars": 6,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/zlite/HuskyRover",
+      "updated_at": "2023-11-06T19:53:35Z"
+    },
+    {
+      "name": "PocketSDL",
+      "description": "",
+      "stars": 4,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/zlite/PocketSDL",
+      "updated_at": "2026-05-09T21:03:10Z"
+    },
+    {
+      "name": "FormulaPiClient",
+      "description": "The RaspberryPi client side of FormulaPi code running remotely on a PC",
+      "stars": 4,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zlite/FormulaPiClient",
+      "updated_at": "2017-11-01T16:44:01Z"
+    },
+    {
+      "name": "RomiLidar",
+      "description": "",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/zlite/RomiLidar",
+      "updated_at": "2022-01-10T08:47:38Z"
+    },
+    {
+      "name": "liquid-handler",
+      "description": "Auto syringe end effector for SO-101 robot arm",
+      "stars": 2,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/zlite/liquid-handler",
+      "updated_at": "2026-04-15T22:26:18Z"
+    },
+    {
+      "name": "PixyRover",
+      "description": "",
+      "stars": 2,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/zlite/PixyRover",
+      "updated_at": "2023-04-13T12:00:54Z"
+    }
+  ],
+  "top_topics": []
+}

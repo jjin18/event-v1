@@ -1,0 +1,113 @@
+{
+  "username": "Nago13",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 19,
+  "created_at": "2022-11-18T02:59:13Z",
+  "languages": {
+    "HTML": 6,
+    "TypeScript": 4,
+    "Python": 2,
+    "JavaScript": 2,
+    "CSS": 1
+  },
+  "top_repos": [
+    {
+      "name": "bido-arc",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/Nago13/bido-arc",
+      "updated_at": "2026-04-26T00:01:32Z"
+    },
+    {
+      "name": "the-house",
+      "description": "The first AI reality show where the contestants are tradable",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Nago13/the-house",
+      "updated_at": "2026-04-22T15:55:05Z"
+    },
+    {
+      "name": "pulse-acs",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Nago13/pulse-acs",
+      "updated_at": "2026-04-17T19:37:33Z"
+    },
+    {
+      "name": "pacifica-pulse-login",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Nago13/pacifica-pulse-login",
+      "updated_at": "2026-04-16T10:31:52Z"
+    },
+    {
+      "name": "pacifica-pulse",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Nago13/pacifica-pulse",
+      "updated_at": "2026-04-16T08:54:52Z"
+    },
+    {
+      "name": "stellar-agent-tools",
+      "description": "Marketplace de ferramentas pagas para agentes IA via MPP na Stellar",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Nago13/stellar-agent-tools",
+      "updated_at": "2026-04-13T16:18:48Z"
+    },
+    {
+      "name": "intentlayer",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Nago13/intentlayer",
+      "updated_at": "2026-04-12T18:08:13Z"
+    },
+    {
+      "name": "tourmap",
+      "description": "Event-first travel planning app \u2014 discover concerts, book trips with AI",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Nago13/tourmap",
+      "updated_at": "2026-03-29T00:25:53Z"
+    },
+    {
+      "name": "livrohorsy",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Nago13/livrohorsy",
+      "updated_at": "2026-03-05T17:26:59Z"
+    },
+    {
+      "name": "ib-presentation-agent",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/Nago13/ib-presentation-agent",
+      "updated_at": "2026-03-04T04:13:22Z"
+    }
+  ],
+  "top_topics": []
+}

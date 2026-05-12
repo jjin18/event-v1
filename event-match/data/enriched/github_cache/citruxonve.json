@@ -1,0 +1,133 @@
+{
+  "username": "CitruXonve",
+  "name": "A.S.",
+  "bio": "Cloud Data Platform, Fullstack, UI/UX, Digital Arts",
+  "company": "",
+  "location": "San Mateo, CA",
+  "blog": "https://devblog.citruxonve.net/",
+  "twitter_username": "",
+  "followers": 69,
+  "following": 129,
+  "public_repos": 49,
+  "created_at": "2014-10-15T15:35:06Z",
+  "languages": {
+    "TypeScript": 6,
+    "JavaScript": 5,
+    "Python": 3,
+    "C++": 2,
+    "PowerShell": 1,
+    "CSS": 1,
+    "Julia": 1,
+    "Jupyter Notebook": 1,
+    "C": 1,
+    "Java": 1
+  },
+  "top_repos": [
+    {
+      "name": "JNUACM_pages",
+      "description": "\u6c5f\u5357\u5927\u5b66ACM\u4ff1\u4e50\u90e8\u53ca\u8d5b\u4e8b\u670d\u52a1\u7f51\u7ad9\u4ee3\u7801\u6258\u7ba1",
+      "stars": 3,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/JNUACM_pages",
+      "updated_at": "2026-01-01T01:46:07Z"
+    },
+    {
+      "name": "ipa-jfk-live",
+      "description": "Online IPA lookup tool",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/ipa-jfk-live",
+      "updated_at": "2024-05-18T22:45:14Z"
+    },
+    {
+      "name": "Building-Knowledge-Graphs",
+      "description": "USC INF-558 Spring 2020 Coursework Archives covering NLP, Scrapy, SPARQL, RDF, Neo4j, etc.",
+      "stars": 1,
+      "language": "Julia",
+      "topics": [
+        "neo4j",
+        "nlp",
+        "rdf",
+        "sparql"
+      ],
+      "url": "https://github.com/CitruXonve/Building-Knowledge-Graphs",
+      "updated_at": "2022-07-13T02:26:52Z"
+    },
+    {
+      "name": "jnuoj",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/jnuoj",
+      "updated_at": "2020-11-10T14:44:18Z"
+    },
+    {
+      "name": "Machine-Learning-Coursework",
+      "description": "USC INF 552 Course Assignments & Presentations",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/Machine-Learning-Coursework",
+      "updated_at": "2020-01-15T20:08:01Z"
+    },
+    {
+      "name": "fomo-space-web",
+      "description": "A light-weight React + TypeScript + TanStack Query web frontend for RESTful API access.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/fomo-space-web",
+      "updated_at": "2026-05-08T05:53:58Z"
+    },
+    {
+      "name": "fomo-space-llm",
+      "description": "A FastAPI backend of customized knowledge base and RAG-based FAQ",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/fomo-space-llm",
+      "updated_at": "2026-03-26T06:43:37Z"
+    },
+    {
+      "name": "devblog",
+      "description": "The personal low-latency durable knowledge base powered by Hexo & Travis-CI",
+      "stars": 0,
+      "language": "PowerShell",
+      "topics": [
+        "blog",
+        "hexo"
+      ],
+      "url": "https://github.com/CitruXonve/devblog",
+      "updated_at": "2026-02-15T07:14:19Z"
+    },
+    {
+      "name": "CitruXonve",
+      "description": "README of personal briefs",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/CitruXonve",
+      "updated_at": "2026-02-04T08:13:40Z"
+    },
+    {
+      "name": "migrated-hc-csr-fe",
+      "description": "Migrated version of CSR FE for a certain Help Center website",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/CitruXonve/migrated-hc-csr-fe",
+      "updated_at": "2025-03-08T07:19:36Z"
+    }
+  ],
+  "top_topics": [
+    "neo4j",
+    "nlp",
+    "rdf",
+    "sparql",
+    "blog",
+    "hexo"
+  ]
+}

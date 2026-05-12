@@ -1,0 +1,4 @@
+{
+  "rationale": "Tony and Aditya both specialize in embedded systems and microcontroller programming, with overlapping tech stacks (C++, STM32) and deep experience in low-level systems. Aditya is actively deploying AI and reinforcement learning on resource-constrained edge devices like the ESP32, while Tony's firmware and FPGA expertise could directly support the embedded AI challenges Aditya is tackling in robotics and prosthetics applications.",
+  "intro_message": "Tony Chen, meet Aditya bangde \u2014 you both work on embedded systems and microcontrollers, and Aditya's focused on running AI models on edge devices like the STM32 and ESP32, which could benefit from your low-level systems and FPGA background."
+}

@@ -1,0 +1,111 @@
+{
+  "username": "NUbivek",
+  "name": "Bivek Adhikari",
+  "bio": "Techie turned investor.",
+  "company": "Northwestern University",
+  "location": "",
+  "blog": "http://linkedin.com/in/bivek",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 2,
+  "public_repos": 40,
+  "created_at": "2017-04-04T20:43:24Z",
+  "languages": {
+    "JavaScript": 20,
+    "Python": 3,
+    "HTML": 2
+  },
+  "top_repos": [
+    {
+      "name": "gc",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/gc",
+      "updated_at": "2025-05-05T01:15:12Z"
+    },
+    {
+      "name": "altos",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/altos",
+      "updated_at": "2025-03-14T20:40:59Z"
+    },
+    {
+      "name": "mrv",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/mrv",
+      "updated_at": "2025-03-12T04:46:15Z"
+    },
+    {
+      "name": "velocity",
+      "description": "",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/NUbivek/velocity",
+      "updated_at": "2025-02-16T01:59:47Z"
+    },
+    {
+      "name": "westly",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/westly",
+      "updated_at": "2025-02-04T19:25:36Z"
+    },
+    {
+      "name": "testwebsite",
+      "description": "",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/NUbivek/testwebsite",
+      "updated_at": "2025-02-04T19:24:30Z"
+    },
+    {
+      "name": "sorenson",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/sorenson",
+      "updated_at": "2025-01-25T17:13:49Z"
+    },
+    {
+      "name": "HSBC",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/HSBC",
+      "updated_at": "2025-01-25T01:43:17Z"
+    },
+    {
+      "name": "tdk",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/NUbivek/tdk",
+      "updated_at": "2025-01-25T01:38:09Z"
+    },
+    {
+      "name": "NUbivek.github.io",
+      "description": "Bivek's Investment Profile",
+      "stars": 1,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/NUbivek/NUbivek.github.io",
+      "updated_at": "2025-01-21T01:51:06Z"
+    }
+  ],
+  "top_topics": []
+}

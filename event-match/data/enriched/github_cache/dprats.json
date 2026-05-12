@@ -1,0 +1,115 @@
+{
+  "username": "dprats",
+  "name": "Diego Prats",
+  "bio": "CEO & Founder of @Haptic-AI . Have led teams of engineers, researchers in AI, cryptography, protocols, verified computing, distributed systems.",
+  "company": "Haptic",
+  "location": "San Francisco, CA",
+  "blog": "https://www.hapticlabs.ai/",
+  "twitter_username": "mexitlan",
+  "followers": 36,
+  "following": 0,
+  "public_repos": 71,
+  "created_at": "2011-11-17T20:14:34Z",
+  "languages": {
+    "JavaScript": 23,
+    "Swift": 13,
+    "Ruby": 6,
+    "HTML": 5,
+    "NewLisp": 2,
+    "Modelica": 1,
+    "C": 1
+  },
+  "top_repos": [
+    {
+      "name": "icp-ecosystem",
+      "description": "Open API for metrics on the Internet Computer ecosystem",
+      "stars": 2,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/dprats/icp-ecosystem",
+      "updated_at": "2024-05-24T15:00:12Z"
+    },
+    {
+      "name": "to-do",
+      "description": "Sample Todo App on Express",
+      "stars": 2,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dprats/to-do",
+      "updated_at": "2024-05-24T15:00:02Z"
+    },
+    {
+      "name": "submit_nns_proposal_tutorial",
+      "description": "submit_nns_proposal_tutorial",
+      "stars": 2,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/dprats/submit_nns_proposal_tutorial",
+      "updated_at": "2022-04-17T04:26:51Z"
+    },
+    {
+      "name": "angular-slack-clone",
+      "description": "Angular Slack clone based on Thinkster.io tutorial: https://thinkster.io/angularfire-slack-tutorial/",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/dprats/angular-slack-clone",
+      "updated_at": "2019-08-28T16:07:26Z"
+    },
+    {
+      "name": "mvp-tla-instant",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/dprats/mvp-tla-instant",
+      "updated_at": "2023-08-25T00:31:38Z"
+    },
+    {
+      "name": "twitter-canister-ic",
+      "description": "",
+      "stars": 0,
+      "language": "Modelica",
+      "topics": [],
+      "url": "https://github.com/dprats/twitter-canister-ic",
+      "updated_at": "2021-07-22T23:01:16Z"
+    },
+    {
+      "name": "pthreads",
+      "description": "practice with multi threaded libraries in C",
+      "stars": 0,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/dprats/pthreads",
+      "updated_at": "2019-01-07T04:43:20Z"
+    },
+    {
+      "name": "sicp",
+      "description": "Practice in Scheme to SICP (Structure and Interpretation of Computer Programs): https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs",
+      "stars": 0,
+      "language": "NewLisp",
+      "topics": [],
+      "url": "https://github.com/dprats/sicp",
+      "updated_at": "2018-08-04T20:18:33Z"
+    },
+    {
+      "name": "auth-system",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/dprats/auth-system",
+      "updated_at": "2018-06-03T22:43:35Z"
+    },
+    {
+      "name": "angular-exercises",
+      "description": "Angular exercises and simple apps ",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/dprats/angular-exercises",
+      "updated_at": "2016-01-13T20:06:08Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,94 @@
+{
+  "username": "Dahilon",
+  "name": "Dahilon Mohammed",
+  "bio": "",
+  "company": "",
+  "location": "San Fransisco ",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 4,
+  "public_repos": 8,
+  "created_at": "2024-08-21T21:02:10Z",
+  "languages": {
+    "Python": 2,
+    "Java": 2,
+    "Vue": 1,
+    "TypeScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "Dahilon",
+      "description": "\ud83d\udc4b Hi, I\u2019m Dahiwon!  I\u2019m a Data Science student passionate about AI and finance. I enjoy working on machine learning, and AI-driven applications. Currently, I\u2019m developing a Credit Card Fraud Detection System and building AI agents with the USF Data Science Club. Let\u2019s connect and collaborate! \ud83d\ude80",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Dahilon/Dahilon",
+      "updated_at": "2026-03-27T21:17:25Z"
+    },
+    {
+      "name": "strategos",
+      "description": "",
+      "stars": 0,
+      "language": "Vue",
+      "topics": [],
+      "url": "https://github.com/Dahilon/strategos",
+      "updated_at": "2026-03-26T23:58:45Z"
+    },
+    {
+      "name": "Atlas",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Dahilon/Atlas",
+      "updated_at": "2026-02-23T18:08:23Z"
+    },
+    {
+      "name": "AEX",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/Dahilon/AEX",
+      "updated_at": "2026-02-21T00:20:37Z"
+    },
+    {
+      "name": "brexhackers",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/Dahilon/brexhackers",
+      "updated_at": "2025-08-23T16:36:09Z"
+    },
+    {
+      "name": "modern-landing-page",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/Dahilon/modern-landing-page",
+      "updated_at": "2025-05-31T04:13:42Z"
+    },
+    {
+      "name": "File_system",
+      "description": "",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/Dahilon/File_system",
+      "updated_at": "2025-03-05T19:00:14Z"
+    },
+    {
+      "name": "Poker-Project",
+      "description": "Personal projects ",
+      "stars": 0,
+      "language": "Java",
+      "topics": [],
+      "url": "https://github.com/Dahilon/Poker-Project",
+      "updated_at": "2025-02-26T06:43:39Z"
+    }
+  ],
+  "top_topics": []
+}

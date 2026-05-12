@@ -1,0 +1,129 @@
+{
+  "username": "dhyutin",
+  "name": "Sree Dhyuti N",
+  "bio": "Hi,\r\nI'm a MS AI grad student at Northwestern University with a passion for all things AI.",
+  "company": "",
+  "location": "Evanston, Illinois, USA",
+  "blog": "https://dhyutin.github.io/",
+  "twitter_username": "",
+  "followers": 43,
+  "following": 31,
+  "public_repos": 45,
+  "created_at": "2020-03-24T17:02:45Z",
+  "languages": {
+    "Jupyter Notebook": 12,
+    "Python": 5,
+    "C": 5,
+    "C++": 4,
+    "HTML": 2,
+    "CSS": 2,
+    "PHP": 1,
+    "Verilog": 1,
+    "Assembly": 1
+  },
+  "top_repos": [
+    {
+      "name": "Drugs-Side-Effects-and-Medical-Conditions-Analysis",
+      "description": "This project involves the analysis of a dataset containing information about various drugs, their side effects, and the medical conditions they are used to treat. The dataset provides valuable insights into the pharmaceutical industry, user reviews, and the relationships between drugs, side effects, and medical conditions.",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/dhyutin/Drugs-Side-Effects-and-Medical-Conditions-Analysis",
+      "updated_at": "2026-03-20T17:31:29Z"
+    },
+    {
+      "name": "Diffusion-from-scratch",
+      "description": "My implementation of the methods described in the DDPM paper (https://arxiv.org/pdf/2006.11239), built from scratch",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/dhyutin/Diffusion-from-scratch",
+      "updated_at": "2025-12-12T15:06:07Z"
+    },
+    {
+      "name": "Human-Artery-Vein-Classification-using-U-Nets-Deep-Learning-",
+      "description": "This project involves the development of a deep learning model using U-Net architecture for the classification of human artery and vein images. The goal is to accurately identify and differentiate between arteries and veins in medical images, which can have significant applications in medical diagnostics and research.",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/dhyutin/Human-Artery-Vein-Classification-using-U-Nets-Deep-Learning-",
+      "updated_at": "2024-04-10T18:08:03Z"
+    },
+    {
+      "name": "dhyutin.github.io",
+      "description": "This github repository serves as a portfolio website for Ms. Nimmagadda Sree Dhyuti",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/dhyutin/dhyutin.github.io",
+      "updated_at": "2026-01-05T20:51:40Z"
+    },
+    {
+      "name": "dhyutin",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/dhyutin/dhyutin",
+      "updated_at": "2025-12-30T20:27:11Z"
+    },
+    {
+      "name": "AutoNAS",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dhyutin/AutoNAS",
+      "updated_at": "2025-11-23T00:55:42Z"
+    },
+    {
+      "name": "Question-Answering-System",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dhyutin/Question-Answering-System",
+      "updated_at": "2025-11-11T23:30:39Z"
+    },
+    {
+      "name": "natural-language-processing",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/dhyutin/natural-language-processing",
+      "updated_at": "2025-10-25T20:23:58Z"
+    },
+    {
+      "name": "rrl-project",
+      "description": "",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/dhyutin/rrl-project",
+      "updated_at": "2025-03-17T20:01:43Z"
+    },
+    {
+      "name": "student_portal",
+      "description": "A PHP based Student portal designed to help students manage their academic and extracurricular activities conveniently. It features several modules, including a login page, timetable page, lost and found page, assignments organizer page, password changing page, and an internship updates page.",
+      "stars": 0,
+      "language": "PHP",
+      "topics": [
+        "backend",
+        "frontend",
+        "html-css-javascript",
+        "php"
+      ],
+      "url": "https://github.com/dhyutin/student_portal",
+      "updated_at": "2025-03-04T08:05:41Z"
+    }
+  ],
+  "top_topics": [
+    "backend",
+    "frontend",
+    "html-css-javascript",
+    "php",
+    "digital-image-processing",
+    "hog-features"
+  ]
+}

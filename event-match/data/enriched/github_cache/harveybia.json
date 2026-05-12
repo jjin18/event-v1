@@ -1,0 +1,112 @@
+{
+  "username": "harveybia",
+  "name": "Haowen Shi",
+  "bio": "Co-Founder of Mach9 Robotics, Carnegie Mellon ECE + MSR, Apple CoreOS Performance Intern 2018 and 2019.",
+  "company": "@mach9robotics ",
+  "location": "San Francisco",
+  "blog": "haowensh.com",
+  "twitter_username": "",
+  "followers": 41,
+  "following": 65,
+  "public_repos": 27,
+  "created_at": "2014-06-30T14:22:41Z",
+  "languages": {
+    "Python": 4,
+    "C++": 2,
+    "SCSS": 1,
+    "C": 1
+  },
+  "top_repos": [
+    {
+      "name": "jacobian-visual-servo",
+      "description": "Visual Servoing for Flexible Robot Manipulators",
+      "stars": 17,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/harveybia/jacobian-visual-servo",
+      "updated_at": "2026-01-31T21:41:49Z"
+    },
+    {
+      "name": "face-hack",
+      "description": "2016 CMU Tartan Hacks Repo: Smart suggestions based on Emotion Recognition",
+      "stars": 4,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/harveybia/face-hack",
+      "updated_at": "2025-03-05T01:13:22Z"
+    },
+    {
+      "name": "the-flash-sudo",
+      "description": "CMU Mobot Racing 2016",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/harveybia/the-flash-sudo",
+      "updated_at": "2020-02-22T19:40:12Z"
+    },
+    {
+      "name": "cuda-mode-hpr",
+      "description": "",
+      "stars": 1,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/harveybia/cuda-mode-hpr",
+      "updated_at": "2025-05-20T07:48:20Z"
+    },
+    {
+      "name": "caskit",
+      "description": "A handy python graphical development kit",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/harveybia/caskit",
+      "updated_at": "2019-06-28T00:52:03Z"
+    },
+    {
+      "name": "robomonkey",
+      "description": "CMU Robotics Capstone Project 2018-2019, Team Monkey",
+      "stars": 1,
+      "language": "C",
+      "topics": [],
+      "url": "https://github.com/harveybia/robomonkey",
+      "updated_at": "2019-03-08T21:10:13Z"
+    },
+    {
+      "name": "cqt-international-logo",
+      "description": "LOGO & VI design repository for CQT International High School",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/harveybia/cqt-international-logo",
+      "updated_at": "2017-07-24T14:25:55Z"
+    },
+    {
+      "name": "the-flash",
+      "description": "Carnegie Mellon University Mobot Racing 2016",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/harveybia/the-flash",
+      "updated_at": "2016-02-09T08:54:26Z"
+    },
+    {
+      "name": "harveybia.github.io",
+      "description": "Haowen's Personal Website",
+      "stars": 0,
+      "language": "SCSS",
+      "topics": [],
+      "url": "https://github.com/harveybia/harveybia.github.io",
+      "updated_at": "2021-12-27T04:33:23Z"
+    },
+    {
+      "name": "cqt-logo",
+      "description": "Vector LOGO resources for \u5e38\u9752\u85e4\u5b9e\u9a8c\u4e2d\u5b66 and \u5e38\u9752\u85e4\u5b9e\u9a8c\u4e2d\u5b66\u56fd\u9645\u90e8",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/harveybia/cqt-logo",
+      "updated_at": "2019-01-04T06:57:24Z"
+    }
+  ],
+  "top_topics": []
+}

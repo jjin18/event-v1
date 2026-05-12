@@ -1,0 +1,144 @@
+{
+  "username": "aryateja2106",
+  "name": "Arya Teja Rudraraju",
+  "bio": "Agentic Engineer | Founder, LeSearch AI + CloudAGI | Building LeCoder MConnect",
+  "company": "@Lesearch-AI",
+  "location": "San Francisco, CA.",
+  "blog": "www.aryateja.com",
+  "twitter_username": "r_aryateja",
+  "followers": 16,
+  "following": 81,
+  "public_repos": 51,
+  "created_at": "2023-02-06T20:07:10Z",
+  "languages": {
+    "TypeScript": 14,
+    "Rust": 5,
+    "Python": 5,
+    "HTML": 2,
+    "Shell": 2,
+    "Swift": 1,
+    "JavaScript": 1,
+    "Jupyter Notebook": 1
+  },
+  "top_repos": [
+    {
+      "name": "lecoder-mconnect",
+      "description": "Control AI coding agents from your phone. CLI + native iOS app. Multi-agent orchestration, guardrails, Opik observability. App Store coming soon.",
+      "stars": 12,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/lecoder-mconnect",
+      "updated_at": "2026-04-23T04:09:47Z"
+    },
+    {
+      "name": "LeCoder-cgpu-CLI",
+      "description": "CLI tool which lets you connect Google Collab GPU with your terminal",
+      "stars": 8,
+      "language": "TypeScript",
+      "topics": [
+        "cli-app"
+      ],
+      "url": "https://github.com/aryateja2106/LeCoder-cgpu-CLI",
+      "updated_at": "2025-12-24T06:45:47Z"
+    },
+    {
+      "name": "nested-learning",
+      "description": "Open source implementation of google's nested learning paper",
+      "stars": 7,
+      "language": "Python",
+      "topics": [
+        "nested-learning"
+      ],
+      "url": "https://github.com/aryateja2106/nested-learning",
+      "updated_at": "2026-03-20T03:51:05Z"
+    },
+    {
+      "name": "neural-memory-reproduction",
+      "description": "Complete PyTorch reproduction of Google's TITANS, MIRAS, and NL neural memory papers. 52 tests, 87% coverage, Docker support.",
+      "stars": 3,
+      "language": "Python",
+      "topics": [
+        "attention-mechanism",
+        "deep-learning",
+        "machine-learning",
+        "miras",
+        "neural-memory",
+        "neurips",
+        "pytorch",
+        "research-reproduction",
+        "titans",
+        "transformer"
+      ],
+      "url": "https://github.com/aryateja2106/neural-memory-reproduction",
+      "updated_at": "2026-03-13T13:38:37Z"
+    },
+    {
+      "name": "levoice",
+      "description": "Less voice, more action \u2014 macOS menu-bar voice dictation and shortcut aggregator. Fork of Ghost Pepper.",
+      "stars": 1,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/levoice",
+      "updated_at": "2026-04-22T22:45:49Z"
+    },
+    {
+      "name": "reflect-skill",
+      "description": "A Claude Code plugin that learns from session corrections and updates AI configuration files. Teach your AI once, it remembers forever.",
+      "stars": 1,
+      "language": "Shell",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/reflect-skill",
+      "updated_at": "2026-02-14T07:35:20Z"
+    },
+    {
+      "name": "ChatterBox-TTS",
+      "description": "New best in class TTS, implemented using Streamlit & FAST API",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/ChatterBox-TTS",
+      "updated_at": "2025-10-30T17:08:09Z"
+    },
+    {
+      "name": "LeSearch",
+      "description": "Generative UI Second Brain \u2014 AI Tinkerers genUI Hackathon 2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/LeSearch",
+      "updated_at": "2026-05-09T23:50:59Z"
+    },
+    {
+      "name": "lescreen",
+      "description": "LeScreen \u2014 open-source remote desktop + agent fleet (lesd daemon)",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/lescreen",
+      "updated_at": "2026-05-07T19:56:50Z"
+    },
+    {
+      "name": "lockshell",
+      "description": "AI-safe secret broker. Cloud LLMs decide; the local broker resolves and executes. Secrets never leave the machine.",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [],
+      "url": "https://github.com/aryateja2106/lockshell",
+      "updated_at": "2026-05-02T22:48:52Z"
+    }
+  ],
+  "top_topics": [
+    "cli-app",
+    "nested-learning",
+    "attention-mechanism",
+    "deep-learning",
+    "machine-learning",
+    "miras",
+    "neural-memory",
+    "neurips",
+    "pytorch",
+    "research-reproduction",
+    "titans",
+    "transformer"
+  ]
+}

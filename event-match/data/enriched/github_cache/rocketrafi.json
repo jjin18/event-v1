@@ -1,0 +1,46 @@
+{
+  "username": "ROCKETRAFI",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 3,
+  "created_at": "2023-01-29T08:58:22Z",
+  "languages": {
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "ROCKETRAFI",
+      "description": "MY DEVELOPER PROFILE AND FEATURED PROJECTS ",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ROCKETRAFI/ROCKETRAFI",
+      "updated_at": "2025-11-14T07:32:15Z"
+    },
+    {
+      "name": "attendance-client-server-",
+      "description": "Python client\u2013server attendance system using sockets, HTTP GET/POST, and\u00a0file\u00a0transfer.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/ROCKETRAFI/attendance-client-server-",
+      "updated_at": "2025-11-14T07:20:41Z"
+    },
+    {
+      "name": "DONT",
+      "description": "H",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/ROCKETRAFI/DONT",
+      "updated_at": "2025-09-27T21:34:50Z"
+    }
+  ],
+  "top_topics": []
+}

@@ -1,0 +1,4 @@
+{
+  "rationale": "Jake and Dhanush are both founder-roboticists working at different layers of the robotics stack\u2014Jake is building robot hardware (his first arm) while deeply convicted on infrastructure and low-level compute optimization, and Dhanush is a full-stack roboticist focused on perception and software architecture with hands-on expertise in ROS, OpenCV, and C++. They share the robotics-manipulation domain and could explore how Jake's infrastructure-first philosophy and Dhanush's perception + architecture expertise might complement each other, especially as robotics moves toward autonomous AI agents.",
+  "intro_message": "Jake Fitzgerald, meet Dhanush Baktha \u2014 both founder-roboticists building at different parts of the stack (hardware + infrastructure vs. perception + software architecture) who could explore how low-level optimization and ROS-based perception work together in autonomous systems."
+}

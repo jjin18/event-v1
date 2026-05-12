@@ -1,0 +1,117 @@
+{
+  "username": "rohantikotekar",
+  "name": "Rohan Tikotekar",
+  "bio": "I code.",
+  "company": "CS @ UC Riverside ",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 0,
+  "public_repos": 39,
+  "created_at": "2021-07-24T10:56:54Z",
+  "languages": {
+    "Python": 13,
+    "Jupyter Notebook": 10,
+    "JavaScript": 3,
+    "HCL": 2,
+    "HTML": 1,
+    "C": 1,
+    "Java": 1,
+    "EJS": 1,
+    "Shell": 1
+  },
+  "top_repos": [
+    {
+      "name": "Ethically-Interpretable-AI-Transparent-Income-Prediction-with-LIME",
+      "description": "Please refer README.md for detailed description !!",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/Ethically-Interpretable-AI-Transparent-Income-Prediction-with-LIME",
+      "updated_at": "2026-05-06T07:25:42Z"
+    },
+    {
+      "name": "FairPredict-An-Ethical-AI-Approach-to-Mitigating-Bias-in-Criminal-Justice-Risk-Assessment",
+      "description": "",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/FairPredict-An-Ethical-AI-Approach-to-Mitigating-Bias-in-Criminal-Justice-Risk-Assessment",
+      "updated_at": "2026-04-16T05:01:41Z"
+    },
+    {
+      "name": "Guardian-RAG",
+      "description": "Next-Gen Agentic Compliance & Auto-Tagging Engine",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/Guardian-RAG",
+      "updated_at": "2026-05-04T23:53:35Z"
+    },
+    {
+      "name": "Kubernetes-and-Django-AutoPilot",
+      "description": "This project demonstrates the deployment of a Python application on a Kubernetes cluster, showcasing the setup of essential Kubernetes services, and properties such as auto-healing, ReplicaSets, and deployments.",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/Kubernetes-and-Django-AutoPilot",
+      "updated_at": "2026-05-01T20:57:25Z"
+    },
+    {
+      "name": "portfolio-website",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/portfolio-website",
+      "updated_at": "2026-04-23T02:53:49Z"
+    },
+    {
+      "name": "Multi-Modal-Object-Detection-for-Autonomous-Urban-Navigation",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/Multi-Modal-Object-Detection-for-Autonomous-Urban-Navigation",
+      "updated_at": "2026-04-14T18:31:38Z"
+    },
+    {
+      "name": "Odometry-and-Pose-estimation-for-Autonomous-vehicles",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/Odometry-and-Pose-estimation-for-Autonomous-vehicles",
+      "updated_at": "2026-04-12T03:22:20Z"
+    },
+    {
+      "name": "CodeMates-AI-Agents-for-your-Code-to-Cloud-Journey",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/CodeMates-AI-Agents-for-your-Code-to-Cloud-Journey",
+      "updated_at": "2026-04-12T00:24:00Z"
+    },
+    {
+      "name": "AutoTag-AI-Powered-content-based-filename-generation",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/AutoTag-AI-Powered-content-based-filename-generation",
+      "updated_at": "2026-04-12T00:23:59Z"
+    },
+    {
+      "name": "Terraform-AWS-Hyperscale",
+      "description": "Cloud-Native Infrastructure Automation Platform",
+      "stars": 0,
+      "language": "HCL",
+      "topics": [],
+      "url": "https://github.com/rohantikotekar/Terraform-AWS-Hyperscale",
+      "updated_at": "2026-04-12T00:23:56Z"
+    }
+  ],
+  "top_topics": []
+}

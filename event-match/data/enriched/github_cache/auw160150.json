@@ -1,0 +1,113 @@
+{
+  "username": "AUW160150",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 3,
+  "following": 0,
+  "public_repos": 35,
+  "created_at": "2025-03-17T03:05:18Z",
+  "languages": {
+    "Python": 14,
+    "JavaScript": 4,
+    "TypeScript": 4,
+    "HTML": 4,
+    "Jupyter Notebook": 2
+  },
+  "top_repos": [
+    {
+      "name": "Dental-Bill-Detective2",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AUW160150/Dental-Bill-Detective2",
+      "updated_at": "2026-04-08T14:01:42Z"
+    },
+    {
+      "name": "omnalis_tech_doc_sketch",
+      "description": "Draft",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AUW160150/omnalis_tech_doc_sketch",
+      "updated_at": "2026-02-06T21:31:46Z"
+    },
+    {
+      "name": "ResearchAuto",
+      "description": "Automate Research Lab notes",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AUW160150/ResearchAuto",
+      "updated_at": "2025-12-30T03:40:05Z"
+    },
+    {
+      "name": "medbill-actor",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/AUW160150/medbill-actor",
+      "updated_at": "2025-12-20T19:58:00Z"
+    },
+    {
+      "name": "NeuroSim2",
+      "description": "Simulator",
+      "stars": 1,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/AUW160150/NeuroSim2",
+      "updated_at": "2025-11-16T10:26:52Z"
+    },
+    {
+      "name": "time-adaptive-BO-neurocontrol",
+      "description": "Time-adaptive Bayesian optimization with exponential forgetting for tracking non-stationary objectives in neuromodulation",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/AUW160150/time-adaptive-BO-neurocontrol",
+      "updated_at": "2025-11-07T19:36:57Z"
+    },
+    {
+      "name": "neurovision",
+      "description": "Brain decoder",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AUW160150/neurovision",
+      "updated_at": "2025-10-17T09:53:20Z"
+    },
+    {
+      "name": "biobench",
+      "description": "AI-assisted software development using CodeRabbit and Goose for bioinformatics scripts",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AUW160150/biobench",
+      "updated_at": "2025-10-17T09:53:18Z"
+    },
+    {
+      "name": "Classification-of-Carcinogenic-Signatures-using-Hybrid-Active-Learning-",
+      "description": "Active Learning Framework for Tabular Classification that demonstrates how to iteratively improve machine learning models by intelligently selecting the most informative samples for labeling. Instead of randomly sampling data, it uses three sophisticated strategies to find samples that will most improve model performance.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AUW160150/Classification-of-Carcinogenic-Signatures-using-Hybrid-Active-Learning-",
+      "updated_at": "2025-10-17T09:53:17Z"
+    },
+    {
+      "name": "LabMate",
+      "description": "As someone who\u2019s worked in brain surgery and stem cell labs, I know how chaotic protocols can be. LabMate is the AI lab partner I wish I had.",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/AUW160150/LabMate",
+      "updated_at": "2025-10-17T09:53:15Z"
+    }
+  ],
+  "top_topics": []
+}

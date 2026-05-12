@@ -1,0 +1,38 @@
+{
+  "username": "jasleen-dhanoa",
+  "name": "Jasleen Dhanoa",
+  "bio": "Robotics@UPenn| ScalAR Lab",
+  "company": "University of Pennsylvania",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 12,
+  "following": 57,
+  "public_repos": 8,
+  "created_at": "2021-09-01T20:59:37Z",
+  "languages": {
+    "HTML": 1,
+    "Python": 1
+  },
+  "top_repos": [
+    {
+      "name": "Learning_Flows_NODE",
+      "description": "Final Project for ESE546",
+      "stars": 2,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/jasleen-dhanoa/Learning_Flows_NODE",
+      "updated_at": "2023-10-24T03:26:37Z"
+    },
+    {
+      "name": "jasleen-dhanoa.github.io",
+      "description": "Personal Website ",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/jasleen-dhanoa/jasleen-dhanoa.github.io",
+      "updated_at": "2024-05-16T20:27:05Z"
+    }
+  ],
+  "top_topics": []
+}

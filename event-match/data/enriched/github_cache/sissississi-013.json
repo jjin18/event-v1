@@ -1,0 +1,112 @@
+{
+  "username": "sissississi-013",
+  "name": "Sissi Wang",
+  "bio": "",
+  "company": "",
+  "location": "Berkeley, CA",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 4,
+  "following": 6,
+  "public_repos": 41,
+  "created_at": "2024-09-02T04:04:50Z",
+  "languages": {
+    "TypeScript": 14,
+    "Python": 12,
+    "JavaScript": 3,
+    "HTML": 1
+  },
+  "top_repos": [
+    {
+      "name": "offshore",
+      "description": " email-native ops agent for offshore platform engineers",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/offshore",
+      "updated_at": "2026-05-07T04:22:29Z"
+    },
+    {
+      "name": "tws-1",
+      "description": "context-aware token intelligence",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/tws-1",
+      "updated_at": "2026-04-10T08:42:52Z"
+    },
+    {
+      "name": "neuro-ad-visor-v1",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/neuro-ad-visor-v1",
+      "updated_at": "2026-05-02T19:46:55Z"
+    },
+    {
+      "name": "ToxScreen",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/ToxScreen",
+      "updated_at": "2026-04-27T09:30:30Z"
+    },
+    {
+      "name": "Neuro-Ad-visor",
+      "description": "Predict your audience's emotional response to any content (video, sound, text)",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/Neuro-Ad-visor",
+      "updated_at": "2026-04-15T20:24:46Z"
+    },
+    {
+      "name": "usagi",
+      "description": "optimization arena: attention kernel challenge (paradigm)",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/usagi",
+      "updated_at": "2026-04-10T07:30:39Z"
+    },
+    {
+      "name": "brainana",
+      "description": "autoresearch on brain?! lol im trying",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/brainana",
+      "updated_at": "2026-04-10T04:38:45Z"
+    },
+    {
+      "name": "experiment_1",
+      "description": "vision data validation pipeline",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/experiment_1",
+      "updated_at": "2026-04-06T17:10:38Z"
+    },
+    {
+      "name": "PickMe",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/PickMe",
+      "updated_at": "2026-03-29T00:10:40Z"
+    },
+    {
+      "name": "optigami",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/sissississi-013/optigami",
+      "updated_at": "2026-03-20T18:40:06Z"
+    }
+  ],
+  "top_topics": []
+}

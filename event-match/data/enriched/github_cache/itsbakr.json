@@ -1,0 +1,112 @@
+{
+  "username": "itsbakr",
+  "name": "Ahmed Bakr",
+  "bio": "Junior @ Minerva University | Founder of Awn AI | Passionate about Developing and Deploying AI Projects and Platforms.",
+  "company": "",
+  "location": "San Francisco, CA.",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 9,
+  "following": 22,
+  "public_repos": 15,
+  "created_at": "2023-09-15T01:58:47Z",
+  "languages": {
+    "Python": 9,
+    "JavaScript": 2,
+    "R": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "SoilGuard",
+      "description": "Soil Health Monitoring & Agricultural ROI Platform with AI-powered analysis",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/SoilGuard",
+      "updated_at": "2026-02-25T06:47:01Z"
+    },
+    {
+      "name": "ArXiv_Research_AI_Agent",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/ArXiv_Research_AI_Agent",
+      "updated_at": "2025-12-04T16:42:43Z"
+    },
+    {
+      "name": "memoryOS",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/memoryOS",
+      "updated_at": "2026-05-11T18:09:52Z"
+    },
+    {
+      "name": "flatmate_finder",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/itsbakr/flatmate_finder",
+      "updated_at": "2026-04-21T18:28:15Z"
+    },
+    {
+      "name": "OmniSight_QA",
+      "description": "OmniSight QA is an Agentic QA framework for Unity games driven entirely by Vision-Language Models (VLMs). It replaces hardcoded deterministic bots with a dynamic AI that visually perceives the game, learns mechanics on the fly, tracks its own performance, and automatically generates comprehensive, bug reports",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/OmniSight_QA",
+      "updated_at": "2026-04-16T05:16:08Z"
+    },
+    {
+      "name": "minerva-library",
+      "description": "Minerva Library Unified Search Interface ",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/minerva-library",
+      "updated_at": "2026-04-13T00:30:42Z"
+    },
+    {
+      "name": "clawbreaker",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/clawbreaker",
+      "updated_at": "2026-03-18T15:40:11Z"
+    },
+    {
+      "name": "dna-before-earth",
+      "description": "AI Proved DNA Existed Before Earth. The Scientific Establishment Ignored It for 20 Years",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/itsbakr/dna-before-earth",
+      "updated_at": "2026-02-20T07:59:46Z"
+    },
+    {
+      "name": "California_Agriculture_Expert_System",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/itsbakr/California_Agriculture_Expert_System",
+      "updated_at": "2025-12-19T21:29:09Z"
+    },
+    {
+      "name": "synthetic_control_paper_replication",
+      "description": "Replication: Comparative Politics and the Synthetic Control Method",
+      "stars": 0,
+      "language": "R",
+      "topics": [],
+      "url": "https://github.com/itsbakr/synthetic_control_paper_replication",
+      "updated_at": "2025-12-17T14:30:45Z"
+    }
+  ],
+  "top_topics": []
+}

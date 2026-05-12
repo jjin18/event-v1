@@ -1,0 +1,123 @@
+{
+  "username": "kirilligum",
+  "name": "Kirill Igumenshchev",
+  "bio": "",
+  "company": "",
+  "location": "Berkeley, CA",
+  "blog": "",
+  "twitter_username": "kirill_igum",
+  "followers": 20,
+  "following": 9,
+  "public_repos": 107,
+  "created_at": "2012-07-09T16:57:35Z",
+  "languages": {
+    "TypeScript": 15,
+    "JavaScript": 10,
+    "C++": 10,
+    "Python": 8,
+    "HTML": 5,
+    "Solidity": 3,
+    "Shell": 2,
+    "Astro": 2,
+    "Go": 1,
+    "Rust": 1,
+    "C": 1,
+    "CSS": 1,
+    "Mermaid": 1,
+    "Nix": 1,
+    "TeX": 1
+  },
+  "top_repos": [
+    {
+      "name": "irl-trust",
+      "description": "",
+      "stars": 4,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/kirilligum/irl-trust",
+      "updated_at": "2023-04-11T16:15:17Z"
+    },
+    {
+      "name": "newsfacts-arc-hackathon-260123",
+      "description": "",
+      "stars": 3,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/kirilligum/newsfacts-arc-hackathon-260123",
+      "updated_at": "2026-05-11T13:03:34Z"
+    },
+    {
+      "name": "llm-coding-tools",
+      "description": "",
+      "stars": 2,
+      "language": "Shell",
+      "topics": [],
+      "url": "https://github.com/kirilligum/llm-coding-tools",
+      "updated_at": "2026-05-11T09:03:24Z"
+    },
+    {
+      "name": "co-dreamer-hackathon-20251011",
+      "description": "",
+      "stars": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/kirilligum/co-dreamer-hackathon-20251011",
+      "updated_at": "2026-02-04T22:54:55Z"
+    },
+    {
+      "name": "blogcierge-history-adaptive-blogpost",
+      "description": "",
+      "stars": 2,
+      "language": "Astro",
+      "topics": [],
+      "url": "https://github.com/kirilligum/blogcierge-history-adaptive-blogpost",
+      "updated_at": "2025-09-25T02:44:31Z"
+    },
+    {
+      "name": "peer-instruct-ai-ethlondon2024",
+      "description": "",
+      "stars": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/kirilligum/peer-instruct-ai-ethlondon2024",
+      "updated_at": "2024-11-29T06:59:38Z"
+    },
+    {
+      "name": "spin-boson_quasi-classical",
+      "description": "Quasi-classical modeling of a spin-boson system H=sum(pb^2+qb^2)+c*qb*(p1^2+x1^2+p2^2+x2^2)+delta*(p1^2+x1^2-p2^2-x1^2)",
+      "stars": 2,
+      "language": "C++",
+      "topics": [],
+      "url": "https://github.com/kirilligum/spin-boson_quasi-classical",
+      "updated_at": "2024-09-04T13:46:20Z"
+    },
+    {
+      "name": "trust-and-teach",
+      "description": "",
+      "stars": 2,
+      "language": "Shell",
+      "topics": [],
+      "url": "https://github.com/kirilligum/trust-and-teach",
+      "updated_at": "2024-03-07T15:56:24Z"
+    },
+    {
+      "name": "fast-crm",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/kirilligum/fast-crm",
+      "updated_at": "2025-10-02T17:10:01Z"
+    },
+    {
+      "name": "image-step",
+      "description": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/kirilligum/image-step",
+      "updated_at": "2025-09-10T16:48:19Z"
+    }
+  ],
+  "top_topics": []
+}

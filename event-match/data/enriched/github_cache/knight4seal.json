@@ -1,0 +1,56 @@
+{
+  "username": "knight4seal",
+  "name": "Joshua Hong",
+  "bio": "",
+  "company": "Mega Code",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 11,
+  "public_repos": 4,
+  "created_at": "2021-01-28T23:15:27Z",
+  "languages": {
+    "Python": 2,
+    "Dart": 1
+  },
+  "top_repos": [
+    {
+      "name": "telethon-bulk-ops",
+      "description": "Claude Code skill: safe, resumable bulk mutation loops for Telethon (MTProto)",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/knight4seal/telethon-bulk-ops",
+      "updated_at": "2026-04-15T06:45:17Z"
+    },
+    {
+      "name": "telegram-cleanup",
+      "description": "MEGA-Code skill to archive inactive Telegram chats and reorganize folders via Telethon MTProto",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/knight4seal/telegram-cleanup",
+      "updated_at": "2026-04-15T06:40:40Z"
+    },
+    {
+      "name": "personal-diary",
+      "description": "Cross-platform personal diary app with voice transcription, B&W minimalist UI, and encrypted local storage. Built with Flutter.",
+      "stars": 0,
+      "language": "Dart",
+      "topics": [],
+      "url": "https://github.com/knight4seal/personal-diary",
+      "updated_at": "2026-04-14T00:16:25Z"
+    },
+    {
+      "name": "onedrive-cleanup",
+      "description": "AI-powered multi-cloud storage cleanup agent \u2014 organizes OneDrive, Google Drive, Google Photos, Dropbox, and iCloud with Claude-based file classification, duplicate detection, and cross-cloud migration",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/knight4seal/onedrive-cleanup",
+      "updated_at": "2026-04-07T03:08:28Z"
+    }
+  ],
+  "top_topics": []
+}

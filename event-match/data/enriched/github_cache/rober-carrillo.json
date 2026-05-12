@@ -1,0 +1,113 @@
+{
+  "username": "rober-carrillo",
+  "name": "Rober ",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 2,
+  "public_repos": 16,
+  "created_at": "2017-07-20T22:43:23Z",
+  "languages": {
+    "TypeScript": 4,
+    "Python": 3,
+    "HTML": 2,
+    "CSS": 1,
+    "C++": 1
+  },
+  "top_repos": [
+    {
+      "name": "curio-web-collab-rober",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/curio-web-collab-rober",
+      "updated_at": "2026-04-19T23:18:15Z"
+    },
+    {
+      "name": "rober-carrillo.github.io",
+      "description": "",
+      "stars": 1,
+      "language": "CSS",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/rober-carrillo.github.io",
+      "updated_at": "2025-08-15T19:54:57Z"
+    },
+    {
+      "name": "Modern_Robotics",
+      "description": "",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/Modern_Robotics",
+      "updated_at": "2025-06-18T19:33:26Z"
+    },
+    {
+      "name": "Pradera",
+      "description": "Manus' powered art platform for creators and tutors.",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/Pradera",
+      "updated_at": "2026-04-26T02:15:03Z"
+    },
+    {
+      "name": "curio-circuit-sim",
+      "description": "",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/curio-circuit-sim",
+      "updated_at": "2026-02-15T23:32:36Z"
+    },
+    {
+      "name": "doom-claw-web",
+      "description": "Doom Claw - AI and Apify-powered Feed aggregator",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/doom-claw-web",
+      "updated_at": "2025-12-07T23:53:39Z"
+    },
+    {
+      "name": "doom-claws",
+      "description": "Personal scraper to replace doom scrolling, take control of the information you consume.",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/doom-claws",
+      "updated_at": "2025-12-06T21:01:14Z"
+    },
+    {
+      "name": "bucketAPI",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/bucketAPI",
+      "updated_at": "2025-11-08T21:03:20Z"
+    },
+    {
+      "name": "BIG-BIN",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/BIG-BIN",
+      "updated_at": "2025-10-21T00:00:38Z"
+    },
+    {
+      "name": "holistic-health",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/rober-carrillo/holistic-health",
+      "updated_at": "2025-10-11T23:39:02Z"
+    }
+  ],
+  "top_topics": []
+}

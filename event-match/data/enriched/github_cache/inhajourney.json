@@ -1,0 +1,65 @@
+{
+  "username": "inhajourney",
+  "name": "inhajourney",
+  "bio": "Building AI from papers, investing where research meets reality",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "what_ina_luvs",
+  "followers": 1,
+  "following": 6,
+  "public_repos": 19,
+  "created_at": "2026-01-02T02:05:39Z",
+  "languages": {
+    "Jupyter Notebook": 3,
+    "TypeScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "AIFFEL_quest_rs",
+      "description": "\ub9ac\uc11c\uce58: AIFFEL_quest_rs",
+      "stars": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/inhajourney/AIFFEL_quest_rs",
+      "updated_at": "2026-03-20T04:18:07Z"
+    },
+    {
+      "name": "investment-brief-agent",
+      "description": "investment-brief-agent",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/inhajourney/investment-brief-agent",
+      "updated_at": "2026-02-27T01:13:42Z"
+    },
+    {
+      "name": "AIFFEL_quest_cr",
+      "description": "\ucf54\uc5b4: AIFFEL_quest_cr",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/inhajourney/AIFFEL_quest_cr",
+      "updated_at": "2026-02-02T08:04:00Z"
+    },
+    {
+      "name": "camera_sticker",
+      "description": "\uce74\uba54\ub77c \uc2a4\ud2f0\ucee4\uc571 \ub9cc\ub4e4\uae30 \uccab\uac78\uc74c",
+      "stars": 0,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "url": "https://github.com/inhajourney/camera_sticker",
+      "updated_at": "2026-01-16T06:32:14Z"
+    },
+    {
+      "name": "first-repository",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/inhajourney/first-repository",
+      "updated_at": "2026-01-02T03:16:56Z"
+    }
+  ],
+  "top_topics": []
+}

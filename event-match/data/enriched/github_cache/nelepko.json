@@ -1,0 +1,46 @@
+{
+  "username": "nelepko",
+  "name": "Eugene",
+  "bio": "a non-tech guy in tech companies",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 0,
+  "following": 1,
+  "public_repos": 3,
+  "created_at": "2025-05-13T12:21:48Z",
+  "languages": {
+    "TypeScript": 2
+  },
+  "top_repos": [
+    {
+      "name": "ugc-agent-1",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/nelepko/ugc-agent-1",
+      "updated_at": "2026-02-18T04:30:49Z"
+    },
+    {
+      "name": "ugc-agent",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/nelepko/ugc-agent",
+      "updated_at": "2026-02-18T03:31:46Z"
+    },
+    {
+      "name": "JobHunterPro",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/nelepko/JobHunterPro",
+      "updated_at": "2025-06-13T09:22:45Z"
+    }
+  ],
+  "top_topics": []
+}

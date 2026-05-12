@@ -1,0 +1,175 @@
+{
+  "username": "manycore-research",
+  "name": "Manycore Research",
+  "bio": "Manycore Tech Inc.",
+  "company": "",
+  "location": "Hangzhou, China",
+  "blog": "https://www.manycoretech.com/",
+  "twitter_username": "ManycoreTech",
+  "followers": 290,
+  "following": 0,
+  "public_repos": 11,
+  "created_at": "2021-05-07T03:36:50Z",
+  "languages": {
+    "Python": 5,
+    "JavaScript": 2
+  },
+  "top_repos": [
+    {
+      "name": "SpatialLM",
+      "description": "[NeurIPS 2025] SpatialLM: Training Large Language Models for Structured Indoor Modeling",
+      "stars": 4549,
+      "language": "Python",
+      "topics": [
+        "mllm",
+        "point-clouds",
+        "scene-understanding",
+        "spatial-intelligence"
+      ],
+      "url": "https://github.com/manycore-research/SpatialLM",
+      "updated_at": "2026-05-12T03:13:33Z"
+    },
+    {
+      "name": "SpatialGen",
+      "description": "[3DV 2026] SpatialGen: Layout-guided 3D Indoor Scene Generation",
+      "stars": 386,
+      "language": "Python",
+      "topics": [
+        "image-generation",
+        "layout",
+        "mvd"
+      ],
+      "url": "https://github.com/manycore-research/SpatialGen",
+      "updated_at": "2026-05-09T09:26:25Z"
+    },
+    {
+      "name": "InteriorGS",
+      "description": "InteriorGS: 3D Gaussian Splatting Dataset of Semantically Labeled Indoor Scenes",
+      "stars": 248,
+      "language": "",
+      "topics": [
+        "3dgs",
+        "interior-design"
+      ],
+      "url": "https://github.com/manycore-research/InteriorGS",
+      "updated_at": "2026-05-09T02:47:16Z"
+    },
+    {
+      "name": "ComfyUI-Lux3D",
+      "description": "A ComfyUI extension providing nodes for generating 3D models from images and rendering/visualizing 3D assets within your workflow.",
+      "stars": 103,
+      "language": "Python",
+      "topics": [
+        "3d-generation",
+        "3d-rendering",
+        "ai-3d",
+        "comfyui",
+        "comfyui-custom-nodes",
+        "comfyui-nodes",
+        "image-to-3d",
+        "python"
+      ],
+      "url": "https://github.com/manycore-research/ComfyUI-Lux3D",
+      "updated_at": "2026-05-10T04:45:35Z"
+    },
+    {
+      "name": "PlankAssembly",
+      "description": "[ICCV 2023] PlankAssembly: Robust 3D Reconstruction from Three Orthographic Views with Learnt Shape Programs",
+      "stars": 102,
+      "language": "Python",
+      "topics": [
+        "3d-modeling",
+        "3d-reconstruction",
+        "computer-vision",
+        "deep-learning",
+        "engineering-drawing",
+        "pytorch",
+        "transformer"
+      ],
+      "url": "https://github.com/manycore-research/PlankAssembly",
+      "updated_at": "2026-03-24T06:16:39Z"
+    },
+    {
+      "name": "faceformer",
+      "description": "[CVPR 2022] Neural Face Identification in a 2D Wireframe Projection of a Manifold Object",
+      "stars": 63,
+      "language": "Python",
+      "topics": [
+        "3d-reconstruction",
+        "computer-vision",
+        "cvpr",
+        "deep-learning",
+        "line-drawing",
+        "pointer-networks",
+        "pytorch",
+        "transformer"
+      ],
+      "url": "https://github.com/manycore-research/faceformer",
+      "updated_at": "2026-01-13T07:15:14Z"
+    },
+    {
+      "name": "CAD2Program",
+      "description": "[AAAI 2025] From 2D CAD Drawings to 3D Parametric Models: A Vision-Language Approach",
+      "stars": 23,
+      "language": "JavaScript",
+      "topics": [
+        "3d-modeling",
+        "3d-reconstruction",
+        "engineering-drawing",
+        "vlm"
+      ],
+      "url": "https://github.com/manycore-research/CAD2Program",
+      "updated_at": "2026-04-28T18:22:24Z"
+    },
+    {
+      "name": "cstr",
+      "description": "[arXiv prepreint] Deep Learning Assisted Optimization for 3D Reconstruction from Single 2D Line Drawings",
+      "stars": 20,
+      "language": "JavaScript",
+      "topics": [
+        "3d-reconstruction",
+        "computer-vision",
+        "deep-learning",
+        "geometric-constraint-solver",
+        "line-drawing",
+        "pointer-network",
+        "pointer-networks",
+        "transformer",
+        "wireframe"
+      ],
+      "url": "https://github.com/manycore-research/cstr",
+      "updated_at": "2025-05-14T07:36:58Z"
+    },
+    {
+      "name": ".github",
+      "description": "",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/manycore-research/.github",
+      "updated_at": "2025-03-26T01:07:25Z"
+    }
+  ],
+  "top_topics": [
+    "3d-reconstruction",
+    "computer-vision",
+    "deep-learning",
+    "transformer",
+    "3d-modeling",
+    "engineering-drawing",
+    "pytorch",
+    "line-drawing",
+    "pointer-networks",
+    "mllm",
+    "point-clouds",
+    "scene-understanding",
+    "spatial-intelligence",
+    "image-generation",
+    "layout",
+    "mvd",
+    "3dgs",
+    "interior-design",
+    "3d-generation",
+    "3d-rendering"
+  ]
+}

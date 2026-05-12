@@ -1,0 +1,114 @@
+{
+  "username": "nikhiltiwari0",
+  "name": "Nikhil",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 2,
+  "following": 3,
+  "public_repos": 25,
+  "created_at": "2018-12-27T05:14:12Z",
+  "languages": {
+    "Python": 7,
+    "TypeScript": 6,
+    "JavaScript": 3,
+    "Swift": 2,
+    "HTML": 2,
+    "Kotlin": 1
+  },
+  "top_repos": [
+    {
+      "name": "pokertrainer",
+      "description": "open",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/pokertrainer",
+      "updated_at": "2026-03-27T04:06:26Z"
+    },
+    {
+      "name": "portfolio",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/portfolio",
+      "updated_at": "2026-03-15T01:09:34Z"
+    },
+    {
+      "name": "bombench",
+      "description": "BombBench: Multimodal AI benchmark for KTANE bomb defusal - two AI agents communicate to defuse procedurally generated bombs",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/bombench",
+      "updated_at": "2026-03-08T01:01:13Z"
+    },
+    {
+      "name": "family-tree",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/family-tree",
+      "updated_at": "2026-01-03T17:47:05Z"
+    },
+    {
+      "name": "CRATE",
+      "description": "revolutionize music sales",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/CRATE",
+      "updated_at": "2025-11-22T05:48:44Z"
+    },
+    {
+      "name": "test",
+      "description": "markdown test",
+      "stars": 0,
+      "language": "",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/test",
+      "updated_at": "2025-11-19T00:52:08Z"
+    },
+    {
+      "name": "cf_ai_api-generator",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/cf_ai_api-generator",
+      "updated_at": "2025-11-02T07:46:48Z"
+    },
+    {
+      "name": "AIResumeGen",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/AIResumeGen",
+      "updated_at": "2025-10-28T18:51:18Z"
+    },
+    {
+      "name": "geoguessr_ai",
+      "description": "",
+      "stars": 0,
+      "language": "Python",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/geoguessr_ai",
+      "updated_at": "2025-10-11T19:56:17Z"
+    },
+    {
+      "name": "Challenge-Social-Media",
+      "description": "",
+      "stars": 0,
+      "language": "Swift",
+      "topics": [],
+      "url": "https://github.com/nikhiltiwari0/Challenge-Social-Media",
+      "updated_at": "2025-07-09T00:22:18Z"
+    }
+  ],
+  "top_topics": []
+}

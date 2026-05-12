@@ -1,0 +1,66 @@
+{
+  "username": "DrHCodes",
+  "name": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "blog": "",
+  "twitter_username": "",
+  "followers": 1,
+  "following": 3,
+  "public_repos": 6,
+  "created_at": "2025-05-16T22:44:03Z",
+  "languages": {
+    "HTML": 3,
+    "TypeScript": 1,
+    "JavaScript": 1
+  },
+  "top_repos": [
+    {
+      "name": "MedBridge",
+      "description": "Medical autoresearch - obstetric use case",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "url": "https://github.com/DrHCodes/MedBridge",
+      "updated_at": "2026-03-15T02:11:51Z"
+    },
+    {
+      "name": "AfterGlow",
+      "description": "Storytelling app for the 2 am grief processing",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "url": "https://github.com/DrHCodes/AfterGlow",
+      "updated_at": "2026-02-14T22:55:46Z"
+    },
+    {
+      "name": "convergence",
+      "description": "AI organizational brain for product teams",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/DrHCodes/convergence",
+      "updated_at": "2026-02-10T02:57:41Z"
+    },
+    {
+      "name": "humanize",
+      "description": "Website",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/DrHCodes/humanize",
+      "updated_at": "2026-02-07T01:40:50Z"
+    },
+    {
+      "name": "lokd-org",
+      "description": "The ultimate productivity app for LOKD IN tech bros",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [],
+      "url": "https://github.com/DrHCodes/lokd-org",
+      "updated_at": "2026-01-12T00:59:36Z"
+    }
+  ],
+  "top_topics": []
+}
