@@ -47,7 +47,7 @@ async def run_pipeline(
     *,
     top_k: int = 5,
     enrich_limit: Optional[int] = None,
-    enrich_concurrency: int = 50,
+    enrich_concurrency: int = 100,
     explain_concurrency: int = 30,
     explain_mode: str = "lazy",  # "lazy" = skip in pipeline (gen on click); "upfront" = generate all
     enrich_model: Optional[str] = None,  # override ENRICH_MODEL env var per run

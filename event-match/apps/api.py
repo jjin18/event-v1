@@ -84,7 +84,7 @@ async def start_match(
     event_description: str = Form(...),
     top_k: int = Form(5),
     enrich_limit: int = Form(0),
-    enrich_concurrency: int = Form(50),
+    enrich_concurrency: int = Form(100),
     explain_mode: str = Form("lazy"),  # "lazy" = on-click; "upfront" = generate all
     enrich_model: str = Form("claude-haiku-4-5-20251001"),  # haiku=cheap, sonnet=high-quality
 ) -> JSONResponse:
