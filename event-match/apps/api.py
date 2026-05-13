@@ -550,6 +550,9 @@ async def get_outreach(run_id: str, personalize: int = 0, personalize_top: int =
             "message": message,
             "follow_up": follow_up,
             "person_id": p.get("id"),
+            "email": p.get("email", ""),
+            "linkedin_url": p.get("linkedin_url", ""),
+            "x_handle": p.get("x_handle", ""),
         })
 
     # LLM personalization for top-N (by fit_score), in parallel with caching.

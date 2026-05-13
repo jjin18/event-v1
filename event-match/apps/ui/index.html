@@ -375,6 +375,42 @@
     }
     .outreach-card.personalized { border-color: var(--accent-soft-2); box-shadow: 0 4px 14px rgba(99, 102, 241, 0.08), 0 1px 3px rgba(15, 15, 30, 0.03); }
 
+    /* Editable subject input (email channel) */
+    .osubject-edit {
+      width: 100%;
+      margin-top: 8px;
+      padding: 9px 12px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--fg);
+    }
+    .osubject-edit:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+    /* Send action buttons */
+    .send-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .send-btn {
+      font-size: 12.5px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.12s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .send-btn.email { background: var(--accent); color: white; box-shadow: 0 1px 4px rgba(99, 102, 241, 0.25); }
+    .send-btn.email:hover { background: var(--accent-hover); transform: translateY(-1px); box-shadow: 0 3px 10px rgba(99, 102, 241, 0.35); }
+    .send-btn.linkedin { background: white; color: #0A66C2; border-color: #0A66C2; }
+    .send-btn.linkedin:hover { background: #0A66C2; color: white; }
+    .send-btn.x { background: white; color: var(--fg); border-color: var(--border-strong); }
+    .send-btn.x:hover { background: var(--fg); color: white; border-color: var(--fg); }
+
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr;
@@ -853,9 +889,15 @@ function renderInvites(invites, total, personalizationDone, personalizedCount) {
       </div>
       ${inv.channel === "email" && inv.subject ? `<div class="osubject">Subject: ${escapeHTML(inv.subject)}</div>` : ""}
       <textarea class="omsg-edit" data-idx="${idx}">${escapeHTML(inv.message)}</textarea>
+      ${inv.channel === "email" && inv.subject ? `<input class="osubject-edit" data-idx="${idx}" value="${escapeAttr(inv.subject)}" placeholder="Subject line">` : ""}
       <div class="ofoot">
         <span class="saved-hint" data-saved-idx="${idx}">Edit any text — saved locally as you type</span>
-        <button class="copy-btn" data-copy-idx="${idx}">Copy</button>
+        <div class="send-actions">
+          ${inv.email ? `<button class="send-btn email" data-send-idx="${idx}" data-send-type="email">✉ Email ${escapeHTML(inv.name.split(' ')[0])}</button>` : ""}
+          ${inv.linkedin_url ? `<button class="send-btn linkedin" data-send-idx="${idx}" data-send-type="linkedin">in Open LinkedIn</button>` : ""}
+          ${inv.x_handle && !inv.email && !inv.linkedin_url ? `<button class="send-btn x" data-send-idx="${idx}" data-send-type="x">𝕏 Open on X</button>` : ""}
+          <button class="copy-btn" data-copy-idx="${idx}">Copy</button>
+        </div>
       </div>
       <div class="omsg-followup">
         <div class="lbl">Follow-up · 3 days later</div>
@@ -873,6 +915,13 @@ function renderInvites(invites, total, personalizationDone, personalizedCount) {
       if (hint) { hint.textContent = "✓ saved locally"; hint.className = "saved-hint saved"; }
     });
   });
+  // Subject edits → also mutate
+  target.querySelectorAll(".osubject-edit").forEach(inp => {
+    inp.addEventListener("input", () => {
+      const i = parseInt(inp.dataset.idx);
+      sorted[i].subject = inp.value;
+    });
+  });
   // Copy buttons
   target.querySelectorAll(".copy-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -884,6 +933,36 @@ function renderInvites(invites, total, personalizationDone, personalizedCount) {
         btn.classList.add("copied");
         setTimeout(() => { btn.textContent = "Copy"; btn.classList.remove("copied"); }, 1500);
       });
+    });
+  });
+  // Send buttons (open email / linkedin / x with prefilled content)
+  target.querySelectorAll(".send-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const i = parseInt(btn.dataset.sendIdx);
+      const type = btn.dataset.sendType;
+      const inv = sorted[i];
+      const ta = target.querySelector(`textarea[data-idx="${i}"]`);
+      const subjInput = target.querySelector(`input.osubject-edit[data-idx="${i}"]`);
+      const body = ta ? ta.value : inv.message;
+      const subject = subjInput ? subjInput.value : (inv.subject || "");
+      let url = "";
+      if (type === "email" && inv.email) {
+        url = `mailto:${encodeURIComponent(inv.email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = url;
+      } else if (type === "linkedin" && inv.linkedin_url) {
+        // LinkedIn doesn't support DM prefill — copy the message and open the profile
+        navigator.clipboard.writeText(body).then(() => {
+          window.open(inv.linkedin_url, "_blank", "noopener");
+          btn.innerHTML = "✓ Copied · LinkedIn opened";
+          setTimeout(() => { btn.innerHTML = "in Open LinkedIn"; }, 2200);
+        });
+      } else if (type === "x" && inv.x_handle) {
+        navigator.clipboard.writeText(body).then(() => {
+          window.open(`https://x.com/${encodeURIComponent(inv.x_handle)}`, "_blank", "noopener");
+          btn.innerHTML = "✓ Copied · X opened";
+          setTimeout(() => { btn.innerHTML = "𝕏 Open on X"; }, 2200);
+        });
+      }
     });
   });
 
