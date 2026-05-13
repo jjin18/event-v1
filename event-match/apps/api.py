@@ -334,8 +334,106 @@ async def get_featured() -> JSONResponse:
     })
 
 
+INVITE_MODEL = "claude-haiku-4-5-20251001"
+INVITE_CACHE_NS = "invite"
+INVITE_CACHE_VERSION = "v1"
+
+
+def _room_signature(room: dict) -> str:
+    """Stable key for the room composition — same room → same cache hits."""
+    parts = [
+        room.get("name", ""),
+        room.get("city", ""),
+        room.get("description", "")[:240],
+        ",".join(room.get("top_domains", [])[:4]),
+        ",".join(f"{n.get('name','')}:{n.get('company','')}" for n in room.get("notable", [])[:5]),
+    ]
+    return "|".join(parts)
+
+
+async def _personalize_invite(
+    person: dict,
+    room: dict,
+    client,
+) -> str | None:
+    """LLM-personalized "come join us" message. Returns None if LLM fails."""
+    from packages.shared import cache as _cache
+
+    cache_key_parts = [
+        INVITE_CACHE_VERSION,
+        INVITE_MODEL,
+        person.get("id", "") or person.get("name", ""),
+        _room_signature(room),
+    ]
+    cached = _cache.get(INVITE_CACHE_NS, *cache_key_parts)
+    if cached and cached.get("message"):
+        return cached["message"]
+
+    bio = (person.get("bio_text") or "")[:600]
+    conviction = person.get("conviction_themes") or []
+    if isinstance(conviction, str):
+        try:
+            conviction = json.loads(conviction.replace("'", '"'))
+        except Exception:
+            conviction = []
+    conviction_str = "; ".join(conviction[:3]) if conviction else ""
+    domains = person.get("domains") or []
+    if isinstance(domains, str):
+        try:
+            domains = json.loads(domains.replace("'", '"'))
+        except Exception:
+            domains = []
+
+    notable_lines_list = [
+        f"- {n['name']} ({n['company']})"
+        for n in (room.get("notable") or [])[:5]
+        if n.get("name") and n.get("company") and n["name"] != person.get("name")
+    ]
+    notable_block = "\n".join(notable_lines_list) if notable_lines_list else "- a small group"
+    domains_str = ", ".join(domains[:3]) if domains else "(unknown)"
+    top_domains_str = ", ".join(room.get("top_domains", [])[:3]) or "this person's area of work"
+    name = person.get("name", "")
+    title = person.get("title") or person.get("role") or ""
+    company = person.get("company", "")
+    description = (room.get("description") or "a small gathering of operators in the space")[:240]
+
+    prompt = f"""You're drafting a recruitment DM inviting someone to a small event. The goal is to get them to RSVP. Tone: casual, direct, founder-to-founder. 3-4 sentences max. No emojis. No "I hope this finds you well." No "Best,". Just the message body.
+
+EVENT: {room.get('name','a small event')}
+LOCATION: {room.get('city','SF')}
+ABOUT: {description}
+ALREADY CONFIRMED: {len(room.get('notable',[]))} notable folks including:
+{notable_block}
+ROOM SKEWS TOWARD: {top_domains_str}
+
+WRITING TO:
+Name: {name}
+Title/role: {title}
+Company: {company}
+Domains they work in: {domains_str}
+Bio: {bio or '(none)'}
+Conviction themes: {conviction_str or '(none)'}
+
+WRITE the message body only. Open with their first name. Reference one specific thing about their work or conviction (something only they would have written). Name 2 of the confirmed attendees by name. End with a direct ask like "Want in?" or "Worth a slot?"."""
+
+    try:
+        resp = await client.messages.create(
+            model=INVITE_MODEL,
+            max_tokens=300,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = "\n".join(b.text for b in resp.content if getattr(b, "type", "") == "text").strip()
+        if text:
+            _cache.put(INVITE_CACHE_NS, {"message": text}, *cache_key_parts)
+            return text
+    except Exception as e:
+        # Log and fall back to template; don't block the demo
+        print(f"[invite-personalize] error for {person.get('name','?')}: {e}")
+    return None
+
+
 @app.get("/api/events/{run_id}/outreach")
-async def get_outreach(run_id: str) -> JSONResponse:
+async def get_outreach(run_id: str, personalize: int = 0, personalize_top: int = 50) -> JSONResponse:
     """Generate "come to this event" recruitment drafts.
 
     Each draft pitches the room: who's coming so far, what they work on, and
@@ -454,11 +552,40 @@ async def get_outreach(run_id: str) -> JSONResponse:
             "person_id": p.get("id"),
         })
 
+    # LLM personalization for top-N (by fit_score), in parallel with caching.
+    # personalize=0 (default) → templates only. personalize=1 → LLM + cache.
+    n_personalized = 0
+    if personalize:
+        from anthropic import AsyncAnthropic
+        client = AsyncAnthropic()
+        # Sort by fit_score desc, personalize top N. Map back by person_id.
+        ranked_invites = sorted(invites, key=lambda x: -((top_k.get(x["person_id"]) or [{}])[0] or {}).get("composite", 0))
+        targets = ranked_invites[:max(1, personalize_top)]
+
+        # Look up the full enriched person for each target so the LLM has bio/conviction.
+        # state.by_id has dataclass instances; if missing, fall back to matrix person dict.
+        from dataclasses import asdict as _asdict
+
+        async def _do_one(inv):
+            pid = inv["person_id"]
+            if pid in state.by_id:
+                p_full = _asdict(state.by_id[pid])
+            else:
+                p_full = next((p for p in people if p.get("id") == pid), {})
+            text = await _personalize_invite(p_full, room, client)
+            if text:
+                inv["message"] = text
+                inv["personalized"] = True
+
+        await asyncio.gather(*(_do_one(inv) for inv in targets))
+        n_personalized = sum(1 for inv in invites if inv.get("personalized"))
+
     return JSONResponse({
         "event": {"name": event_name, "city": city, "description": event_desc[:240]},
         "room": {"n_people": room["n_people"], "top_domains": top_domains, "notable": room["notable"][:5]},
         "invites": invites,
         "invite_total": len(people),
+        "personalized_count": n_personalized,
     })
 
 

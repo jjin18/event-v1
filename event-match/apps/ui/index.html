@@ -349,6 +349,32 @@
     .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
     .copy-btn.copied { background: var(--accent-soft); color: var(--accent-hover); border-color: var(--accent); }
 
+    /* Personalization status + badges */
+    .personalize-status {
+      padding: 12px 16px;
+      border-radius: 12px;
+      font-size: 13px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .personalize-status.loading { background: var(--accent-soft); color: var(--accent-hover); border: 1px solid var(--accent-soft-2); font-weight: 500; }
+    .personalize-status.done { background: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; font-weight: 500; }
+    .badge-ai {
+      display: inline-block;
+      font-size: 10.5px;
+      padding: 2px 8px;
+      background: linear-gradient(135deg, var(--accent) 0%, #8B5CF6 100%);
+      color: white;
+      border-radius: 999px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .outreach-card.personalized { border-color: var(--accent-soft-2); box-shadow: 0 4px 14px rgba(99, 102, 241, 0.08), 0 1px 3px rgba(15, 15, 30, 0.03); }
+
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr;
@@ -749,17 +775,32 @@ document.querySelectorAll(".tab").forEach(btn => {
 
 // ─── Outreach ───
 let OUTREACH = null;
+let OUTREACH_LOADING = false;
 async function loadOutreach() {
-  if (!RUN_ID || OUTREACH) return;
+  if (!RUN_ID || OUTREACH || OUTREACH_LOADING) return;
+  OUTREACH_LOADING = true;
+  // Step 1: instant template render so the tab isn't blank
   try {
-    OUTREACH = await (await fetch(`/api/events/${RUN_ID}/outreach`)).json();
-    $("tabct-outreach").textContent = OUTREACH.invite_total.toLocaleString();
-    renderRoomCard(OUTREACH.room, OUTREACH.event);
-    renderInvites(OUTREACH.invites, OUTREACH.invite_total);
+    const fast = await (await fetch(`/api/events/${RUN_ID}/outreach`)).json();
+    OUTREACH = fast;
+    $("tabct-outreach").textContent = fast.invite_total.toLocaleString();
+    renderRoomCard(fast.room, fast.event);
+    renderInvites(fast.invites, fast.invite_total, false);
   } catch (e) {
-    console.warn("outreach load failed", e);
+    console.warn("outreach fast-load failed", e);
     $("invites-list").innerHTML = '<div class="outreach-empty">Failed to load outreach drafts.</div>';
+    OUTREACH_LOADING = false;
+    return;
   }
+  // Step 2: LLM-personalize top 50 in background, swap in when ready
+  try {
+    const personalized = await (await fetch(`/api/events/${RUN_ID}/outreach?personalize=1&personalize_top=50`)).json();
+    OUTREACH = personalized;
+    renderInvites(personalized.invites, personalized.invite_total, true, personalized.personalized_count);
+  } catch (e) {
+    console.warn("outreach personalize failed", e);
+  }
+  OUTREACH_LOADING = false;
 }
 
 function renderRoomCard(room, event) {
@@ -777,7 +818,7 @@ function renderRoomCard(room, event) {
   }
 }
 
-function renderInvites(invites, total) {
+function renderInvites(invites, total, personalizationDone, personalizedCount) {
   const target = $("invites-list");
   if (!invites || !invites.length) {
     target.innerHTML = '<div class="outreach-empty">No invites generated.</div>';
@@ -785,15 +826,23 @@ function renderInvites(invites, total) {
   }
   const sorted = [...invites].sort((a, b) => {
     const pri = { high: 0, medium: 1, low: 2 };
+    const ap = a.personalized ? -1 : 0;
+    const bp = b.personalized ? -1 : 0;
+    if (ap !== bp) return ap - bp;
     return (pri[a.priority] ?? 9) - (pri[b.priority] ?? 9);
   });
-  target.innerHTML = sorted.map((inv, idx) => `
-    <div class="outreach-card" data-idx="${idx}">
+  // Top status bar — shows whether personalization is running
+  const statusBar = personalizationDone
+    ? `<div class="personalize-status done">✓ ${personalizedCount} drafts AI-personalized using each guest's bio · ${total - personalizedCount} on template</div>`
+    : `<div class="personalize-status loading"><span class="spinner"></span> Personalizing top 50 drafts with AI… (~10s, cached after first run)</div>`;
+
+  target.innerHTML = statusBar + sorted.map((inv, idx) => `
+    <div class="outreach-card${inv.personalized ? ' personalized' : ''}" data-idx="${idx}">
       <div class="ohead">
         <div class="opers">
           <div class="avatar">${escapeHTML(initials(inv.name))}</div>
           <div>
-            <div class="oname">${escapeHTML(inv.name)}</div>
+            <div class="oname">${escapeHTML(inv.name)}${inv.personalized ? ' <span class="badge-ai">✨ AI-personalized</span>' : ''}</div>
             <div class="ometa">${escapeHTML(inv.role || "")}${inv.company ? " · " + escapeHTML(inv.company) : ""}</div>
           </div>
         </div>
