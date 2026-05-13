@@ -93,15 +93,28 @@ async def run_pipeline(
     })
 
     # ---- 2. Rubric synthesis (kicked off in parallel with enrich start) ----
+    # Emit rubric_done the moment the task resolves rather than after enrich
+    # finishes — otherwise the UI shows "synthesizing…" for the full enrich
+    # duration even though the rubric finished ~20 sec earlier.
     await emit("rubric_started", {})
-    rubric_task = asyncio.create_task(
-        synthesize_rubric(
+
+    async def _rubric_with_emit() -> dict[str, Any]:
+        rb = await synthesize_rubric(
             event_name=event_name,
             event_description=event_description,
             people=people,
             use_cache=use_cache,
         )
-    )
+        await emit("rubric_done", {
+            "event_type": rb.get("event_type"),
+            "match_intent": rb.get("match_intent"),
+            "axis_blend": rb.get("weights", {}).get("axis_blend"),
+            "notes_for_humans": rb.get("notes_for_humans"),
+            "rubric": rb,
+        })
+        return rb
+
+    rubric_task = asyncio.create_task(_rubric_with_emit())
 
     # ---- 3. Enrich people (parallel, slow) ----
     async def enrich_progress(event_type: str, ep: EnrichedPerson, meta: dict[str, Any]) -> None:
@@ -139,15 +152,8 @@ async def run_pipeline(
         "failed_count": failed_n,
     })
 
-    # ---- 4. Await rubric ----
+    # ---- 4. Await rubric (rubric_done was emitted from inside the task) ----
     rubric = await rubric_task
-    await emit("rubric_done", {
-        "event_type": rubric.get("event_type"),
-        "match_intent": rubric.get("match_intent"),
-        "axis_blend": rubric.get("weights", {}).get("axis_blend"),
-        "notes_for_humans": rubric.get("notes_for_humans"),
-        "rubric": rubric,
-    })
 
     # ---- 5. Build matrix ----
     matrix = compute_matrix(enriched, rubric, top_k=top_k)
