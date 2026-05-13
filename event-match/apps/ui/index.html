@@ -410,6 +410,10 @@
     .send-btn.linkedin:hover { background: #0A66C2; color: white; }
     .send-btn.x { background: white; color: var(--fg); border-color: var(--border-strong); }
     .send-btn.x:hover { background: var(--fg); color: white; border-color: var(--fg); }
+    .send-btn:disabled { opacity: 0.85; cursor: wait; transform: none; }
+    .send-btn.sent { background: var(--good); color: white; box-shadow: 0 1px 4px rgba(16, 185, 129, 0.3); cursor: default; }
+    .send-btn.sent:hover { background: var(--good); transform: none; }
+    .send-btn.send-error { background: var(--bad); color: white; border-color: var(--bad); }
 
     .layout {
       display: grid;
@@ -941,9 +945,9 @@ function renderInvites(invites, total, personalizationDone, personalizedCount) {
       });
     });
   });
-  // Send buttons (open email / linkedin / x with prefilled content)
+  // Send buttons — Email auto-sends via Resend; LinkedIn/X open profile + copy
   target.querySelectorAll(".send-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
       const i = parseInt(btn.dataset.sendIdx);
       const type = btn.dataset.sendType;
       const inv = sorted[i];
@@ -951,12 +955,42 @@ function renderInvites(invites, total, personalizationDone, personalizedCount) {
       const subjInput = target.querySelector(`input.osubject-edit[data-idx="${i}"]`);
       const body = ta ? ta.value : inv.message;
       const subject = subjInput ? subjInput.value : (inv.subject || "");
-      let url = "";
+
       if (type === "email" && inv.email) {
-        url = `mailto:${encodeURIComponent(inv.email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = url;
+        // Real auto-send via the server's Resend integration
+        const originalHTML = btn.innerHTML;
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner"></span> Sending…';
+        try {
+          const resp = await fetch("/api/send-invite", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({to: inv.email, to_name: inv.name, subject, body}),
+          });
+          const j = await resp.json();
+          if (j.ok) {
+            btn.innerHTML = "✓ Sent";
+            btn.classList.add("sent");
+            const hint = target.querySelector(`.saved-hint[data-saved-idx="${i}"]`);
+            if (hint) {
+              const t = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+              hint.textContent = `✓ Sent to ${inv.email} at ${t}`;
+              hint.className = "saved-hint saved";
+            }
+          } else {
+            btn.innerHTML = "✗ Failed";
+            btn.classList.add("send-error");
+            btn.disabled = false;
+            alert("Send failed: " + (j.error || "unknown"));
+            setTimeout(() => { btn.innerHTML = originalHTML; btn.classList.remove("send-error"); }, 2500);
+          }
+        } catch (e) {
+          btn.innerHTML = "✗ Failed";
+          btn.disabled = false;
+          alert("Send failed: " + e);
+          setTimeout(() => { btn.innerHTML = originalHTML; }, 2500);
+        }
       } else if (type === "linkedin" && inv.linkedin_url) {
-        // LinkedIn doesn't support DM prefill — copy the message and open the profile
         navigator.clipboard.writeText(body).then(() => {
           window.open(inv.linkedin_url, "_blank", "noopener");
           btn.innerHTML = "✓ Copied · LinkedIn opened";

@@ -611,9 +611,90 @@ def _infer_city(people: list[dict[str, Any]]) -> str:
     return max(counts.items(), key=lambda x: x[1])[0]
 
 
+@app.post("/api/send-invite")
+async def send_invite(payload: dict) -> JSONResponse:
+    """Actually send one personalized invite via Resend.
+
+    Body:
+      {
+        "to":      "recipient@example.com",   (required)
+        "subject": "Subject line",            (required)
+        "body":    "Plain-text message body", (required)
+        "to_name": "Optional display name"
+      }
+
+    Returns {"ok": true, "id": "<resend-message-id>"} on success,
+    or {"ok": false, "error": "..."} on failure.
+
+    Setup: set RESEND_API_KEY in your environment. SURPLUS_FROM defaults to
+    "Surplus <onboarding@resend.dev>" (Resend's test sender) — change to your
+    verified domain for production (e.g. "Daniel <daniel@surpluslayer.com>").
+    """
+    import os as _os
+    api_key = _os.environ.get("RESEND_API_KEY", "").strip()
+    if not api_key:
+        return JSONResponse(
+            {"ok": False, "error": "RESEND_API_KEY not configured on the server"},
+            status_code=400,
+        )
+
+    to_email = (payload.get("to") or "").strip()
+    subject = (payload.get("subject") or "").strip()
+    body = (payload.get("body") or "").strip()
+    to_name = (payload.get("to_name") or "").strip()
+    if not (to_email and subject and body):
+        return JSONResponse(
+            {"ok": False, "error": "to, subject, body all required"},
+            status_code=400,
+        )
+
+    from_addr = _os.environ.get("SURPLUS_FROM", "Surplus <onboarding@resend.dev>")
+    # Build a simple text + html body (HTML wraps the same text so it renders
+    # in clients that only show HTML)
+    html_body = (
+        "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; "
+        "font-size: 15px; line-height: 1.55; color: #0a0a14;\">"
+        f"{body.replace(chr(10), '<br>')}"
+        "</div>"
+    )
+    to_field = f"{to_name} <{to_email}>" if to_name else to_email
+
+    try:
+        import httpx as _httpx
+        async with _httpx.AsyncClient(timeout=15) as client:
+            r = await client.post(
+                "https://api.resend.com/emails",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "from": from_addr,
+                    "to": [to_field],
+                    "subject": subject,
+                    "text": body,
+                    "html": html_body,
+                },
+            )
+            data = r.json()
+            if r.status_code >= 400:
+                return JSONResponse(
+                    {"ok": False, "error": data.get("message") or f"HTTP {r.status_code}", "raw": data},
+                    status_code=r.status_code,
+                )
+            return JSONResponse({"ok": True, "id": data.get("id", ""), "from": from_addr})
+    except Exception as e:
+        return JSONResponse({"ok": False, "error": repr(e)}, status_code=500)
+
+
 @app.get("/api/healthz")
 async def healthz() -> dict[str, Any]:
-    return {"ok": True, "active_runs": len(RUNS)}
+    import os as _os
+    return {
+        "ok": True,
+        "active_runs": len(RUNS),
+        "resend_configured": bool(_os.environ.get("RESEND_API_KEY", "").strip()),
+    }
 
 
 # Static assets (for any CSS/JS we want to add later)
