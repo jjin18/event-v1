@@ -336,22 +336,22 @@ async def get_featured() -> JSONResponse:
 
 @app.get("/api/events/{run_id}/outreach")
 async def get_outreach(run_id: str) -> JSONResponse:
-    """Generate draft outreach using event-v1's outreach_agent helpers, plus
-    pull intro_messages for top mutual matches that have rationales already.
+    """Generate "come to this event" recruitment drafts.
 
-    This is the "wired together" demo — same outreach engine that drafts
-    pre-event invites also surfaces intro messages for matched pairs.
+    Each draft pitches the room: who's coming so far, what they work on, and
+    why this specific recipient would fit. The frame is recruitment (get them
+    to RSVP), not introductions — that comes later, after they're confirmed.
     """
     state = RUNS.get(run_id)
     if not state or not state.matrix:
         raise HTTPException(404, "run not found")
 
-    # Try to import event-v1's outreach helpers. If we're running outside the
-    # merged repo (standalone event-match), fall back to local copies.
+    # Reuse outreach_agent's _channel_for / _priority categorization for honesty
+    # (same categorization shows up in event-v1's existing CRM). The message
+    # body itself we generate fresh, room-aware.
     try:
         import sys
         from pathlib import Path as _P
-        # When deployed inside event-v1/event-match/, the parent has packages/ops/
         candidate = _P(__file__).resolve().parent.parent.parent
         if (candidate / "packages" / "ops" / "outreach_agent.py").exists():
             sys.path.insert(0, str(candidate))
@@ -361,83 +361,104 @@ async def get_outreach(run_id: str) -> JSONResponse:
 
     matrix = state.matrix
     people = matrix.get("people", [])
-    event_ctx = {
-        "city": _infer_city(people),
-        "goal": (state.event_description or "")[:160] or "the kind of work the room is here to do",
-        "name": state.event_name or matrix.get("event_name") or "the event",
+    top_k = matrix.get("top_k_per_person", {})
+    city = _infer_city(people)
+    event_name = state.event_name or matrix.get("event_name") or "a small builder's dinner"
+    event_desc = (state.event_description or "").strip()
+
+    # Compute room composition for the pitch ─────────────────
+    # Most notable attendees: highest fit_score (i.e. their best match composite)
+    # and those with strong companies / bios.
+    def _person_score(p: dict) -> float:
+        return ((top_k.get(p["id"]) or [{}])[0] or {}).get("composite", 0)
+
+    ranked = sorted(people, key=_person_score, reverse=True)
+    notable = [p for p in ranked if p.get("name") and p.get("company")][:8]
+
+    # Top domains across the whole room
+    domain_counts: dict[str, int] = {}
+    for p in people:
+        for d in (p.get("domains") or []):
+            if isinstance(d, str) and d:
+                domain_counts[d] = domain_counts.get(d, 0) + 1
+    top_domains = [d for d, _ in sorted(domain_counts.items(), key=lambda x: -x[1])[:4]]
+
+    room = {
+        "name": event_name,
+        "description": event_desc[:240],
+        "city": city,
+        "n_people": len(people),
+        "top_domains": top_domains,
+        "notable": [
+            {"name": p.get("name", ""), "company": p.get("company", ""), "title": p.get("title") or p.get("role") or ""}
+            for p in notable
+        ],
     }
 
-    # Per-guest invite drafts (sourcing+outreach half of the demo)
+    # Per-recipient draft: room pitch + their angle ─────────────────
     invites: list[dict[str, Any]] = []
-    for p in people[:200]:  # cap so the UI stays snappy on large events
+    for p in people[:200]:
         person_dict = {
             "name": p.get("name", ""),
             "email": p.get("email", ""),
             "linkedin_url": p.get("linkedin_url", ""),
-            "x_handle": p.get("x_handle", ""),
             "role": p.get("title") or p.get("role") or "",
             "company": p.get("company", ""),
-            "fit_score": ((matrix.get("top_k_per_person", {}).get(p["id"]) or [{}])[0] or {}).get("composite", 0),
+            "fit_score": _person_score(p),
         }
-        if _oa:
-            channel = _oa._channel_for(person_dict)
-            priority = _oa._priority(person_dict)
-            angle = _oa._angle(person_dict)
-            message = _oa._message(person_dict, event_ctx)
-            follow_up = _oa._follow_up(person_dict)
-            subject = _oa._subject(person_dict, event_ctx)
-        else:
-            channel = "email" if person_dict["email"] else ("linkedin" if person_dict["linkedin_url"] else "poke")
-            priority = "high" if person_dict["fit_score"] >= 0.5 else "medium"
-            angle = f"{person_dict['role'] or 'operator'} at {person_dict['company'] or 'your company'}"
-            first = (person_dict["name"] or "there").split()[0]
-            message = f"Hey {first}, saw your work on {angle}. Putting together {event_ctx['name']} — thought you'd be a strong fit for the room."
-            follow_up = f"Hey {first}, bumping this — happy to send details if you're around."
-            subject = f"{event_ctx['name']} — thought of you"
+        channel = _oa._channel_for(person_dict) if _oa else (
+            "email" if person_dict["email"] else ("linkedin" if person_dict["linkedin_url"] else "poke")
+        )
+        priority = _oa._priority(person_dict) if _oa else (
+            "high" if person_dict["fit_score"] >= 0.5 else "medium"
+        )
+
+        # Build the room-aware "come join us" message. Excludes the recipient
+        # themselves from the "who's coming" list.
+        first = (person_dict["name"] or "there").split()[0] or "there"
+        others = [n for n in room["notable"] if n["name"] != p.get("name")][:3]
+        whos_coming = ", ".join(
+            f"{n['name']} ({n['company']})" for n in others if n["name"] and n["company"]
+        ) or "a small group of operators in the space"
+        domains_phrase = (
+            ", ".join(top_domains[:3]) if top_domains else "your kind of work"
+        )
+        their_angle = (
+            f"your work on {person_dict['role']}".strip()
+            if person_dict["role"]
+            else f"what you're building at {person_dict['company']}"
+        ) if person_dict["company"] else "what you're building"
+
+        message = (
+            f"Hey {first} — putting together {event_name} in {city}. "
+            f"Got {room['n_people']} folks confirmed so far including {whos_coming}. "
+            f"Crowd skews toward {domains_phrase}. "
+            f"Saw {their_angle} — you'd be one of the strongest in the room. "
+            f"Want in?"
+        )
+        subject = f"{event_name} — {city}, you'd fit"
+        follow_up = (
+            f"Hey {first}, bumping this — list is starting to fill. "
+            f"Happy to send the full lineup if you're potentially around."
+        )
+
         invites.append({
             "name": p.get("name", ""),
             "company": p.get("company", ""),
             "role": person_dict["role"],
             "channel": channel,
             "priority": priority,
-            "angle": angle,
             "subject": subject,
             "message": message,
             "follow_up": follow_up,
             "person_id": p.get("id"),
         })
 
-    # Mutual-match intros (matching half — reuses intro_message generated by explain pipeline)
-    intros: list[dict[str, Any]] = []
-    by_id = {p["id"]: p for p in people}
-    seen_pairs: set[frozenset] = set()
-    for pid, top in (matrix.get("top_k_per_person") or {}).items():
-        for m in top:
-            if not m.get("mutual"):
-                continue
-            key = frozenset({pid, m["other_id"]})
-            if key in seen_pairs:
-                continue
-            seen_pairs.add(key)
-            a = by_id.get(pid)
-            b = by_id.get(m["other_id"])
-            if not (a and b):
-                continue
-            intros.append({
-                "a": {"id": a["id"], "name": a.get("name"), "company": a.get("company")},
-                "b": {"id": b["id"], "name": b.get("name"), "company": b.get("company")},
-                "composite": m.get("composite", 0),
-                "intro_message": m.get("intro_message", ""),
-                "rationale": m.get("rationale", ""),
-            })
-    intros.sort(key=lambda x: -x["composite"])
-
     return JSONResponse({
-        "event": event_ctx,
+        "event": {"name": event_name, "city": city, "description": event_desc[:240]},
+        "room": {"n_people": room["n_people"], "top_domains": top_domains, "notable": room["notable"][:5]},
         "invites": invites,
         "invite_total": len(people),
-        "intros": intros[:50],  # cap for UI
-        "intro_total": len(intros),
     })
 
 

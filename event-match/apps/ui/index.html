@@ -294,7 +294,60 @@
     .outreach-empty { padding: 60px 20px; text-align: center; color: var(--fg-3); font-size: 14px; }
     .outreach-empty .e-icon { font-size: 32px; opacity: 0.3; margin-bottom: 10px; }
     .outreach-cap { padding: 14px; text-align: center; color: var(--fg-3); font-size: 12.5px; }
-    .pair-arrow { display: inline-block; padding: 0 8px; color: var(--accent); font-weight: 600; }
+
+    /* Room composition card */
+    .room-card {
+      background: linear-gradient(135deg, var(--accent-soft) 0%, #F0F2FF 100%);
+      border: 1px solid var(--accent-soft-2);
+      border-radius: 16px;
+      padding: 22px 26px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: auto auto 1fr;
+      gap: 28px;
+      align-items: center;
+    }
+    .room-stat { text-align: left; }
+    .room-num { font-family: var(--serif); font-size: 32px; line-height: 1; color: var(--accent); letter-spacing: -0.01em; }
+    .room-lbl { font-size: 11.5px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; margin-top: 6px; }
+    .room-domains { display: flex; flex-wrap: wrap; gap: 6px; }
+    .room-domains .tag { background: white; border-color: var(--accent-soft-2); color: var(--accent-hover); }
+    .room-notable { grid-column: 1 / -1; padding-top: 16px; border-top: 1px solid var(--accent-soft-2); font-size: 13px; color: var(--fg-2); line-height: 1.55; }
+    .room-notable .lbl { font-size: 10.5px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; margin-bottom: 4px; }
+    .room-notable strong { color: var(--fg); font-weight: 600; }
+
+    /* Editable message textarea */
+    .omsg-edit {
+      width: 100%;
+      background: var(--surface-soft);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--fg-2);
+      font: inherit;
+      font-size: 13.5px;
+      line-height: 1.55;
+      resize: vertical;
+      min-height: 110px;
+      transition: border-color 0.1s, box-shadow 0.1s;
+    }
+    .omsg-edit:focus { outline: none; border-color: var(--accent); background: white; box-shadow: 0 0 0 3px var(--accent-soft); }
+    .ofoot { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; gap: 10px; }
+    .ofoot .saved-hint { font-size: 11.5px; color: var(--fg-4); }
+    .ofoot .saved-hint.dirty { color: var(--warn); }
+    .ofoot .saved-hint.saved { color: var(--good); }
+    .copy-btn {
+      font-size: 12px;
+      padding: 5px 12px;
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: 999px;
+      color: var(--fg-2);
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .copy-btn.copied { background: var(--accent-soft); color: var(--accent-hover); border-color: var(--accent); }
 
     .layout {
       display: grid;
@@ -519,17 +572,18 @@
 
     <div class="outreach-panel" id="tab-outreach">
       <div class="outreach-header">
-        <h3>Outreach queue · ready to send</h3>
-        <div class="desc">Two halves of the loop, generated automatically: <strong>invites</strong> for every guest in your list (channel + priority + draft body), and <strong>intro messages</strong> for the top mutual matches.</div>
+        <h3>Recruitment outreach · ready to send</h3>
+        <div class="desc">Personalized "come join us" drafts for every person in your list — pitched with the actual room composition. Edit any message inline before sending.</div>
+      </div>
+
+      <div class="room-card" id="room-card" style="display:none">
+        <div class="room-stat"><div class="room-num" id="room-people">—</div><div class="room-lbl">Confirmed so far</div></div>
+        <div class="room-stat"><div class="room-num" id="room-domains-n">—</div><div class="room-lbl">Top domains</div></div>
+        <div class="room-domains" id="room-domains"></div>
+        <div class="room-notable" id="room-notable"></div>
       </div>
 
       <div class="outreach-section">
-        <h4>★ Intro messages — top mutual matches</h4>
-        <div class="outreach-cards" id="intros-list"></div>
-      </div>
-
-      <div class="outreach-section">
-        <h4>Invites — drafted per guest</h4>
         <div class="outreach-cards" id="invites-list"></div>
         <div class="outreach-cap" id="invites-cap"></div>
       </div>
@@ -699,48 +753,28 @@ async function loadOutreach() {
   if (!RUN_ID || OUTREACH) return;
   try {
     OUTREACH = await (await fetch(`/api/events/${RUN_ID}/outreach`)).json();
-    $("tabct-outreach").textContent = (OUTREACH.invite_total + OUTREACH.intro_total).toLocaleString();
-    renderIntros(OUTREACH.intros);
+    $("tabct-outreach").textContent = OUTREACH.invite_total.toLocaleString();
+    renderRoomCard(OUTREACH.room, OUTREACH.event);
     renderInvites(OUTREACH.invites, OUTREACH.invite_total);
   } catch (e) {
     console.warn("outreach load failed", e);
-    $("intros-list").innerHTML = '<div class="outreach-empty">Failed to load outreach drafts.</div>';
+    $("invites-list").innerHTML = '<div class="outreach-empty">Failed to load outreach drafts.</div>';
   }
 }
 
-function renderIntros(intros) {
-  const target = $("intros-list");
-  if (!intros || !intros.length) {
-    target.innerHTML = '<div class="outreach-empty"><div class="e-icon">★</div>No mutual matches yet — run match on a guest list with overlapping interests.</div>';
-    return;
+function renderRoomCard(room, event) {
+  if (!room) return;
+  $("room-card").style.display = "grid";
+  $("room-people").textContent = (room.n_people || 0).toLocaleString();
+  $("room-domains-n").textContent = (room.top_domains || []).length;
+  $("room-domains").innerHTML = (room.top_domains || []).map(d => `<span class="tag">${escapeHTML(d)}</span>`).join("");
+  const notable = (room.notable || []).filter(n => n.name && n.company).slice(0, 5);
+  if (notable.length) {
+    $("room-notable").innerHTML = `<div class="lbl">Notable in the room</div>` +
+      notable.map(n => `<strong>${escapeHTML(n.name)}</strong> (${escapeHTML(n.company)})`).join(" · ");
+  } else {
+    $("room-notable").innerHTML = "";
   }
-  target.innerHTML = intros.slice(0, 30).map(intro => {
-    const msg = intro.intro_message || "";
-    const ctx = intro.rationale ? `<div class="ointro-context">${escapeHTML(intro.rationale.slice(0, 220))}${intro.rationale.length > 220 ? "…" : ""}</div>` : "";
-    return `
-      <div class="outreach-card">
-        <div class="ohead">
-          <div class="opers">
-            <div class="avatar">${escapeHTML(initials(intro.a.name))}</div>
-            <div>
-              <span class="oname">${escapeHTML(intro.a.name)}</span>
-              <span class="pair-arrow">↔</span>
-              <span class="oname">${escapeHTML(intro.b.name)}</span>
-              <div class="ometa">${escapeHTML(intro.a.company || "")} · ${escapeHTML(intro.b.company || "")}</div>
-            </div>
-          </div>
-          <div class="ochannels">
-            <span class="pill ch-email">★ mutual</span>
-            <span class="pill pri-high">composite ${intro.composite.toFixed(2)}</span>
-          </div>
-        </div>
-        ${ctx}
-        ${msg
-          ? `<div class="omsg">${escapeHTML(msg)}</div>`
-          : `<div class="omsg" style="color:var(--fg-4); font-style:italic;">Click this match in the Matches tab to generate the personalized intro.</div>`}
-      </div>
-    `;
-  }).join("");
 }
 
 function renderInvites(invites, total) {
@@ -749,13 +783,12 @@ function renderInvites(invites, total) {
     target.innerHTML = '<div class="outreach-empty">No invites generated.</div>';
     return;
   }
-  // Sort: high priority first, then by name
   const sorted = [...invites].sort((a, b) => {
     const pri = { high: 0, medium: 1, low: 2 };
     return (pri[a.priority] ?? 9) - (pri[b.priority] ?? 9);
   });
-  target.innerHTML = sorted.map(inv => `
-    <div class="outreach-card">
+  target.innerHTML = sorted.map((inv, idx) => `
+    <div class="outreach-card" data-idx="${idx}">
       <div class="ohead">
         <div class="opers">
           <div class="avatar">${escapeHTML(initials(inv.name))}</div>
@@ -770,13 +803,41 @@ function renderInvites(invites, total) {
         </div>
       </div>
       ${inv.channel === "email" && inv.subject ? `<div class="osubject">Subject: ${escapeHTML(inv.subject)}</div>` : ""}
-      <div class="omsg">${escapeHTML(inv.message)}</div>
+      <textarea class="omsg-edit" data-idx="${idx}">${escapeHTML(inv.message)}</textarea>
+      <div class="ofoot">
+        <span class="saved-hint" data-saved-idx="${idx}">Edit any text — saved locally as you type</span>
+        <button class="copy-btn" data-copy-idx="${idx}">Copy</button>
+      </div>
       <div class="omsg-followup">
         <div class="lbl">Follow-up · 3 days later</div>
         ${escapeHTML(inv.follow_up)}
       </div>
     </div>
   `).join("");
+
+  // Wire textarea edits → mutate OUTREACH.invites (preserves edits across re-renders)
+  target.querySelectorAll(".omsg-edit").forEach(ta => {
+    ta.addEventListener("input", () => {
+      const i = parseInt(ta.dataset.idx);
+      sorted[i].message = ta.value;
+      const hint = target.querySelector(`.saved-hint[data-saved-idx="${i}"]`);
+      if (hint) { hint.textContent = "✓ saved locally"; hint.className = "saved-hint saved"; }
+    });
+  });
+  // Copy buttons
+  target.querySelectorAll(".copy-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const i = parseInt(btn.dataset.copyIdx);
+      const ta = target.querySelector(`textarea[data-idx="${i}"]`);
+      if (!ta) return;
+      navigator.clipboard.writeText(ta.value).then(() => {
+        btn.textContent = "✓ Copied";
+        btn.classList.add("copied");
+        setTimeout(() => { btn.textContent = "Copy"; btn.classList.remove("copied"); }, 1500);
+      });
+    });
+  });
+
   if (total > invites.length) {
     $("invites-cap").textContent = `Showing top ${invites.length} of ${total.toLocaleString()} invites · cap for UI snappiness`;
   } else {
