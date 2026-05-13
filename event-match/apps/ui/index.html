@@ -720,7 +720,13 @@ $("upload-form").addEventListener("submit", async (e) => {
 function streamRun(enrichTotal) {
   const es = new EventSource(`/api/events/${RUN_ID}/stream`);
   let enrichDone = 0;
-  es.addEventListener("ingest_done", ev => { const d = JSON.parse(ev.data); setStage("ingest", "done", `${d.n_people} people`); setStage("rubric", "active", "synthesizing…"); });
+  es.addEventListener("ingest_done", ev => {
+    const d = JSON.parse(ev.data);
+    setStage("ingest", "done", `${d.n_people} people`);
+    setStage("rubric", "active", "synthesizing…");
+    // If no limit was set, the real total is the ingested count
+    if (!enrichTotal || enrichTotal <= 0) enrichTotal = d.n_people;
+  });
   es.addEventListener("rubric_done", ev => {
     const d = JSON.parse(ev.data);
     setStage("rubric", "done", `${d.event_type} · ${d.match_intent}`);

@@ -193,11 +193,9 @@ async def run_pipeline(
     matrix["total_elapsed_s"] = round(time.time() - t_start, 2)
     matrix["generated_at"] = datetime.now(timezone.utc).isoformat()
 
-    await emit("pipeline_done", {
-        "event_id": matrix.get("event_id"),
-        "stats": matrix["stats"],
-        "total_elapsed_s": matrix["total_elapsed_s"],
-    })
+    # pipeline_done is emitted by the API layer after state.matrix is committed,
+    # so the client's matrix fetch can't race a 202 "still running" response.
+    # CLI callers won't see pipeline_done — they use the returned tuple instead.
 
     # Return matrix + by_id (for lazy explain) + rubric (also for lazy explain)
     return matrix, by_id, rubric

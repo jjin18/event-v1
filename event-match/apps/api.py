@@ -122,6 +122,14 @@ async def start_match(
             state.by_id = by_id
             state.rubric = rubric
             state.event_id = matrix.get("event_id")
+            state.done = True
+            # Emit pipeline_done AFTER state.matrix + state.done are set so the
+            # client's /matrix fetch on this event doesn't race a 202 response.
+            await state.queue.put({"event": "pipeline_done", "data": {
+                "event_id": matrix.get("event_id"),
+                "stats": matrix.get("stats", {}),
+                "total_elapsed_s": matrix.get("total_elapsed_s", 0),
+            }})
         except Exception as e:
             state.error = repr(e)
             await state.queue.put({"event": "error", "data": {"error": repr(e)}})
