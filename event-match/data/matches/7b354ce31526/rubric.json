@@ -1,0 +1,81 @@
+{
+  "event_type": "other",
+  "event_type_reasoning": "fallback default; LLM rubric synthesis unavailable.",
+  "match_intent": "mixed",
+  "match_intent_reasoning": "fallback default.",
+  "role_pair_matrix": {
+    "Attendee|Attendee": 0.9,
+    "Attendee|Spectator": 0.7,
+    "Attendee|Investor": 0.7,
+    "Attendee|Volunteer": 0.7,
+    "Attendee|Judge": 0.7,
+    "Attendee|unknown": 0.7,
+    "Spectator|Attendee": 0.7,
+    "Spectator|Spectator": 0.9,
+    "Spectator|Investor": 0.7,
+    "Spectator|Volunteer": 0.7,
+    "Spectator|Judge": 0.7,
+    "Spectator|unknown": 0.7,
+    "Investor|Attendee": 0.7,
+    "Investor|Spectator": 0.7,
+    "Investor|Investor": 0.9,
+    "Investor|Volunteer": 0.7,
+    "Investor|Judge": 0.7,
+    "Investor|unknown": 0.7,
+    "Volunteer|Attendee": 0.7,
+    "Volunteer|Spectator": 0.7,
+    "Volunteer|Investor": 0.7,
+    "Volunteer|Volunteer": 0.9,
+    "Volunteer|Judge": 0.7,
+    "Volunteer|unknown": 0.7,
+    "Judge|Attendee": 0.7,
+    "Judge|Spectator": 0.7,
+    "Judge|Investor": 0.7,
+    "Judge|Volunteer": 0.7,
+    "Judge|Judge": 0.9,
+    "Judge|unknown": 0.7,
+    "unknown|Attendee": 0.7,
+    "unknown|Spectator": 0.7,
+    "unknown|Investor": 0.7,
+    "unknown|Volunteer": 0.7,
+    "unknown|Judge": 0.7,
+    "unknown|unknown": 0.9
+  },
+  "hard_gates": {
+    "min_similar_score": 0.05,
+    "min_role_pair_score": 0.3,
+    "require_same_city": false
+  },
+  "weights": {
+    "axis_blend": {
+      "similar": 0.3,
+      "complementary": 0.7
+    },
+    "similar": {
+      "domain_overlap": 0.4,
+      "conviction_overlap": 0.3,
+      "background_resonance": 0.2,
+      "city_match": 0.1
+    },
+    "complementary": {
+      "skill_complement": 0.4,
+      "experience_asymmetry": 0.25,
+      "role_complement": 0.2,
+      "domain_expansion": 0.15
+    }
+  },
+  "anti_signals": {
+    "direct_competitor_multiplier": 0.25,
+    "profile_clone_multiplier": 0.7,
+    "seniority_gap_3_or_more_multiplier": 0.65,
+    "explicit_mismatch_multiplier": 0.4
+  },
+  "notes_for_humans": "Generic fallback rubric. The matching engine is balanced across all observed roles.",
+  "_fallback": true,
+  "_telemetry": {
+    "model": "claude-sonnet-4-6",
+    "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CaxRDUJgKCMU6XWN1ouzd'}\")"
+  },
+  "_event_id": "7b354ce31526",
+  "_generated_at": "2026-05-12T09:13:20.827823+00:00"
+}
