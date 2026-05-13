@@ -830,7 +830,7 @@ async function loadOutreach() {
   }
   // Step 2: LLM-personalize top 50 in background, swap in when ready
   try {
-    const personalized = await (await fetch(`/api/events/${RUN_ID}/outreach?personalize=1&personalize_top=50`)).json();
+    const personalized = await (await fetch(`/api/events/${RUN_ID}/outreach?personalize=1&personalize_top=0`)).json();
     OUTREACH = personalized;
     renderInvites(personalized.invites, personalized.invite_total, true, personalized.personalized_count);
   } catch (e) {
@@ -869,8 +869,8 @@ function renderInvites(invites, total, personalizationDone, personalizedCount) {
   });
   // Top status bar — shows whether personalization is running
   const statusBar = personalizationDone
-    ? `<div class="personalize-status done">✓ ${personalizedCount} drafts AI-personalized using each guest's bio · ${total - personalizedCount} on template</div>`
-    : `<div class="personalize-status loading"><span class="spinner"></span> Personalizing top 50 drafts with AI… (~10s, cached after first run)</div>`;
+    ? `<div class="personalize-status done">✓ All ${personalizedCount} drafts AI-personalized using each guest's bio</div>`
+    : `<div class="personalize-status loading"><span class="spinner"></span> Personalizing all ${total.toLocaleString()} drafts with AI… (cached after first run)</div>`;
 
   target.innerHTML = statusBar + sorted.map((inv, idx) => `
     <div class="outreach-card${inv.personalized ? ' personalized' : ''}" data-idx="${idx}">

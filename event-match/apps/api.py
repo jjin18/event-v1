@@ -433,7 +433,7 @@ WRITE the message body only. Open with their first name. Reference one specific 
 
 
 @app.get("/api/events/{run_id}/outreach")
-async def get_outreach(run_id: str, personalize: int = 0, personalize_top: int = 50) -> JSONResponse:
+async def get_outreach(run_id: str, personalize: int = 0, personalize_top: int = 0) -> JSONResponse:
     """Generate "come to this event" recruitment drafts.
 
     Each draft pitches the room: who's coming so far, what they work on, and
@@ -495,7 +495,7 @@ async def get_outreach(run_id: str, personalize: int = 0, personalize_top: int =
 
     # Per-recipient draft: room pitch + their angle ─────────────────
     invites: list[dict[str, Any]] = []
-    for p in people[:200]:
+    for p in people:
         person_dict = {
             "name": p.get("name", ""),
             "email": p.get("email", ""),
@@ -555,30 +555,30 @@ async def get_outreach(run_id: str, personalize: int = 0, personalize_top: int =
             "x_handle": p.get("x_handle", ""),
         })
 
-    # LLM personalization for top-N (by fit_score), in parallel with caching.
-    # personalize=0 (default) → templates only. personalize=1 → LLM + cache.
+    # LLM personalization. personalize=0 → templates only. personalize=1 → LLM + cache.
+    # personalize_top=0 means everyone; otherwise cap at that count (highest fit_score first).
     n_personalized = 0
     if personalize:
         from anthropic import AsyncAnthropic
         client = AsyncAnthropic()
-        # Sort by fit_score desc, personalize top N. Map back by person_id.
         ranked_invites = sorted(invites, key=lambda x: -((top_k.get(x["person_id"]) or [{}])[0] or {}).get("composite", 0))
-        targets = ranked_invites[:max(1, personalize_top)]
+        targets = ranked_invites if personalize_top <= 0 else ranked_invites[:personalize_top]
 
-        # Look up the full enriched person for each target so the LLM has bio/conviction.
-        # state.by_id has dataclass instances; if missing, fall back to matrix person dict.
         from dataclasses import asdict as _asdict
+        # Cap parallel LLM calls so we don't trip Anthropic rate limits
+        sem = asyncio.Semaphore(40)
 
         async def _do_one(inv):
-            pid = inv["person_id"]
-            if pid in state.by_id:
-                p_full = _asdict(state.by_id[pid])
-            else:
-                p_full = next((p for p in people if p.get("id") == pid), {})
-            text = await _personalize_invite(p_full, room, client)
-            if text:
-                inv["message"] = text
-                inv["personalized"] = True
+            async with sem:
+                pid = inv["person_id"]
+                if pid in state.by_id:
+                    p_full = _asdict(state.by_id[pid])
+                else:
+                    p_full = next((p for p in people if p.get("id") == pid), {})
+                text = await _personalize_invite(p_full, room, client)
+                if text:
+                    inv["message"] = text
+                    inv["personalized"] = True
 
         await asyncio.gather(*(_do_one(inv) for inv in targets))
         n_personalized = sum(1 for inv in invites if inv.get("personalized"))
