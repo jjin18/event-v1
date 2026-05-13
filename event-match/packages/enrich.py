@@ -34,7 +34,7 @@ from packages.shared import cache as _cache
 
 MODEL = os.environ.get("ENRICH_MODEL", "claude-haiku-4-5-20251001")
 MAX_TOKENS = 3000
-WEB_SEARCH_MAX_USES = 4
+WEB_SEARCH_MAX_USES = 2  # was 4. Halving roughly halves per-person latency.
 SYSTEM_PROMPT_PATH = Path("prompts/enrich_system.md")
 CACHE_NAMESPACE = "enrich"
 CACHE_VERSION = "v1"
