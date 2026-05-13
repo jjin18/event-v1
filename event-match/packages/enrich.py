@@ -91,10 +91,19 @@ def _build_user_message(person: Person, github_profile: Optional[dict[str, Any]]
 # ---- Cache (shared namespace-keyed cache; mirrors event-v1's convention) ----
 
 def _read_cache(person_id: str) -> Optional[dict[str, Any]]:
+    # Reads disabled during the demo phase — every upload runs fresh through
+    # the live LLM+web_search pipeline. Re-enable with ENRICH_CACHE_READS=1.
+    if os.environ.get("ENRICH_CACHE_READS", "").lower() not in {"1", "true", "yes"}:
+        return None
     return _cache.get(CACHE_NAMESPACE, CACHE_VERSION, MODEL, person_id)
 
 
 def _write_cache(person_id: str, data: dict[str, Any]) -> None:
+    # Writes disabled during the demo phase so the cache never builds up;
+    # every viewer sees genuinely fresh enrichment. Re-enable with
+    # ENRICH_CACHE_WRITES=1.
+    if os.environ.get("ENRICH_CACHE_WRITES", "").lower() not in {"1", "true", "yes"}:
+        return
     _cache.put(CACHE_NAMESPACE, data, CACHE_VERSION, MODEL, person_id)
 
 
