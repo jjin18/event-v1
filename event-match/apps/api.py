@@ -60,6 +60,8 @@ class RunState:
         self.by_id: dict[str, EnrichedPerson] = {}   # enriched people for lazy explain
         self.rubric: dict[str, Any] | None = None
         self.event_id: str | None = None
+        self.event_name: str = ""        # for outreach draft personalization
+        self.event_description: str = ""  # for outreach draft personalization
         self.done: bool = False
         self.error: str | None = None
         self.started_at: float = time.time()
@@ -96,6 +98,8 @@ async def start_match(
     csv_path.write_bytes(await csv.read())
 
     state = RunState()
+    state.event_name = event_name
+    state.event_description = event_description
     RUNS[run_id] = state
 
     async def on_progress(event: str, payload: dict[str, Any]) -> None:
@@ -242,6 +246,210 @@ async def get_single_rationale(run_id: str, payload: dict) -> JSONResponse:
                 m["rationale"] = out.get("rationale", "")
                 m["intro_message"] = out.get("intro_message", "")
     return JSONResponse(out)
+
+
+# Featured demo run (used by the landing page's "Open live demo" CTA).
+# This is a pre-computed, full-event run that loads instantly with no LLM cost.
+FEATURED_RUN_ID = "7b354ce31526"
+
+
+def _hydrate_saved_run(run_id: str) -> RunState | None:
+    """Load a saved run from data/matches/{run_id}/ into RUNS so the existing
+    matrix/people/rationale endpoints can serve it without re-running the pipeline.
+
+    Also rebuilds by_id (the EnrichedPerson dict) from .cache/enrich/*.json so
+    lazy rationale generation works on clicked match cards.
+    """
+    run_dir = Path("data/matches") / run_id
+    matrix_path = run_dir / "matrix.json"
+    rubric_path = run_dir / "rubric.json"
+    if not matrix_path.exists():
+        return None
+    state = RunState()
+    state.matrix = json.loads(matrix_path.read_text())
+    if rubric_path.exists():
+        state.rubric = json.loads(rubric_path.read_text())
+
+    # Rebuild by_id from the per-person enrichment cache so rationale generation
+    # has access to full EnrichedPerson objects (bio, conviction, asks, etc.).
+    enrich_dir = Path(".cache/enrich")
+    if enrich_dir.exists():
+        from dataclasses import fields as _dc_fields
+        valid_fields = {f.name for f in _dc_fields(EnrichedPerson)}
+        people_ids = {p["id"] for p in state.matrix.get("people", [])}
+        for jf in enrich_dir.glob("*.json"):
+            try:
+                raw = json.loads(jf.read_text())
+            except Exception:
+                continue
+            pid = raw.get("id")
+            if pid in people_ids:
+                # Filter to only dataclass fields; drop embeddings + extras
+                clean = {k: v for k, v in raw.items() if k in valid_fields}
+                # Coerce list-typed fields that may have been serialized as strings
+                for lf in ("domains", "tech_stack", "conviction_themes",
+                          "previous_experiences", "github_languages",
+                          "github_top_repos", "x_recent_post_themes",
+                          "explicit_asks", "mentor_signals", "roles_history",
+                          "enrichment_sources", "enrichment_errors"):
+                    v = clean.get(lf)
+                    if isinstance(v, str):
+                        try:
+                            clean[lf] = json.loads(v.replace("'", '"'))
+                        except Exception:
+                            clean[lf] = []
+                try:
+                    state.by_id[pid] = EnrichedPerson(**clean)
+                except Exception:
+                    pass
+
+    state.event_id = run_id
+    state.event_name = state.matrix.get("event_name") or ""
+    state.event_description = (state.rubric or {}).get("event_brief") or state.matrix.get("event_description") or ""
+    state.done = True
+    RUNS[run_id] = state
+    return state
+
+
+@app.on_event("startup")
+async def _hydrate_featured() -> None:
+    if FEATURED_RUN_ID and FEATURED_RUN_ID not in RUNS:
+        _hydrate_saved_run(FEATURED_RUN_ID)
+
+
+@app.get("/api/featured")
+async def get_featured() -> JSONResponse:
+    """Returns the featured demo run_id so the landing page can deep-link into it."""
+    state = RUNS.get(FEATURED_RUN_ID) or _hydrate_saved_run(FEATURED_RUN_ID)
+    if not state or not state.matrix:
+        raise HTTPException(404, "featured run not available")
+    m = state.matrix
+    stats = m.get("stats", {})
+    return JSONResponse({
+        "run_id": FEATURED_RUN_ID,
+        "event_name": m.get("event_name") or "Physical AI Hack SF",
+        "n_people": stats.get("n_people", len(m.get("people", []))),
+        "n_pairs_scored": stats.get("n_pairs_scored", 0),
+        "n_mutual": stats.get("n_mutual_pairs", 0),
+    })
+
+
+@app.get("/api/events/{run_id}/outreach")
+async def get_outreach(run_id: str) -> JSONResponse:
+    """Generate draft outreach using event-v1's outreach_agent helpers, plus
+    pull intro_messages for top mutual matches that have rationales already.
+
+    This is the "wired together" demo — same outreach engine that drafts
+    pre-event invites also surfaces intro messages for matched pairs.
+    """
+    state = RUNS.get(run_id)
+    if not state or not state.matrix:
+        raise HTTPException(404, "run not found")
+
+    # Try to import event-v1's outreach helpers. If we're running outside the
+    # merged repo (standalone event-match), fall back to local copies.
+    try:
+        import sys
+        from pathlib import Path as _P
+        # When deployed inside event-v1/event-match/, the parent has packages/ops/
+        candidate = _P(__file__).resolve().parent.parent.parent
+        if (candidate / "packages" / "ops" / "outreach_agent.py").exists():
+            sys.path.insert(0, str(candidate))
+        from packages.ops import outreach_agent as _oa
+    except Exception:
+        _oa = None
+
+    matrix = state.matrix
+    people = matrix.get("people", [])
+    event_ctx = {
+        "city": _infer_city(people),
+        "goal": (state.event_description or "")[:160] or "the kind of work the room is here to do",
+        "name": state.event_name or matrix.get("event_name") or "the event",
+    }
+
+    # Per-guest invite drafts (sourcing+outreach half of the demo)
+    invites: list[dict[str, Any]] = []
+    for p in people[:200]:  # cap so the UI stays snappy on large events
+        person_dict = {
+            "name": p.get("name", ""),
+            "email": p.get("email", ""),
+            "linkedin_url": p.get("linkedin_url", ""),
+            "x_handle": p.get("x_handle", ""),
+            "role": p.get("title") or p.get("role") or "",
+            "company": p.get("company", ""),
+            "fit_score": ((matrix.get("top_k_per_person", {}).get(p["id"]) or [{}])[0] or {}).get("composite", 0),
+        }
+        if _oa:
+            channel = _oa._channel_for(person_dict)
+            priority = _oa._priority(person_dict)
+            angle = _oa._angle(person_dict)
+            message = _oa._message(person_dict, event_ctx)
+            follow_up = _oa._follow_up(person_dict)
+            subject = _oa._subject(person_dict, event_ctx)
+        else:
+            channel = "email" if person_dict["email"] else ("linkedin" if person_dict["linkedin_url"] else "poke")
+            priority = "high" if person_dict["fit_score"] >= 0.5 else "medium"
+            angle = f"{person_dict['role'] or 'operator'} at {person_dict['company'] or 'your company'}"
+            first = (person_dict["name"] or "there").split()[0]
+            message = f"Hey {first}, saw your work on {angle}. Putting together {event_ctx['name']} — thought you'd be a strong fit for the room."
+            follow_up = f"Hey {first}, bumping this — happy to send details if you're around."
+            subject = f"{event_ctx['name']} — thought of you"
+        invites.append({
+            "name": p.get("name", ""),
+            "company": p.get("company", ""),
+            "role": person_dict["role"],
+            "channel": channel,
+            "priority": priority,
+            "angle": angle,
+            "subject": subject,
+            "message": message,
+            "follow_up": follow_up,
+            "person_id": p.get("id"),
+        })
+
+    # Mutual-match intros (matching half — reuses intro_message generated by explain pipeline)
+    intros: list[dict[str, Any]] = []
+    by_id = {p["id"]: p for p in people}
+    seen_pairs: set[frozenset] = set()
+    for pid, top in (matrix.get("top_k_per_person") or {}).items():
+        for m in top:
+            if not m.get("mutual"):
+                continue
+            key = frozenset({pid, m["other_id"]})
+            if key in seen_pairs:
+                continue
+            seen_pairs.add(key)
+            a = by_id.get(pid)
+            b = by_id.get(m["other_id"])
+            if not (a and b):
+                continue
+            intros.append({
+                "a": {"id": a["id"], "name": a.get("name"), "company": a.get("company")},
+                "b": {"id": b["id"], "name": b.get("name"), "company": b.get("company")},
+                "composite": m.get("composite", 0),
+                "intro_message": m.get("intro_message", ""),
+                "rationale": m.get("rationale", ""),
+            })
+    intros.sort(key=lambda x: -x["composite"])
+
+    return JSONResponse({
+        "event": event_ctx,
+        "invites": invites,
+        "invite_total": len(people),
+        "intros": intros[:50],  # cap for UI
+        "intro_total": len(intros),
+    })
+
+
+def _infer_city(people: list[dict[str, Any]]) -> str:
+    counts: dict[str, int] = {}
+    for p in people:
+        c = (p.get("city") or "").strip()
+        if c:
+            counts[c] = counts.get(c, 0) + 1
+    if not counts:
+        return "SF"
+    return max(counts.items(), key=lambda x: x[1])[0]
 
 
 @app.get("/api/healthz")

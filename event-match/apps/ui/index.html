@@ -245,6 +245,57 @@
     .app-banner .stat-num.accent { color: var(--accent); }
     .app-banner .stat-lbl { font-size: 12px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; margin-left: 6px; }
 
+    /* ─── Tabs ─── */
+    .tabs { display: flex; gap: 4px; margin-bottom: 18px; border-bottom: 1px solid var(--border); padding: 0 4px; }
+    .tab {
+      padding: 12px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--fg-3);
+      background: transparent;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s;
+      margin-bottom: -1px;
+    }
+    .tab:hover { color: var(--fg); }
+    .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+    .tab .tab-count { font-size: 11.5px; padding: 2px 8px; background: var(--bg-dim); color: var(--fg-3); border-radius: 999px; margin-left: 8px; font-weight: 500; font-family: var(--mono); }
+    .tab.active .tab-count { background: var(--accent-soft); color: var(--accent-hover); }
+
+    /* ─── Outreach panel ─── */
+    .outreach-panel { display: none; }
+    .outreach-panel.active { display: block; }
+    .outreach-header { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; margin-bottom: 16px; box-shadow: var(--shadow-sm); }
+    .outreach-header h3 { font-family: var(--serif); font-size: 24px; line-height: 1.2; color: var(--fg); letter-spacing: -0.01em; font-weight: 400; margin-bottom: 4px; }
+    .outreach-header .desc { color: var(--fg-3); font-size: 14px; }
+    .outreach-section { margin-bottom: 28px; }
+    .outreach-section h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); font-weight: 600; margin-bottom: 12px; padding: 0 4px; }
+    .outreach-cards { display: grid; gap: 12px; }
+    .outreach-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; box-shadow: var(--shadow-sm); }
+    .outreach-card .ohead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+    .outreach-card .opers { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .outreach-card .oname { font-weight: 600; color: var(--fg); font-size: 15px; }
+    .outreach-card .ometa { color: var(--fg-3); font-size: 12.5px; }
+    .outreach-card .ochannels { display: flex; gap: 6px; align-items: center; }
+    .pill { font-size: 11px; padding: 3px 10px; border-radius: 999px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+    .pill.ch-email { background: #ECFDF5; color: #047857; }
+    .pill.ch-linkedin { background: var(--accent-soft); color: var(--accent-hover); }
+    .pill.ch-poke { background: var(--bg-dim); color: var(--fg-3); }
+    .pill.pri-high { background: #FEF3C7; color: #B45309; }
+    .pill.pri-medium { background: var(--bg-dim); color: var(--fg-3); }
+    .pill.pri-low { background: var(--bg-dim); color: var(--fg-4); }
+    .outreach-card .osubject { font-size: 13px; color: var(--fg-2); margin-bottom: 6px; font-weight: 500; }
+    .outreach-card .omsg { background: var(--surface-soft); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; color: var(--fg-2); font-size: 13.5px; line-height: 1.55; white-space: pre-wrap; }
+    .outreach-card .omsg-followup { margin-top: 8px; padding: 10px 14px; background: var(--bg-dim); border-radius: 8px; color: var(--fg-3); font-size: 12.5px; line-height: 1.45; }
+    .outreach-card .omsg-followup .lbl { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; color: var(--fg-4); margin-bottom: 4px; }
+    .outreach-card .ointro-context { font-size: 12.5px; color: var(--fg-3); margin-bottom: 8px; line-height: 1.5; }
+    .outreach-empty { padding: 60px 20px; text-align: center; color: var(--fg-3); font-size: 14px; }
+    .outreach-empty .e-icon { font-size: 32px; opacity: 0.3; margin-bottom: 10px; }
+    .outreach-cap { padding: 14px; text-align: center; color: var(--fg-3); font-size: 12.5px; }
+    .pair-arrow { display: inline-block; padding: 0 8px; color: var(--accent); font-weight: 600; }
+
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr;
@@ -443,20 +494,45 @@
       </div>
     </div>
 
-    <div class="layout">
-      <aside class="people-panel">
-        <div class="panel-header">
-          <div class="ptitle">Guests · sorted by top match score</div>
-          <input type="text" class="search" id="filter" placeholder="Filter by name or company…">
-        </div>
-        <div id="people-items"></div>
-      </aside>
-      <section class="detail-panel" id="detail">
-        <div class="detail-empty">
-          <div class="e-icon">←</div>
-          <div>Click a guest to see their top matches.</div>
-        </div>
-      </section>
+    <div class="tabs">
+      <button class="tab active" data-tab="matches">Matches <span class="tab-count" id="tabct-matches">—</span></button>
+      <button class="tab" data-tab="outreach">Outreach drafts <span class="tab-count" id="tabct-outreach">—</span></button>
+    </div>
+
+    <div class="tab-panel" id="tab-matches">
+      <div class="layout">
+        <aside class="people-panel">
+          <div class="panel-header">
+            <div class="ptitle">Guests · sorted by top match score</div>
+            <input type="text" class="search" id="filter" placeholder="Filter by name or company…">
+          </div>
+          <div id="people-items"></div>
+        </aside>
+        <section class="detail-panel" id="detail">
+          <div class="detail-empty">
+            <div class="e-icon">←</div>
+            <div>Click a guest to see their top matches.</div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="outreach-panel" id="tab-outreach">
+      <div class="outreach-header">
+        <h3>Outreach queue · ready to send</h3>
+        <div class="desc">Two halves of the loop, generated automatically: <strong>invites</strong> for every guest in your list (channel + priority + draft body), and <strong>intro messages</strong> for the top mutual matches.</div>
+      </div>
+
+      <div class="outreach-section">
+        <h4>★ Intro messages — top mutual matches</h4>
+        <div class="outreach-cards" id="intros-list"></div>
+      </div>
+
+      <div class="outreach-section">
+        <h4>Invites — drafted per guest</h4>
+        <div class="outreach-cards" id="invites-list"></div>
+        <div class="outreach-cap" id="invites-cap"></div>
+      </div>
     </div>
   </main>
 
@@ -472,6 +548,20 @@ function showView(name) {
     if (el) el.style.display = (v === name) ? "block" : "none";
   });
   window.scrollTo({ top: 0, behavior: "instant" });
+}
+
+// Dev convenience: ?demo loads the cached featured run so you can preview the
+// matches + outreach tabs without uploading a CSV. Cory's flow (no query) is unaffected.
+if (new URLSearchParams(location.search).has("demo")) {
+  (async () => {
+    try {
+      const f = await (await fetch("/api/featured")).json();
+      RUN_ID = f.run_id;
+      MATRIX = await (await fetch(`/api/events/${RUN_ID}/matrix`)).json();
+      showView("app");
+      renderResults();
+    } catch (e) { console.warn("demo load failed", e); }
+  })();
 }
 
 // ─── File-drop visual feedback ───
@@ -583,7 +673,115 @@ function renderResults() {
   $("s-pairs").textContent = (s.n_pairs_passed || 0).toLocaleString();
   $("s-mutual").textContent = (s.n_mutual_pairs || 0).toLocaleString();
   $("s-elapsed").textContent = (s.elapsed_s || MATRIX.total_elapsed_s) ? ((s.elapsed_s || MATRIX.total_elapsed_s).toFixed(1) + "s") : "—";
+  $("tabct-matches").textContent = (s.n_people || 0).toLocaleString();
   renderPeopleList();
+  // Lazy-fetch outreach so the matches tab paints first
+  setTimeout(loadOutreach, 100);
+}
+
+// ─── Tabs ───
+document.querySelectorAll(".tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const target = btn.dataset.tab;
+    document.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t === btn));
+    document.querySelectorAll(".tab-panel, .outreach-panel").forEach(p => p.style.display = "none");
+    if (target === "outreach") $("tab-outreach").classList.add("active");
+    else $("tab-outreach").classList.remove("active");
+    if (target === "matches") $("tab-matches").style.display = "block";
+    if (target === "outreach") $("tab-outreach").style.display = "block";
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
+
+// ─── Outreach ───
+let OUTREACH = null;
+async function loadOutreach() {
+  if (!RUN_ID || OUTREACH) return;
+  try {
+    OUTREACH = await (await fetch(`/api/events/${RUN_ID}/outreach`)).json();
+    $("tabct-outreach").textContent = (OUTREACH.invite_total + OUTREACH.intro_total).toLocaleString();
+    renderIntros(OUTREACH.intros);
+    renderInvites(OUTREACH.invites, OUTREACH.invite_total);
+  } catch (e) {
+    console.warn("outreach load failed", e);
+    $("intros-list").innerHTML = '<div class="outreach-empty">Failed to load outreach drafts.</div>';
+  }
+}
+
+function renderIntros(intros) {
+  const target = $("intros-list");
+  if (!intros || !intros.length) {
+    target.innerHTML = '<div class="outreach-empty"><div class="e-icon">★</div>No mutual matches yet — run match on a guest list with overlapping interests.</div>';
+    return;
+  }
+  target.innerHTML = intros.slice(0, 30).map(intro => {
+    const msg = intro.intro_message || "";
+    const ctx = intro.rationale ? `<div class="ointro-context">${escapeHTML(intro.rationale.slice(0, 220))}${intro.rationale.length > 220 ? "…" : ""}</div>` : "";
+    return `
+      <div class="outreach-card">
+        <div class="ohead">
+          <div class="opers">
+            <div class="avatar">${escapeHTML(initials(intro.a.name))}</div>
+            <div>
+              <span class="oname">${escapeHTML(intro.a.name)}</span>
+              <span class="pair-arrow">↔</span>
+              <span class="oname">${escapeHTML(intro.b.name)}</span>
+              <div class="ometa">${escapeHTML(intro.a.company || "")} · ${escapeHTML(intro.b.company || "")}</div>
+            </div>
+          </div>
+          <div class="ochannels">
+            <span class="pill ch-email">★ mutual</span>
+            <span class="pill pri-high">composite ${intro.composite.toFixed(2)}</span>
+          </div>
+        </div>
+        ${ctx}
+        ${msg
+          ? `<div class="omsg">${escapeHTML(msg)}</div>`
+          : `<div class="omsg" style="color:var(--fg-4); font-style:italic;">Click this match in the Matches tab to generate the personalized intro.</div>`}
+      </div>
+    `;
+  }).join("");
+}
+
+function renderInvites(invites, total) {
+  const target = $("invites-list");
+  if (!invites || !invites.length) {
+    target.innerHTML = '<div class="outreach-empty">No invites generated.</div>';
+    return;
+  }
+  // Sort: high priority first, then by name
+  const sorted = [...invites].sort((a, b) => {
+    const pri = { high: 0, medium: 1, low: 2 };
+    return (pri[a.priority] ?? 9) - (pri[b.priority] ?? 9);
+  });
+  target.innerHTML = sorted.map(inv => `
+    <div class="outreach-card">
+      <div class="ohead">
+        <div class="opers">
+          <div class="avatar">${escapeHTML(initials(inv.name))}</div>
+          <div>
+            <div class="oname">${escapeHTML(inv.name)}</div>
+            <div class="ometa">${escapeHTML(inv.role || "")}${inv.company ? " · " + escapeHTML(inv.company) : ""}</div>
+          </div>
+        </div>
+        <div class="ochannels">
+          <span class="pill ch-${escapeAttr(inv.channel)}">${escapeHTML(inv.channel)}</span>
+          <span class="pill pri-${escapeAttr(inv.priority)}">${escapeHTML(inv.priority)}</span>
+        </div>
+      </div>
+      ${inv.channel === "email" && inv.subject ? `<div class="osubject">Subject: ${escapeHTML(inv.subject)}</div>` : ""}
+      <div class="omsg">${escapeHTML(inv.message)}</div>
+      <div class="omsg-followup">
+        <div class="lbl">Follow-up · 3 days later</div>
+        ${escapeHTML(inv.follow_up)}
+      </div>
+    </div>
+  `).join("");
+  if (total > invites.length) {
+    $("invites-cap").textContent = `Showing top ${invites.length} of ${total.toLocaleString()} invites · cap for UI snappiness`;
+  } else {
+    $("invites-cap").textContent = "";
+  }
 }
 
 function renderPeopleList() {
