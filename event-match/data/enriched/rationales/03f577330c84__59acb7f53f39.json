@@ -1,4 +1,0 @@
-{
-  "rationale": "Artem's deep expertise in efficient inference, quantization, and transformer optimization directly complements Arya's work building agentic AI systems that need to run performantly at scale. Both share a conviction around open-source model efficiency and ML research fundamentals\u2014Artem's hands-on work on real-time VLM inference (loopvlm) and Arya's focus on agent-first tooling and mobile control interfaces represent complementary layers of the same inference-to-deployment pipeline.",
-  "intro_message": "Artem Yatsenko, meet Arya Teja Rudraraju \u2014 Artem's work on efficient inference and transformer optimization could unlock performance gains for the agentic systems Arya is building at LeSearch AI."
-}

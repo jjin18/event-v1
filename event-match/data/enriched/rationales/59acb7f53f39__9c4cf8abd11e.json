@@ -1,4 +1,0 @@
-{
-  "rationale": "Both Artem and Daniel are machine learning engineers focused on ML infrastructure, giving them solid common ground to discuss production challenges and optimization approaches. Artem's deep expertise in efficient inference, quantization, and real-time model optimization (demonstrated through projects like loopvlm) complements Daniel's ML engineering work at Apple, where infrastructure and performance at scale are critical\u2014this could spark useful technical exchange on making frontier models faster and more accessible.",
-  "intro_message": "Artem Yatsenko, meet Daniel Chen \u2014 two ML engineers who can compare notes on infrastructure challenges and model optimization, particularly around efficiency and real-time inference."
-}

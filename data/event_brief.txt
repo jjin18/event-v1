@@ -1,5 +1,0 @@
-We're proposing a small, high-energy crypto hackathon for around 100 builders, bringing together students, developers, founders, and crypto-curious operators for a weekend of building.
-
-The event would focus on practical, demo-ready projects across areas like payments, wallets, consumer crypto, DeFi, infra, and AI x crypto. Teams would form on-site, build over the course of the hackathon, and pitch their projects to a panel of judges, investors, and ecosystem partners.
-
-The goal is to create a fun, builder-first environment with strong mentorship, sponsor exposure, and real project output. We'd provide workspace, food, coffee, prizes, technical workshops, and demo day programming to make it feel polished but still intimate.

@@ -1,4 +1,0 @@
-{
-  "rationale": "Bill is building General Instinct around LLM efficiency and real-time perception tasks, while Artem has deep hands-on experience in exactly those areas\u2014he's shipped open-source projects like loopvlm for real-time VLM inference and worked on transformer optimization at Nous Research. Both operate at the intersection of ML research and practical systems (LLM tooling, inference efficiency), so they could swap technical insights on parameter-efficient fine-tuning, sparse attention, and the hardware-level optimizations Bill is convinced are key to making LLMs faster.",
-  "intro_message": "Bill Jiao, meet Artem Yatsenko \u2014 he's a hands-on ML engineer who's shipped real-time vision-language inference systems and optimized transformer architectures, which directly aligns with your work on LLM efficiency and real-time perception at General Instinct."
-}

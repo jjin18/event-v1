@@ -1,4 +1,0 @@
-{
-  "rationale": "Ming's work on universal zero-knowledge virtual machines and verifiable computation could unlock new applications in robotics and autonomous systems \u2014 areas where mathematical proof of correct computation matters increasingly. Haowen's robotics and computer vision background at the systems level (CoreOS experience, visual servoing) complements Ming's deep expertise in MIPS architecture and verifiable computation; together they could explore how ZK and zkVMs apply to safety-critical robotic control and perception.",
-  "intro_message": "Ming Guo, meet Haowen Shi \u2014 he's building robotics systems at Mach9 and has deep systems experience (CoreOS, visual servoing); your work on MIPS-based zkVMs for verifiable computation could be relevant to trustworthy autonomous systems."
-}

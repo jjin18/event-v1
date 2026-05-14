@@ -1,4 +1,0 @@
-{
-  "rationale": "Both Nate and Yash work in the LLM tooling space\u2014Nate as an intern building AI-driven scientific automation at SymbyAI, and Yash as a Member of Technical Staff at OpenAI with deep expertise across Python, Go, and formal verification (Dafny). Yash's foundation work on LLM capabilities and security could offer valuable perspective on the technical challenges Nate's team faces scaling peer review automation, while Nate's domain-specific application of LLMs provides real-world feedback on what researchers actually need from these tools.",
-  "intro_message": "Nate Strum, meet Yash Chuabria \u2014 you're both shipping in LLM tooling and could swap insights on building reliable AI systems for high-stakes domains like scientific research."
-}

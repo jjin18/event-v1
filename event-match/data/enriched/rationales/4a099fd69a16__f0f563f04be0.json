@@ -1,4 +1,0 @@
-{
-  "rationale": "Bill's focus on LLM efficiency, real-time AI perception, and parameter-efficient fine-tuning directly complements Stiven's work on real-time 3D surgical guidance at Braillic\u2014a domain that demands fast, optimized inference on edge devices. Stiven's expertise in computer vision, embedded systems, and ML infrastructure could inform General Instinct's approach to deploying perception models in resource-constrained settings, while Bill's research into sparse attention and hardware-level optimizations could unlock new performance gains for surgical AR applications.",
-  "intro_message": "Bill Jiao, meet Stiven Ding \u2014 you're both optimizing AI for real-time, latency-critical applications; Bill's work on LLM efficiency and perception could inform Stiven's surgical navigation platform, and vice versa."
-}

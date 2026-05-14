@@ -1,4 +1,0 @@
-{
-  "rationale": "Sharon's work on production-ready AI agent infrastructure for regulated industries (biotech, healthtech, fintech) complements Ming Guo's expertise in verifiable computation and zero-knowledge systems\u2014two domains that could intersect powerfully when agents need to prove their decisions are trustworthy and auditable in high-stakes environments. Ming's conviction that 'trust is becoming programmable' and his MIPS-based zkVM architecture align with the accuracy-critical requirements Sharon's infrastructure targets, creating potential for a cross-domain collaboration at the intersection of AI agents and verifiable systems.",
-  "intro_message": "Sharon, meet Ming Guo \u2014 he's built universal zero-knowledge virtual machines at ZKM and is exploring how ZK enables trust in decentralized systems; your work on agent infrastructure for accuracy-critical industries could benefit from his insights on making AI decisions cryptographically verifiable."
-}

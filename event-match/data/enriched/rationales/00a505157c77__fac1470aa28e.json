@@ -1,4 +1,0 @@
-{
-  "rationale": "Pratik brings deep ML infrastructure and LLM expertise from Apple with hands-on experience in model training and inference, while Claudio is building developer tools for AI/ML infrastructure at Lance. They share the ml-infra domain and could explore how Pratik's research background in LLMs and sparse autoencoders might inform Lance's tooling\u2014or discuss deployment challenges Claudio's platform could address.",
-  "intro_message": "Pratik Doshi, meet Claudio Reiter \u2014 you both work in ML infrastructure from different angles (Pratik deploying LLMs at Apple, Claudio building tools for it at Lance) and could swap insights on what actually breaks in production."
-}

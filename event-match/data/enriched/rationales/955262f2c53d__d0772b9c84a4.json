@@ -1,4 +1,0 @@
-{
-  "rationale": "Both RackSavant and Sherrie bring complementary perspectives on AI: RackSavant is focused on AI alignment fundamentals while Sherrie is shipping AI experiences in production at scale (Electronic Arts). They share a tech stack overlap in TypeScript and could explore how alignment principles apply to real-world AI product development, particularly in gaming and interactive experiences.",
-  "intro_message": "RackSavant, meet Sherrie Cao \u2014 she's building AI experiences at EA and you're focused on AI alignment; could be valuable to discuss how safety considerations play out in shipped AI products."
-}

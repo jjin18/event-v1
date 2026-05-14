@@ -1,4 +1,0 @@
-{
-  "rationale": "Naman brings production machine learning infrastructure expertise from Meta, while William is applying ML\u2014specifically variational autoencoders\u2014to a high-impact medical problem (neurodegenerative disease detection from neuroimaging). They can exchange practical insights on scaling ML models in research contexts: Naman on infrastructure patterns that handle real-world data pipelines, William on the domain challenges and validation needs in medical AI.",
-  "intro_message": "Naman Shah, meet William Wakefield \u2014 Naman's ML infrastructure experience at Meta could help inform the technical architecture behind William's neuroimaging-based disease detection work."
-}

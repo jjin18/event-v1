@@ -1,4 +1,0 @@
-{
-  "rationale": "Linfeng Zhao's ML research background at Stanford and Arsen Kostenko's ML infrastructure engineering at Troveo AI represent complementary perspectives on machine learning systems\u2014research rigor paired with production implementation. Arsen's experience across Python, Java, and build systems like Bazel could benefit discussions around operationalizing research, while Linfeng's postdoc work offers theoretical grounding for infrastructure decisions.",
-  "intro_message": "Linfeng Zhao, meet Arsen Kostenko \u2014 you're both working in machine learning from different angles (research at Stanford vs. ML infrastructure at Troveo AI) and could learn from each other's approaches to the problem space."
-}

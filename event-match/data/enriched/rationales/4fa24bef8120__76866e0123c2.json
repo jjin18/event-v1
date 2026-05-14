@@ -1,4 +1,0 @@
-{
-  "rationale": "Kaede helps developers build IoT and embedded solutions at Seeed Studio, while Jeonghoon validates hardware and builds test automation at Solidigm\u2014both work at the hardware-systems layer where embedded design meets validation. They could exchange perspectives on developer-friendly validation approaches and how to bridge the gap between makers prototyping IoT solutions and the rigorous testing infrastructure needed for production hardware.",
-  "intro_message": "Kaede Lin, meet Jeonghoon Jo \u2014 you're both deep in hardware (IoT/embedded on Kaede's side, electrical validation on Jeonghoon's), and could swap insights on making validation more accessible to developers building embedded systems."
-}

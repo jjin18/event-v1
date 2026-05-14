@@ -1,9 +1,0 @@
-name,company,role,linkedin_url,email,source,persona,why_relevant,fit_score,priority,outreach_angle,status,tags,notes
-Alex Chen,Modal,Founding Engineer,https://linkedin.com/in/alexchen,alex@modal.com,referral,infra_builder,builds serverless GPU runtime; relevant to agent infra audience,0.92,high,serverless GPU runtime for agents,not_contacted,"[""infra"",""speaker_potential""]",
-Priya Rao,Stealth,Founder,https://linkedin.com/in/priyarao,priya@stealth.dev,community,founder_agent,building agent eval tooling; second-time founder,0.85,high,agent evals,not_contacted,"[""founder""]",
-Ben Ortiz,LangChain,DevRel,https://linkedin.com/in/benortiz,ben@langchain.com,referral,devrel,helps builders ship agents; influence on community,0.78,high,builder community + DX,not_contacted,"[""devrel""]",
-Maya Singh,Anthropic,PM,https://linkedin.com/in/mayasingh,,internal,enterprise_product,product on Claude tools; would inform attendees,0.7,medium,Claude tools roadmap,not_contacted,"[""enterprise""]",
-Jordan Lee,Independent,Researcher,,jordan@example.com,inbound,researcher,publishes on agent reliability; technical depth,0.62,medium,agent reliability research,not_contacted,"[""researcher""]",
-Sam Kim,YC company,Ops Lead,https://linkedin.com/in/samkim,,community,ops_operator,scaling internal agent ops; operator perspective,0.55,medium,internal agent ops,not_contacted,"[""operator""]",
-Dana Patel,Bigco,EM,,dana@bigco.com,referral,enterprise_eng,leads agents team at large co; brings enterprise lens,0.48,low,enterprise agent rollout,not_contacted,"[""enterprise""]",
-Chris Wong,Indie,Hacker,https://linkedin.com/in/chriswong,,community,builder,ships weekly side-projects; high energy,0.45,low,indie agent hacking,not_contacted,"[""indie""]",

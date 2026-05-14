@@ -1,4 +1,0 @@
-{
-  "rationale": "Kaarel and Artem both work at the intersection of ML infrastructure and making frontier models faster\u2014Kaarel as a founding ML engineer shipping zero-shot matching and agentic tools, Artem as an ML engineer optimizing real-time inference and transformer efficiency at scale. They share deep conviction around practical ML deployment (Kaarel's speed-to-ship ethos, Artem's focus on making models accessible via quantization and PyTorch) and overlap heavily in domains (ml-infra, llm-tooling, developer-tools, computer-vision), making them natural collaborators on infrastructure or agent-building challenges at the hackathon.",
-  "intro_message": "Kaarel Kaarelson, meet Artem Yatsenko \u2014 you both build on the ML infrastructure layer and care about shipping efficient, practical AI systems; Artem's work on real-time VLM inference and model optimization could directly enable the kinds of fast, scalable agent workflows Kaarel ships."
-}

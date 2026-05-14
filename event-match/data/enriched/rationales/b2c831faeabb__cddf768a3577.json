@@ -1,4 +1,0 @@
-{
-  "rationale": "Tony and Philip both work in embedded systems but from complementary angles\u2014Tony brings deeper firmware and FPGA expertise from his UBC role, while Philip is actively shipping IoT projects with ESP32 and C++. They share core technologies (C++, embedded systems) and could exchange practical insights on low-level systems design versus real-world IoT applications.",
-  "intro_message": "Tony Chen, meet Philip Nisevich \u2014 you're both building embedded systems but at different layers; Tony's FPGA and microcontroller depth could complement Philip's hands-on ESP32 and smart home experience."
-}

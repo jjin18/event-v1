@@ -1,4 +1,0 @@
-{
-  "rationale": "Louan's work on self-supervised learning for clinical neuroimaging (fMRI, white matter lesion detection) pairs well with Alex's focus on ML infrastructure and developer tools\u2014Louan builds applied ML pipelines in PyTorch that could benefit from the kind of unified tooling Alex advocates for. Both are based in San Francisco and work at the intersection of deep learning and practical systems; Alex's conviction about ML dev tool fragmentation directly maps to the infrastructure challenges Louan likely encounters scaling neuroimaging models.",
-  "intro_message": "Louan, meet Alex Kreidler\u2014he builds ML infrastructure at Mercor and thinks deeply about developer tooling; your work on PyTorch-based neuroimaging pipelines could benefit from his perspective on unifying the ML dev ecosystem."
-}

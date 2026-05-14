@@ -1,4 +1,0 @@
-{
-  "rationale": "Bill is building General Instinct around LLM efficiency and real-time perception, with a strong focus on sparse attention, hardware optimizations, and parameter-efficient fine-tuning\u2014exactly the infrastructure challenges that LMCache (Kobe's company) tackles. Kobe's work in LLM infrastructure complements Bill's applied ML research and product vision, making them natural collaborators on the performance and scalability problems that underpin real-time AI systems.",
-  "intro_message": "Bill Jiao, meet Kobe \u2014 you're both deep in the LLM efficiency stack from different angles (Bill on the perception/application side, Kobe on the infrastructure side at LMCache), and there's likely real overlap on caching and optimization challenges."
-}

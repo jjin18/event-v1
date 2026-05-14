@@ -1,4 +1,0 @@
-{
-  "rationale": "Robert and Kaushik both work at the intersection of ML and systems-level engineering \u2014 Robert as CTO building data and ML infrastructure at Capes, and Kaushik as a Senior ML Engineer applying ML to robotics and embedded systems at Mytra. They share Python as a core language and could explore how infrastructure patterns from one domain (data pipelines, model serving) might apply to the other (autonomous systems, real-time constraints).",
-  "intro_message": "Robert Amanfu, meet Kaushik Prakash \u2014 you're both deep in ML implementation (infrastructure vs. robotics) and could swap approaches on Python-based systems at scale."
-}

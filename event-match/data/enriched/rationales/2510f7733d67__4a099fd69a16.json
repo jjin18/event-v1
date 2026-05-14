@@ -1,4 +1,0 @@
-{
-  "rationale": "Bill's focus on LLM efficiency and real-time AI perception complements Micah's expertise in building visual interfaces for machine learning systems\u2014Bill is solving the model layer (sparse attention, parameter-efficient fine-tuning) while Micah specializes in making those systems intelligible through data visualization and interactive tooling. Both are working in the LLM-tooling and ML infrastructure space, and could explore how visual feedback loops might enhance Bill's interest in online RL from user interactions.",
-  "intro_message": "Bill Jiao, meet Micah Stubbs \u2014 you're both building in the LLM tooling space from different angles (Bill on efficiency and real-time perception, Micah on visualization and human-centered ML interfaces), and your conviction that efficient models need intelligent visual interfaces could make for a strong hackathon pairing."
-}

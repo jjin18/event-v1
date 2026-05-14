@@ -1,4 +1,0 @@
-{
-  "rationale": "Both Nate and Justin are working at the intersection of AI agents and LLM tooling\u2014Nate as an intern building SymbyAI's peer review automation platform and Justin as a founding engineer developing autonomous agents at QSVA. While Nate brings domain expertise in AI-driven research tools and Justin brings hands-on experience shipping agent systems in TypeScript and Python, they could exchange insights on how LLM tooling applies across different vertical use cases and discuss practical challenges in building reliable AI agents.",
-  "intro_message": "Nate Strum, meet Justin Kim\u2014you're both deep in AI agents and LLM tooling from different angles (research automation vs. autonomous systems), and could swap approaches on making them work reliably in production."
-}

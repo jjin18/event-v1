@@ -1,4 +1,0 @@
-{
-  "rationale": "Shanzila is building LLM-based products at ReachLLM with a TypeScript foundation, while Anshu is creating security frameworks and tools to protect AI systems and agents from exploitation. Their work is naturally complementary: as Shanzila develops LLM applications, Anshu's expertise in AI security, agent safety, and LLM-specific vulnerabilities could directly inform product decisions and help embed security practices early in ReachLLM's architecture.",
-  "intro_message": "Shanzila Ahmed, meet Anshu Gupta \u2014 he's building AI security frameworks and has deep conviction that LLMs can be weaponized to find real vulnerabilities, which could be valuable perspective as you scale LLM-based products at ReachLLM."
-}

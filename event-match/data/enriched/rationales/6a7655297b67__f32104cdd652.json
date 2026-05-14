@@ -1,4 +1,0 @@
-{
-  "rationale": "Lydia bridges developer tooling and technical education at Anthropic's Claude Code team, while Watson evaluates AI agent performance at TikTok\u2014both working at the intersection of LLM tooling and real-world deployment. Lydia's conviction that agentic coding tools fundamentally change software engineering, combined with her track record making complex technical concepts accessible, could inform how Watson thinks about agent evaluation frameworks and reliability metrics that developers actually care about.",
-  "intro_message": "Lydia Hallie, meet Watson \u2014 you're both shipping in the LLM tooling space (Claude Code and agent evals at TikTok) and would likely have useful perspectives on how agents get built, measured, and understood by developers."
-}

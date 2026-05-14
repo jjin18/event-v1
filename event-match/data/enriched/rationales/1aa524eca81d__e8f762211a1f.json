@@ -1,4 +1,0 @@
-{
-  "rationale": "Jamie is building Twigg AI, a context management tool for LLM workflows that applies version control principles to conversations, while Kobe works on LMCache's infrastructure for agents and LLM optimization. They're both operating in the LLM infrastructure space but from complementary angles\u2014Jamie's focus on user-facing context control and token efficiency directly relates to the infrastructure-level problems Kobe is solving, making this a natural conversation about how conversation management and caching/infra work together.",
-  "intro_message": "Jamie Borland, meet Kobe \u2014 you're both building in the LLM infrastructure space from different angles (context management vs. LM caching infrastructure), and your convictions around token efficiency and context control should make for a useful technical conversation."
-}

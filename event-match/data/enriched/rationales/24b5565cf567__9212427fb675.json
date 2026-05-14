@@ -1,4 +1,0 @@
-{
-  "rationale": "Artem's deep expertise in ML systems, efficient inference, and computer vision aligns directly with David's conviction that ML infrastructure burden for production robotics is vastly underestimated\u2014and his hands-on experience shipping PyTorch/MLX implementations could unlock real-time perception challenges at LiveKit's robotics stack. David's decade building autonomous systems (drones, tractors) and purpose-built real-time infrastructure pairs well with Artem's open-source VLM and transformer work, creating a natural skill exchange around edge inference and production-grade computer vision.",
-  "intro_message": "Artem Yatsenko, meet David Chen \u2014 your ML systems and vision-language model expertise could directly address the inference and observability gaps David is tackling with LiveKit's real-time robotics infrastructure."
-}

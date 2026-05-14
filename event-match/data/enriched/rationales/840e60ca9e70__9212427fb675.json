@@ -1,4 +1,0 @@
-{
-  "rationale": "David brings a decade of production robotics experience shipping autonomous systems (drones at Skycatch, tractors at Agtonomy) and is now building real-time infrastructure at LiveKit specifically for robotics\u2014exactly the foundational layer Archie needs as he scales fully autonomous drones and swarm systems at Hyperic. Archie's full-stack approach to autonomous systems (airframes through autonomy layer) and Rust/Python stack complement David's conviction that production robotics requires purpose-built real-time comms and observability infrastructure beyond standard ROS logging.",
-  "intro_message": "David Chen, meet Archie Shou \u2014 you're both shipping autonomous systems at scale (David from Skycatch/Agtonomy into LiveKit's robotics infrastructure; Archie building fully autonomous drones at Hyperic), and David's expertise in production robotics infrastructure could directly inform Hyperic's full-stack approach."
-}

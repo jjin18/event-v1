@@ -1,4 +1,0 @@
-{
-  "rationale": "Sherwin and Jiale both bring deep systems engineering expertise, but from complementary angles\u2014Sherwin's background spans storage and cloud infrastructure, while Jiale has evolved from low-level systems work at Cloudflare into ML infrastructure at scale (Uber AI Labs, Meta). They share Python and could explore how modern ML platforms depend on the kind of infrastructure Sherwin has built, or how Jiale's experience scaling distributed training systems might inform next-generation infrastructure design.",
-  "intro_message": "Sherwin Lee, meet Jiale Zhi \u2014 you both come from systems engineering backgrounds (storage/cloud vs. ML infrastructure), and Jiale's work on scalable ML platforms at Meta could intersect with the infrastructure challenges Sherwin solves at CyberWizard."
-}

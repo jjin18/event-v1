@@ -1,4 +1,0 @@
-{
-  "rationale": "Louan's deep expertise in building applied ML pipelines for clinical neuroimaging (Swin UNETRs, self-supervised learning) complements Dev's conviction that intelligent orchestration of specialized models is the future\u2014small, task-specific models often outperform one-size-fits-all approaches. Both are Python-first builders, and Dev's low-code AI orchestration platform at Gooey.AI could be a natural fit for productizing the kind of domain-specific medical imaging workflows Louan is developing at UCSF.",
-  "intro_message": "Louan, meet Dev Aggarwal \u2014 he built Gooey.AI, a low-code platform for orchestrating specialized AI models, which could be a powerful way to deploy the clinical neuroimaging pipelines you're building at UCSF."
-}

@@ -1,4 +1,0 @@
-{
-  "rationale": "David's work on edge AI inference infrastructure and Nitheesh's robotics and computer vision research both rely heavily on optimized ML workloads in resource-constrained environments\u2014a natural overlap where David's systems engineering expertise in scaling could directly inform Nitheesh's deployment challenges. They share the CUDA and Python stack and complementary perspectives: David's focus on runtime infrastructure and Rust-based systems could unlock new approaches for Nitheesh's robotics applications.",
-  "intro_message": "David Venegas, meet Nitheesh Lakshminarayanappa \u2014 you're both working at the intersection of ML performance and constrained hardware, and David's edge inference infrastructure could be a valuable lens for Nitheesh's robotics and vision research at scale."
-}

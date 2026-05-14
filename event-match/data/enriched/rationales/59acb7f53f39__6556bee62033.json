@@ -1,4 +1,0 @@
-{
-  "rationale": "Artem's deep expertise in efficient inference, open-source LLM optimization, and real-time model acceleration directly complements Dev's work building low-code AI orchestration at Gooey.AI\u2014particularly around intelligently routing between large and small models. Both share conviction in making frontier ML accessible and practical rather than relying on proprietary APIs, and Artem's hands-on builder background in PyTorch and quantization could inform how Gooey orchestrates models at scale, while Dev's platform approach to generative workflows could benefit from Artem's infrastructure perspective.",
-  "intro_message": "Artem Yatsenko, meet Dev Aggarwal \u2014 you're both solving the same problem from different angles: making AI models faster and more accessible, and Dev is actively hiring ML engineers who can architect model optimization into production systems."
-}

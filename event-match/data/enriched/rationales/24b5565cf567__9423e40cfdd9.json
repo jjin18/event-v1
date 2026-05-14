@@ -1,4 +1,0 @@
-{
-  "rationale": "Both Artem and Wang work at the intersection of LLM infrastructure and ML systems optimization \u2014 Artem from his hands-on builder perspective at Osmosis with open-source VLM inference work, and Wang through AWS and LMCache contributions. Their overlapping focus on efficient inference, transformer architectures, and ML tooling (both proficient in Python, C++, and low-level optimization) makes them natural collaborators on infrastructure challenges.",
-  "intro_message": "Artem Yatsenko, meet Wang Mengbing \u2014 you're both deep in LLM infra and efficient inference (Artem's loopvlm work + Wang's LMCache contributions), and your complementary experience building at scale could spark something useful."
-}

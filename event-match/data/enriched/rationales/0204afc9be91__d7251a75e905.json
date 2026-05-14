@@ -1,4 +1,0 @@
-{
-  "rationale": "Both Kshitij and Balakumar work on hardware-software integration at NVIDIA but from complementary angles\u2014Kshitij in design verification for semiconductor IP (AXI, I3C protocols) and Balakumar in robotics systems requiring real-time perception and motion planning. Their shared NVIDIA context combined with complementary expertise in low-level protocol verification and high-level robotics stacks (ROS, CUDA) could surface interesting cross-functional insights on hardware-software co-design challenges.",
-  "intro_message": "Kshitij Gupta, meet Balakumar Sundaralingam \u2014 you're both at NVIDIA solving hardware challenges from different ends (IP verification vs. robotic perception), and your complementary stacks might unlock some useful conversations on hardware-software integration."
-}

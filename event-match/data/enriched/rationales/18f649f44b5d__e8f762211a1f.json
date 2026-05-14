@@ -1,4 +1,0 @@
-{
-  "rationale": "Kobe's deep experience building LLM infrastructure at LMCache directly complements Barrat's focus on scaling inference and agent frameworks\u2014both are tackling critical bottlenecks in efficient AI systems. Barrat's convictions around inference optimization and agent abstractions align with Kobe's technical background in llm-infra and ml-infra, and he's actively seeking feedback on agent frameworks while Kobe has hands-on experience with agents infrastructure.",
-  "intro_message": "Kobe, meet Barrat Mohammad \u2014 he's building in stealth on efficient AI systems and agent frameworks after roles at Apple and Microsoft, and your LMCache infra work on scaling inference is directly relevant to what he's exploring."
-}

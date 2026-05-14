@@ -1,4 +1,0 @@
-{
-  "rationale": "Louan's applied ML work on neuroimaging and self-supervised learning could intersect with Ming's zkVM architecture\u2014verifiable compute and cryptographic proofs are emerging as critical infrastructure for trustless AI systems. Ming's conviction that mathematical guarantees should replace validator trust aligns with the reproducibility demands of clinical ML pipelines, and his experience building Rust/Python systems for near-real-time proving could inform how Louan scales FMRI analysis to decentralized or auditable contexts.",
-  "intro_message": "Louan, meet Ming Guo \u2014 he builds zkVMs and verifiable compute systems; your work on trustworthy neuroimaging ML and his focus on cryptographic proofs for decentralized systems could explore overlaps in auditable AI infrastructure."
-}
